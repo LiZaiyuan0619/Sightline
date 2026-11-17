@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 1,
+    "exemptions": 0
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 495.0,
+      "height_pt": 381.65
+    },
+    "panels": [
+      {
+        "id": "sp_greedy",
+        "bbox_pt": [
+          40.0,
+          283.65,
+          492.0,
+          347.65
+        ]
+      },
+      {
+        "id": "sp_sample",
+        "bbox_pt": [
+          40.0,
+          203.65,
+          492.0,
+          267.65
+        ]
+      },
+      {
+        "id": "tau_greedy",
+        "bbox_pt": [
+          40.0,
+          123.64999999999999,
+          492.0,
+          187.64999999999998
+        ]
+      },
+      {
+        "id": "tau_sample",
+        "bbox_pt": [
+          40.0,
+          43.64999999999998,
+          492.0,
+          107.64999999999999
+        ]
+      }
+    ],
+    "row_groups": [],
+    "column_groups": [
+      {
+        "id": "column-1",
+        "panels": [
+          "sp_greedy",
+          "sp_sample",
+          "tau_greedy",
+          "tau_sample"
+        ]
+      }
+    ],
+    "boundary_groups": [],
+    "exemptions": []
+  },
+  "findings": []
+}

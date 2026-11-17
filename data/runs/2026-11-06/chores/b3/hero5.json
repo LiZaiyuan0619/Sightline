@@ -1,0 +1,4790 @@
+{
+ "t2|greedy|MMSVG-Icon": {
+  "rows_common": 150,
+  "ar_seconds_mean": 8.2859,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 8.2859,
+    "drawings_per_minute": 7.2412170072050115,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 4.262313333333333,
+    "drawings_per_minute": 14.076862799074682,
+    "drawings_in_one_ar_drawing": 1.943991291114215,
+    "speedup_table1": 1.973897156893704
+   },
+   "REST": {
+    "factor": 1.021964,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 4.036226301521243,
+    "drawings_per_minute": 14.865370650150652,
+    "drawings_in_one_ar_drawing": 2.0528829111680547,
+    "speedup_table1": 2.0339846389267042
+   },
+   "SpS": {
+    "factor": 0.940171,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 11.58770056332295,
+    "drawings_per_minute": 5.177903905276103,
+    "drawings_in_one_ar_drawing": 0.7150598994787876,
+    "speedup_table1": 0.7403113521499426
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.5004466666666665,
+    "drawings_per_minute": 23.99571276598581,
+    "drawings_in_one_ar_drawing": 3.3137679401280304,
+    "speedup_table1": 3.166021917613758
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.50402,
+    "drawings_per_minute": 39.89308652810468,
+    "drawings_in_one_ar_drawing": 5.50916876105371,
+    "speedup_table1": 5.673579679267776
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.2691466666666666,
+    "drawings_per_minute": 47.275859895362764,
+    "drawings_in_one_ar_drawing": 6.528717458449772,
+    "speedup_table1": 6.436348246806084
+   },
+   "DARTree": {
+    "factor": 1.026083,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 1.5242256483371863,
+    "drawings_per_minute": 39.36425034275956,
+    "drawings_in_one_ar_drawing": 5.436137365251191,
+    "speedup_table1": 5.77244455890794
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.02164,
+    "drawings_per_minute": 58.729102227790605,
+    "drawings_in_one_ar_drawing": 8.110391135820835,
+    "speedup_table1": 8.372549674435428
+   }
+  }
+ },
+ "t2|greedy|MMSVG-Illus.": {
+  "rows_common": 150,
+  "ar_seconds_mean": 15.60008,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 15.60008,
+    "drawings_per_minute": 3.846134122389116,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 7.222933333333334,
+    "drawings_per_minute": 8.30687440005907,
+    "drawings_in_one_ar_drawing": 2.159798419847892,
+    "speedup_table1": 2.153222181391541
+   },
+   "REST": {
+    "factor": 1.012975,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 7.190870801025096,
+    "drawings_per_minute": 8.343912950215527,
+    "drawings_in_one_ar_drawing": 2.169428492273304,
+    "speedup_table1": 2.1438292382302375
+   },
+   "SpS": {
+    "factor": 0.939057,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 21.55128945039379,
+    "drawings_per_minute": 2.78405615302539,
+    "drawings_in_one_ar_drawing": 0.7238583118614721,
+    "speedup_table1": 0.723829406523546
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 4.3824,
+    "drawings_per_minute": 13.691128148959475,
+    "drawings_in_one_ar_drawing": 3.5597115735669957,
+    "speedup_table1": 3.512873964774287
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.591946666666667,
+    "drawings_per_minute": 23.14862445729336,
+    "drawings_in_one_ar_drawing": 6.018673223728883,
+    "speedup_table1": 6.01885347839394
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.2391733333333335,
+    "drawings_per_minute": 26.79560313925377,
+    "drawings_in_one_ar_drawing": 6.966892543676833,
+    "speedup_table1": 6.822713245157407
+   },
+   "DARTree": {
+    "factor": 1.025864,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 2.4885622890862193,
+    "drawings_per_minute": 24.110306687172187,
+    "drawings_in_one_ar_drawing": 6.268711885740352,
+    "speedup_table1": 6.1262774296240226
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.7771866666666667,
+    "drawings_per_minute": 33.7612256075145,
+    "drawings_in_one_ar_drawing": 8.777963672921246,
+    "speedup_table1": 8.696160039193702
+   }
+  }
+ },
+ "t2|greedy|MMSVG-2M-Icon\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 3.7357266666666664,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 3.7357266666666664,
+    "drawings_per_minute": 16.061132238440003,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.640563333333333,
+    "drawings_per_minute": 22.722424129194657,
+    "drawings_in_one_ar_drawing": 1.4147460958457097,
+    "speedup_table1": 1.4869246082506618
+   },
+   "REST": {
+    "factor": 1.015448,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 1.882238699071339,
+    "drawings_per_minute": 31.876934646813325,
+    "drawings_in_one_ar_drawing": 1.9847252468615184,
+    "speedup_table1": 1.8463032560097221
+   },
+   "SpS": {
+    "factor": 0.943325,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 5.368508737335344,
+    "drawings_per_minute": 11.176288041170436,
+    "drawings_in_one_ar_drawing": 0.695859287829136,
+    "speedup_table1": 0.7318477519573227
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.22584,
+    "drawings_per_minute": 48.94602884552633,
+    "drawings_in_one_ar_drawing": 3.04748308642781,
+    "speedup_table1": 3.040580700095195
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 0.7335633333333333,
+    "drawings_per_minute": 81.79252870690556,
+    "drawings_in_one_ar_drawing": 5.092575510408099,
+    "speedup_table1": 5.141689778231419
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 0.6748533333333333,
+    "drawings_per_minute": 88.90820721539495,
+    "drawings_in_one_ar_drawing": 5.535612676334611,
+    "speedup_table1": 5.805552372642174
+   },
+   "DARTree": {
+    "factor": 1.026357,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 0.7577455464443338,
+    "drawings_per_minute": 79.18225356987668,
+    "drawings_in_one_ar_drawing": 4.930054269795836,
+    "speedup_table1": 5.058492557385701
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 0.54489,
+    "drawings_per_minute": 110.11396795683532,
+    "drawings_in_one_ar_drawing": 6.855928107813809,
+    "speedup_table1": 6.9229073653801185
+   }
+  }
+ },
+ "t2|greedy|MMSVG-2M-Illus.\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 10.94063,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 10.94063,
+    "drawings_per_minute": 5.484144880139444,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 5.382863333333334,
+    "drawings_per_minute": 11.1464839964356,
+    "drawings_in_one_ar_drawing": 2.032492620098721,
+    "speedup_table1": 2.06730611739537
+   },
+   "REST": {
+    "factor": 1.006409,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 5.284855717303802,
+    "drawings_per_minute": 11.353195472025195,
+    "drawings_in_one_ar_drawing": 2.0701851829517173,
+    "speedup_table1": 2.06828506558154
+   },
+   "SpS": {
+    "factor": 0.932812,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 14.959558887126805,
+    "drawings_per_minute": 4.010813450631354,
+    "drawings_in_one_ar_drawing": 0.7313470993730152,
+    "speedup_table1": 0.7288530872856702
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 3.1866566666666665,
+    "drawings_per_minute": 18.828510968130654,
+    "drawings_in_one_ar_drawing": 3.433262865887655,
+    "speedup_table1": 3.4065502431468295
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.8115633333333334,
+    "drawings_per_minute": 33.12056437441694,
+    "drawings_in_one_ar_drawing": 6.03933067019462,
+    "speedup_table1": 6.05843336789574
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.6240833333333333,
+    "drawings_per_minute": 36.94391708143055,
+    "drawings_in_one_ar_drawing": 6.736495458976859,
+    "speedup_table1": 6.65723305878492
+   },
+   "DARTree": {
+    "factor": 1.02197,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 1.8164384098640223,
+    "drawings_per_minute": 33.0316732316245,
+    "drawings_in_one_ar_drawing": 6.023121918468466,
+    "speedup_table1": 6.028373818994328
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.2714433333333333,
+    "drawings_per_minute": 47.19046333169915,
+    "drawings_in_one_ar_drawing": 8.604889980678127,
+    "speedup_table1": 8.448236395841137
+   }
+  }
+ },
+ "t2|greedy|SArena-Icon": {
+  "rows_common": 450,
+  "ar_seconds_mean": 4.783971111111111,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 4.783971111111111,
+    "drawings_per_minute": 12.541881756067832,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.9545444444444446,
+    "drawings_per_minute": 20.307699250495467,
+    "drawings_in_one_ar_drawing": 1.6191907757917179,
+    "speedup_table1": 1.596470525219467
+   },
+   "REST": {
+    "factor": 1.007659,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 2.5675242423247635,
+    "drawings_per_minute": 23.368815379002235,
+    "drawings_in_one_ar_drawing": 1.8632622945672623,
+    "speedup_table1": 1.9522645299843469
+   },
+   "SpS": {
+    "factor": 0.949413,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 6.524232213206385,
+    "drawings_per_minute": 9.1964844351413,
+    "drawings_in_one_ar_drawing": 0.7332619310249828,
+    "speedup_table1": 0.7370651608588805
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.540831111111111,
+    "drawings_per_minute": 38.94002371014777,
+    "drawings_in_one_ar_drawing": 3.1047991415888108,
+    "speedup_table1": 3.1235152008915206
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 0.9470955555555556,
+    "drawings_per_minute": 63.351580152653845,
+    "drawings_in_one_ar_drawing": 5.051202154892267,
+    "speedup_table1": 5.243419350964728
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 0.8160466666666667,
+    "drawings_per_minute": 73.52520689176272,
+    "drawings_in_one_ar_drawing": 5.862374428477674,
+    "speedup_table1": 5.849200342897632
+   },
+   "DARTree": {
+    "factor": 0.927467,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 0.9101339609639172,
+    "drawings_per_minute": 65.92436121870936,
+    "drawings_in_one_ar_drawing": 5.25633732647932,
+    "speedup_table1": 5.249507533641365
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 0.6696955555555556,
+    "drawings_per_minute": 89.59294936671057,
+    "drawings_in_one_ar_drawing": 7.143501358826398,
+    "speedup_table1": 7.140610284879474
+   }
+  }
+ },
+ "t2|greedy|SArena-Illus.": {
+  "rows_common": 450,
+  "ar_seconds_mean": 14.778611111111111,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 14.778611111111111,
+    "drawings_per_minute": 4.0599214330018984,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 6.366762222222222,
+    "drawings_per_minute": 9.42394232826523,
+    "drawings_in_one_ar_drawing": 2.321212980049514,
+    "speedup_table1": 2.3151701877658013
+   },
+   "REST": {
+    "factor": 1.012698,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 6.04070966674907,
+    "drawings_per_minute": 9.932607807699888,
+    "drawings_in_one_ar_drawing": 2.4465024684863756,
+    "speedup_table1": 2.4784690080403604
+   },
+   "SpS": {
+    "factor": 0.941357,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 20.25621481905448,
+    "drawings_per_minute": 2.9620538948648787,
+    "drawings_in_one_ar_drawing": 0.7295840433726674,
+    "speedup_table1": 0.7291045184370002
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 4.084046666666667,
+    "drawings_per_minute": 14.69131106892347,
+    "drawings_in_one_ar_drawing": 3.6186195499997007,
+    "speedup_table1": 3.6308280844607803
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.303506666666667,
+    "drawings_per_minute": 26.047243912180267,
+    "drawings_in_one_ar_drawing": 6.41570147157281,
+    "speedup_table1": 6.4371266317921965
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.0964222222222224,
+    "drawings_per_minute": 28.62018889324669,
+    "drawings_in_one_ar_drawing": 7.0494440263305735,
+    "speedup_table1": 7.120141218980742
+   },
+   "DARTree": {
+    "factor": 0.934224,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 2.317258034394152,
+    "drawings_per_minute": 25.892671040274127,
+    "drawings_in_one_ar_drawing": 6.377628598869002,
+    "speedup_table1": 6.437024454207144
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.5216088888888888,
+    "drawings_per_minute": 39.43194630245179,
+    "drawings_in_one_ar_drawing": 9.712489995969179,
+    "speedup_table1": 9.70538968649457
+   }
+  }
+ },
+ "t2|sample|MMSVG-Icon": {
+  "rows_common": 150,
+  "ar_seconds_mean": 8.554026666666667,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 8.554026666666667,
+    "drawings_per_minute": 7.014240466867845,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 5.089173333333333,
+    "drawings_per_minute": 11.789734023600428,
+    "drawings_in_one_ar_drawing": 1.6808283205130894,
+    "speedup_table1": 1.813405328542376
+   },
+   "REST": {
+    "factor": 1.003307,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 4.89952842265272,
+    "drawings_per_minute": 12.246076524955557,
+    "drawings_in_one_ar_drawing": 1.7458877526085084,
+    "speedup_table1": 1.772492221367676
+   },
+   "SpS": {
+    "factor": 0.931246,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 11.687112339189136,
+    "drawings_per_minute": 5.133860123754305,
+    "drawings_in_one_ar_drawing": 0.7319196066921826,
+    "speedup_table1": 0.7398394413850353
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 3.06858,
+    "drawings_per_minute": 19.553018008329587,
+    "drawings_in_one_ar_drawing": 2.7876172909510806,
+    "speedup_table1": 2.9169240737188105
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.9661066666666667,
+    "drawings_per_minute": 30.517164209469815,
+    "drawings_in_one_ar_drawing": 4.350743940647507,
+    "speedup_table1": 4.487760239407448
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.7575666666666667,
+    "drawings_per_minute": 34.138107610901436,
+    "drawings_in_one_ar_drawing": 4.8669713808864525,
+    "speedup_table1": 5.166124894628437
+   },
+   "DARTree": {
+    "factor": 0.994214,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 1.8763340420738825,
+    "drawings_per_minute": 31.977248536024504,
+    "drawings_in_one_ar_drawing": 4.558903945063021,
+    "speedup_table1": 4.74640982240645
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.4461266666666666,
+    "drawings_per_minute": 41.49014148138245,
+    "drawings_in_one_ar_drawing": 5.915129610591973,
+    "speedup_table1": 6.137853163663331
+   }
+  }
+ },
+ "t2|sample|MMSVG-Illus.": {
+  "rows_common": 150,
+  "ar_seconds_mean": 15.878813333333333,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 15.878813333333333,
+    "drawings_per_minute": 3.7786198968688676,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 7.33214,
+    "drawings_per_minute": 8.18314980346802,
+    "drawings_in_one_ar_drawing": 2.165645136799534,
+    "speedup_table1": 2.217540639181712
+   },
+   "REST": {
+    "factor": 1.012518,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 8.052450876815607,
+    "drawings_per_minute": 7.451147596907463,
+    "drawings_in_one_ar_drawing": 1.9719230301734807,
+    "speedup_table1": 1.973480174006088
+   },
+   "SpS": {
+    "factor": 0.940862,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 22.090552932895964,
+    "drawings_per_minute": 2.716093172600107,
+    "drawings_in_one_ar_drawing": 0.7188056080609703,
+    "speedup_table1": 0.7266902965647117
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 5.204,
+    "drawings_per_minute": 11.529592621060724,
+    "drawings_in_one_ar_drawing": 3.0512708173200105,
+    "speedup_table1": 3.155510806113417
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 3.3036533333333336,
+    "drawings_per_minute": 18.16171188260269,
+    "drawings_in_one_ar_drawing": 4.806440546627168,
+    "speedup_table1": 4.843470434718356
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.83618,
+    "drawings_per_minute": 21.15521581846004,
+    "drawings_in_one_ar_drawing": 5.598662050128459,
+    "speedup_table1": 5.48793803224043
+   },
+   "DARTree": {
+    "factor": 0.982708,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 3.100890762389019,
+    "drawings_per_minute": 19.349278835535053,
+    "drawings_in_one_ar_drawing": 5.120726446067974,
+    "speedup_table1": 5.11740860393318
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.397806666666667,
+    "drawings_per_minute": 25.022868121144043,
+    "drawings_in_one_ar_drawing": 6.622224199337728,
+    "speedup_table1": 6.711926619726217
+   }
+  }
+ },
+ "t2|sample|MMSVG-2M-Icon\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 3.6086933333333335,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 3.6086933333333335,
+    "drawings_per_minute": 16.6265167078019,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.767046666666667,
+    "drawings_per_minute": 21.683768735378514,
+    "drawings_in_one_ar_drawing": 1.3041678612817034,
+    "speedup_table1": 1.3974629150148263
+   },
+   "REST": {
+    "factor": 1.004558,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 2.3757090473009104,
+    "drawings_per_minute": 25.255617925169403,
+    "drawings_in_one_ar_drawing": 1.5189963339295445,
+    "speedup_table1": 1.7056264501235028
+   },
+   "SpS": {
+    "factor": 0.930431,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 5.40448314076275,
+    "drawings_per_minute": 11.101894193629038,
+    "drawings_in_one_ar_drawing": 0.6677221927320193,
+    "speedup_table1": 0.7326839655995185
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.4567133333333333,
+    "drawings_per_minute": 41.18861180648675,
+    "drawings_in_one_ar_drawing": 2.4772844805887226,
+    "speedup_table1": 2.7927023419120234
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 0.9298066666666667,
+    "drawings_per_minute": 64.52954377612551,
+    "drawings_in_one_ar_drawing": 3.88112224046576,
+    "speedup_table1": 4.022519478354353
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 0.8386666666666667,
+    "drawings_per_minute": 71.54213036565977,
+    "drawings_in_one_ar_drawing": 4.302893481717011,
+    "speedup_table1": 4.693134872627499
+   },
+   "DARTree": {
+    "factor": 0.954748,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 0.8808251651380471,
+    "drawings_per_minute": 68.11794482574362,
+    "drawings_in_one_ar_drawing": 4.096946222883814,
+    "speedup_table1": 4.2206344621050125
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 0.6970766666666667,
+    "drawings_per_minute": 86.07374607288533,
+    "drawings_in_one_ar_drawing": 5.176895893804125,
+    "speedup_table1": 5.514517048100146
+   }
+  }
+ },
+ "t2|sample|MMSVG-2M-Illus.\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 11.38346,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 11.38346,
+    "drawings_per_minute": 5.270805185769529,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 6.029616666666667,
+    "drawings_per_minute": 9.950881344032373,
+    "drawings_in_one_ar_drawing": 1.887924329075646,
+    "speedup_table1": 1.8788699019947979
+   },
+   "REST": {
+    "factor": 1.004325,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 6.084235340206584,
+    "drawings_per_minute": 9.861551476074684,
+    "drawings_in_one_ar_drawing": 1.8709762794306186,
+    "speedup_table1": 1.8493947158906259
+   },
+   "SpS": {
+    "factor": 0.929878,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 14.761343798189044,
+    "drawings_per_minute": 4.064670589635677,
+    "drawings_in_one_ar_drawing": 0.7711669178382357,
+    "speedup_table1": 0.7475074016986089
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 3.75569,
+    "drawings_per_minute": 15.975759447664743,
+    "drawings_in_one_ar_drawing": 3.030990310701895,
+    "speedup_table1": 2.968350085668871
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.3992166666666668,
+    "drawings_per_minute": 25.008162386334426,
+    "drawings_in_one_ar_drawing": 4.744656936639042,
+    "speedup_table1": 4.628363547030681
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.12375,
+    "drawings_per_minute": 28.25191288993526,
+    "drawings_in_one_ar_drawing": 5.360075338434373,
+    "speedup_table1": 5.214196556745789
+   },
+   "DARTree": {
+    "factor": 0.969081,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 2.312298624663593,
+    "drawings_per_minute": 25.948205547511908,
+    "drawings_in_one_ar_drawing": 4.923005998697998,
+    "speedup_table1": 4.87855236881101
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.7243166666666667,
+    "drawings_per_minute": 34.7963927739491,
+    "drawings_in_one_ar_drawing": 6.60172242144231,
+    "speedup_table1": 6.315259802228872
+   }
+  }
+ },
+ "t2|sample|SArena-Icon": {
+  "rows_common": 450,
+  "ar_seconds_mean": 4.724364444444444,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 4.724364444444444,
+    "drawings_per_minute": 12.70012098041171,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 3.0713755555555555,
+    "drawings_per_minute": 19.53522091802515,
+    "drawings_in_one_ar_drawing": 1.5381917186580896,
+    "speedup_table1": 1.4959918014317761
+   },
+   "REST": {
+    "factor": 1.01648,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 2.8436165482442592,
+    "drawings_per_minute": 21.099891276496454,
+    "drawings_in_one_ar_drawing": 1.6613929354720558,
+    "speedup_table1": 1.7890278513732374
+   },
+   "SpS": {
+    "factor": 0.949167,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 6.424924296515898,
+    "drawings_per_minute": 9.338631434542622,
+    "drawings_in_one_ar_drawing": 0.7353183051520729,
+    "speedup_table1": 0.7377509532322838
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.7504844444444445,
+    "drawings_per_minute": 34.27622575591773,
+    "drawings_in_one_ar_drawing": 2.6988897041834767,
+    "speedup_table1": 2.832155711508757
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.1205044444444445,
+    "drawings_per_minute": 53.54731103253098,
+    "drawings_in_one_ar_drawing": 4.216283538961618,
+    "speedup_table1": 4.3294544594020605
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 0.9847577777777777,
+    "drawings_per_minute": 60.92868861152545,
+    "drawings_in_one_ar_drawing": 4.797488835381967,
+    "speedup_table1": 4.8950273730724785
+   },
+   "DARTree": {
+    "factor": 0.926534,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 1.1125816652175726,
+    "drawings_per_minute": 53.928625534438055,
+    "drawings_in_one_ar_drawing": 4.246308016877632,
+    "speedup_table1": 4.49142354553295
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 0.8642955555555556,
+    "drawings_per_minute": 69.42069713806748,
+    "drawings_in_one_ar_drawing": 5.466144554460537,
+    "speedup_table1": 5.641687099376856
+   }
+  }
+ },
+ "t2|sample|SArena-Illus.": {
+  "rows_common": 450,
+  "ar_seconds_mean": 14.85326888888889,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 14.85326888888889,
+    "drawings_per_minute": 4.039514833322885,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 7.258968888888889,
+    "drawings_per_minute": 8.265636747918895,
+    "drawings_in_one_ar_drawing": 2.046195419245341,
+    "speedup_table1": 2.0836340979651973
+   },
+   "REST": {
+    "factor": 1.023609,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 7.23716439691778,
+    "drawings_per_minute": 8.290539872985788,
+    "drawings_in_one_ar_drawing": 2.052360299458544,
+    "speedup_table1": 2.082767605207839
+   },
+   "SpS": {
+    "factor": 0.940719,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 20.523003003693532,
+    "drawings_per_minute": 2.9235487608320176,
+    "drawings_in_one_ar_drawing": 0.7237375975735979,
+    "speedup_table1": 0.73113378036144
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 4.843548888888889,
+    "drawings_per_minute": 12.387611104254594,
+    "drawings_in_one_ar_drawing": 3.0666086437079882,
+    "speedup_table1": 3.1647149316626795
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 3.036522222222222,
+    "drawings_per_minute": 19.75944702821576,
+    "drawings_in_one_ar_drawing": 4.891539663430753,
+    "speedup_table1": 4.945796038548693
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.7284266666666666,
+    "drawings_per_minute": 21.990695492396107,
+    "drawings_in_one_ar_drawing": 5.4438952200372706,
+    "speedup_table1": 5.545045254111873
+   },
+   "DARTree": {
+    "factor": 0.930437,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 2.916178574827429,
+    "drawings_per_minute": 20.5748716892451,
+    "drawings_in_one_ar_drawing": 5.093401692579084,
+    "speedup_table1": 5.23496084170112
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.243671111111111,
+    "drawings_per_minute": 26.741887303744264,
+    "drawings_in_one_ar_drawing": 6.620074045314624,
+    "speedup_table1": 6.738065349545074
+   }
+  }
+ },
+ "4b|greedy|MMSVG-Icon": {
+  "rows_common": 150,
+  "ar_seconds_mean": 8.5416,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 8.5416,
+    "drawings_per_minute": 7.024445068839561,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 5.123773333333333,
+    "drawings_per_minute": 11.71011988560514,
+    "drawings_in_one_ar_drawing": 1.6670526669147478,
+    "speedup_table1": 1.4979715623384269
+   },
+   "REST": {
+    "factor": 1.008205,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 3.9697331884392106,
+    "drawings_per_minute": 15.11436591626208,
+    "drawings_in_one_ar_drawing": 2.15168113183907,
+    "speedup_table1": 2.130558445006749
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.6324533333333333,
+    "drawings_per_minute": 22.792426836309854,
+    "drawings_in_one_ar_drawing": 3.2447298844170716,
+    "speedup_table1": 3.0849404470120128
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.7907,
+    "drawings_per_minute": 33.50644999162339,
+    "drawings_in_one_ar_drawing": 4.769978220807506,
+    "speedup_table1": 4.648175367618704
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.4605933333333334,
+    "drawings_per_minute": 41.07919612577537,
+    "drawings_in_one_ar_drawing": 5.848034360465382,
+    "speedup_table1": 6.044035974052687
+   },
+   "DARTree": {
+    "factor": 1.045873,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 1.5828179699814626,
+    "drawings_per_minute": 37.90707531624922,
+    "drawings_in_one_ar_drawing": 5.396451242021239,
+    "speedup_table1": 5.244565813928871
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.3111866666666667,
+    "drawings_per_minute": 45.76007484314463,
+    "drawings_in_one_ar_drawing": 6.51440425467007,
+    "speedup_table1": 6.592875643088762
+   }
+  }
+ },
+ "4b|greedy|MMSVG-Illus.": {
+  "rows_common": 150,
+  "ar_seconds_mean": 18.133386666666667,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 18.133386666666667,
+    "drawings_per_minute": 3.3088137976064775,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 8.31612,
+    "drawings_per_minute": 7.214903103851316,
+    "drawings_in_one_ar_drawing": 2.1805104624111564,
+    "speedup_table1": 2.1046372561934863
+   },
+   "REST": {
+    "factor": 1.000695,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 7.632293833571422,
+    "drawings_per_minute": 7.861332557203692,
+    "drawings_in_one_ar_drawing": 2.3758763829171667,
+    "speedup_table1": 2.2596916073419693
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 4.743046666666666,
+    "drawings_per_minute": 12.650096913798023,
+    "drawings_in_one_ar_drawing": 3.8231516451451037,
+    "speedup_table1": 3.7953489384618853
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.9562133333333334,
+    "drawings_per_minute": 20.29623482292663,
+    "drawings_in_one_ar_drawing": 6.133991232026556,
+    "speedup_table1": 5.9460282244779945
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.5212733333333333,
+    "drawings_per_minute": 23.797499147256282,
+    "drawings_in_one_ar_drawing": 7.192154228947807,
+    "speedup_table1": 7.062117824810524
+   },
+   "DARTree": {
+    "factor": 1.039401,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 2.667490541347904,
+    "drawings_per_minute": 22.493050704382824,
+    "drawings_in_one_ar_drawing": 6.797919762258546,
+    "speedup_table1": 6.598188813840694
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.96326,
+    "drawings_per_minute": 30.561413159744507,
+    "drawings_in_one_ar_drawing": 9.236365365090037,
+    "speedup_table1": 8.973592380900513
+   }
+  }
+ },
+ "4b|greedy|MMSVG-2M-Icon\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 4.9340866666666665,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 4.9340866666666665,
+    "drawings_per_minute": 12.160305250684694,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 3.352133333333333,
+    "drawings_per_minute": 17.899049361600575,
+    "drawings_in_one_ar_drawing": 1.4719243466846983,
+    "speedup_table1": 1.4353473280560043
+   },
+   "REST": {
+    "factor": 0.99557,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 2.6734332324105323,
+    "drawings_per_minute": 22.443051605930812,
+    "drawings_in_one_ar_drawing": 1.845599361468919,
+    "speedup_table1": 1.9668580144538457
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.5551066666666666,
+    "drawings_per_minute": 38.5825623965773,
+    "drawings_in_one_ar_drawing": 3.172828444779779,
+    "speedup_table1": 3.254928775290957
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.0800666666666667,
+    "drawings_per_minute": 55.55212641194988,
+    "drawings_in_one_ar_drawing": 4.568316770569718,
+    "speedup_table1": 4.6316777396981195
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 0.8350766666666667,
+    "drawings_per_minute": 71.84969044758365,
+    "drawings_in_one_ar_drawing": 5.9085433273591645,
+    "speedup_table1": 5.6125362744615686
+   },
+   "DARTree": {
+    "factor": 1.044499,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 0.9199637966980524,
+    "drawings_per_minute": 65.21995780198404,
+    "drawings_in_one_ar_drawing": 5.363348736522202,
+    "speedup_table1": 5.21863456517916
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 0.79051,
+    "drawings_per_minute": 75.90036811678536,
+    "drawings_in_one_ar_drawing": 6.241649905335374,
+    "speedup_table1": 6.284685902012363
+   }
+  }
+ },
+ "4b|greedy|MMSVG-2M-Illus.\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 14.711713333333334,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 14.711713333333334,
+    "drawings_per_minute": 4.078382893993312,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 6.876703333333333,
+    "drawings_per_minute": 8.725111014919454,
+    "drawings_in_one_ar_drawing": 2.1393555342167345,
+    "speedup_table1": 2.139048283876991
+   },
+   "REST": {
+    "factor": 0.996267,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 6.739574149576766,
+    "drawings_per_minute": 8.902639642857539,
+    "drawings_in_one_ar_drawing": 2.182884705594819,
+    "speedup_table1": 2.229326734200352
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 3.94868,
+    "drawings_per_minute": 15.194951224206571,
+    "drawings_in_one_ar_drawing": 3.7257294420751577,
+    "speedup_table1": 3.710846683227707
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.3523433333333332,
+    "drawings_per_minute": 25.506480771656065,
+    "drawings_in_one_ar_drawing": 6.254067220913048,
+    "speedup_table1": 6.1851357674336045
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.0492866666666667,
+    "drawings_per_minute": 29.27848064204455,
+    "drawings_in_one_ar_drawing": 7.1789435673551445,
+    "speedup_table1": 6.988563273356049
+   },
+   "DARTree": {
+    "factor": 1.060747,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 2.280659248718986,
+    "drawings_per_minute": 26.308182615926142,
+    "drawings_in_one_ar_drawing": 6.450640682774814,
+    "speedup_table1": 6.313701512822022
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.6949433333333332,
+    "drawings_per_minute": 35.399413549715526,
+    "drawings_in_one_ar_drawing": 8.679767071858844,
+    "speedup_table1": 8.746705106190017
+   }
+  }
+ },
+ "4b|greedy|SArena-Icon": {
+  "rows_common": 450,
+  "ar_seconds_mean": 6.212253333333333,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 6.212253333333333,
+    "drawings_per_minute": 9.65833116915172,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 3.9532533333333335,
+    "drawings_per_minute": 15.177372897933854,
+    "drawings_in_one_ar_drawing": 1.5714280896072095,
+    "speedup_table1": 1.5866700557273337
+   },
+   "REST": {
+    "factor": 0.831458,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 3.5668266031602855,
+    "drawings_per_minute": 16.821675588838186,
+    "drawings_in_one_ar_drawing": 1.7416751708168663,
+    "speedup_table1": 1.6684321384190572
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.9072422222222223,
+    "drawings_per_minute": 31.45903509313622,
+    "drawings_in_one_ar_drawing": 3.257191593679763,
+    "speedup_table1": 3.169828693490255
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.2938866666666666,
+    "drawings_per_minute": 46.3719130475106,
+    "drawings_in_one_ar_drawing": 4.801234523374021,
+    "speedup_table1": 4.55072995445417
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.0615622222222223,
+    "drawings_per_minute": 56.52047401837543,
+    "drawings_in_one_ar_drawing": 5.85199171870388,
+    "speedup_table1": 5.5902519804109145
+   },
+   "DARTree": {
+    "factor": 1.02739,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 1.2054523090236493,
+    "drawings_per_minute": 49.773847999508774,
+    "drawings_in_one_ar_drawing": 5.153462552462917,
+    "speedup_table1": 5.045341641879141
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 0.93598,
+    "drawings_per_minute": 64.10393384474027,
+    "drawings_in_one_ar_drawing": 6.637164611779453,
+    "speedup_table1": 6.360717226965543
+   }
+  }
+ },
+ "4b|greedy|SArena-Illus.": {
+  "rows_common": 450,
+  "ar_seconds_mean": 18.729582222222223,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 18.729582222222223,
+    "drawings_per_minute": 3.2034884327965076,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 7.240328888888889,
+    "drawings_per_minute": 8.286916370895367,
+    "drawings_in_one_ar_drawing": 2.58684135895607,
+    "speedup_table1": 2.5436844758689925
+   },
+   "REST": {
+    "factor": 0.863812,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 8.141048371238762,
+    "drawings_per_minute": 7.370058162530024,
+    "drawings_in_one_ar_drawing": 2.3006351722944354,
+    "speedup_table1": 2.2722821025540982
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 4.601657777777778,
+    "drawings_per_minute": 13.038779261193792,
+    "drawings_in_one_ar_drawing": 4.070181470832251,
+    "speedup_table1": 3.9606296469284734
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.7634133333333333,
+    "drawings_per_minute": 21.712278534758944,
+    "drawings_in_one_ar_drawing": 6.777698434142639,
+    "speedup_table1": 6.764922950154044
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.4394911111111113,
+    "drawings_per_minute": 24.595293553937932,
+    "drawings_in_one_ar_drawing": 7.677659548302879,
+    "speedup_table1": 7.547646968856432
+   },
+   "DARTree": {
+    "factor": 1.026633,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 2.6714476887595096,
+    "drawings_per_minute": 22.459732321339626,
+    "drawings_in_one_ar_drawing": 7.011023386693876,
+    "speedup_table1": 6.969643990002359
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.8388444444444445,
+    "drawings_per_minute": 32.62918741238459,
+    "drawings_in_one_ar_drawing": 10.185517474742593,
+    "speedup_table1": 10.227986383605177
+   }
+  }
+ },
+ "4b|sample|MMSVG-Icon": {
+  "rows_common": 150,
+  "ar_seconds_mean": 8.514046666666667,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 8.514046666666667,
+    "drawings_per_minute": 7.0471777227749905,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 5.9256866666666665,
+    "drawings_per_minute": 10.12540881338084,
+    "drawings_in_one_ar_drawing": 1.4368033859367073,
+    "speedup_table1": 1.4561184901259225
+   },
+   "REST": {
+    "factor": 1.053321,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 5.279495693607529,
+    "drawings_per_minute": 11.364721837475624,
+    "drawings_in_one_ar_drawing": 1.612662867965887,
+    "speedup_table1": 1.7348950283213536
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 3.1419,
+    "drawings_per_minute": 19.096724911677647,
+    "drawings_in_one_ar_drawing": 2.7098401179753226,
+    "speedup_table1": 2.8371947673073112
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.5159066666666665,
+    "drawings_per_minute": 23.84826146173944,
+    "drawings_in_one_ar_drawing": 3.3840868500686305,
+    "speedup_table1": 4.064535544307866
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.8000333333333334,
+    "drawings_per_minute": 33.33271606081369,
+    "drawings_in_one_ar_drawing": 4.729938334475288,
+    "speedup_table1": 4.917924077615894
+   },
+   "DARTree": {
+    "factor": 1.063818,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 2.178457916835347,
+    "drawings_per_minute": 27.542418669791058,
+    "drawings_in_one_ar_drawing": 3.908290631124539,
+    "speedup_table1": 4.524147865938477
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.70984,
+    "drawings_per_minute": 35.091002666916204,
+    "drawings_in_one_ar_drawing": 4.979440571437483,
+    "speedup_table1": 5.710178205663322
+   }
+  }
+ },
+ "4b|sample|MMSVG-Illus.": {
+  "rows_common": 150,
+  "ar_seconds_mean": 17.78366,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 17.78366,
+    "drawings_per_minute": 3.373883666241932,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 9.186053333333334,
+    "drawings_per_minute": 6.531640719119128,
+    "drawings_in_one_ar_drawing": 1.935941296516168,
+    "speedup_table1": 1.9277086272883774
+   },
+   "REST": {
+    "factor": 1.044218,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 8.359804590190759,
+    "drawings_per_minute": 7.177201255445958,
+    "drawings_in_one_ar_drawing": 2.127281781307068,
+    "speedup_table1": 2.0378690348867186
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 5.22334,
+    "drawings_per_minute": 11.486903016077834,
+    "drawings_in_one_ar_drawing": 3.404652961515046,
+    "speedup_table1": 3.2872598005811846
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 3.6777466666666667,
+    "drawings_per_minute": 16.31433740224993,
+    "drawings_in_one_ar_drawing": 4.835477158114933,
+    "speedup_table1": 4.801241990817092
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 3.202026666666667,
+    "drawings_per_minute": 18.738132516073154,
+    "drawings_in_one_ar_drawing": 5.553876295013159,
+    "speedup_table1": 5.621293472772418
+   },
+   "DARTree": {
+    "factor": 1.083594,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 3.2941035336167896,
+    "drawings_per_minute": 18.214363752593556,
+    "drawings_in_one_ar_drawing": 5.398634201540799,
+    "speedup_table1": 5.0460815950221924
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.64056,
+    "drawings_per_minute": 22.72245281303966,
+    "drawings_in_one_ar_drawing": 6.734806253219015,
+    "speedup_table1": 6.581549548155129
+   }
+  }
+ },
+ "4b|sample|MMSVG-2M-Icon\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 5.019896666666667,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 5.019896666666667,
+    "drawings_per_minute": 11.95243726796501,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 3.60239,
+    "drawings_per_minute": 16.6556091927859,
+    "drawings_in_one_ar_drawing": 1.3934906178028106,
+    "speedup_table1": 1.4353552624260693
+   },
+   "REST": {
+    "factor": 1.02765,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 2.7481266643101696,
+    "drawings_per_minute": 21.833054778448904,
+    "drawings_in_one_ar_drawing": 1.8266613150914401,
+    "speedup_table1": 1.8131244010552088
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.70843,
+    "drawings_per_minute": 35.119963943503684,
+    "drawings_in_one_ar_drawing": 2.938309832224128,
+    "speedup_table1": 2.944363355830872
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.26861,
+    "drawings_per_minute": 47.29585924752288,
+    "drawings_in_one_ar_drawing": 3.957005436396266,
+    "speedup_table1": 3.905242629007467
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.0112366666666666,
+    "drawings_per_minute": 59.3332915802763,
+    "drawings_in_one_ar_drawing": 4.9641165437698405,
+    "speedup_table1": 4.885179196989223
+   },
+   "DARTree": {
+    "factor": 1.054158,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 1.1510245292135874,
+    "drawings_per_minute": 52.12747294012379,
+    "drawings_in_one_ar_drawing": 4.361242127564738,
+    "speedup_table1": 4.498111592474211
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 0.9682766666666667,
+    "drawings_per_minute": 61.965760474795424,
+    "drawings_in_one_ar_drawing": 5.184361907581511,
+    "speedup_table1": 5.422659010564257
+   }
+  }
+ },
+ "4b|sample|MMSVG-2M-Illus.\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 14.027323333333333,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 14.027323333333333,
+    "drawings_per_minute": 4.27736629250009,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 8.19659,
+    "drawings_per_minute": 7.320117268278637,
+    "drawings_in_one_ar_drawing": 1.7113608626676866,
+    "speedup_table1": 1.769308342045087
+   },
+   "REST": {
+    "factor": 1.049242,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 7.698547389191882,
+    "drawings_per_minute": 7.793678075455507,
+    "drawings_in_one_ar_drawing": 1.8220740386720908,
+    "speedup_table1": 1.888841694405633
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 4.529906666666666,
+    "drawings_per_minute": 13.245306010719869,
+    "drawings_in_one_ar_drawing": 3.0966031676885177,
+    "speedup_table1": 3.230389251227428
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 3.416586666666667,
+    "drawings_per_minute": 17.561386803203195,
+    "drawings_in_one_ar_drawing": 4.105654181171071,
+    "speedup_table1": 4.197160976962088
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.6779166666666665,
+    "drawings_per_minute": 22.405476894351953,
+    "drawings_in_one_ar_drawing": 5.238147813910067,
+    "speedup_table1": 5.336412123271997
+   },
+   "DARTree": {
+    "factor": 1.068359,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 2.9941012694455034,
+    "drawings_per_minute": 20.039402344968707,
+    "drawings_in_one_ar_drawing": 4.684986268327237,
+    "speedup_table1": 4.803625758854461
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.4106133333333335,
+    "drawings_per_minute": 24.88993119316799,
+    "drawings_in_one_ar_drawing": 5.818985209849775,
+    "speedup_table1": 5.977152623107189
+   }
+  }
+ },
+ "4b|sample|SArena-Icon": {
+  "rows_common": 450,
+  "ar_seconds_mean": 5.847704444444444,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 5.847704444444444,
+    "drawings_per_minute": 10.260436478967815,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 4.347066666666667,
+    "drawings_per_minute": 13.802410821090083,
+    "drawings_in_one_ar_drawing": 1.3452069850422763,
+    "speedup_table1": 1.3551675774094847
+   },
+   "REST": {
+    "factor": 0.937735,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 3.3134767684374893,
+    "drawings_per_minute": 18.10786801692101,
+    "drawings_in_one_ar_drawing": 1.7648243380327067,
+    "speedup_table1": 1.7575645317450102
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.3228844444444445,
+    "drawings_per_minute": 25.829954711479406,
+    "drawings_in_one_ar_drawing": 2.5174323494352806,
+    "speedup_table1": 2.77525518174151
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.5595488888888889,
+    "drawings_per_minute": 38.47266374749393,
+    "drawings_in_one_ar_drawing": 3.7496127797639485,
+    "speedup_table1": 3.6847251194027857
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.3212133333333334,
+    "drawings_per_minute": 45.4128023735758,
+    "drawings_in_one_ar_drawing": 4.4260107712439405,
+    "speedup_table1": 4.547910303944603
+   },
+   "DARTree": {
+    "factor": 1.031746,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 1.4554903117088147,
+    "drawings_per_minute": 41.22322183619151,
+    "drawings_in_one_ar_drawing": 4.017686959096939,
+    "speedup_table1": 4.128183188099325
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.1551666666666667,
+    "drawings_per_minute": 51.94055691819362,
+    "drawings_in_one_ar_drawing": 5.062217092290674,
+    "speedup_table1": 4.833747980035279
+   }
+  }
+ },
+ "4b|sample|SArena-Illus.": {
+  "rows_common": 450,
+  "ar_seconds_mean": 18.02563333333333,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 18.02563333333333,
+    "drawings_per_minute": 3.328593170096659,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 8.922857777777779,
+    "drawings_per_minute": 6.724303075795845,
+    "drawings_in_one_ar_drawing": 2.0201636944416905,
+    "speedup_table1": 2.030179388635018
+   },
+   "REST": {
+    "factor": 0.950328,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 8.318672655010962,
+    "drawings_per_minute": 7.212689149855835,
+    "drawings_in_one_ar_drawing": 2.1668881660435497,
+    "speedup_table1": 2.2226859296470303
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 5.328713333333333,
+    "drawings_per_minute": 11.25975376169607,
+    "drawings_in_one_ar_drawing": 3.3827365455325675,
+    "speedup_table1": 3.388754606055248
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 3.7110333333333334,
+    "drawings_per_minute": 16.168003521031878,
+    "drawings_in_one_ar_drawing": 4.857308386702715,
+    "speedup_table1": 4.919833513533751
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 3.096048888888889,
+    "drawings_per_minute": 19.379538939235815,
+    "drawings_in_one_ar_drawing": 5.8221410514620064,
+    "speedup_table1": 5.816767569837169
+   },
+   "DARTree": {
+    "factor": 1.030963,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 3.4497344529766982,
+    "drawings_per_minute": 17.39264306220073,
+    "drawings_in_one_ar_drawing": 5.22522344227957,
+    "speedup_table1": 5.2795834481811985
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.5673822222222222,
+    "drawings_per_minute": 23.37010807376645,
+    "drawings_in_one_ar_drawing": 7.021016651634782,
+    "speedup_table1": 7.0354983084751375
+   }
+  }
+ },
+ "isvg|greedy|MMSVG-Icon": {
+  "rows_common": 150,
+  "ar_seconds_mean": 17.503473333333332,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 17.503473333333332,
+    "drawings_per_minute": 3.427891073809732,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 0.977399,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 4.978467518313134,
+    "drawings_per_minute": 12.051901469536944,
+    "drawings_in_one_ar_drawing": 3.5158355998000115,
+    "speedup_table1": 3.273927223341553
+   },
+   "REST": {
+    "factor": 0.91552,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 6.063513531278886,
+    "drawings_per_minute": 9.89525292398335,
+    "drawings_in_one_ar_drawing": 2.886688261358854,
+    "speedup_table1": 2.616947205973826
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 4.435586666666667,
+    "drawings_per_minute": 13.526959229744882,
+    "drawings_in_one_ar_drawing": 3.9461461693154454,
+    "speedup_table1": 3.8620688516042216
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.116826666666667,
+    "drawings_per_minute": 28.344314130585403,
+    "drawings_in_one_ar_drawing": 8.268732442272078,
+    "speedup_table1": 7.995263348957643
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.083126666666667,
+    "drawings_per_minute": 28.80285724343855,
+    "drawings_in_one_ar_drawing": 8.402500728072223,
+    "speedup_table1": 8.282301194208502
+   },
+   "DARTree": {
+    "factor": 1.02846,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 2.326253489011958,
+    "drawings_per_minute": 25.79254594712467,
+    "drawings_in_one_ar_drawing": 7.52431900307119,
+    "speedup_table1": 7.348194685628998
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.3623466666666666,
+    "drawings_per_minute": 44.04165361728782,
+    "drawings_in_one_ar_drawing": 12.848031827435014,
+    "speedup_table1": 12.742052611148056
+   }
+  }
+ },
+ "isvg|greedy|MMSVG-Illus.": {
+  "rows_common": 150,
+  "ar_seconds_mean": 35.462826666666665,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 35.462826666666665,
+    "drawings_per_minute": 1.6919125078203956,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 0.970674,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 9.082590846350348,
+    "drawings_per_minute": 6.606044576378751,
+    "drawings_in_one_ar_drawing": 3.904483562739884,
+    "speedup_table1": 3.7993300299915767
+   },
+   "REST": {
+    "factor": 0.877644,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 12.01872602657523,
+    "drawings_per_minute": 4.992209645791982,
+    "drawings_in_one_ar_drawing": 2.950631089206374,
+    "speedup_table1": 2.8889976042780994
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 8.763113333333333,
+    "drawings_per_minute": 6.846881663822675,
+    "drawings_in_one_ar_drawing": 4.04682962752203,
+    "speedup_table1": 4.01278188530817
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 4.133013333333333,
+    "drawings_per_minute": 14.517252948615376,
+    "drawings_in_one_ar_drawing": 8.580380416548378,
+    "speedup_table1": 8.47834877469904
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 4.15902,
+    "drawings_per_minute": 14.426475467778467,
+    "drawings_in_one_ar_drawing": 8.526726648745777,
+    "speedup_table1": 8.453142085161316
+   },
+   "DARTree": {
+    "factor": 0.991978,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 4.695760643090334,
+    "drawings_per_minute": 12.77748261898488,
+    "drawings_in_one_ar_drawing": 7.552094189223447,
+    "speedup_table1": 7.587220954056296
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.54054,
+    "drawings_per_minute": 23.617026301494956,
+    "drawings_in_one_ar_drawing": 13.958775168533723,
+    "speedup_table1": 13.832655397133852
+   }
+  }
+ },
+ "isvg|greedy|MMSVG-2M-Icon\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 8.82628,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 8.82628,
+    "drawings_per_minute": 6.797880873935565,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 0.968208,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 3.2502997254820243,
+    "drawings_per_minute": 18.45983603592186,
+    "drawings_in_one_ar_drawing": 2.7155280267856066,
+    "speedup_table1": 2.509905027304995
+   },
+   "REST": {
+    "factor": 0.873479,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 3.6668952020832464,
+    "drawings_per_minute": 16.36261651707762,
+    "drawings_in_one_ar_drawing": 2.4070172485391974,
+    "speedup_table1": 2.278767841362078
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.3144633333333333,
+    "drawings_per_minute": 25.92393629048635,
+    "drawings_in_one_ar_drawing": 3.8135320066998974,
+    "speedup_table1": 3.781523316725234
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.1959866666666668,
+    "drawings_per_minute": 50.16778336436303,
+    "drawings_in_one_ar_drawing": 7.37991504922017,
+    "speedup_table1": 7.065199297093303
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.1289933333333333,
+    "drawings_per_minute": 53.14468936929064,
+    "drawings_in_one_ar_drawing": 7.817831814773044,
+    "speedup_table1": 7.781116257780885
+   },
+   "DARTree": {
+    "factor": 1.029564,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 1.2047094484867118,
+    "drawings_per_minute": 49.80454007011286,
+    "drawings_in_one_ar_drawing": 7.326480265500596,
+    "speedup_table1": 6.757193159889482
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 0.7512433333333334,
+    "drawings_per_minute": 79.86759727207784,
+    "drawings_in_one_ar_drawing": 11.748896274176587,
+    "speedup_table1": 10.407759043898354
+   }
+  }
+ },
+ "isvg|greedy|MMSVG-2M-Illus.\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 27.017053333333333,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 27.017053333333333,
+    "drawings_per_minute": 2.220819541632717,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 0.957284,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 7.238499637938214,
+    "drawings_per_minute": 8.289010568644605,
+    "drawings_in_one_ar_drawing": 3.7324106768939154,
+    "speedup_table1": 3.7226961279029727
+   },
+   "REST": {
+    "factor": 0.846872,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 10.905219941019679,
+    "drawings_per_minute": 5.501952305822983,
+    "drawings_in_one_ar_drawing": 2.477442314731264,
+    "speedup_table1": 2.392432522692144
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 7.14441,
+    "drawings_per_minute": 8.398174236920894,
+    "drawings_in_one_ar_drawing": 3.781565354358629,
+    "speedup_table1": 3.8624128678477585
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 3.4022466666666666,
+    "drawings_per_minute": 17.635405624126804,
+    "drawings_in_one_ar_drawing": 7.940944905033341,
+    "speedup_table1": 7.813751823264936
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 3.35629,
+    "drawings_per_minute": 17.876881914256515,
+    "drawings_in_one_ar_drawing": 8.049677868519506,
+    "speedup_table1": 8.028417124649172
+   },
+   "DARTree": {
+    "factor": 1.008093,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 3.723252283699856,
+    "drawings_per_minute": 16.11494344948794,
+    "drawings_in_one_ar_drawing": 7.256304777307771,
+    "speedup_table1": 7.2155536261188
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.1593933333333335,
+    "drawings_per_minute": 27.78558175289973,
+    "drawings_in_one_ar_drawing": 12.511409068596425,
+    "speedup_table1": 12.599088324800519
+   }
+  }
+ },
+ "isvg|greedy|SArena-Icon": {
+  "rows_common": 450,
+  "ar_seconds_mean": 10.740793333333333,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 10.740793333333333,
+    "drawings_per_minute": 5.58617954353465,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.067824,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 4.224318942828464,
+    "drawings_per_minute": 14.203472988672106,
+    "drawings_in_one_ar_drawing": 2.54260946644849,
+    "speedup_table1": 2.518560435156118
+   },
+   "REST": {
+    "factor": 1.042158,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 5.183512216117834,
+    "drawings_per_minute": 11.575163228791752,
+    "drawings_in_one_ar_drawing": 2.072107267334193,
+    "speedup_table1": 2.1568520709746988
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 3.1387911111111113,
+    "drawings_per_minute": 19.115639708422773,
+    "drawings_in_one_ar_drawing": 3.421952259043821,
+    "speedup_table1": 3.438709644257947
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.7298977777777778,
+    "drawings_per_minute": 34.68413034039263,
+    "drawings_in_one_ar_drawing": 6.208917932209225,
+    "speedup_table1": 6.36191858538297
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.4677622222222222,
+    "drawings_per_minute": 40.878555866602674,
+    "drawings_in_one_ar_drawing": 7.31780200547167,
+    "speedup_table1": 7.118939950967929
+   },
+   "DARTree": {
+    "factor": 1.056711,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 1.739858218124342,
+    "drawings_per_minute": 34.48556863712903,
+    "drawings_in_one_ar_drawing": 6.173372761898075,
+    "speedup_table1": 6.440191069877505
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.1522488888888889,
+    "drawings_per_minute": 52.07208319190298,
+    "drawings_in_one_ar_drawing": 9.32159140000617,
+    "speedup_table1": 9.975520183918862
+   }
+  }
+ },
+ "isvg|greedy|SArena-Illus.": {
+  "rows_common": 450,
+  "ar_seconds_mean": 44.26255333333334,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 44.26255333333334,
+    "drawings_per_minute": 1.3555476465207685,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.065184,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 15.850776915140473,
+    "drawings_per_minute": 3.7853034158022068,
+    "drawings_in_one_ar_drawing": 2.792453238746567,
+    "speedup_table1": 2.776945702728156
+   },
+   "REST": {
+    "factor": 1.007736,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 21.040784594132052,
+    "drawings_per_minute": 2.8516046885786315,
+    "drawings_in_one_ar_drawing": 2.1036550768965845,
+    "speedup_table1": 2.095519088154045
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 12.412017777777777,
+    "drawings_per_minute": 4.834024658538821,
+    "drawings_in_one_ar_drawing": 3.566104571053718,
+    "speedup_table1": 3.561304252676343
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 7.440055555555555,
+    "drawings_per_minute": 8.064455910574145,
+    "drawings_in_one_ar_drawing": 5.949223497435056,
+    "speedup_table1": 5.954974858846186
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 6.217962222222222,
+    "drawings_per_minute": 9.649463579171883,
+    "drawings_in_one_ar_drawing": 7.118498271852551,
+    "speedup_table1": 7.115947171820039
+   },
+   "DARTree": {
+    "factor": 1.056093,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 7.006646118198106,
+    "drawings_per_minute": 8.563298186869206,
+    "drawings_in_one_ar_drawing": 6.317224045092248,
+    "speedup_table1": 6.298564005557491
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 4.688393333333333,
+    "drawings_per_minute": 12.797561069250447,
+    "drawings_in_one_ar_drawing": 9.440878822738139,
+    "speedup_table1": 9.49608577709218
+   }
+  }
+ },
+ "isvg|sample|MMSVG-Icon": {
+  "rows_common": 150,
+  "ar_seconds_mean": 12.7358,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 12.7358,
+    "drawings_per_minute": 4.711129257683067,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 0.958691,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 5.7038083996174,
+    "drawings_per_minute": 10.519287429785454,
+    "drawings_in_one_ar_drawing": 2.2328590141376927,
+    "speedup_table1": 2.1497544002483617
+   },
+   "REST": {
+    "factor": 0.861697,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 6.908531273841477,
+    "drawings_per_minute": 8.684914002949444,
+    "drawings_in_one_ar_drawing": 1.843488795979392,
+    "speedup_table1": 1.7672147402388747
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 4.624406666666666,
+    "drawings_per_minute": 12.974637467004777,
+    "drawings_in_one_ar_drawing": 2.7540397975379904,
+    "speedup_table1": 2.8265283178401432
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.8491866666666668,
+    "drawings_per_minute": 21.058641296463552,
+    "drawings_in_one_ar_drawing": 4.469977397058342,
+    "speedup_table1": 4.506759022547529
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.140146666666667,
+    "drawings_per_minute": 28.03546174405492,
+    "drawings_in_one_ar_drawing": 5.9509005613322445,
+    "speedup_table1": 5.453901261802923
+   },
+   "DARTree": {
+    "factor": 0.993112,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 2.421048024453892,
+    "drawings_per_minute": 24.782655855632605,
+    "drawings_in_one_ar_drawing": 5.2604491407694285,
+    "speedup_table1": 5.139786020889477
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.83508,
+    "drawings_per_minute": 32.696122239902344,
+    "drawings_in_one_ar_drawing": 6.940187893715804,
+    "speedup_table1": 6.963006329006153
+   }
+  }
+ },
+ "isvg|sample|MMSVG-Illus.": {
+  "rows_common": 150,
+  "ar_seconds_mean": 24.636186666666667,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 24.636186666666667,
+    "drawings_per_minute": 2.4354418486843743,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 0.954595,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 10.363616423518852,
+    "drawings_per_minute": 5.789484823448112,
+    "drawings_in_one_ar_drawing": 2.3771804802383567,
+    "speedup_table1": 2.470207568834855
+   },
+   "REST": {
+    "factor": 0.881754,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 14.599495834051943,
+    "drawings_per_minute": 4.109730957972924,
+    "drawings_in_one_ar_drawing": 1.6874683171733296,
+    "speedup_table1": 1.803051320416994
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 8.85634,
+    "drawings_per_minute": 6.774807651919416,
+    "drawings_in_one_ar_drawing": 2.781757099057474,
+    "speedup_table1": 2.9459647425733735
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 5.58364,
+    "drawings_per_minute": 10.745678446318173,
+    "drawings_in_one_ar_drawing": 4.412209001057852,
+    "speedup_table1": 4.691279899272967
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 4.735233333333333,
+    "drawings_per_minute": 12.670970103549983,
+    "drawings_in_one_ar_drawing": 5.202739745313501,
+    "speedup_table1": 5.846391652815741
+   },
+   "DARTree": {
+    "factor": 1.019794,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 5.0365986662586115,
+    "drawings_per_minute": 11.912801470951907,
+    "drawings_in_one_ar_drawing": 4.8914333460218735,
+    "speedup_table1": 5.073538331600055
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 3.9080333333333335,
+    "drawings_per_minute": 15.352990847911567,
+    "drawings_in_one_ar_drawing": 6.303985807012905,
+    "speedup_table1": 6.745224158864506
+   }
+  }
+ },
+ "isvg|sample|MMSVG-2M-Icon\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 6.077076666666667,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 6.077076666666667,
+    "drawings_per_minute": 9.873168184483438,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 0.971913,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 3.393873125527772,
+    "drawings_per_minute": 17.67891661850782,
+    "drawings_in_one_ar_drawing": 1.790602194571324,
+    "speedup_table1": 1.7005015935512784
+   },
+   "REST": {
+    "factor": 0.901321,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 3.1077898066765384,
+    "drawings_per_minute": 19.306324987327194,
+    "drawings_in_one_ar_drawing": 1.955433618326162,
+    "speedup_table1": 2.0633970090186287
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.0095066666666668,
+    "drawings_per_minute": 29.858074618646036,
+    "drawings_in_one_ar_drawing": 3.024163476276101,
+    "speedup_table1": 2.8604334925132537
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.3149866666666667,
+    "drawings_per_minute": 45.627839065541856,
+    "drawings_in_one_ar_drawing": 4.62139793559377,
+    "speedup_table1": 4.660024683500024
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.04269,
+    "drawings_per_minute": 57.54346929576385,
+    "drawings_in_one_ar_drawing": 5.8282679096056045,
+    "speedup_table1": 5.51432882814172
+   },
+   "DARTree": {
+    "factor": 1.033883,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 1.2687988656877849,
+    "drawings_per_minute": 47.288819073364685,
+    "drawings_in_one_ar_drawing": 4.789629649749436,
+    "speedup_table1": 4.970707858220378
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 0.9337366666666667,
+    "drawings_per_minute": 64.25794567347683,
+    "drawings_in_one_ar_drawing": 6.508341038337004,
+    "speedup_table1": 6.24666660588267
+   }
+  }
+ },
+ "isvg|sample|MMSVG-2M-Illus.\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 19.399626666666666,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 19.399626666666666,
+    "drawings_per_minute": 3.0928430237832756,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 0.954943,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 8.232830931081681,
+    "drawings_per_minute": 7.287894103774195,
+    "drawings_in_one_ar_drawing": 2.3563737466570105,
+    "speedup_table1": 2.2711965651552273
+   },
+   "REST": {
+    "factor": 0.901978,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 10.318433668157654,
+    "drawings_per_minute": 5.8148360429120185,
+    "drawings_in_one_ar_drawing": 1.8800941393395079,
+    "speedup_table1": 1.8496023329530975
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 6.0524000000000004,
+    "drawings_per_minute": 9.913422774436587,
+    "drawings_in_one_ar_drawing": 3.2052783468816775,
+    "speedup_table1": 3.032038172329579
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 4.037026666666667,
+    "drawings_per_minute": 14.862423499803485,
+    "drawings_in_one_ar_drawing": 4.805424454301351,
+    "speedup_table1": 4.655854787062117
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 3.26114,
+    "drawings_per_minute": 18.398474153210227,
+    "drawings_in_one_ar_drawing": 5.948725496809908,
+    "speedup_table1": 5.7141747654872885
+   },
+   "DARTree": {
+    "factor": 1.004905,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 3.4810431846258845,
+    "drawings_per_minute": 17.236212485093986,
+    "drawings_in_one_ar_drawing": 5.572934789302704,
+    "speedup_table1": 5.224514733764446
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.7162933333333332,
+    "drawings_per_minute": 22.08892510381795,
+    "drawings_in_one_ar_drawing": 7.141948341367157,
+    "speedup_table1": 7.066412636583417
+   }
+  }
+ },
+ "isvg|sample|SArena-Icon": {
+  "rows_common": 450,
+  "ar_seconds_mean": 9.42124,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 9.42124,
+    "drawings_per_minute": 6.368588423604536,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.067426,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 5.044574749501481,
+    "drawings_per_minute": 11.893965889975041,
+    "drawings_in_one_ar_drawing": 1.867598453354474,
+    "speedup_table1": 1.8948897502955788
+   },
+   "REST": {
+    "factor": 0.922418,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 5.222336663091203,
+    "drawings_per_minute": 11.489109927372018,
+    "drawings_in_one_ar_drawing": 1.8040277002025724,
+    "speedup_table1": 1.7643850532872933
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 3.237842222222222,
+    "drawings_per_minute": 18.530859715215005,
+    "drawings_in_one_ar_drawing": 2.9097279463895362,
+    "speedup_table1": 2.709469910058912
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.2306444444444447,
+    "drawings_per_minute": 26.89805636637145,
+    "drawings_in_one_ar_drawing": 4.223550742685222,
+    "speedup_table1": 4.118372640091322
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.7930644444444443,
+    "drawings_per_minute": 33.46226633733187,
+    "drawings_in_one_ar_drawing": 5.254267368465408,
+    "speedup_table1": 5.275265483364468
+   },
+   "DARTree": {
+    "factor": 1.054869,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 2.036309454710307,
+    "drawings_per_minute": 29.465069693219014,
+    "drawings_in_one_ar_drawing": 4.6266248866090445,
+    "speedup_table1": 4.516546629203168
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.5461288888888889,
+    "drawings_per_minute": 38.806596546500366,
+    "drawings_in_one_ar_drawing": 6.093437660795851,
+    "speedup_table1": 5.937366522017558
+   }
+  }
+ },
+ "isvg|sample|SArena-Illus.": {
+  "rows_common": 450,
+  "ar_seconds_mean": 42.40288666666667,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 42.40288666666667,
+    "drawings_per_minute": 1.4149980040667043,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.068548,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 24.734350171047367,
+    "drawings_per_minute": 2.4257762821775124,
+    "drawings_in_one_ar_drawing": 1.7143319461976847,
+    "speedup_table1": 1.72775311190127
+   },
+   "REST": {
+    "factor": 0.927743,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 25.246669803872148,
+    "drawings_per_minute": 2.376551064600118,
+    "drawings_in_one_ar_drawing": 1.6795437574964134,
+    "speedup_table1": 1.694830003556838
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 16.381442222222223,
+    "drawings_per_minute": 3.6626811721502204,
+    "drawings_in_one_ar_drawing": 2.5884709106469934,
+    "speedup_table1": 2.627483268451833
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 13.149364444444444,
+    "drawings_per_minute": 4.56295817592536,
+    "drawings_in_one_ar_drawing": 3.224709973308385,
+    "speedup_table1": 3.2157105184376893
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 9.444306666666666,
+    "drawings_per_minute": 6.353033856023312,
+    "drawings_in_one_ar_drawing": 4.489782909774213,
+    "speedup_table1": 4.541092213988296
+   },
+   "DARTree": {
+    "factor": 1.055721,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 10.807051217672042,
+    "drawings_per_minute": 5.551930752570697,
+    "drawings_in_one_ar_drawing": 3.9236315080406103,
+    "speedup_table1": 3.918819591311496
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 8.496537777777778,
+    "drawings_per_minute": 7.061699902862395,
+    "drawings_in_one_ar_drawing": 4.990607677584752,
+    "speedup_table1": 4.971881534026361
+   }
+  }
+ },
+ "i2|greedy|MMSVG-Icon": {
+  "rows_common": 150,
+  "ar_seconds_mean": 10.354193333333333,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 10.354193333333333,
+    "drawings_per_minute": 5.794753687555896,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.062911,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 5.998553397362766,
+    "drawings_per_minute": 10.002411585829794,
+    "drawings_in_one_ar_drawing": 1.7261150559875822,
+    "speedup_table1": 1.6123783434021142
+   },
+   "REST": {
+    "factor": 1.049785,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 6.6047757088307515,
+    "drawings_per_minute": 9.084335736000616,
+    "drawings_in_one_ar_drawing": 1.567682808590989,
+    "speedup_table1": 1.5311846792495585
+   },
+   "EAGLE-3": {
+    "factor": 0.874018,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 3.264369592836012,
+    "drawings_per_minute": 18.380271686048065,
+    "drawings_in_one_ar_drawing": 3.1718814426089046,
+    "speedup_table1": 3.1507710608716937
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.0991066666666667,
+    "drawings_per_minute": 28.58358793899627,
+    "drawings_in_one_ar_drawing": 4.932666594678371,
+    "speedup_table1": 4.647677280051713
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.7154733333333334,
+    "drawings_per_minute": 34.975769564085326,
+    "drawings_in_one_ar_drawing": 6.0357646674775856,
+    "speedup_table1": 5.887694670641356
+   },
+   "DARTree": {
+    "factor": 0.96659,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 2.050658849947068,
+    "drawings_per_minute": 29.258889162158166,
+    "drawings_in_one_ar_drawing": 5.04920325172595,
+    "speedup_table1": 4.967543036316163
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.4451533333333333,
+    "drawings_per_minute": 41.518085739460176,
+    "drawings_in_one_ar_drawing": 7.1647714429380045,
+    "speedup_table1": 6.793995272420539
+   }
+  }
+ },
+ "i2|greedy|MMSVG-Illus.": {
+  "rows_common": 150,
+  "ar_seconds_mean": 15.498566666666667,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 15.498566666666667,
+    "drawings_per_minute": 3.871325735498121,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.103916,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 7.742361777550487,
+    "drawings_per_minute": 7.749573285760702,
+    "drawings_in_one_ar_drawing": 2.001787970126355,
+    "speedup_table1": 1.9447808493672805
+   },
+   "REST": {
+    "factor": 1.092884,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 8.843405920813664,
+    "drawings_per_minute": 6.78471626625045,
+    "drawings_in_one_ar_drawing": 1.752556289448339,
+    "speedup_table1": 1.7188717302069667
+   },
+   "EAGLE-3": {
+    "factor": 0.912205,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 4.320773678227041,
+    "drawings_per_minute": 13.88640194286224,
+    "drawings_in_one_ar_drawing": 3.586988771192999,
+    "speedup_table1": 3.4633261501466084
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.669026666666667,
+    "drawings_per_minute": 22.48010510698032,
+    "drawings_in_one_ar_drawing": 5.806823461236805,
+    "speedup_table1": 5.77696876234267
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.24954,
+    "drawings_per_minute": 26.67211963334726,
+    "drawings_in_one_ar_drawing": 6.88966040464569,
+    "speedup_table1": 6.793664239679306
+   },
+   "DARTree": {
+    "factor": 0.965786,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 2.7844060967573054,
+    "drawings_per_minute": 21.548580887635417,
+    "drawings_in_one_ar_drawing": 5.566201957651278,
+    "speedup_table1": 5.606875879936819
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.90146,
+    "drawings_per_minute": 31.554700072575812,
+    "drawings_in_one_ar_drawing": 8.15087704535813,
+    "speedup_table1": 7.935555994767198
+   }
+  }
+ },
+ "i2|greedy|MMSVG-2M-Icon\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 4.380013333333333,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 4.380013333333333,
+    "drawings_per_minute": 13.698588436564881,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.109134,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 3.270569079269899,
+    "drawings_per_minute": 18.345431191257397,
+    "drawings_in_one_ar_drawing": 1.339220553724277,
+    "speedup_table1": 1.3725451874853163
+   },
+   "REST": {
+    "factor": 1.100513,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 2.7351238879880824,
+    "drawings_per_minute": 21.93684909978068,
+    "drawings_in_one_ar_drawing": 1.6013948591393452,
+    "speedup_table1": 1.5934184470961106
+   },
+   "EAGLE-3": {
+    "factor": 0.91604,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 1.3920536366619267,
+    "drawings_per_minute": 43.10178747413564,
+    "drawings_in_one_ar_drawing": 3.146440063786896,
+    "speedup_table1": 3.0810459506370127
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 0.9462066666666666,
+    "drawings_per_minute": 63.41109412320071,
+    "drawings_in_one_ar_drawing": 4.629023962347902,
+    "speedup_table1": 4.63397510160548
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 0.7622366666666667,
+    "drawings_per_minute": 78.71570946906255,
+    "drawings_in_one_ar_drawing": 5.746264283621447,
+    "speedup_table1": 5.739274574119959
+   },
+   "DARTree": {
+    "factor": 1.010113,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 0.9475193140274804,
+    "drawings_per_minute": 63.3232474649692,
+    "drawings_in_one_ar_drawing": 4.622611136775522,
+    "speedup_table1": 4.41306090876201
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 0.6979,
+    "drawings_per_minute": 85.97220232124947,
+    "drawings_in_one_ar_drawing": 6.27598987438506,
+    "speedup_table1": 6.2916528666054345
+   }
+  }
+ },
+ "i2|greedy|MMSVG-2M-Illus.\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 15.012156666666666,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 15.012156666666666,
+    "drawings_per_minute": 3.9967608473754717,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.056867,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 8.512740296139075,
+    "drawings_per_minute": 7.048259187140103,
+    "drawings_in_one_ar_drawing": 1.7634928524103313,
+    "speedup_table1": 1.7596740513164644
+   },
+   "REST": {
+    "factor": 1.046618,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 9.827644262767546,
+    "drawings_per_minute": 6.10522709163503,
+    "drawings_in_one_ar_drawing": 1.5275437597533794,
+    "speedup_table1": 1.5303010430576063
+   },
+   "EAGLE-3": {
+    "factor": 0.871116,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 4.683913349486857,
+    "drawings_per_minute": 12.809801446598764,
+    "drawings_in_one_ar_drawing": 3.205045769753899,
+    "speedup_table1": 3.263498952494951
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.895243333333333,
+    "drawings_per_minute": 20.72364671708653,
+    "drawings_in_one_ar_drawing": 5.185110520359256,
+    "speedup_table1": 5.091367496989845
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.420933333333333,
+    "drawings_per_minute": 24.78382992785152,
+    "drawings_in_one_ar_drawing": 6.20097896128215,
+    "speedup_table1": 6.205288102213015
+   },
+   "DARTree": {
+    "factor": 0.972019,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 2.943852308076207,
+    "drawings_per_minute": 20.381457261084442,
+    "drawings_in_one_ar_drawing": 5.099493824972842,
+    "speedup_table1": 5.081642964539292
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.05879,
+    "drawings_per_minute": 29.143331762831565,
+    "drawings_in_one_ar_drawing": 7.291737703537838,
+    "speedup_table1": 7.225129210475983
+   }
+  }
+ },
+ "i2|greedy|SArena-Icon": {
+  "rows_common": 450,
+  "ar_seconds_mean": 8.087906666666667,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 8.087906666666667,
+    "drawings_per_minute": 7.418483233403617,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 4.789851111111111,
+    "drawings_per_minute": 12.526485397597606,
+    "drawings_in_one_ar_drawing": 1.6885507459522056,
+    "speedup_table1": 1.7266874115167883
+   },
+   "REST": {
+    "factor": 0.932013,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 4.9685223437946515,
+    "drawings_per_minute": 12.076024992608907,
+    "drawings_in_one_ar_drawing": 1.6278293840759146,
+    "speedup_table1": 1.631178713529849
+   },
+   "EAGLE-3": {
+    "factor": 0.923558,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 2.5320639959196094,
+    "drawings_per_minute": 23.696083549503204,
+    "drawings_in_one_ar_drawing": 3.1941952018986215,
+    "speedup_table1": 3.226058417720582
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.8099088888888888,
+    "drawings_per_minute": 33.15084000545147,
+    "drawings_in_one_ar_drawing": 4.468681664761517,
+    "speedup_table1": 4.5560598171397855
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.5028777777777778,
+    "drawings_per_minute": 39.9234062058717,
+    "drawings_in_one_ar_drawing": 5.381613053475185,
+    "speedup_table1": 5.588033140887197
+   },
+   "DARTree": {
+    "factor": 0.961317,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 1.7087539269394805,
+    "drawings_per_minute": 35.11330628364083,
+    "drawings_in_one_ar_drawing": 4.733219066336121,
+    "speedup_table1": 4.894616427123328
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.2054422222222223,
+    "drawings_per_minute": 49.77426449306755,
+    "drawings_in_one_ar_drawing": 6.70949342703185,
+    "speedup_table1": 6.718036170406414
+   }
+  }
+ },
+ "i2|greedy|SArena-Illus.": {
+  "rows_common": 450,
+  "ar_seconds_mean": 17.76682,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 17.76682,
+    "drawings_per_minute": 3.3770815486395427,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 7.7335111111111114,
+    "drawings_per_minute": 7.758442334658973,
+    "drawings_in_one_ar_drawing": 2.297380807337762,
+    "speedup_table1": 2.295607478649962
+   },
+   "REST": {
+    "factor": 0.915332,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 9.422195775921798,
+    "drawings_per_minute": 6.3679424018474124,
+    "drawings_in_one_ar_drawing": 1.8856347737331773,
+    "speedup_table1": 1.8697110234763596
+   },
+   "EAGLE-3": {
+    "factor": 0.928497,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 5.030008986229328,
+    "drawings_per_minute": 11.928408113039598,
+    "drawings_in_one_ar_drawing": 3.5321646638485698,
+    "speedup_table1": 3.533541438699669
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 3.313351111111111,
+    "drawings_per_minute": 18.10855474953857,
+    "drawings_in_one_ar_drawing": 5.3621905449199465,
+    "speedup_table1": 5.340746588293097
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.804613333333333,
+    "drawings_per_minute": 21.393323381476236,
+    "drawings_in_one_ar_drawing": 6.33485542867466,
+    "speedup_table1": 6.317483440430988
+   },
+   "DARTree": {
+    "factor": 0.958271,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 3.132509873635225,
+    "drawings_per_minute": 19.153969953930588,
+    "drawings_in_one_ar_drawing": 5.671752274281551,
+    "speedup_table1": 5.63598863866494
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.102586666666667,
+    "drawings_per_minute": 28.53627912285819,
+    "drawings_in_one_ar_drawing": 8.44998224409299,
+    "speedup_table1": 8.435238610568758
+   }
+  }
+ },
+ "i2|sample|MMSVG-Icon": {
+  "rows_common": 150,
+  "ar_seconds_mean": 11.081773333333333,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 11.081773333333333,
+    "drawings_per_minute": 5.414295906912613,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.041697,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 6.454069446186245,
+    "drawings_per_minute": 9.296460241135835,
+    "drawings_in_one_ar_drawing": 1.7170210865768776,
+    "speedup_table1": 1.596300644710703
+   },
+   "REST": {
+    "factor": 1.034126,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 6.647918188765539,
+    "drawings_per_minute": 9.025381825756416,
+    "drawings_in_one_ar_drawing": 1.6669539273303124,
+    "speedup_table1": 1.5152203054354185
+   },
+   "EAGLE-3": {
+    "factor": 0.858735,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 3.525329978411077,
+    "drawings_per_minute": 17.019683367922045,
+    "drawings_in_one_ar_drawing": 3.1434712214735896,
+    "speedup_table1": 2.952975304545157
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.4581133333333334,
+    "drawings_per_minute": 24.408964056444372,
+    "drawings_in_one_ar_drawing": 4.508243449583285,
+    "speedup_table1": 4.154459546041108
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.015746666666667,
+    "drawings_per_minute": 29.765645153822238,
+    "drawings_in_one_ar_drawing": 5.497602211918164,
+    "speedup_table1": 4.986564793402122
+   },
+   "DARTree": {
+    "factor": 0.965045,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 2.291601116865102,
+    "drawings_per_minute": 26.18256709617932,
+    "drawings_in_one_ar_drawing": 4.835821230744179,
+    "speedup_table1": 4.475787790718629
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 1.7303666666666666,
+    "drawings_per_minute": 34.67473175242242,
+    "drawings_in_one_ar_drawing": 6.404291961241356,
+    "speedup_table1": 5.9243650184077
+   }
+  }
+ },
+ "i2|sample|MMSVG-Illus.": {
+  "rows_common": 150,
+  "ar_seconds_mean": 14.45614,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 14.45614,
+    "drawings_per_minute": 4.150485537633144,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.04654,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 7.991956825883898,
+    "drawings_per_minute": 7.5075480645335055,
+    "drawings_in_one_ar_drawing": 1.8088360979604232,
+    "speedup_table1": 1.8312629858836778
+   },
+   "REST": {
+    "factor": 1.038406,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 9.22465801516219,
+    "drawings_per_minute": 6.504306165212897,
+    "drawings_in_one_ar_drawing": 1.5671193421196796,
+    "speedup_table1": 1.585348140726539
+   },
+   "EAGLE-3": {
+    "factor": 0.864081,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 4.626280477750636,
+    "drawings_per_minute": 12.96938226909512,
+    "drawings_in_one_ar_drawing": 3.1247867632592787,
+    "speedup_table1": 3.1844145404002795
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 3.1114733333333335,
+    "drawings_per_minute": 19.28346913895025,
+    "drawings_in_one_ar_drawing": 4.646075492639071,
+    "speedup_table1": 4.5364219118391915
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.717093333333333,
+    "drawings_per_minute": 22.082421411115803,
+    "drawings_in_one_ar_drawing": 5.320442924301459,
+    "speedup_table1": 5.304196201285701
+   },
+   "DARTree": {
+    "factor": 0.96608,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 3.1018321848686337,
+    "drawings_per_minute": 19.343406227033224,
+    "drawings_in_one_ar_drawing": 4.6605164749144015,
+    "speedup_table1": 4.70646893187929
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.25728,
+    "drawings_per_minute": 26.580663453359794,
+    "drawings_in_one_ar_drawing": 6.404229869577544,
+    "speedup_table1": 6.376230704135139
+   }
+  }
+ },
+ "i2|sample|MMSVG-2M-Icon\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 4.224753333333333,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 4.224753333333333,
+    "drawings_per_minute": 14.20201258298315,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.054292,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 3.2441103193590197,
+    "drawings_per_minute": 18.49505537526078,
+    "drawings_in_one_ar_drawing": 1.3022841141136259,
+    "speedup_table1": 1.3392717701890602
+   },
+   "REST": {
+    "factor": 1.043262,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 2.7358962983577926,
+    "drawings_per_minute": 21.93065579130857,
+    "drawings_in_one_ar_drawing": 1.5441935192752807,
+    "speedup_table1": 1.5543285879551973
+   },
+   "EAGLE-3": {
+    "factor": 0.867433,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 1.501511701775506,
+    "drawings_per_minute": 39.95972853827996,
+    "drawings_in_one_ar_drawing": 2.8136666056865565,
+    "speedup_table1": 2.847458021196254
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.03151,
+    "drawings_per_minute": 58.16715300869599,
+    "drawings_in_one_ar_drawing": 4.095697892733307,
+    "speedup_table1": 3.91240727570767
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 0.90433,
+    "drawings_per_minute": 66.34746165669613,
+    "drawings_in_one_ar_drawing": 4.671694329872207,
+    "speedup_table1": 4.887719256228271
+   },
+   "DARTree": {
+    "factor": 0.967022,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 1.0491645271601013,
+    "drawings_per_minute": 57.188361259610204,
+    "drawings_in_one_ar_drawing": 4.026778664323484,
+    "speedup_table1": 4.154340940136515
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 0.80206,
+    "drawings_per_minute": 74.80737101962447,
+    "drawings_in_one_ar_drawing": 5.267378167884364,
+    "speedup_table1": 5.424603301534871
+   }
+  }
+ },
+ "i2|sample|MMSVG-2M-Illus.\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 15.748426666666667,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 15.748426666666667,
+    "drawings_per_minute": 3.809904396799003,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.055159,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 8.889372963616344,
+    "drawings_per_minute": 6.749632425771345,
+    "drawings_in_one_ar_drawing": 1.7716015214035914,
+    "speedup_table1": 1.7586514670007165
+   },
+   "REST": {
+    "factor": 1.04619,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 9.905404267545924,
+    "drawings_per_minute": 6.057299467986789,
+    "drawings_in_one_ar_drawing": 1.5898822744938161,
+    "speedup_table1": 1.5734301605919017
+   },
+   "EAGLE-3": {
+    "factor": 0.86906,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 5.104101164001618,
+    "drawings_per_minute": 11.755252898036208,
+    "drawings_in_one_ar_drawing": 3.085445636880734,
+    "speedup_table1": 3.1335823524700617
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 3.5328333333333335,
+    "drawings_per_minute": 16.98353540595367,
+    "drawings_in_one_ar_drawing": 4.457732698023305,
+    "speedup_table1": 4.4423228531105075
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.9328366666666668,
+    "drawings_per_minute": 20.458009367495176,
+    "drawings_in_one_ar_drawing": 5.369691004499625,
+    "speedup_table1": 5.298023831957686
+   },
+   "DARTree": {
+    "factor": 0.968234,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 3.3881722522763256,
+    "drawings_per_minute": 17.708662822466987,
+    "drawings_in_one_ar_drawing": 4.648059630405795,
+    "speedup_table1": 4.645955829137142
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.5254866666666667,
+    "drawings_per_minute": 23.757797177045745,
+    "drawings_in_one_ar_drawing": 6.235798776737421,
+    "speedup_table1": 6.286073535049202
+   }
+  }
+ },
+ "i2|sample|SArena-Icon": {
+  "rows_common": 450,
+  "ar_seconds_mean": 8.73766,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 8.73766,
+    "drawings_per_minute": 6.866827045227212,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 5.0601,
+    "drawings_per_minute": 11.857473172466946,
+    "drawings_in_one_ar_drawing": 1.726776150668959,
+    "speedup_table1": 1.730354038781614
+   },
+   "REST": {
+    "factor": 0.95591,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 5.628206836538344,
+    "drawings_per_minute": 10.660589019308908,
+    "drawings_in_one_ar_drawing": 1.5524767041742447,
+    "speedup_table1": 1.5863959317696055
+   },
+   "EAGLE-3": {
+    "factor": 0.929209,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 2.8302508821862,
+    "drawings_per_minute": 21.199534068744317,
+    "drawings_in_one_ar_drawing": 3.087238680851741,
+    "speedup_table1": 3.1071998151352136
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.1039,
+    "drawings_per_minute": 28.51846570654499,
+    "drawings_in_one_ar_drawing": 4.153077617757498,
+    "speedup_table1": 4.1612653471828756
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.8064777777777778,
+    "drawings_per_minute": 33.21380464132166,
+    "drawings_in_one_ar_drawing": 4.836848871038177,
+    "speedup_table1": 4.9611589783085135
+   },
+   "DARTree": {
+    "factor": 0.97479,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 1.9079148062839604,
+    "drawings_per_minute": 31.4479450562375,
+    "drawings_in_one_ar_drawing": 4.579690860001403,
+    "speedup_table1": 4.582215357471231
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.4621777777777778,
+    "drawings_per_minute": 41.034681905225085,
+    "drawings_in_one_ar_drawing": 5.975784978266817,
+    "speedup_table1": 5.986868578326387
+   }
+  }
+ },
+ "i2|sample|SArena-Illus.": {
+  "rows_common": 450,
+  "ar_seconds_mean": 18.152282222222222,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 18.152282222222222,
+    "drawings_per_minute": 3.3053694992989557,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 8.711986666666666,
+    "drawings_per_minute": 6.887062881945029,
+    "drawings_in_one_ar_drawing": 2.083598485254288,
+    "speedup_table1": 2.0915009019791357
+   },
+   "REST": {
+    "factor": 0.957998,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 10.566583204334684,
+    "drawings_per_minute": 5.678278289181167,
+    "drawings_in_one_ar_drawing": 1.7178951673588951,
+    "speedup_table1": 1.7093235069208945
+   },
+   "EAGLE-3": {
+    "factor": 0.922568,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 5.653661453187974,
+    "drawings_per_minute": 10.612591591625518,
+    "drawings_in_one_ar_drawing": 3.210712628006149,
+    "speedup_table1": 3.208908229600626
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 3.9919333333333333,
+    "drawings_per_minute": 15.030311127440338,
+    "drawings_in_one_ar_drawing": 4.547240824551735,
+    "speedup_table1": 4.565736562967731
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 3.4521355555555555,
+    "drawings_per_minute": 17.380545762011405,
+    "drawings_in_one_ar_drawing": 5.258276197471324,
+    "speedup_table1": 5.287337549830138
+   },
+   "DARTree": {
+    "factor": 0.977494,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 3.838056971490653,
+    "drawings_per_minute": 15.632910205784869,
+    "drawings_in_one_ar_drawing": 4.729549966834417,
+    "speedup_table1": 4.7538168338320546
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.7170977777777776,
+    "drawings_per_minute": 22.08238529018708,
+    "drawings_in_one_ar_drawing": 6.6807614987887405,
+    "speedup_table1": 6.724312111599416
+   }
+  }
+ },
+ "i2s|greedy|MMSVG-Icon": {
+  "rows_common": 150,
+  "ar_seconds_mean": 19.879113333333333,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 19.879113333333333,
+    "drawings_per_minute": 3.0182432683952705,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 8.355246666666666,
+    "drawings_per_minute": 7.181116535957048,
+    "drawings_in_one_ar_drawing": 2.3792371579694036,
+    "speedup_table1": 2.0718070635678094
+   },
+   "REST": {
+    "factor": 0.958638,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 10.130993449956735,
+    "drawings_per_minute": 5.922420174919393,
+    "drawings_in_one_ar_drawing": 1.9622076977473741,
+    "speedup_table1": 1.6466007873178745
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 5.911433333333333,
+    "drawings_per_minute": 10.149822660042968,
+    "drawings_in_one_ar_drawing": 3.362824582870483,
+    "speedup_table1": 2.97451199201126
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 3.6354266666666666,
+    "drawings_per_minute": 16.504252595752174,
+    "drawings_in_one_ar_drawing": 5.468165130548638,
+    "speedup_table1": 4.957226400005722
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.978266666666667,
+    "drawings_per_minute": 20.14594618793929,
+    "drawings_in_one_ar_drawing": 6.6747257912879965,
+    "speedup_table1": 6.443859289451967
+   },
+   "DARTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 3.069453333333333,
+    "drawings_per_minute": 19.547454704203574,
+    "drawings_in_one_ar_drawing": 6.476434457384377,
+    "speedup_table1": 5.492670341093097
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 2.31468,
+    "drawings_per_minute": 25.921509668723104,
+    "drawings_in_one_ar_drawing": 8.588277141260706,
+    "speedup_table1": 7.381592636870374
+   }
+  }
+ },
+ "i2s|greedy|MMSVG-Illus.": {
+  "rows_common": 150,
+  "ar_seconds_mean": 26.98962,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 26.98962,
+    "drawings_per_minute": 2.2230768717751492,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 9.932526666666666,
+    "drawings_per_minute": 6.040759014658238,
+    "drawings_in_one_ar_drawing": 2.717296505286671,
+    "speedup_table1": 2.6397847131509216
+   },
+   "REST": {
+    "factor": 0.927078,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 17.077248698669937,
+    "drawings_per_minute": 3.513446519325628,
+    "drawings_in_one_ar_drawing": 1.580443107448689,
+    "speedup_table1": 1.6830620950027846
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 8.322413333333333,
+    "drawings_per_minute": 7.209447259689097,
+    "drawings_in_one_ar_drawing": 3.243004032484167,
+    "speedup_table1": 3.376482595618418
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 4.710753333333334,
+    "drawings_per_minute": 12.736816333693264,
+    "drawings_in_one_ar_drawing": 5.72936388093624,
+    "speedup_table1": 5.623331250788443
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 4.015506666666667,
+    "drawings_per_minute": 14.94207455763158,
+    "drawings_in_one_ar_drawing": 6.72134857203574,
+    "speedup_table1": 6.749229018493233
+   },
+   "DARTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 4.5907333333333336,
+    "drawings_per_minute": 13.069807292952468,
+    "drawings_in_one_ar_drawing": 5.87915220516693,
+    "speedup_table1": 6.110009983292467
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 3.0387333333333335,
+    "drawings_per_minute": 19.745069217437088,
+    "drawings_in_one_ar_drawing": 8.881865250872073,
+    "speedup_table1": 9.119619604780224
+   }
+  }
+ },
+ "i2s|greedy|MMSVG-2M-Icon\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 8.07788,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 8.07788,
+    "drawings_per_minute": 7.427691423987482,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 3.88327,
+    "drawings_per_minute": 15.450895765682015,
+    "drawings_in_one_ar_drawing": 2.080174698128124,
+    "speedup_table1": 1.8550822911690672
+   },
+   "REST": {
+    "factor": 0.929675,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 4.1976106506974356,
+    "drawings_per_minute": 14.293845950202876,
+    "drawings_in_one_ar_drawing": 1.9243995387370803,
+    "speedup_table1": 1.7527098355822186
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.607753333333333,
+    "drawings_per_minute": 23.00831111326992,
+    "drawings_in_one_ar_drawing": 3.0976396029276803,
+    "speedup_table1": 2.9839160652230667
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.63517,
+    "drawings_per_minute": 36.69343248714201,
+    "drawings_in_one_ar_drawing": 4.940085740320579,
+    "speedup_table1": 4.918484994764405
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.3046433333333334,
+    "drawings_per_minute": 45.98958080497096,
+    "drawings_in_one_ar_drawing": 6.191638583214314,
+    "speedup_table1": 6.316247095159197
+   },
+   "DARTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.5066,
+    "drawings_per_minute": 39.82477100756671,
+    "drawings_in_one_ar_drawing": 5.361662020443383,
+    "speedup_table1": 5.624851875801581
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 0.98793,
+    "drawings_per_minute": 60.73304788800826,
+    "drawings_in_one_ar_drawing": 8.176571214559736,
+    "speedup_table1": 7.0738891485157644
+   }
+  }
+ },
+ "i2s|greedy|MMSVG-2M-Illus.\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 30.92237,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 30.92237,
+    "drawings_per_minute": 1.9403428650520642,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 11.39335,
+    "drawings_per_minute": 5.266229862156433,
+    "drawings_in_one_ar_drawing": 2.7140718050441706,
+    "speedup_table1": 2.666098179949981
+   },
+   "REST": {
+    "factor": 0.947145,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 17.87381531498828,
+    "drawings_per_minute": 3.3568658365674366,
+    "drawings_in_one_ar_drawing": 1.7300374573116302,
+    "speedup_table1": 1.742532512572387
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 9.431983333333333,
+    "drawings_per_minute": 6.361334395911783,
+    "drawings_in_one_ar_drawing": 3.2784589314018437,
+    "speedup_table1": 3.3795900579482576
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 5.359553333333333,
+    "drawings_per_minute": 11.194962764309961,
+    "drawings_in_one_ar_drawing": 5.7695796789035905,
+    "speedup_table1": 5.731384945919205
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 4.63527,
+    "drawings_per_minute": 12.94422978596716,
+    "drawings_in_one_ar_drawing": 6.671104380111622,
+    "speedup_table1": 6.770526005157243
+   },
+   "DARTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 4.89673,
+    "drawings_per_minute": 12.253075011283041,
+    "drawings_in_one_ar_drawing": 6.314901985610806,
+    "speedup_table1": 6.189463525472839
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 3.40862,
+    "drawings_per_minute": 17.602431482535454,
+    "drawings_in_one_ar_drawing": 9.071814986710164,
+    "speedup_table1": 9.155428367682035
+   }
+  }
+ },
+ "i2s|greedy|SArena-Icon": {
+  "rows_common": 450,
+  "ar_seconds_mean": 10.944795555555556,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 10.944795555555556,
+    "drawings_per_minute": 5.482057631450605,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 5.583051111111111,
+    "drawings_per_minute": 10.746811878650185,
+    "drawings_in_one_ar_drawing": 1.9603609814307035,
+    "speedup_table1": 1.9819124865075382
+   },
+   "REST": {
+    "factor": 1.063411,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 6.8193509956930125,
+    "drawings_per_minute": 8.798491240280049,
+    "drawings_in_one_ar_drawing": 1.6049614637035263,
+    "speedup_table1": 1.5854958193161597
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 3.64432,
+    "drawings_per_minute": 16.46397681872064,
+    "drawings_in_one_ar_drawing": 3.0032476718717227,
+    "speedup_table1": 2.9959037430664903
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.39356,
+    "drawings_per_minute": 25.067263824596,
+    "drawings_in_one_ar_drawing": 4.572601294956281,
+    "speedup_table1": 4.438801350121188
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.8901422222222222,
+    "drawings_per_minute": 31.743643041558308,
+    "drawings_in_one_ar_drawing": 5.790461387973157,
+    "speedup_table1": 5.872066091191968
+   },
+   "DARTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.9696577777777777,
+    "drawings_per_minute": 30.462144580107545,
+    "drawings_in_one_ar_drawing": 5.556699076884197,
+    "speedup_table1": 5.116928990452507
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 1.6386733333333334,
+    "drawings_per_minute": 36.614985292980904,
+    "drawings_in_one_ar_drawing": 6.679058805022491,
+    "speedup_table1": 6.789795203656147
+   }
+  }
+ },
+ "i2s|greedy|SArena-Illus.": {
+  "rows_common": 450,
+  "ar_seconds_mean": 46.79496,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 46.79496,
+    "drawings_per_minute": 1.2821893639827877,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 22.41525111111111,
+    "drawings_per_minute": 2.676748955547428,
+    "drawings_in_one_ar_drawing": 2.0876393384147285,
+    "speedup_table1": 2.045974091659712
+   },
+   "REST": {
+    "factor": 1.050108,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 28.935633326449217,
+    "drawings_per_minute": 2.073567885073929,
+    "drawings_in_one_ar_drawing": 1.6172087706553184,
+    "speedup_table1": 1.5945903375268902
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 15.036786666666666,
+    "drawings_per_minute": 3.990214221300828,
+    "drawings_in_one_ar_drawing": 3.1120319146200566,
+    "speedup_table1": 3.090939134209442
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 11.613397777777777,
+    "drawings_per_minute": 5.16644664620116,
+    "drawings_in_one_ar_drawing": 4.029394402518624,
+    "speedup_table1": 3.987013802565175
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 8.321193333333333,
+    "drawings_per_minute": 7.21050426260977,
+    "drawings_in_one_ar_drawing": 5.6235876424775615,
+    "speedup_table1": 5.5258794813352425
+   },
+   "DARTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 9.135993333333333,
+    "drawings_per_minute": 6.567430361522447,
+    "drawings_in_one_ar_drawing": 5.122044017837141,
+    "speedup_table1": 5.01096175696328
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 7.257028888888889,
+    "drawings_per_minute": 8.267846376065137,
+    "drawings_in_one_ar_drawing": 6.448225674235217,
+    "speedup_table1": 6.392661284005621
+   }
+  }
+ },
+ "i2s|sample|MMSVG-Icon": {
+  "rows_common": 150,
+  "ar_seconds_mean": 17.398653333333332,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 17.398653333333332,
+    "drawings_per_minute": 3.4485427607807195,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 10.66964,
+    "drawings_per_minute": 5.62343246819949,
+    "drawings_in_one_ar_drawing": 1.6306692009602324,
+    "speedup_table1": 1.6524086142243073
+   },
+   "REST": {
+    "factor": 0.965723,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 11.849996980051282,
+    "drawings_per_minute": 5.063292429610421,
+    "drawings_in_one_ar_drawing": 1.4682411618013795,
+    "speedup_table1": 1.5019591579711224
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 6.78118,
+    "drawings_per_minute": 8.848017601656348,
+    "drawings_in_one_ar_drawing": 2.5657265156408373,
+    "speedup_table1": 2.563797605146851
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 4.862266666666667,
+    "drawings_per_minute": 12.339923766693174,
+    "drawings_in_one_ar_drawing": 3.57830092960759,
+    "speedup_table1": 3.583748091697554
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 3.4732333333333334,
+    "drawings_per_minute": 17.274969528873193,
+    "drawings_in_one_ar_drawing": 5.009353436279355,
+    "speedup_table1": 4.769052866822475
+   },
+   "DARTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 4.02454,
+    "drawings_per_minute": 14.908536130837312,
+    "drawings_in_one_ar_drawing": 4.323140864131884,
+    "speedup_table1": 4.24810519060885
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 3.1555466666666665,
+    "drawings_per_minute": 19.01413806799456,
+    "drawings_in_one_ar_drawing": 5.513673277952895,
+    "speedup_table1": 5.271425203574957
+   }
+  }
+ },
+ "i2s|sample|MMSVG-Illus.": {
+  "rows_common": 150,
+  "ar_seconds_mean": 23.6541,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 150,
+    "seconds_mean": 23.6541,
+    "drawings_per_minute": 2.536558144254062,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 13.324286666666668,
+    "drawings_per_minute": 4.50305532303668,
+    "drawings_in_one_ar_drawing": 1.7752620152773655,
+    "speedup_table1": 1.8618640705889844
+   },
+   "REST": {
+    "factor": 0.987445,
+    "rule": "own AR, rescaled",
+    "rows": 150,
+    "seconds_mean": 16.659599216442704,
+    "drawings_per_minute": 3.6015272168601244,
+    "drawings_in_one_ar_drawing": 1.419848082338851,
+    "speedup_table1": 1.4721460558146184
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 9.326333333333332,
+    "drawings_per_minute": 6.433396475928375,
+    "drawings_in_one_ar_drawing": 2.536270059687623,
+    "speedup_table1": 2.5004166171508393
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 6.8154,
+    "drawings_per_minute": 8.803591865481115,
+    "drawings_in_one_ar_drawing": 3.470684039087948,
+    "speedup_table1": 3.4852991958105437
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 4.813253333333333,
+    "drawings_per_minute": 12.465581145393,
+    "drawings_in_one_ar_drawing": 4.914368382854009,
+    "speedup_table1": 4.551215610977198
+   },
+   "DARTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 5.603186666666667,
+    "drawings_per_minute": 10.70819224298554,
+    "drawings_in_one_ar_drawing": 4.221544168913404,
+    "speedup_table1": 4.200572230743292
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 150,
+    "seconds_mean": 4.493306666666666,
+    "drawings_per_minute": 13.353194974450888,
+    "drawings_in_one_ar_drawing": 5.264296820752646,
+    "speedup_table1": 5.250955745745095
+   }
+  }
+ },
+ "i2s|sample|MMSVG-2M-Icon\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 7.063026666666667,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 7.063026666666667,
+    "drawings_per_minute": 8.494941734138528,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 4.29578,
+    "drawings_per_minute": 13.967195713002063,
+    "drawings_in_one_ar_drawing": 1.6441779296580987,
+    "speedup_table1": 1.54004490576464
+   },
+   "REST": {
+    "factor": 0.991637,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 4.495943062349013,
+    "drawings_per_minute": 13.345364736147609,
+    "drawings_in_one_ar_drawing": 1.570977783463392,
+    "speedup_table1": 1.563916592529598
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 2.6658766666666667,
+    "drawings_per_minute": 22.506667600276582,
+    "drawings_in_one_ar_drawing": 2.6494198906426027,
+    "speedup_table1": 2.4967838112393315
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.9089,
+    "drawings_per_minute": 31.43171460003143,
+    "drawings_in_one_ar_drawing": 3.7000506399846333,
+    "speedup_table1": 3.5978309649432854
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.4557066666666667,
+    "drawings_per_minute": 41.21709501914305,
+    "drawings_in_one_ar_drawing": 4.851957354045687,
+    "speedup_table1": 4.939106423576301
+   },
+   "DARTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.63547,
+    "drawings_per_minute": 36.68670168208527,
+    "drawings_in_one_ar_drawing": 4.318652538210219,
+    "speedup_table1": 4.317671912033451
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 1.2728466666666667,
+    "drawings_per_minute": 47.13843510870647,
+    "drawings_in_one_ar_drawing": 5.5490004032955005,
+    "speedup_table1": 5.713737109978881
+   }
+  }
+ },
+ "i2s|sample|MMSVG-2M-Illus.\u2020": {
+  "rows_common": 300,
+  "ar_seconds_mean": 29.403616666666668,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 300,
+    "seconds_mean": 29.403616666666668,
+    "drawings_per_minute": 2.04056530460822,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 15.502566666666667,
+    "drawings_per_minute": 3.8703268491024065,
+    "drawings_in_one_ar_drawing": 1.8966934507619169,
+    "speedup_table1": 1.8561579546482339
+   },
+   "REST": {
+    "factor": 0.979463,
+    "rule": "own AR, rescaled",
+    "rows": 300,
+    "seconds_mean": 19.43375953338247,
+    "drawings_per_minute": 3.087410847959428,
+    "drawings_in_one_ar_drawing": 1.5130174177651219,
+    "speedup_table1": 1.4942841196765402
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 11.311273333333334,
+    "drawings_per_minute": 5.304442588544408,
+    "drawings_in_one_ar_drawing": 2.599496608398347,
+    "speedup_table1": 2.605798905038712
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 7.909613333333334,
+    "drawings_per_minute": 7.585705833070643,
+    "drawings_in_one_ar_drawing": 3.7174531076951087,
+    "speedup_table1": 3.648801735209842
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 6.061886666666667,
+    "drawings_per_minute": 9.897908571918753,
+    "drawings_in_one_ar_drawing": 4.850571824173552,
+    "speedup_table1": 4.895872074743875
+   },
+   "DARTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 6.894863333333333,
+    "drawings_per_minute": 8.70213042656393,
+    "drawings_in_one_ar_drawing": 4.264568454100371,
+    "speedup_table1": 4.2950918720176805
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 300,
+    "seconds_mean": 5.128,
+    "drawings_per_minute": 11.700468018720748,
+    "drawings_in_one_ar_drawing": 5.733934607384295,
+    "speedup_table1": 5.839548210966919
+   }
+  }
+ },
+ "i2s|sample|SArena-Icon": {
+  "rows_common": 450,
+  "ar_seconds_mean": 10.398313333333334,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 10.398313333333334,
+    "drawings_per_minute": 5.770166571886337,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 6.028853333333333,
+    "drawings_per_minute": 9.952141258481436,
+    "drawings_in_one_ar_drawing": 1.7247580523880717,
+    "speedup_table1": 1.663241414587482
+   },
+   "REST": {
+    "factor": 1.045986,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 6.648315851375246,
+    "drawings_per_minute": 9.024841981234784,
+    "drawings_in_one_ar_drawing": 1.5640522450783347,
+    "speedup_table1": 1.487981712028585
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 4.1389933333333335,
+    "drawings_per_minute": 14.496278483173846,
+    "drawings_in_one_ar_drawing": 2.512280763921662,
+    "speedup_table1": 2.3878380562794606
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 3.0764533333333333,
+    "drawings_per_minute": 19.502977454558064,
+    "drawings_in_one_ar_drawing": 3.3799678417571752,
+    "speedup_table1": 3.3194835256521156
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.2550222222222223,
+    "drawings_per_minute": 26.60727659742205,
+    "drawings_in_one_ar_drawing": 4.611179983444361,
+    "speedup_table1": 4.3342998661962255
+   },
+   "DARTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.63996,
+    "drawings_per_minute": 22.72761708510735,
+    "drawings_in_one_ar_drawing": 3.9388147295161042,
+    "speedup_table1": 3.964492583204107
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 2.0601133333333332,
+    "drawings_per_minute": 29.12461126734128,
+    "drawings_in_one_ar_drawing": 5.047447227822418,
+    "speedup_table1": 4.810430181154021
+   }
+  }
+ },
+ "i2s|sample|SArena-Illus.": {
+  "rows_common": 450,
+  "ar_seconds_mean": 44.87952444444444,
+  "decoders": {
+   "original model": {
+    "factor": 1.0,
+    "rule": "reference",
+    "rows": 450,
+    "seconds_mean": 44.87952444444444,
+    "drawings_per_minute": 1.3369125618582016,
+    "drawings_in_one_ar_drawing": 1.0,
+    "speedup_table1": 1.0
+   },
+   "PLD": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 28.172428888888888,
+    "drawings_per_minute": 2.129741820864576,
+    "drawings_in_one_ar_drawing": 1.5930300018307892,
+    "speedup_table1": 1.596325424751793
+   },
+   "REST": {
+    "factor": 1.032791,
+    "rule": "own AR, rescaled",
+    "rows": 450,
+    "seconds_mean": 31.20844151950739,
+    "drawings_per_minute": 1.9225567531943542,
+    "drawings_in_one_ar_drawing": 1.4380572133469627,
+    "speedup_table1": 1.435114817972331
+   },
+   "EAGLE-3": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 18.815742222222223,
+    "drawings_per_minute": 3.188819196786048,
+    "drawings_in_one_ar_drawing": 2.3852114848512187,
+    "speedup_table1": 2.3871352281386047
+   },
+   "DFlash": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 16.384626666666666,
+    "drawings_per_minute": 3.661969309442103,
+    "drawings_in_one_ar_drawing": 2.7391240189652035,
+    "speedup_table1": 2.7145672290054503
+   },
+   "DDTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 11.16488,
+    "drawings_per_minute": 5.373994167424997,
+    "drawings_in_one_ar_drawing": 4.0197050433542,
+    "speedup_table1": 4.001059074854023
+   },
+   "DARTree": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 12.664797777777778,
+    "drawings_per_minute": 4.7375411003623515,
+    "drawings_in_one_ar_drawing": 3.543643193671206,
+    "speedup_table1": 3.5234236376331523
+   },
+   "Ours": {
+    "factor": 1.0,
+    "rule": "shared",
+    "rows": 450,
+    "seconds_mean": 10.521411111111112,
+    "drawings_per_minute": 5.70265712140429,
+    "drawings_in_one_ar_drawing": 4.265542327972483,
+    "speedup_table1": 4.250214746853543
+   }
+  }
+ }
+}

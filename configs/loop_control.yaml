@@ -1,0 +1,37 @@
+# Loop control, exactly as the paper's second operating point runs it (Section 3.2, Equation 1).
+#
+# The decoder is lossless up to the first firing. A firing is: the output so far ends with three
+# exact copies of one cycle. The first firing bans the token that would start the next copy; the
+# next firing stops the output. The same rule, with the same numbers, is applied to the original
+# model and to every speculative decoder of a block, so the arms of a comparison all decode the
+# same modified target.
+#
+# These are the values of --loop-* on eval/eval_text.py and eval/eval_image_<target>.py. The
+# code's own defaults are NOT these: the defaults are the stateless "ban" rule with two repeats
+# and periods from 4, which was an earlier variant. Always pass the flags below.
+
+rule:
+  repeats: 3                 # --loop-repeats 3      three exact copies of the cycle
+  min_period: 8              # --loop-min-period 8   shortest cycle considered
+  max_period: 128            # --loop-ban 128        longest cycle considered
+  action: esc_stop           # --loop-action esc_stop  escape first, stop at the next firing
+  escapes: 1                 # --loop-max-rb 1       one escape, then stop
+
+# One exception, measured and reported: the InternSVG-8B image-to-SVG block decodes up to 4,000
+# tokens, long enough for cycles above 128 tokens, and its runs use a 256-token ceiling instead.
+# Every decoder of that block uses 256, so the block's comparison stays internally consistent.
+per_block:
+  "InternSVG-8B, image-to-SVG":
+    max_period: 256          # --loop-ban 256
+
+# The best-of-N tier uses a different, simpler rule: a sample stops at its FIRST firing, because
+# the other samples remain to choose from (Section 3.2). Cycles of 8 to 128 tokens, three repeats.
+best_of_n:
+  repeats: 3
+  min_period: 8
+  max_period: 128
+  action: eos                # stop at the detected loop
+  escapes: 0
+
+# Other actions exist in the code and are not used by the paper: "ban" (stateless, never stops)
+# and "rollback" (drops the repeated copies). Appendix I.1 (Table 28) compares the three rules.

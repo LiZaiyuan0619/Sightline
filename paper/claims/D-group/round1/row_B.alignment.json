@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 2,
+    "exemptions": 1
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 495.0,
+      "height_pt": 150.0
+    },
+    "panels": [
+      {
+        "id": "a",
+        "bbox_pt": [
+          43.0,
+          31.0,
+          161.0,
+          124.0
+        ]
+      },
+      {
+        "id": "b",
+        "bbox_pt": [
+          208.0,
+          31.0,
+          326.0,
+          124.0
+        ]
+      },
+      {
+        "id": "c",
+        "bbox_pt": [
+          373.0,
+          31.0,
+          491.0,
+          73.0
+        ]
+      }
+    ],
+    "row_groups": [
+      {
+        "id": "row-1",
+        "panels": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    ],
+    "column_groups": [],
+    "boundary_groups": [],
+    "exemptions": [
+      {
+        "panels": [
+          "c"
+        ],
+        "checks": [
+          "row"
+        ],
+        "reason": "two stacked heatmaps fill this cell; together they span the row's top and bottom edges"
+      }
+    ]
+  },
+  "findings": []
+}

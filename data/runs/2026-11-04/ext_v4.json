@@ -1,0 +1,854 @@
+{
+ "SVGen-3B": {
+  "PLD|greedy|icon": {
+   "speedup": 1.3931961649565932,
+   "n": 300,
+   "tau": 1.6120410421894573
+  },
+  "PLD|greedy|illustration": {
+   "speedup": 1.4783736058486077,
+   "n": 300,
+   "tau": 1.6916529942575882
+  },
+  "PLD|sample|icon": {
+   "speedup": 1.4165699582731766,
+   "n": 300,
+   "tau": 1.6303225323654869
+  },
+  "PLD|sample|illustration": {
+   "speedup": 1.4555352167063969,
+   "n": 300,
+   "tau": 1.6754915134707569
+  },
+  "DFlash|greedy|icon": {
+   "speedup": 4.963522720838276,
+   "n": 300,
+   "tau": 7.337931807985644
+  },
+  "DFlash|greedy|illustration": {
+   "speedup": 5.339631725303766,
+   "n": 300,
+   "tau": 7.9482629976720585
+  },
+  "DFlash|sample|icon": {
+   "speedup": 4.322652352207466,
+   "n": 300,
+   "tau": 7.162389536938847
+  },
+  "DFlash|sample|illustration": {
+   "speedup": 4.517616018289603,
+   "n": 300,
+   "tau": 7.619561201580129
+  },
+  "EAGLE-3|greedy|icon": {
+   "speedup": 2.931576022659744,
+   "n": 300,
+   "tau": 8.872093805349415
+  },
+  "EAGLE-3|greedy|illustration": {
+   "speedup": 3.1582800745775716,
+   "n": 300,
+   "tau": 9.395599100546097
+  },
+  "EAGLE-3|sample|icon": {
+   "speedup": 2.876971896589496,
+   "n": 300,
+   "tau": 8.904831560283688
+  },
+  "EAGLE-3|sample|illustration": {
+   "speedup": 3.0006944717378827,
+   "n": 300,
+   "tau": 9.32715280579578
+  },
+  "DDTree|greedy|icon": {
+   "speedup": 6.611864658397606,
+   "n": 300,
+   "tau": 10.272103204414165
+  },
+  "DDTree|greedy|illustration": {
+   "speedup": 6.95376952931254,
+   "n": 300,
+   "tau": 10.897733623098416
+  },
+  "DDTree|sample|icon": {
+   "speedup": 5.653692237913903,
+   "n": 300,
+   "tau": 10.21179420928642
+  },
+  "DDTree|sample|illustration": {
+   "speedup": 5.880286919112208,
+   "n": 300,
+   "tau": 10.8581716099109
+  },
+  "DARTree|greedy|icon": {
+   "speedup": 5.471608698578346,
+   "n": 300,
+   "tau": 10.719888350062028
+  },
+  "DARTree|greedy|illustration": {
+   "speedup": 5.946451499988829,
+   "n": 300,
+   "tau": 11.419378634036276
+  },
+  "DARTree|sample|icon": {
+   "speedup": 5.135993139250917,
+   "n": 300,
+   "tau": 10.858725685234306
+  },
+  "DARTree|sample|illustration": {
+   "speedup": 5.431587895917175,
+   "n": 300,
+   "tau": 11.536254790308961
+  },
+  "Ours|greedy|icon": {
+   "speedup": 7.367324703175326,
+   "n": 300,
+   "tau": 11.996452564827024
+  },
+  "Ours|greedy|illustration": {
+   "speedup": 8.100468120077318,
+   "n": 300,
+   "tau": 13.162755903548362
+  },
+  "Ours|sample|icon": {
+   "speedup": 6.335210224880977,
+   "n": 300,
+   "tau": 11.673933790635251
+  },
+  "Ours|sample|illustration": {
+   "speedup": 6.862413505396009,
+   "n": 300,
+   "tau": 12.870164281928988
+  }
+ },
+ "SVGen-7B": {
+  "PLD|greedy|icon": {
+   "speedup": 1.4704042609308772,
+   "n": 300,
+   "tau": 1.6860934170706132
+  },
+  "PLD|greedy|illustration": {
+   "speedup": 1.490954066291203,
+   "n": 300,
+   "tau": 1.718482995785444
+  },
+  "PLD|sample|icon": {
+   "speedup": 1.4632095050651273,
+   "n": 300,
+   "tau": 1.6929990243184037
+  },
+  "PLD|sample|illustration": {
+   "speedup": 1.4859845562872784,
+   "n": 300,
+   "tau": 1.7217576262789573
+  },
+  "DFlash|greedy|icon": {
+   "speedup": 4.935076167532817,
+   "n": 300,
+   "tau": 7.512727938240383
+  },
+  "DFlash|greedy|illustration": {
+   "speedup": 4.735426761397146,
+   "n": 300,
+   "tau": 7.202866768759571
+  },
+  "DFlash|sample|icon": {
+   "speedup": 4.423017018488121,
+   "n": 300,
+   "tau": 7.419603524229075
+  },
+  "DFlash|sample|illustration": {
+   "speedup": 4.2653612851080505,
+   "n": 300,
+   "tau": 7.160153446355649
+  },
+  "EAGLE-3|greedy|icon": {
+   "speedup": 3.409123369701791,
+   "n": 300,
+   "tau": 10.115203744613837
+  },
+  "EAGLE-3|greedy|illustration": {
+   "speedup": 3.388726312355142,
+   "n": 300,
+   "tau": 9.955528061312164
+  },
+  "EAGLE-3|sample|icon": {
+   "speedup": 3.2836942139592384,
+   "n": 300,
+   "tau": 10.014392004441977
+  },
+  "EAGLE-3|sample|illustration": {
+   "speedup": 3.2814798378959673,
+   "n": 300,
+   "tau": 10.048402344488562
+  },
+  "DDTree|greedy|icon": {
+   "speedup": 6.9821710479962995,
+   "n": 300,
+   "tau": 11.343755511324986
+  },
+  "DDTree|greedy|illustration": {
+   "speedup": 6.724433501664894,
+   "n": 300,
+   "tau": 11.038999584105259
+  },
+  "DDTree|sample|icon": {
+   "speedup": 5.981407555366317,
+   "n": 300,
+   "tau": 11.204705882352942
+  },
+  "DDTree|sample|illustration": {
+   "speedup": 5.859379634507777,
+   "n": 300,
+   "tau": 11.070995457051074
+  },
+  "DARTree|greedy|icon": {
+   "speedup": 6.4371971726015875,
+   "n": 300,
+   "tau": 12.407977177593516
+  },
+  "DARTree|greedy|illustration": {
+   "speedup": 6.262280600844468,
+   "n": 300,
+   "tau": 12.156373522953048
+  },
+  "DARTree|sample|icon": {
+   "speedup": 5.6849369300098935,
+   "n": 300,
+   "tau": 12.288107068440455
+  },
+  "DARTree|sample|illustration": {
+   "speedup": 5.612454312624197,
+   "n": 300,
+   "tau": 12.089606554649809
+  },
+  "Ours|greedy|icon": {
+   "speedup": 8.252893652529059,
+   "n": 300,
+   "tau": 13.63030589068169
+  },
+  "Ours|greedy|illustration": {
+   "speedup": 7.806676230865991,
+   "n": 300,
+   "tau": 12.95424531448009
+  },
+  "Ours|sample|icon": {
+   "speedup": 7.069804370783748,
+   "n": 300,
+   "tau": 13.664557334589121
+  },
+  "Ours|sample|illustration": {
+   "speedup": 6.742464057116512,
+   "n": 300,
+   "tau": 13.010440036429063
+  }
+ },
+ "HiVG-3B": {
+  "PLD|greedy|icon": {
+   "speedup": 3.9261548927579084,
+   "n": 300,
+   "tau": 4.607153741097329
+  },
+  "PLD|greedy|illustration": {
+   "speedup": 5.136561888902588,
+   "n": 300,
+   "tau": 6.046585441798331
+  },
+  "PLD|sample|icon": {
+   "speedup": 2.7407549298797536,
+   "n": 300,
+   "tau": 3.321714356061272
+  },
+  "PLD|sample|illustration": {
+   "speedup": 2.995299565520841,
+   "n": 300,
+   "tau": 3.6849403956321027
+  },
+  "DFlash|greedy|icon": {
+   "speedup": 8.475258495631435,
+   "n": 300,
+   "tau": 12.09028935460824
+  },
+  "DFlash|greedy|illustration": {
+   "speedup": 9.654744692586558,
+   "n": 300,
+   "tau": 13.767201755399007
+  },
+  "DFlash|sample|icon": {
+   "speedup": 5.571491629300188,
+   "n": 300,
+   "tau": 8.899931637632305
+  },
+  "DFlash|sample|illustration": {
+   "speedup": 5.778283276647592,
+   "n": 300,
+   "tau": 9.216388126714891
+  },
+  "EAGLE-3|greedy|icon": {
+   "speedup": 4.45731852090866,
+   "n": 300,
+   "tau": 11.914127093096141
+  },
+  "EAGLE-3|greedy|illustration": {
+   "speedup": 4.763794316333056,
+   "n": 300,
+   "tau": 12.46752486834406
+  },
+  "EAGLE-3|sample|icon": {
+   "speedup": 3.77114255821173,
+   "n": 300,
+   "tau": 10.503347881482284
+  },
+  "EAGLE-3|sample|illustration": {
+   "speedup": 3.893700589825979,
+   "n": 300,
+   "tau": 10.902237839837248
+  },
+  "DDTree|greedy|icon": {
+   "speedup": 9.262191653001455,
+   "n": 300,
+   "tau": 13.85048426150121
+  },
+  "DDTree|greedy|illustration": {
+   "speedup": 9.904113266579504,
+   "n": 300,
+   "tau": 14.86944915677078
+  },
+  "DDTree|sample|icon": {
+   "speedup": 6.720640356085351,
+   "n": 300,
+   "tau": 11.719675821701935
+  },
+  "DDTree|sample|illustration": {
+   "speedup": 7.037136590607831,
+   "n": 300,
+   "tau": 12.27835852225021
+  },
+  "DARTree|greedy|icon": {
+   "speedup": 8.287247680630063,
+   "n": 300,
+   "tau": 15.166286760584432
+  },
+  "DARTree|greedy|illustration": {
+   "speedup": 8.699586104241408,
+   "n": 300,
+   "tau": 15.845834883844558
+  },
+  "DARTree|sample|icon": {
+   "speedup": 6.041055995333489,
+   "n": 300,
+   "tau": 12.506552536412196
+  },
+  "DARTree|sample|illustration": {
+   "speedup": 6.334037356192086,
+   "n": 300,
+   "tau": 13.261638839174463
+  },
+  "Ours|greedy|icon": {
+   "speedup": 13.78432458163572,
+   "n": 300,
+   "tau": 21.66074304735316
+  },
+  "Ours|greedy|illustration": {
+   "speedup": 15.971444595777617,
+   "n": 300,
+   "tau": 25.110630433869545
+  },
+  "Ours|sample|icon": {
+   "speedup": 7.989704869871489,
+   "n": 300,
+   "tau": 14.8699609375
+  },
+  "Ours|sample|illustration": {
+   "speedup": 8.831747989112037,
+   "n": 300,
+   "tau": 16.871959575196986
+  }
+ },
+ "OmniLottie-3B": {
+  "PLD|greedy|real": {
+   "speedup": 2.0699506048095357,
+   "n": 150,
+   "tau": 2.407203809645562
+  },
+  "PLD|greedy|synthetic": {
+   "speedup": 1.9216243707420342,
+   "n": 150,
+   "tau": 2.2383282978112566
+  },
+  "PLD|sample|real": {
+   "speedup": 2.0121027043838873,
+   "n": 150,
+   "tau": 2.399724170775993
+  },
+  "PLD|sample|synthetic": {
+   "speedup": 1.9376058275177523,
+   "n": 150,
+   "tau": 2.3162375836205147
+  },
+  "DFlash|greedy|real": {
+   "speedup": 5.6187720566837855,
+   "n": 150,
+   "tau": 8.135915323550638
+  },
+  "DFlash|greedy|synthetic": {
+   "speedup": 4.63652330763447,
+   "n": 150,
+   "tau": 6.640969162995595
+  },
+  "DFlash|sample|real": {
+   "speedup": 4.9483560516713885,
+   "n": 150,
+   "tau": 7.9678323985483335
+  },
+  "DFlash|sample|synthetic": {
+   "speedup": 4.734854095084579,
+   "n": 150,
+   "tau": 7.5905148029417315
+  },
+  "EAGLE-3|greedy|real": {
+   "speedup": 3.3314144301346857,
+   "n": 150,
+   "tau": 8.69808092829515
+  },
+  "EAGLE-3|greedy|synthetic": {
+   "speedup": 3.444299097801053,
+   "n": 150,
+   "tau": 8.621109757448222
+  },
+  "EAGLE-3|sample|real": {
+   "speedup": 3.1565105442577033,
+   "n": 150,
+   "tau": 8.508936663887177
+  },
+  "EAGLE-3|sample|synthetic": {
+   "speedup": 3.073465067269548,
+   "n": 150,
+   "tau": 8.454407721227765
+  },
+  "DDTree|greedy|real": {
+   "speedup": 6.998541978765259,
+   "n": 150,
+   "tau": 10.638762426832667
+  },
+  "DDTree|greedy|synthetic": {
+   "speedup": 6.709188789203045,
+   "n": 150,
+   "tau": 10.163601161665053
+  },
+  "DDTree|sample|real": {
+   "speedup": 6.152224227080724,
+   "n": 150,
+   "tau": 10.900619681834998
+  },
+  "DDTree|sample|synthetic": {
+   "speedup": 6.194305534654146,
+   "n": 150,
+   "tau": 10.98916140220488
+  },
+  "DARTree|greedy|real": {
+   "speedup": 6.52723586127255,
+   "n": 150,
+   "tau": 11.434347805182941
+  },
+  "DARTree|greedy|synthetic": {
+   "speedup": 6.185110571085705,
+   "n": 150,
+   "tau": 10.699437016185785
+  },
+  "DARTree|sample|real": {
+   "speedup": 5.727872314953463,
+   "n": 150,
+   "tau": 11.439064481284928
+  },
+  "DARTree|sample|synthetic": {
+   "speedup": 5.412695176403761,
+   "n": 150,
+   "tau": 10.938675496688742
+  },
+  "Ours|greedy|real": {
+   "speedup": 8.610854981519724,
+   "n": 150,
+   "tau": 13.46420406689929
+  },
+  "Ours|greedy|synthetic": {
+   "speedup": 7.727881991435839,
+   "n": 150,
+   "tau": 11.943163231926725
+  },
+  "Ours|sample|real": {
+   "speedup": 7.1845213110488215,
+   "n": 150,
+   "tau": 13.385242652471828
+  },
+  "Ours|sample|synthetic": {
+   "speedup": 6.833684033894476,
+   "n": 150,
+   "tau": 12.569852357517066
+  }
+ },
+ "StarVector-1B": {
+  "PLD|greedy|icon": {
+   "speedup": 1.9874457981034488,
+   "n": 300,
+   "tau": 2.481021065675341
+  },
+  "PLD|greedy|illustration": {
+   "speedup": 2.7826449971685627,
+   "n": 300,
+   "tau": 3.4839346228137082
+  },
+  "PLD|sample|icon": {
+   "speedup": 1.7528511024296964,
+   "n": 300,
+   "tau": 2.2832486715828972
+  },
+  "PLD|sample|illustration": {
+   "speedup": 2.3547441402350002,
+   "n": 300,
+   "tau": 3.1438147617316883
+  },
+  "DFlash|greedy|icon": {
+   "speedup": 4.140424216378667,
+   "n": 300,
+   "tau": 8.411582685153872
+  },
+  "DFlash|greedy|illustration": {
+   "speedup": 5.202559340423234,
+   "n": 300,
+   "tau": 10.589377032602075
+  },
+  "DFlash|sample|icon": {
+   "speedup": 3.374410583382162,
+   "n": 300,
+   "tau": 7.607180523165134
+  },
+  "DFlash|sample|illustration": {
+   "speedup": 4.049592510420257,
+   "n": 300,
+   "tau": 9.443543925080432
+  },
+  "EAGLE-3|greedy|icon": {
+   "speedup": 1.8961312359652664,
+   "n": 300,
+   "tau": 10.266164622049475
+  },
+  "EAGLE-3|greedy|illustration": {
+   "speedup": 2.111525107381371,
+   "n": 300,
+   "tau": 11.314266628731183
+  },
+  "EAGLE-3|sample|icon": {
+   "speedup": 1.8168809120350808,
+   "n": 300,
+   "tau": 9.84998844286925
+  },
+  "EAGLE-3|sample|illustration": {
+   "speedup": 1.9945978452271853,
+   "n": 300,
+   "tau": 10.575566837426202
+  },
+  "DDTree|greedy|icon": {
+   "speedup": 5.184061613016904,
+   "n": 300,
+   "tau": 11.532467826717419
+  },
+  "DDTree|greedy|illustration": {
+   "speedup": 5.87244684725458,
+   "n": 300,
+   "tau": 13.18895414822381
+  },
+  "DDTree|sample|icon": {
+   "speedup": 4.231495497788045,
+   "n": 300,
+   "tau": 10.892794755116565
+  },
+  "DDTree|sample|illustration": {
+   "speedup": 4.619959452973104,
+   "n": 300,
+   "tau": 12.281683188131229
+  },
+  "DARTree|greedy|icon": {
+   "speedup": 4.228452978138892,
+   "n": 300,
+   "tau": 12.981748693549646
+  },
+  "DARTree|greedy|illustration": {
+   "speedup": 4.72467446419834,
+   "n": 300,
+   "tau": 14.488021784297677
+  },
+  "DARTree|sample|icon": {
+   "speedup": 3.586077616546685,
+   "n": 300,
+   "tau": 12.152362976059635
+  },
+  "DARTree|sample|illustration": {
+   "speedup": 3.9219590988445616,
+   "n": 300,
+   "tau": 13.269268645908761
+  },
+  "Ours|greedy|icon": {
+   "speedup": 6.352867012514149,
+   "n": 300,
+   "tau": 14.599061279225701
+  },
+  "Ours|greedy|illustration": {
+   "speedup": 7.981955398640689,
+   "n": 300,
+   "tau": 18.458688603338537
+  },
+  "Ours|sample|icon": {
+   "speedup": 4.841765970465874,
+   "n": 300,
+   "tau": 13.515285001592188
+  },
+  "Ours|sample|illustration": {
+   "speedup": 5.626377468915294,
+   "n": 300,
+   "tau": 16.31753504363925
+  },
+  "PLD|sample-T1.0|icon": {
+   "speedup": 1.5087937326099443,
+   "n": 300,
+   "tau": 1.879060775761245
+  },
+  "PLD|sample-T1.0|illustration": {
+   "speedup": 1.5151204381675931,
+   "n": 300,
+   "tau": 1.885388258934979
+  },
+  "DFlash|sample-T1.0|icon": {
+   "speedup": 2.3021196385903617,
+   "n": 300,
+   "tau": 4.720314493244123
+  },
+  "DFlash|sample-T1.0|illustration": {
+   "speedup": 1.9918291503581784,
+   "n": 300,
+   "tau": 4.004861877492853
+  },
+  "EAGLE-3|sample-T1.0|icon": {
+   "speedup": 1.4332648059840798,
+   "n": 300,
+   "tau": 7.380593269765487
+  },
+  "EAGLE-3|sample-T1.0|illustration": {
+   "speedup": 1.3230952853698768,
+   "n": 300,
+   "tau": 6.8342824474522414
+  },
+  "DDTree|sample-T1.0|icon": {
+   "speedup": 3.443322656804883,
+   "n": 300,
+   "tau": 8.066896664050816
+  },
+  "DDTree|sample-T1.0|illustration": {
+   "speedup": 3.151213838153849,
+   "n": 300,
+   "tau": 7.255460425585102
+  },
+  "DARTree|sample-T1.0|icon": {
+   "speedup": 2.7167165115105743,
+   "n": 300,
+   "tau": 8.410447054366358
+  },
+  "DARTree|sample-T1.0|illustration": {
+   "speedup": 2.3908955902015583,
+   "n": 300,
+   "tau": 7.328100334659342
+  },
+  "Ours|sample-T1.0|icon": {
+   "speedup": 3.6510616593022465,
+   "n": 300,
+   "tau": 8.649668642069713
+  },
+  "Ours|sample-T1.0|illustration": {
+   "speedup": 3.2517512825154915,
+   "n": 300,
+   "tau": 7.616028123004983
+  }
+ },
+ "StarVector-8B": {
+  "PLD|greedy|icon": {
+   "speedup": 2.1406936547439934,
+   "n": 300,
+   "tau": 2.8602887417491325
+  },
+  "PLD|greedy|illustration": {
+   "speedup": 2.8641968360172525,
+   "n": 300,
+   "tau": 3.9590932754880694
+  },
+  "PLD|sample|icon": {
+   "speedup": 1.7168476346949637,
+   "n": 300,
+   "tau": 2.3037766517605043
+  },
+  "PLD|sample|illustration": {
+   "speedup": 1.9584653472563884,
+   "n": 300,
+   "tau": 2.7085602310231023
+  },
+  "DFlash|greedy|icon": {
+   "speedup": 4.689938453305134,
+   "n": 300,
+   "tau": 8.097959423526127
+  },
+  "DFlash|greedy|illustration": {
+   "speedup": 4.933900900732021,
+   "n": 300,
+   "tau": 8.792787857608356
+  },
+  "DFlash|sample|icon": {
+   "speedup": 2.4274449671109695,
+   "n": 300,
+   "tau": 4.3741436578783475
+  },
+  "DFlash|sample|illustration": {
+   "speedup": 2.46060752834899,
+   "n": 300,
+   "tau": 4.4940962978568555
+  },
+  "EAGLE-3|greedy|icon": {
+   "speedup": 2.8165758792214226,
+   "n": 300,
+   "tau": 9.704521538116515
+  },
+  "EAGLE-3|greedy|illustration": {
+   "speedup": 2.856374710203833,
+   "n": 300,
+   "tau": 9.825008817965134
+  },
+  "EAGLE-3|sample|icon": {
+   "speedup": 1.9492480551770248,
+   "n": 300,
+   "tau": 6.734849326019853
+  },
+  "EAGLE-3|sample|illustration": {
+   "speedup": 1.9106153075785817,
+   "n": 300,
+   "tau": 6.544689682250329
+  },
+  "DDTree|greedy|icon": {
+   "speedup": 5.7314475914229055,
+   "n": 300,
+   "tau": 10.829893417413002
+  },
+  "DDTree|greedy|illustration": {
+   "speedup": 5.158585827987009,
+   "n": 300,
+   "tau": 10.03832514850156
+  },
+  "DDTree|sample|icon": {
+   "speedup": 3.4094367566768673,
+   "n": 300,
+   "tau": 6.8023444002589475
+  },
+  "DDTree|sample|illustration": {
+   "speedup": 3.1964388833528363,
+   "n": 300,
+   "tau": 6.497970315424902
+  },
+  "DARTree|greedy|icon": {
+   "speedup": 4.746728674801618,
+   "n": 300,
+   "tau": 11.107544481244705
+  },
+  "DARTree|greedy|illustration": {
+   "speedup": 4.935574214362344,
+   "n": 300,
+   "tau": 11.703434364199355
+  },
+  "DARTree|sample|icon": {
+   "speedup": 2.8085597578734225,
+   "n": 300,
+   "tau": 6.700595159077835
+  },
+  "DARTree|sample|illustration": {
+   "speedup": 3.0478415847453633,
+   "n": 300,
+   "tau": 7.34661932938856
+  },
+  "Ours|greedy|icon": {
+   "speedup": 6.705476652437558,
+   "n": 300,
+   "tau": 12.79785724096882
+  },
+  "Ours|greedy|illustration": {
+   "speedup": 6.539134746509465,
+   "n": 300,
+   "tau": 12.910627984684
+  },
+  "Ours|sample|icon": {
+   "speedup": 3.352662999866177,
+   "n": 300,
+   "tau": 6.746674013108808
+  },
+  "Ours|sample|illustration": {
+   "speedup": 3.7071423877323793,
+   "n": 300,
+   "tau": 7.656550118826709
+  },
+  "PLD|sample-T1.0|icon": {
+   "speedup": 1.4726541154687678,
+   "n": 300,
+   "tau": 2.045639331258576
+  },
+  "PLD|sample-T1.0|illustration": {
+   "speedup": 1.5576465537437647,
+   "n": 300,
+   "tau": 2.196041251611391
+  },
+  "DFlash|sample-T1.0|icon": {
+   "speedup": 1.7237169935901773,
+   "n": 300,
+   "tau": 3.0516209823292053
+  },
+  "DFlash|sample-T1.0|illustration": {
+   "speedup": 1.1855075739866614,
+   "n": 300,
+   "tau": 2.1151392098254056
+  },
+  "EAGLE-3|sample-T1.0|icon": {
+   "speedup": 1.234315637503132,
+   "n": 300,
+   "tau": 4.174490860434526
+  },
+  "EAGLE-3|sample-T1.0|illustration": {
+   "speedup": 0.8450822739782919,
+   "n": 300,
+   "tau": 2.8645280490901137
+  },
+  "DDTree|sample-T1.0|icon": {
+   "speedup": 2.3326971119743036,
+   "n": 300,
+   "tau": 4.579728059332509
+  },
+  "DDTree|sample-T1.0|illustration": {
+   "speedup": 1.483954733682646,
+   "n": 300,
+   "tau": 2.9149845760757795
+  },
+  "DARTree|sample-T1.0|icon": {
+   "speedup": 1.8447832948172933,
+   "n": 300,
+   "tau": 4.385174810106125
+  },
+  "DARTree|sample-T1.0|illustration": {
+   "speedup": 1.254657417193284,
+   "n": 300,
+   "tau": 2.8972984424364676
+  },
+  "Ours|sample-T1.0|icon": {
+   "speedup": 2.335486931703755,
+   "n": 300,
+   "tau": 4.603388825838351
+  },
+  "Ours|sample-T1.0|illustration": {
+   "speedup": 1.4632411123070617,
+   "n": 300,
+   "tau": 2.8798134274578113
+  }
+ }
+}

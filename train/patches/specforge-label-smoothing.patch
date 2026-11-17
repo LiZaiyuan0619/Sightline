@@ -1,0 +1,79 @@
+diff --git a/specforge/algorithms/common/dflash_family_model.py b/specforge/algorithms/common/dflash_family_model.py
+index 1803ba0..b2718e8 100644
+--- a/specforge/algorithms/common/dflash_family_model.py
++++ b/specforge/algorithms/common/dflash_family_model.py
+@@ -34,6 +34,52 @@ _VALID_LOSS_TYPES = {
+     "dpace-continuation-value-only",
+ }
+ _DPACE_LOSS_TYPES = _VALID_LOSS_TYPES - {"dflash"}
++
++# --- SpeculativeDecoding project, batch 4 TR (2026-10-11): spatial label smoothing (SLS) on
++# coordinate targets, patch archived as patches/specforge-sls.patch. Off unless
++# SPECFORGE_SLS_EPS > 0; off, the objective is exactly the upstream one.
++_SLS_EPS = float(os.environ.get("SPECFORGE_SLS_EPS", "0") or 0)
++_SLS_SIGMA = float(os.environ.get("SPECFORGE_SLS_SIGMA", "1.0") or 1.0)
++_SLS_RADIUS = int(os.environ.get("SPECFORGE_SLS_RADIUS", "2") or 2)
++_SLS_COORD_START = int(os.environ.get("SPECFORGE_SLS_COORD_START", "152072"))
++_SLS_GRID = int(os.environ.get("SPECFORGE_SLS_GRID", "200"))
++if _SLS_EPS > 0:
++    print(f"[SLS] spatial label smoothing ON: eps={_SLS_EPS} sigma={_SLS_SIGMA} "
++          f"radius={_SLS_RADIUS} coord_start={_SLS_COORD_START} grid={_SLS_GRID} pid={os.getpid()}",
++          flush=True)
++
++
++def _spatial_label_smoothing(logits, target_ids, neg_log_q, eps, sigma=1.0, radius=2,
++                             coord_start=152072, grid=200):
++    """Per-position loss (1 - eps) * CE(y) + eps * sum_n w_n * (-log q(n)) where the target y
++    is a coordinate token (coord_start + row * grid + col); w is a Gaussian (sigma px) over the
++    (2r+1)^2 window around y, renormalised over the on-grid cells (the centre included).
++    Non-coordinate positions keep the hard CE. -log q(n) = lse - logit_n with
++    lse = CE(y) + logit_y, so no second full-vocabulary reduction is needed."""
++    flat_t = target_ids.reshape(-1)
++    is_coord = (flat_t >= coord_start) & (flat_t < coord_start + grid * grid)
++    idx = is_coord.nonzero(as_tuple=True)[0]
++    if idx.numel() == 0:
++        return neg_log_q
++    flat_logits = logits.reshape(-1, logits.shape[-1])
++    flat_nlq = neg_log_q.reshape(-1)
++    y = flat_t[idx]
++    cx = (y - coord_start) % grid
++    cy = torch.div(y - coord_start, grid, rounding_mode="floor")
++    d = torch.arange(-radius, radius + 1, device=logits.device)
++    dy, dx = torch.meshgrid(d, d, indexing="ij")
++    dy, dx = dy.reshape(-1), dx.reshape(-1)
++    nx = cx[:, None] + dx[None, :]
++    ny = cy[:, None] + dy[None, :]
++    ok = (nx >= 0) & (nx < grid) & (ny >= 0) & (ny < grid)
++    w = torch.exp(-(dx * dx + dy * dy).float() / (2.0 * sigma * sigma))[None, :] * ok.float()
++    w = w / w.sum(-1, keepdim=True)
++    nb_ids = coord_start + ny.clamp(0, grid - 1) * grid + nx.clamp(0, grid - 1)
++    hard = flat_nlq[idx].float()
++    lse = hard + flat_logits[idx, y].float()
++    soft = (w * (lse[:, None] - flat_logits[idx[:, None], nb_ids].float())).sum(-1)
++    mixed = (1.0 - eps) * hard + eps * soft
++    return flat_nlq.index_put((idx,), mixed.to(flat_nlq.dtype)).reshape_as(neg_log_q)
+ _VALID_LK_LOSS_TYPES = {None, "alpha", "lambda", "tv"}
+ 
+ 
+@@ -873,6 +919,12 @@ class OnlineDFlashModel(nn.Module):
+         ).reshape_as(target_ids)
+ 
+         target_probability = torch.exp(-neg_log_q)
++        neg_log_q_loss = neg_log_q
++        if _SLS_EPS > 0 and self.loss_type == "dflash":
++            # metrics and D-PACE weights stay on the hard label; only the loss is smoothed
++            neg_log_q_loss = _spatial_label_smoothing(
++                objective_logits, target_ids, neg_log_q, _SLS_EPS, _SLS_SIGMA,
++                _SLS_RADIUS, _SLS_COORD_START, _SLS_GRID)
+         loss_weights = weight_mask
+         if self.loss_type == "dflash":
+             if self.loss_decay_gamma is not None and self.loss_decay_gamma > 0:
+@@ -911,7 +963,7 @@ class OnlineDFlashModel(nn.Module):
+         else:  # defensive: __init__ validates the configured loss type.
+             raise ValueError(f"unknown loss_type {self.loss_type!r}")
+ 
+-        ce_loss_num = (neg_log_q * loss_weights).sum()
++        ce_loss_num = (neg_log_q_loss * loss_weights).sum()
+         if self.lk_loss_type in {"lambda", "tv"}:
+             tv_loss_num = ((1.0 - target_probability) * loss_weights).sum()
+         else:

@@ -1,0 +1,28 @@
+# Add the DFlash capture hook to sglang 0.5.18's qwen2.py (B3, 2026-10-09).
+# Upstream ships spec-capture hooks for qwen3/llama/gpt_oss/... but not qwen2,
+# while qwen2.py already carries the full capture machinery (layers_to_capture +
+# capture_aux_hidden_states + the EAGLE3 setter). The added setter is
+# byte-identical to qwen3.py's. Re-apply whenever the specforge environment is recreated:
+#   cd <the specforge environment>/lib/python3.11/site-packages && patch -p0 < <this file>
+--- /tmp/qwen2.py.orig
++++ sglang/srt/models/qwen2.py
+@@ -765,5 +765,19 @@
+         else:
+             self.model.layers_to_capture = [val + 1 for val in layer_ids]
+ 
++    def set_dflash_layers_to_capture(self, layer_ids: List[int]):
++        if not self.pp_group.is_last_rank:
++            return
++
++        if layer_ids is None:
++            raise ValueError(
++                "DFLASH requires explicit layer_ids for aux hidden capture."
++            )
++
++        self.capture_aux_hidden_states = True
++        # SGLang captures "before layer i". To capture the hidden state after target
++        # layer `k` (HF-style), we capture before layer `k + 1`.
++        self.model.layers_to_capture = [val + 1 for val in layer_ids]
++
+ 
+ EntryClass = Qwen2ForCausalLM

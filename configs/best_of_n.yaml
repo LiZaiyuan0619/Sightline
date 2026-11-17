@@ -1,0 +1,29 @@
+# The best-of-N tier (Section 3.2, Figure 6h-k, and the best-of-8 groups of Appendix F.2).
+#
+# N samples are drawn in one batch, rendered, and the highest-scoring one that renders is kept.
+# The time reported includes drawing, rendering and scoring all N samples.
+
+samples: 8                     # --n 8, the paper's N
+stop_rule: first_firing        # a sample stops at its first loop firing; see configs/loop_control.yaml
+batched: true                  # one batch, shared prompt prefix: sightline/batch_spec.py
+
+scorer:
+  text-to-SVG:  clip           # CLIP score of the rendering against the prompt
+  image-to-SVG: dinov2         # DINOv2 similarity of the rendering to the input image
+  invalid: "samples that do not render are excluded before the choice"
+
+arms:                          # --methods, the rows of the best-of-8 groups (Appendix F.2)
+  ar8:   "the original model, N samples, official decoding, no loop control"
+  ar8s:  "the original model, N samples, each stopped at its first firing"
+  sd8:   "ours, N samples under lossless speculative decoding, each stopped at its first firing"
+
+entries:
+  text-to-SVG:        "eval/best_of_n.py --task t2    (OmniSVG) / --task isvg (InternSVG)"
+  image-to-SVG:       "eval/best_of_n.py --task i2    (OmniSVG) / --task i2s  (InternSVG)"
+  rendering_scorer:   "eval/score_server.py, in the svgmetrics environment"
+
+note: >
+  The best-of-8 groups of Appendix Tables 18 and 19 compare ours at N = 8 with the original
+  model at N = 8, the original model with and without loop control. Without it, the original
+  model uses official decoding, the authors' own pipeline. Appendix J gives both sides the same
+  loop control and the same rendered selection.

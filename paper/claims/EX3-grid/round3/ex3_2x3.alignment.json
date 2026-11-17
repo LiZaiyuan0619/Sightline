@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 1,
+    "exemptions": 0
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 495.0,
+      "height_pt": 340.0
+    },
+    "panels": [
+      {
+        "id": "a",
+        "bbox_pt": [
+          56.0,
+          195.99999999999997,
+          157.00000000000003,
+          256.0
+        ]
+      },
+      {
+        "id": "b",
+        "bbox_pt": [
+          221.0,
+          204.0,
+          322.0,
+          298.0
+        ]
+      },
+      {
+        "id": "c",
+        "bbox_pt": [
+          370.0,
+          195.99999999999997,
+          489.0,
+          289.08
+        ]
+      },
+      {
+        "id": "d",
+        "bbox_pt": [
+          46.0,
+          26.000000000000004,
+          159.0,
+          130.0
+        ]
+      },
+      {
+        "id": "e",
+        "bbox_pt": [
+          235.0,
+          26.000000000000004,
+          324.0,
+          130.0
+        ]
+      },
+      {
+        "id": "f",
+        "bbox_pt": [
+          392.0,
+          87.0,
+          492.0,
+          135.0
+        ]
+      }
+    ],
+    "row_groups": [
+      {
+        "id": "row-1",
+        "panels": [
+          "d",
+          "e"
+        ]
+      }
+    ],
+    "column_groups": [],
+    "boundary_groups": [],
+    "exemptions": []
+  },
+  "findings": []
+}

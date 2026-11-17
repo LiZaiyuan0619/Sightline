@@ -1,0 +1,223 @@
+{
+ "block": "OmniSVG-8B, image-to-SVG",
+ "gidx": 35,
+ "grid": [
+  0.05,
+  0.1,
+  0.2,
+  0.4,
+  0.8,
+  1.6,
+  3.2,
+  6.4
+ ],
+ "decoders": {
+  "original model": {
+   "t_total": 9.832,
+   "n_tokens": 739,
+   "frames": [
+    {
+     "t": 0.05,
+     "n": 3,
+     "finished": false,
+     "png": null,
+     "valid": false
+    },
+    {
+     "t": 0.1,
+     "n": 7,
+     "finished": false,
+     "png": "ar-0.100.png",
+     "valid": false
+    },
+    {
+     "t": 0.2,
+     "n": 15,
+     "finished": false,
+     "png": "ar-0.200.png",
+     "valid": true
+    },
+    {
+     "t": 0.4,
+     "n": 30,
+     "finished": false,
+     "png": "ar-0.400.png",
+     "valid": true
+    },
+    {
+     "t": 0.8,
+     "n": 60,
+     "finished": false,
+     "png": "ar-0.800.png",
+     "valid": true
+    },
+    {
+     "t": 1.6,
+     "n": 120,
+     "finished": false,
+     "png": "ar-1.600.png",
+     "valid": true
+    },
+    {
+     "t": 3.2,
+     "n": 240,
+     "finished": false,
+     "png": "ar-3.200.png",
+     "valid": true
+    },
+    {
+     "t": 6.4,
+     "n": 481,
+     "finished": false,
+     "png": "ar-6.400.png",
+     "valid": true
+    },
+    {
+     "t": 9.832,
+     "n": 739,
+     "finished": true,
+     "png": "ar-9.832.png",
+     "valid": true
+    }
+   ]
+  },
+  "DDTree": {
+   "t_total": 1.807,
+   "n_tokens": 739,
+   "frames": [
+    {
+     "t": 0.05,
+     "n": 14,
+     "finished": false,
+     "png": "ddtree-0.050.png",
+     "valid": false
+    },
+    {
+     "t": 0.1,
+     "n": 38,
+     "finished": false,
+     "png": "ddtree-0.100.png",
+     "valid": true
+    },
+    {
+     "t": 0.2,
+     "n": 63,
+     "finished": false,
+     "png": "ddtree-0.200.png",
+     "valid": true
+    },
+    {
+     "t": 0.4,
+     "n": 116,
+     "finished": false,
+     "png": "ddtree-0.400.png",
+     "valid": true
+    },
+    {
+     "t": 0.8,
+     "n": 224,
+     "finished": false,
+     "png": "ddtree-0.800.png",
+     "valid": true
+    },
+    {
+     "t": 1.6,
+     "n": 662,
+     "finished": false,
+     "png": "ddtree-1.600.png",
+     "valid": true
+    },
+    {
+     "t": 3.2,
+     "n": 739,
+     "finished": true,
+     "png": "ddtree-3.200.png",
+     "valid": true
+    },
+    {
+     "t": 6.4,
+     "n": 739,
+     "finished": true,
+     "png": "ddtree-6.400.png",
+     "valid": true
+    },
+    {
+     "t": 1.807,
+     "n": 739,
+     "finished": true,
+     "png": "ddtree-1.807.png",
+     "valid": true
+    }
+   ]
+  },
+  "Ours": {
+   "t_total": 1.723,
+   "n_tokens": 739,
+   "frames": [
+    {
+     "t": 0.05,
+     "n": 12,
+     "finished": false,
+     "png": "ours-0.050.png",
+     "valid": false
+    },
+    {
+     "t": 0.1,
+     "n": 22,
+     "finished": false,
+     "png": "ours-0.100.png",
+     "valid": true
+    },
+    {
+     "t": 0.2,
+     "n": 57,
+     "finished": false,
+     "png": "ours-0.200.png",
+     "valid": true
+    },
+    {
+     "t": 0.4,
+     "n": 112,
+     "finished": false,
+     "png": "ours-0.400.png",
+     "valid": true
+    },
+    {
+     "t": 0.8,
+     "n": 220,
+     "finished": false,
+     "png": "ours-0.800.png",
+     "valid": true
+    },
+    {
+     "t": 1.6,
+     "n": 690,
+     "finished": false,
+     "png": "ours-1.600.png",
+     "valid": true
+    },
+    {
+     "t": 3.2,
+     "n": 739,
+     "finished": true,
+     "png": "ours-3.200.png",
+     "valid": true
+    },
+    {
+     "t": 6.4,
+     "n": 739,
+     "finished": true,
+     "png": "ours-6.400.png",
+     "valid": true
+    },
+    {
+     "t": 1.723,
+     "n": 739,
+     "finished": true,
+     "png": "ours-1.723.png",
+     "valid": true
+    }
+   ]
+  }
+ }
+}

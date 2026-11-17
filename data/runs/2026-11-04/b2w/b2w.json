@@ -1,0 +1,709 @@
+{
+ "meta": {
+  "published": "r1028/b2-sglang-sweep-v2",
+  "shards": "r1104/b2w",
+  "note": "new arms are node-normalised onto the published curve by their own in-shard b16 re-run"
+ },
+ "cells": {
+  "greedy": {
+   "b16": {
+    "1": {
+     "tok_per_s": 1560.5,
+     "latency_s": 1.393,
+     "speedup": 7.221193891716798,
+     "accept": 9.945,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "2": {
+     "tok_per_s": 3034.2,
+     "latency_s": 1.421,
+     "speedup": 7.291997116077865,
+     "accept": 10.222,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "4": {
+     "tok_per_s": 5307.7,
+     "latency_s": 1.611,
+     "speedup": 6.542216196228276,
+     "accept": 9.483,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "8": {
+     "tok_per_s": 9694.9,
+     "latency_s": 1.971,
+     "speedup": 6.185338777593467,
+     "accept": 9.562,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "16": {
+     "tok_per_s": 13120.4,
+     "latency_s": 2.813,
+     "speedup": 4.545750614974188,
+     "accept": 9.63,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "32": {
+     "tok_per_s": 15220.9,
+     "latency_s": 4.706,
+     "speedup": 2.928842194385114,
+     "accept": 9.919,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "64": {
+     "tok_per_s": 16565.3,
+     "latency_s": 8.302,
+     "speedup": 1.887116802041444,
+     "accept": 10.091,
+     "shard": "published",
+     "factor": 1.0
+    }
+   },
+   "b32": {
+    "1": {
+     "tok_per_s": 2006.9,
+     "latency_s": 1.042,
+     "speedup": 9.28690421101342,
+     "accept": 13.108,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "2": {
+     "tok_per_s": 3616.7,
+     "latency_s": 1.186,
+     "speedup": 8.691900985340062,
+     "accept": 12.402,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "4": {
+     "tok_per_s": 5779.0,
+     "latency_s": 1.472,
+     "speedup": 7.123135708122766,
+     "accept": 11.562,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "8": {
+     "tok_per_s": 8008.4,
+     "latency_s": 2.29,
+     "speedup": 5.109353068776317,
+     "accept": 11.366,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "16": {
+     "tok_per_s": 9409.5,
+     "latency_s": 3.977,
+     "speedup": 3.260056127221702,
+     "accept": 11.972,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "32": {
+     "tok_per_s": 10739.8,
+     "latency_s": 6.593,
+     "speedup": 2.066578152360061,
+     "accept": 12.644,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "64": {
+     "tok_per_s": 11077.8,
+     "latency_s": 12.311,
+     "speedup": 1.2619815221972863,
+     "accept": 12.848,
+     "shard": "published",
+     "factor": 1.0
+    }
+   },
+   "b32w16": {
+    "1": {
+     "tok_per_s": 1520.2,
+     "latency_s": 1.43,
+     "speedup": 7.034706154558076,
+     "accept": 9.694,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "2": {
+     "tok_per_s": 2947.0,
+     "latency_s": 1.451,
+     "speedup": 7.082432107666426,
+     "accept": 9.733,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "4": {
+     "tok_per_s": 5178.8,
+     "latency_s": 1.641,
+     "speedup": 6.383335387649452,
+     "accept": 9.025,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "8": {
+     "tok_per_s": 8807.2,
+     "latency_s": 2.169,
+     "speedup": 5.618986857215772,
+     "accept": 8.733,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "16": {
+     "tok_per_s": 12275.5,
+     "latency_s": 2.943,
+     "speedup": 4.2530229012923115,
+     "accept": 8.996,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "32": {
+     "tok_per_s": 14391.8,
+     "latency_s": 4.932,
+     "speedup": 2.769304777848333,
+     "accept": 9.446,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "64": {
+     "tok_per_s": 15601.9,
+     "latency_s": 8.705,
+     "speedup": 1.7773664004739065,
+     "accept": 9.535,
+     "shard": "published",
+     "factor": 1.0
+    }
+   },
+   "b32w24": {
+    "1": {
+     "tok_per_s": 1796.768271405493,
+     "latency_s": 1.220744953540532,
+     "speedup": 8.314522310992563,
+     "accept": 11.524,
+     "shard": "g-b32w24",
+     "factor": 1.0084006462035542
+    },
+    "2": {
+     "tok_per_s": 3758.1081097099204,
+     "latency_s": 1.1250742864676029,
+     "speedup": 9.031742633285075,
+     "accept": 12.766,
+     "shard": "g-b32w24",
+     "factor": 0.9990451417470613
+    },
+    "4": {
+     "tok_per_s": 6305.0983572935775,
+     "latency_s": 1.34995981310172,
+     "speedup": 7.771599109199529,
+     "accept": 11.266,
+     "shard": "g-b32w24",
+     "factor": 1.0466978248437162
+    },
+    "8": {
+     "tok_per_s": 8360.037276797306,
+     "latency_s": 2.2352114926404605,
+     "speedup": 5.333697382159822,
+     "accept": 10.542,
+     "shard": "g-b32w24",
+     "factor": 1.0070635407036532
+    },
+    "16": {
+     "tok_per_s": 10340.871598195745,
+     "latency_s": 3.5420859501234725,
+     "speedup": 3.582743165365951,
+     "accept": 10.275,
+     "shard": "g-b32w24",
+     "factor": 0.9979994979728752
+    },
+    "32": {
+     "tok_per_s": 12169.004808957043,
+     "latency_s": 5.787387473802469,
+     "speedup": 2.3415891798874413,
+     "accept": 11.328,
+     "shard": "g-b32w24",
+     "factor": 0.976606461133746
+    },
+    "64": {
+     "tok_per_s": 13002.675763359926,
+     "latency_s": 10.444539791008916,
+     "speedup": 1.4812631165468524,
+     "accept": 11.438,
+     "shard": "g-b32w24",
+     "factor": 0.9974589793767875
+    }
+   },
+   "b32w8": {
+    "1": {
+     "tok_per_s": 1004.4862170651963,
+     "latency_s": 2.07220294777315,
+     "speedup": 4.648247186789432,
+     "accept": 6.287,
+     "shard": "g-b32w8",
+     "factor": 1.0003846400410281
+    },
+    "2": {
+     "tok_per_s": 1923.519006458023,
+     "latency_s": 2.1584916946806407,
+     "speedup": 4.622732531742424,
+     "accept": 6.237,
+     "shard": "g-b32w8",
+     "factor": 1.0048683556880278
+    },
+    "4": {
+     "tok_per_s": 3676.728027013989,
+     "latency_s": 2.3213600617970123,
+     "speedup": 4.531896988800677,
+     "accept": 6.3,
+     "shard": "g-b32w8",
+     "factor": 0.9847675238413298
+    },
+    "8": {
+     "tok_per_s": 7229.489437787045,
+     "latency_s": 2.580143322777955,
+     "speedup": 4.612408726417663,
+     "accept": 6.098,
+     "shard": "g-b32w8",
+     "factor": 1.0235865491210474
+    },
+    "16": {
+     "tok_per_s": 12300.138425431378,
+     "latency_s": 3.022408554617238,
+     "speedup": 4.261559236888535,
+     "accept": 6.204,
+     "shard": "g-b32w8",
+     "factor": 1.0230251615971804
+    },
+    "32": {
+     "tok_per_s": 16344.814628248108,
+     "latency_s": 4.321494602815864,
+     "speedup": 3.1451085509146046,
+     "accept": 6.305,
+     "shard": "g-b32w8",
+     "factor": 1.008447400850703
+    },
+    "64": {
+     "tok_per_s": 18570.827607702828,
+     "latency_s": 7.2799260623109765,
+     "speedup": 2.115586243914153,
+     "accept": 6.327,
+     "shard": "g-b32w8",
+     "factor": 1.0114113710740975
+    }
+   },
+   "b16w8": {
+    "1": {
+     "tok_per_s": 1009.1555295900966,
+     "latency_s": 2.062703556552387,
+     "speedup": 4.669854371078652,
+     "accept": 6.323,
+     "shard": "g-b16w8",
+     "factor": 0.9855996968357229
+    },
+    "2": {
+     "tok_per_s": 1990.590439520997,
+     "latency_s": 2.1312098741019048,
+     "speedup": 4.783923190389322,
+     "accept": 6.417,
+     "shard": "g-b16w8",
+     "factor": 0.99004796554312
+    },
+    "4": {
+     "tok_per_s": 3935.492465834584,
+     "latency_s": 2.097868455263108,
+     "speedup": 4.850847363286804,
+     "accept": 6.22,
+     "shard": "g-b16w8",
+     "factor": 1.0482068093846275
+    },
+    "8": {
+     "tok_per_s": 7303.331230581912,
+     "latency_s": 2.5658355630279845,
+     "speedup": 4.659519733687579,
+     "accept": 6.296,
+     "shard": "g-b16w8",
+     "factor": 1.0176022336048365
+    },
+    "16": {
+     "tok_per_s": 12059.85752568448,
+     "latency_s": 3.046180307002835,
+     "speedup": 4.17831047558621,
+     "accept": 6.275,
+     "shard": "g-b16w8",
+     "factor": 0.9904206894989923
+    },
+    "32": {
+     "tok_per_s": 16448.92278748171,
+     "latency_s": 4.310878962479223,
+     "speedup": 3.1651412933636807,
+     "accept": 6.441,
+     "shard": "g-b16w8",
+     "factor": 0.9854138882055132
+    },
+    "64": {
+     "tok_per_s": 19035.254904749567,
+     "latency_s": 7.332284474171914,
+     "speedup": 2.1684937406442812,
+     "accept": 6.429,
+     "shard": "g-b16w8",
+     "factor": 0.998324604805612
+    }
+   }
+  },
+  "sample": {
+   "b16": {
+    "1": {
+     "tok_per_s": 939.0,
+     "latency_s": 2.036,
+     "speedup": 4.454459203036053,
+     "accept": 6.387,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "2": {
+     "tok_per_s": 1803.4,
+     "latency_s": 2.201,
+     "speedup": 4.4561403508771935,
+     "accept": 6.453,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "4": {
+     "tok_per_s": 3392.5,
+     "latency_s": 2.226,
+     "speedup": 4.330482512126627,
+     "accept": 6.755,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "8": {
+     "tok_per_s": 4850.1,
+     "latency_s": 3.457,
+     "speedup": 3.222871951624693,
+     "accept": 5.462,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "16": {
+     "tok_per_s": 6637.0,
+     "latency_s": 5.139,
+     "speedup": 2.3910224079544635,
+     "accept": 5.518,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "32": {
+     "tok_per_s": 8128.8,
+     "latency_s": 7.924,
+     "speedup": 1.6258575514530873,
+     "accept": 6.081,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "64": {
+     "tok_per_s": 8840.0,
+     "latency_s": 13.614,
+     "speedup": 1.0424651234094742,
+     "accept": 6.088,
+     "shard": "published",
+     "factor": 1.0
+    }
+   },
+   "b32": {
+    "1": {
+     "tok_per_s": 1164.7,
+     "latency_s": 1.605,
+     "speedup": 5.525142314990513,
+     "accept": 8.22,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "2": {
+     "tok_per_s": 2169.2,
+     "latency_s": 1.686,
+     "speedup": 5.360019767729182,
+     "accept": 8.313,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "4": {
+     "tok_per_s": 2995.8,
+     "latency_s": 2.447,
+     "speedup": 3.8241000765892266,
+     "accept": 6.7,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "8": {
+     "tok_per_s": 3557.2,
+     "latency_s": 4.817,
+     "speedup": 2.363745099342149,
+     "accept": 5.726,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "16": {
+     "tok_per_s": 4232.0,
+     "latency_s": 8.217,
+     "speedup": 1.5246055191296202,
+     "accept": 6.062,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "32": {
+     "tok_per_s": 5070.1,
+     "latency_s": 12.885,
+     "speedup": 1.014080844850691,
+     "accept": 6.599,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "64": {
+     "tok_per_s": 5323.4,
+     "latency_s": 23.307,
+     "speedup": 0.6277668368730763,
+     "accept": 6.797,
+     "shard": "published",
+     "factor": 1.0
+    }
+   },
+   "b32w16": {
+    "1": {
+     "tok_per_s": 1000.7,
+     "latency_s": 1.994,
+     "speedup": 4.747153700189753,
+     "accept": 6.817,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "2": {
+     "tok_per_s": 1831.8,
+     "latency_s": 2.032,
+     "speedup": 4.526315789473684,
+     "accept": 6.643,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "4": {
+     "tok_per_s": 3158.7,
+     "latency_s": 2.476,
+     "speedup": 4.032039826397753,
+     "accept": 6.352,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "8": {
+     "tok_per_s": 4579.5,
+     "latency_s": 3.791,
+     "speedup": 3.0430593394909957,
+     "accept": 5.103,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "16": {
+     "tok_per_s": 6251.7,
+     "latency_s": 5.6,
+     "speedup": 2.2522155774911736,
+     "accept": 5.192,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "32": {
+     "tok_per_s": 7791.5,
+     "latency_s": 8.238,
+     "speedup": 1.5583935036102168,
+     "accept": 5.811,
+     "shard": "published",
+     "factor": 1.0
+    },
+    "64": {
+     "tok_per_s": 8241.6,
+     "latency_s": 15.031,
+     "speedup": 0.9718982535171407,
+     "accept": 5.566,
+     "shard": "published",
+     "factor": 1.0
+    }
+   },
+   "b32w24": {
+    "1": {
+     "tok_per_s": 1049.3721296005033,
+     "latency_s": 1.6920811501597444,
+     "speedup": 4.9780461556001105,
+     "accept": 7.34,
+     "shard": "s-b32w24",
+     "factor": 0.9845863479081471
+    },
+    "2": {
+     "tok_per_s": 2273.194927062922,
+     "latency_s": 1.8581860929355662,
+     "speedup": 5.616987712040825,
+     "accept": 8.444,
+     "shard": "s-b32w24",
+     "factor": 0.9816024384933595
+    },
+    "4": {
+     "tok_per_s": 3266.695006850358,
+     "latency_s": 2.352641120117907,
+     "speedup": 4.169894060314473,
+     "accept": 6.676,
+     "shard": "s-b32w24",
+     "factor": 1.0328817171563405
+    },
+    "8": {
+     "tok_per_s": 3995.6665411936133,
+     "latency_s": 4.357423578895281,
+     "speedup": 2.6551043532418186,
+     "accept": 5.721,
+     "shard": "s-b32w24",
+     "factor": 0.9815433185598932
+    },
+    "16": {
+     "tok_per_s": 4833.307250419967,
+     "latency_s": 6.9183375621515735,
+     "speedup": 1.7412303661719024,
+     "accept": 5.309,
+     "shard": "s-b32w24",
+     "factor": 0.9954703623710104
+    },
+    "32": {
+     "tok_per_s": 6397.7290776104255,
+     "latency_s": 10.37745349867139,
+     "speedup": 1.279622592877658,
+     "accept": 6.312,
+     "shard": "s-b32w24",
+     "factor": 1.006027153129293
+    },
+    "64": {
+     "tok_per_s": 6243.623975774849,
+     "latency_s": 19.718603438914023,
+     "speedup": 0.7362850948448507,
+     "accept": 6.204,
+     "shard": "s-b32w24",
+     "factor": 0.9841467759173496
+    }
+   },
+   "b32w8": {
+    "1": {
+     "tok_per_s": 764.4309148264985,
+     "latency_s": 2.401300319488818,
+     "speedup": 3.62633261302893,
+     "accept": 5.077,
+     "shard": "s-b32w8",
+     "factor": 0.9873817034700315
+    },
+    "2": {
+     "tok_per_s": 1513.244354174672,
+     "latency_s": 2.7243678052567373,
+     "speedup": 3.739175572460272,
+     "accept": 5.217,
+     "shard": "s-b32w8",
+     "factor": 0.9899544381621562
+    },
+    "4": {
+     "tok_per_s": 2640.88842191285,
+     "latency_s": 2.963231893883567,
+     "speedup": 3.3710600228655223,
+     "accept": 4.823,
+     "shard": "s-b32w8",
+     "factor": 0.9901351311910807
+    },
+    "8": {
+     "tok_per_s": 4423.716480198532,
+     "latency_s": 3.746687490979567,
+     "speedup": 2.9395418168639322,
+     "accept": 4.298,
+     "shard": "s-b32w8",
+     "factor": 1.0030193361596527
+    },
+    "16": {
+     "tok_per_s": 7807.814900357372,
+     "latency_s": 4.443145366882628,
+     "speedup": 2.8128160891841527,
+     "accept": 4.377,
+     "shard": "s-b32w8",
+     "factor": 1.0357527427082196
+    },
+    "32": {
+     "tok_per_s": 10784.803664745497,
+     "latency_s": 5.906780102844209,
+     "speedup": 2.157090158358601,
+     "accept": 4.703,
+     "shard": "s-b32w8",
+     "factor": 1.011888016132847
+    },
+    "64": {
+     "tok_per_s": 11681.38977332395,
+     "latency_s": 10.645126052036199,
+     "speedup": 1.3775386234889504,
+     "accept": 4.607,
+     "shard": "s-b32w8",
+     "factor": 0.9875881176615164
+    }
+   },
+   "b16w8": {
+    "1": {
+     "tok_per_s": 745.6148698884758,
+     "latency_s": 2.6640740149094784,
+     "speedup": 3.5370724378011187,
+     "accept": 4.887,
+     "shard": "s-b16w8",
+     "factor": 0.997344662772172
+    },
+    "2": {
+     "tok_per_s": 1407.5921799384073,
+     "latency_s": 2.573226572030609,
+     "speedup": 3.4781126264848217,
+     "accept": 4.946,
+     "shard": "s-b16w8",
+     "factor": 0.9917509898812142
+    },
+    "4": {
+     "tok_per_s": 2695.9507688604012,
+     "latency_s": 2.7838615180545325,
+     "speedup": 3.4413463988516737,
+     "accept": 4.856,
+     "shard": "s-b16w8",
+     "factor": 1.0208841142306881
+    },
+    "8": {
+     "tok_per_s": 4198.700694928417,
+     "latency_s": 3.9896396569142905,
+     "speedup": 2.790019732160553,
+     "accept": 4.272,
+     "shard": "s-b16w8",
+     "factor": 0.9657513789052389
+    },
+    "16": {
+     "tok_per_s": 8046.160995290372,
+     "latency_s": 4.190964637637488,
+     "speedup": 2.898681819760203,
+     "accept": 4.422,
+     "shard": "s-b16w8",
+     "factor": 1.066818832076897
+    },
+    "32": {
+     "tok_per_s": 10463.215054801798,
+     "latency_s": 6.173961125873436,
+     "speedup": 2.092768577074984,
+     "accept": 4.728,
+     "shard": "s-b16w8",
+     "factor": 0.9812177103954421
+    },
+    "64": {
+     "tok_per_s": 11514.387274581713,
+     "latency_s": 10.960397126696833,
+     "speedup": 1.3578447003598761,
+     "accept": 4.692,
+     "shard": "s-b16w8",
+     "factor": 0.9591805733382521
+    }
+   }
+  }
+ }
+}

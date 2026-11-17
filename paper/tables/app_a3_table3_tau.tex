@@ -1,0 +1,34 @@
+\begin{table*}[t]
+\caption{\textbf{Table~\ref{tab:generality} in full: acceptance length.} Mean acceptance length $\tau$ (all tokens). StarVector's last row samples at $T$ 1.0, top-$p$ 0.9, the defaults of its released generation code (the official row is its released evaluation configuration). Best in bold, second underlined, per row and subset.}
+\label{app:t3-tau}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{2.0pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll*{12}{c}@{}}
+\toprule
+ & & \multicolumn{6}{c}{Icon (OmniLottie-3B: real)} & \multicolumn{6}{c}{Illustration (OmniLottie-3B: synthetic)} \\
+\cmidrule(lr){3-8}\cmidrule(lr){9-14}
+Model & Decoding & PLD & EAGLE-3 & DFlash & DARTree & DDTree & \textbf{Ours} & PLD & EAGLE-3 & DFlash & DARTree & DDTree & \textbf{Ours} \\
+\midrule
+SVGen-3B & greedy & 1.61 & 8.87 & 7.34 & \underline{10.72} & 10.27 & \textbf{12.00} & 1.69 & 9.40 & 7.95 & \underline{11.42} & 10.90 & \textbf{13.16} \\
+ & official sampling & 1.63 & 8.90 & 7.16 & \underline{10.86} & 10.21 & \textbf{11.67} & 1.68 & 9.33 & 7.62 & \underline{11.54} & 10.86 & \textbf{12.87} \\
+\addlinespace[2pt]
+SVGen-7B & greedy & 1.69 & 10.12 & 7.51 & \underline{12.41} & 11.34 & \textbf{13.63} & 1.72 & 9.96 & 7.20 & \underline{12.16} & 11.04 & \textbf{12.95} \\
+ & official sampling & 1.69 & 10.01 & 7.42 & \underline{12.29} & 11.20 & \textbf{13.66} & 1.72 & 10.05 & 7.16 & \underline{12.09} & 11.07 & \textbf{13.01} \\
+\addlinespace[2pt]
+HiVG-3B & greedy & 4.61 & 11.91 & 12.09 & \underline{15.17} & 13.85 & \textbf{21.66} & 6.05 & 12.47 & 13.77 & \underline{15.85} & 14.87 & \textbf{25.11} \\
+ & official sampling & 3.32 & 10.50 & 8.90 & \underline{12.51} & 11.72 & \textbf{14.87} & 3.68 & 10.90 & 9.22 & \underline{13.26} & 12.28 & \textbf{16.87} \\
+\addlinespace[2pt]
+OmniLottie-3B & greedy & 2.41 & 8.70 & 8.14 & \underline{11.43} & 10.64 & \textbf{13.46} & 2.24 & 8.62 & 6.64 & \underline{10.70} & 10.16 & \textbf{11.94} \\
+ & official sampling & 2.40 & 8.51 & 7.97 & \underline{11.44} & 10.90 & \textbf{13.39} & 2.32 & 8.45 & 7.59 & 10.94 & \underline{10.99} & \textbf{12.57} \\
+\addlinespace[2pt]
+StarVector-1B & greedy & 2.48 & 10.27 & 8.41 & \underline{12.98} & 11.53 & \textbf{14.60} & 3.48 & 11.31 & 10.59 & \underline{14.49} & 13.19 & \textbf{18.46} \\
+ & official sampling & 2.28 & 9.85 & 7.61 & \underline{12.15} & 10.89 & \textbf{13.52} & 3.14 & 10.58 & 9.44 & \underline{13.27} & 12.28 & \textbf{16.32} \\
+ & sampling, $T$ 1.0 & 1.88 & 7.38 & 4.72 & \underline{8.41} & 8.07 & \textbf{8.65} & 1.89 & 6.83 & 4.00 & \underline{7.33} & 7.26 & \textbf{7.62} \\
+\addlinespace[2pt]
+StarVector-8B & greedy & 2.86 & 9.70 & 8.10 & \underline{11.11} & 10.83 & \textbf{12.80} & 3.96 & 9.83 & 8.79 & \underline{11.70} & 10.04 & \textbf{12.91} \\
+ & official sampling & 2.30 & 6.73 & 4.37 & 6.70 & \textbf{6.80} & \underline{6.75} & 2.71 & 6.54 & 4.49 & \underline{7.35} & 6.50 & \textbf{7.66} \\
+ & sampling, $T$ 1.0 & 2.05 & 4.17 & 3.05 & 4.39 & \underline{4.58} & \textbf{4.60} & 2.20 & 2.86 & 2.12 & \underline{2.90} & \textbf{2.91} & 2.88 \\
+\bottomrule
+\end{tabular*}
+\end{table*}

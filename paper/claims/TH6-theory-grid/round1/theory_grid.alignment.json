@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 7,
+    "exemptions": 0
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 495.0,
+      "height_pt": 305.0
+    },
+    "panels": [
+      {
+        "id": "a",
+        "bbox_pt": [
+          40.0,
+          172.0,
+          160.0,
+          272.0
+        ]
+      },
+      {
+        "id": "b",
+        "bbox_pt": [
+          205.0,
+          172.0,
+          325.0,
+          272.0
+        ]
+      },
+      {
+        "id": "c",
+        "bbox_pt": [
+          370.0,
+          172.0,
+          490.0,
+          272.0
+        ]
+      },
+      {
+        "id": "d",
+        "bbox_pt": [
+          40.0,
+          27.0,
+          160.0,
+          131.0
+        ]
+      },
+      {
+        "id": "e",
+        "bbox_pt": [
+          205.0,
+          27.0,
+          325.0,
+          131.0
+        ]
+      },
+      {
+        "id": "f",
+        "bbox_pt": [
+          370.0,
+          27.0,
+          490.0,
+          131.0
+        ]
+      }
+    ],
+    "row_groups": [
+      {
+        "id": "row-1",
+        "panels": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      {
+        "id": "row-2",
+        "panels": [
+          "d",
+          "e",
+          "f"
+        ]
+      }
+    ],
+    "column_groups": [
+      {
+        "id": "column-1",
+        "panels": [
+          "a",
+          "d"
+        ]
+      },
+      {
+        "id": "column-2",
+        "panels": [
+          "b",
+          "e"
+        ]
+      },
+      {
+        "id": "column-3",
+        "panels": [
+          "c",
+          "f"
+        ]
+      }
+    ],
+    "boundary_groups": [],
+    "exemptions": []
+  },
+  "findings": []
+}

@@ -1,0 +1,82 @@
+# The main results of the paper (Figure 4, and Appendix F.1, Tables 14 and 15, in full), cell by cell.
+#
+# Five model-task pairs x two decoding modes = ten blocks; nine decoders x six benchmark sets per
+# block. Every number in the paper comes from one run of eval/eval_text.py or
+# eval/eval_image_<target>.py with the design and flags given here, and its speedup is measured
+# against the original model decoded in the same job on the same prompts.
+#
+# Design names are defined in eval/drafters.py. Where a decoder is absent from a block, the
+# reason is in `only_in`: SpS needs a smaller model of the same family (only OmniSVG-8B has one),
+# and ViSpec is a vision-conditioned drafter (image-to-SVG only).
+
+decoders:
+  PLD:            {design: PLD-n3-K10,        head: none,        note: "training-free; copies from the context"}
+  REST:           {design: REST-n8-d16-N127,  head: none,        note: "training-free; needs --rest-store"}
+  SpS:            {design: SPS-g7,            head: OmniSVG-4B,  only_in: ["OmniSVG-8B, text-to-SVG"]}
+  EAGLE-3:        {design: E3-k8-d12-N127,    head: eagle3}
+  ViSpec:         {design: VS-k8-d4-N29,      head: vispec,      only_in: ["OmniSVG-8B, image-to-SVG", "InternSVG-8B, image-to-SVG"]}
+  DFlash:         {design: D0-chain,          head: block16,     note: "chain over a window of 16"}
+  DDTree:         {design: D1-top16-N127,     head: block16,     note: "tree of 127 nodes over the same window"}
+  DARTree:        {design: DART-W12-E64-N127, head: domino}
+  Ours:           {design: D1-top16-N127,     head: block32,     note: "the same tree over a window of 32"}
+
+# The six benchmark sets of every block, as (paper name, set name passed to --sets, subtype).
+# MMSVG-2M is the training corpus's own test split, held out from draft-head training.
+benchmarks:
+  - [MMSVG-Icon,        bench,                            icon]
+  - [MMSVG-Illus.,      bench,                            illustration]
+  - [MMSVG-2M-Icon,     extra,                            icon]
+  - [MMSVG-2M-Illus.,   extra,                            illustration]
+  - [SArena-Icon,       [sarena-bench, sarena-extra],     icon]
+  - [SArena-Illus.,     [sarena-bench, sarena-extra],     illustration]
+# InternSVG-8B text-to-SVG names its sets the other way round: SArena is `bench`/`extra` (it is
+# that model's own benchmark) and MMSVG is `mmsvg-bench`/`mmsvg-extra`.
+
+blocks:
+  - block: "OmniSVG-8B, text-to-SVG"
+    entry: eval/eval_text.py
+    environment: dflash
+    target: OmniSVG1.1_8B-qwen2-text          # the exported language side, targets/export/
+    modes: [greedy, sample]                   # sample = the settings OmniSVG releases, per subtype
+    prompts_per_set: [150, 150, 300, 300, 450, 450]
+
+  - block: "OmniSVG-4B, text-to-SVG"
+    entry: eval/eval_text.py
+    environment: dflash
+    target: OmniSVG1.1_4B-qwen2-text
+    modes: [greedy, sample]
+    prompts_per_set: [150, 150, 300, 300, 450, 450]
+
+  - block: "InternSVG-8B, text-to-SVG"
+    entry: eval/eval_text.py --profile internsvg
+    environment: dflash
+    target: InternSVG-8B-qwen2-text
+    modes: [greedy, sample]
+    sampling: {temperature: 0.6, top_p: 0.9}  # InternSVG releases greedy only; see configs/decoding.yaml
+    prompts_per_set: [150, 150, 300, 300, 450, 450]
+
+  - block: "OmniSVG-8B, image-to-SVG"
+    entry: eval/eval_image_omnisvg.py
+    environment: glance
+    target: OmniSVG1.1_8B                     # the full vision-language model
+    modes: [greedy, sample]
+    prompts_per_set: [150, 150, 300, 300, 450, 450]
+
+  - block: "InternSVG-8B, image-to-SVG"
+    entry: eval/eval_image_internsvg.py
+    environment: glance
+    target: InternSVG-8B
+    modes: [greedy, sample]
+    sampling: {temperature: 0.6, top_p: 0.9}
+    prompts_per_set: [150, 150, 300, 300, 450, 450]
+    note: "the prompt is the image plus a one-sentence description; data/descriptions/ holds them"
+
+# Shared protocol, identical for every decoder in every block (Appendix E).
+protocol:
+  seed: "42 + row index"                      # one seed per prompt, the same for every decoder
+  timing: "the original model runs in the same job; a speedup is the ratio of the two times"
+  caliber: "all tokens, loop segments included"
+  dtype: bf16
+  attention: eager
+  device: "one H200"
+  losslessness: "audited token by token in fp32: eval/eval_*.py --audit, see configs/audit.yaml"

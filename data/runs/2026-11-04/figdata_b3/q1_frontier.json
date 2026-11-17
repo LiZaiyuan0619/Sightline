@@ -1,0 +1,1283 @@
+{
+ "meta": {
+  "source": "runs/2026-10-15-harvest/bon_decode_report_{t2,i2,isvg-...T0.6}-bench300-front.md",
+  "setup": "300 benchmark prompts present in every arm, one H200 per shard, HF eager, bf16; seconds are wall clock per prompt including rendering and scoring for the multi-candidate arms; quality deltas are paired per prompt against one AR sample, 95% bootstrap CI",
+  "fairness": "arms with loop_stop=true carry the same loop rule, AR and ours alike; ar8-fv is the model authors' own pipeline (8 samples, take the first that renders)"
+ },
+ "rows": [
+  {
+   "block": "OmniSVG-8B, text-to-SVG",
+   "arm": "ar1",
+   "family": "AR",
+   "n": 1,
+   "loop_stop": false,
+   "seconds": 11.55,
+   "seconds_decode": 11.55,
+   "seconds_score": 0.0,
+   "target_forward": 1016,
+   "valid": 0.847,
+   "quality": {
+    "clip": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "aesthetic": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hps": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "OmniSVG-8B, text-to-SVG",
+   "arm": "sd1",
+   "family": "Ours",
+   "n": 1,
+   "loop_stop": false,
+   "seconds": 1.85,
+   "seconds_decode": 1.85,
+   "seconds_score": 0.0,
+   "target_forward": 72,
+   "valid": 0.847,
+   "quality": {
+    "clip": [
+     0.0026,
+     0.0004,
+     0.0048
+    ],
+    "aesthetic": [
+     0.0029,
+     -0.0288,
+     0.0353
+    ],
+    "hps": [
+     0.0004,
+     -0.0006,
+     0.0013
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "OmniSVG-8B, text-to-SVG",
+   "arm": "ar8-fv",
+   "family": "AR official",
+   "n": 8,
+   "loop_stop": false,
+   "seconds": 20.88,
+   "seconds_decode": 20.65,
+   "seconds_score": 0.23,
+   "target_forward": 1346,
+   "valid": 0.99,
+   "quality": {
+    "clip": [
+     0.0035,
+     0.0007,
+     0.0064
+    ],
+    "aesthetic": [
+     0.0403,
+     -0.0021,
+     0.0826
+    ],
+    "hps": [
+     -0.0001,
+     -0.0012,
+     0.0011
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "OmniSVG-8B, text-to-SVG",
+   "arm": "ar8",
+   "family": "AR",
+   "n": 8,
+   "loop_stop": false,
+   "seconds": 20.88,
+   "seconds_decode": 20.65,
+   "seconds_score": 0.23,
+   "target_forward": 1346,
+   "valid": 0.99,
+   "quality": {
+    "clip": [
+     0.0305,
+     0.0272,
+     0.0338
+    ],
+    "aesthetic": [
+     0.0718,
+     0.0176,
+     0.1243
+    ],
+    "hps": [
+     0.0058,
+     0.0043,
+     0.0074
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "OmniSVG-8B, text-to-SVG",
+   "arm": "sd8",
+   "family": "Ours",
+   "n": 8,
+   "loop_stop": true,
+   "seconds": 4.71,
+   "seconds_decode": 4.48,
+   "seconds_score": 0.22,
+   "target_forward": 179,
+   "valid": 0.977,
+   "quality": {
+    "clip": [
+     0.0308,
+     0.0271,
+     0.0345
+    ],
+    "aesthetic": [
+     0.024,
+     -0.0275,
+     0.0747
+    ],
+    "hps": [
+     0.0049,
+     0.0031,
+     0.0067
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "OmniSVG-8B, text-to-SVG",
+   "arm": "sd4",
+   "family": "Ours",
+   "n": 4,
+   "loop_stop": true,
+   "seconds": 3.4,
+   "seconds_decode": 3.25,
+   "seconds_score": 0.15,
+   "target_forward": 144,
+   "valid": 0.97,
+   "quality": {
+    "clip": [
+     0.0207,
+     0.0168,
+     0.0245
+    ],
+    "aesthetic": [
+     0.0406,
+     -0.0148,
+     0.0946
+    ],
+    "hps": [
+     0.0041,
+     0.0023,
+     0.0058
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "OmniSVG-8B, text-to-SVG",
+   "arm": "ar1s",
+   "family": "AR",
+   "n": 1,
+   "loop_stop": true,
+   "seconds": 6.87,
+   "seconds_decode": 6.87,
+   "seconds_score": 0.0,
+   "target_forward": 599,
+   "valid": 0.83,
+   "quality": {
+    "clip": [
+     -0.0003,
+     -0.0016,
+     0.0008
+    ],
+    "aesthetic": [
+     -0.0001,
+     -0.0145,
+     0.0143
+    ],
+    "hps": [
+     -0.0005,
+     -0.0009,
+     -0.0001
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "OmniSVG-8B, text-to-SVG",
+   "arm": "ar2s",
+   "family": "AR",
+   "n": 2,
+   "loop_stop": true,
+   "seconds": 11.15,
+   "seconds_decode": 11.04,
+   "seconds_score": 0.11,
+   "target_forward": 808,
+   "valid": 0.923,
+   "quality": {
+    "clip": [
+     0.0124,
+     0.0094,
+     0.0156
+    ],
+    "aesthetic": [
+     0.0006,
+     -0.0462,
+     0.044
+    ],
+    "hps": [
+     0.002,
+     0.0007,
+     0.0033
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "OmniSVG-8B, text-to-SVG",
+   "arm": "ar4s",
+   "family": "AR",
+   "n": 4,
+   "loop_stop": true,
+   "seconds": 14.61,
+   "seconds_decode": 14.46,
+   "seconds_score": 0.15,
+   "target_forward": 1025,
+   "valid": 0.97,
+   "quality": {
+    "clip": [
+     0.0219,
+     0.0187,
+     0.0251
+    ],
+    "aesthetic": [
+     0.0612,
+     0.0104,
+     0.1111
+    ],
+    "hps": [
+     0.0046,
+     0.0031,
+     0.006
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "OmniSVG-8B, text-to-SVG",
+   "arm": "ar8s",
+   "family": "AR",
+   "n": 8,
+   "loop_stop": true,
+   "seconds": 18.23,
+   "seconds_decode": 18.0,
+   "seconds_score": 0.23,
+   "target_forward": 1196,
+   "valid": 0.983,
+   "quality": {
+    "clip": [
+     0.0303,
+     0.0271,
+     0.0338
+    ],
+    "aesthetic": [
+     0.0563,
+     0.0013,
+     0.1066
+    ],
+    "hps": [
+     0.0052,
+     0.0036,
+     0.0068
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "OmniSVG-8B, text-to-SVG",
+   "arm": "sd1s",
+   "family": "Ours",
+   "n": 1,
+   "loop_stop": true,
+   "seconds": 1.29,
+   "seconds_decode": 1.29,
+   "seconds_score": 0.0,
+   "target_forward": 53,
+   "valid": 0.823,
+   "quality": {
+    "clip": [
+     0.0016,
+     -0.0009,
+     0.0039
+    ],
+    "aesthetic": [
+     -0.0074,
+     -0.0386,
+     0.026
+    ],
+    "hps": [
+     0.0,
+     -0.001,
+     0.001
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "OmniSVG-8B, text-to-SVG",
+   "arm": "sd2",
+   "family": "Ours",
+   "n": 2,
+   "loop_stop": true,
+   "seconds": 2.37,
+   "seconds_decode": 2.27,
+   "seconds_score": 0.11,
+   "target_forward": 106,
+   "valid": 0.923,
+   "quality": {
+    "clip": [
+     0.0135,
+     0.0098,
+     0.0173
+    ],
+    "aesthetic": [
+     0.0186,
+     -0.0386,
+     0.0716
+    ],
+    "hps": [
+     0.0026,
+     0.0006,
+     0.0044
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "OmniSVG-8B, text-to-SVG",
+   "arm": "sd16",
+   "family": "Ours",
+   "n": 16,
+   "loop_stop": true,
+   "seconds": 7.25,
+   "seconds_decode": 6.84,
+   "seconds_score": 0.42,
+   "target_forward": 210,
+   "valid": 0.987,
+   "quality": {
+    "clip": [
+     0.0376,
+     0.0338,
+     0.0412
+    ],
+    "aesthetic": [
+     0.0353,
+     -0.0196,
+     0.0863
+    ],
+    "hps": [
+     0.0074,
+     0.0057,
+     0.009
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "OmniSVG-8B, image-to-SVG",
+   "arm": "ar1",
+   "family": "AR",
+   "n": 1,
+   "loop_stop": false,
+   "seconds": 13.06,
+   "seconds_decode": 13.06,
+   "seconds_score": 0.0,
+   "target_forward": 961,
+   "valid": 0.917,
+   "quality": {
+    "dino": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ssim": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lpips": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "mse": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "primary": "lpips",
+   "better": -1
+  },
+  {
+   "block": "OmniSVG-8B, image-to-SVG",
+   "arm": "sd1",
+   "family": "Ours",
+   "n": 1,
+   "loop_stop": false,
+   "seconds": 2.2,
+   "seconds_decode": 2.2,
+   "seconds_score": 0.0,
+   "target_forward": 80,
+   "valid": 0.91,
+   "quality": {
+    "dino": [
+     -0.0003,
+     -0.0066,
+     0.0058
+    ],
+    "ssim": [
+     0.0042,
+     -0.0068,
+     0.0163
+    ],
+    "lpips": [
+     -0.0068,
+     -0.0186,
+     0.0047
+    ],
+    "mse": [
+     -0.0038,
+     -0.0133,
+     0.0047
+    ]
+   },
+   "primary": "lpips",
+   "better": -1
+  },
+  {
+   "block": "OmniSVG-8B, image-to-SVG",
+   "arm": "ar8-fv",
+   "family": "AR official",
+   "n": 8,
+   "loop_stop": false,
+   "seconds": 22.51,
+   "seconds_decode": 22.28,
+   "seconds_score": 0.23,
+   "target_forward": 1268,
+   "valid": 0.99,
+   "quality": {
+    "dino": [
+     0.0078,
+     0.0016,
+     0.0145
+    ],
+    "ssim": [
+     -0.0029,
+     -0.0128,
+     0.0079
+    ],
+    "lpips": [
+     -0.0059,
+     -0.0175,
+     0.0055
+    ],
+    "mse": [
+     -0.0008,
+     -0.0089,
+     0.0065
+    ]
+   },
+   "primary": "lpips",
+   "better": -1
+  },
+  {
+   "block": "OmniSVG-8B, image-to-SVG",
+   "arm": "ar8",
+   "family": "AR",
+   "n": 8,
+   "loop_stop": false,
+   "seconds": 22.51,
+   "seconds_decode": 22.28,
+   "seconds_score": 0.23,
+   "target_forward": 1268,
+   "valid": 0.99,
+   "quality": {
+    "dino": [
+     0.0594,
+     0.0507,
+     0.068
+    ],
+    "ssim": [
+     0.0468,
+     0.0355,
+     0.0594
+    ],
+    "lpips": [
+     -0.1144,
+     -0.1313,
+     -0.0968
+    ],
+    "mse": [
+     -0.0348,
+     -0.0452,
+     -0.0258
+    ]
+   },
+   "primary": "lpips",
+   "better": -1
+  },
+  {
+   "block": "OmniSVG-8B, image-to-SVG",
+   "arm": "sd8",
+   "family": "Ours",
+   "n": 8,
+   "loop_stop": true,
+   "seconds": 5.0,
+   "seconds_decode": 4.78,
+   "seconds_score": 0.22,
+   "target_forward": 160,
+   "valid": 0.983,
+   "quality": {
+    "dino": [
+     0.0524,
+     0.0433,
+     0.0619
+    ],
+    "ssim": [
+     0.0477,
+     0.0355,
+     0.0614
+    ],
+    "lpips": [
+     -0.1053,
+     -0.1225,
+     -0.0872
+    ],
+    "mse": [
+     -0.0333,
+     -0.0442,
+     -0.0241
+    ]
+   },
+   "primary": "lpips",
+   "better": -1
+  },
+  {
+   "block": "OmniSVG-8B, image-to-SVG",
+   "arm": "sd4",
+   "family": "Ours",
+   "n": 4,
+   "loop_stop": true,
+   "seconds": 3.63,
+   "seconds_decode": 3.49,
+   "seconds_score": 0.14,
+   "target_forward": 131,
+   "valid": 0.97,
+   "quality": {
+    "dino": [
+     0.0427,
+     0.0337,
+     0.0523
+    ],
+    "ssim": [
+     0.0383,
+     0.0242,
+     0.0534
+    ],
+    "lpips": [
+     -0.0859,
+     -0.1042,
+     -0.0668
+    ],
+    "mse": [
+     -0.0271,
+     -0.0392,
+     -0.0159
+    ]
+   },
+   "primary": "lpips",
+   "better": -1
+  },
+  {
+   "block": "OmniSVG-8B, image-to-SVG",
+   "arm": "ar1s",
+   "family": "AR",
+   "n": 1,
+   "loop_stop": true,
+   "seconds": 7.84,
+   "seconds_decode": 7.84,
+   "seconds_score": 0.0,
+   "target_forward": 573,
+   "valid": 0.907,
+   "quality": {
+    "dino": [
+     -0.0031,
+     -0.0068,
+     0.0003
+    ],
+    "ssim": [
+     0.0022,
+     -0.0008,
+     0.0059
+    ],
+    "lpips": [
+     0.0031,
+     -0.0015,
+     0.0078
+    ],
+    "mse": [
+     -0.0014,
+     -0.0042,
+     0.0006
+    ]
+   },
+   "primary": "lpips",
+   "better": -1
+  },
+  {
+   "block": "OmniSVG-8B, image-to-SVG",
+   "arm": "ar2s",
+   "family": "AR",
+   "n": 2,
+   "loop_stop": true,
+   "seconds": 12.12,
+   "seconds_decode": 11.98,
+   "seconds_score": 0.15,
+   "target_forward": 735,
+   "valid": 0.96,
+   "quality": {
+    "dino": [
+     0.028,
+     0.0204,
+     0.036
+    ],
+    "ssim": [
+     0.0252,
+     0.0127,
+     0.0393
+    ],
+    "lpips": [
+     -0.0541,
+     -0.0706,
+     -0.0377
+    ],
+    "mse": [
+     -0.0198,
+     -0.0308,
+     -0.0099
+    ]
+   },
+   "primary": "lpips",
+   "better": -1
+  },
+  {
+   "block": "OmniSVG-8B, image-to-SVG",
+   "arm": "ar4s",
+   "family": "AR",
+   "n": 4,
+   "loop_stop": true,
+   "seconds": 15.18,
+   "seconds_decode": 15.04,
+   "seconds_score": 0.15,
+   "target_forward": 890,
+   "valid": 0.983,
+   "quality": {
+    "dino": [
+     0.0452,
+     0.0368,
+     0.0538
+    ],
+    "ssim": [
+     0.0403,
+     0.0276,
+     0.054
+    ],
+    "lpips": [
+     -0.0909,
+     -0.1088,
+     -0.0738
+    ],
+    "mse": [
+     -0.0295,
+     -0.0405,
+     -0.02
+    ]
+   },
+   "primary": "lpips",
+   "better": -1
+  },
+  {
+   "block": "OmniSVG-8B, image-to-SVG",
+   "arm": "ar8s",
+   "family": "AR",
+   "n": 8,
+   "loop_stop": true,
+   "seconds": 19.16,
+   "seconds_decode": 18.94,
+   "seconds_score": 0.22,
+   "target_forward": 1052,
+   "valid": 0.99,
+   "quality": {
+    "dino": [
+     0.0563,
+     0.0475,
+     0.0653
+    ],
+    "ssim": [
+     0.0472,
+     0.0352,
+     0.0605
+    ],
+    "lpips": [
+     -0.112,
+     -0.1297,
+     -0.0942
+    ],
+    "mse": [
+     -0.0342,
+     -0.0452,
+     -0.0248
+    ]
+   },
+   "primary": "lpips",
+   "better": -1
+  },
+  {
+   "block": "OmniSVG-8B, image-to-SVG",
+   "arm": "sd1s",
+   "family": "Ours",
+   "n": 1,
+   "loop_stop": true,
+   "seconds": 1.75,
+   "seconds_decode": 1.75,
+   "seconds_score": 0.0,
+   "target_forward": 65,
+   "valid": 0.897,
+   "quality": {
+    "dino": [
+     -0.0032,
+     -0.0096,
+     0.0031
+    ],
+    "ssim": [
+     0.0063,
+     -0.0041,
+     0.0179
+    ],
+    "lpips": [
+     -0.0032,
+     -0.0153,
+     0.0081
+    ],
+    "mse": [
+     -0.0054,
+     -0.0145,
+     0.0025
+    ]
+   },
+   "primary": "lpips",
+   "better": -1
+  },
+  {
+   "block": "OmniSVG-8B, image-to-SVG",
+   "arm": "sd2",
+   "family": "Ours",
+   "n": 2,
+   "loop_stop": true,
+   "seconds": 2.74,
+   "seconds_decode": 2.63,
+   "seconds_score": 0.11,
+   "target_forward": 106,
+   "valid": 0.95,
+   "quality": {
+    "dino": [
+     0.0275,
+     0.0196,
+     0.036
+    ],
+    "ssim": [
+     0.0241,
+     0.0097,
+     0.0399
+    ],
+    "lpips": [
+     -0.0509,
+     -0.0691,
+     -0.033
+    ],
+    "mse": [
+     -0.0178,
+     -0.0302,
+     -0.0062
+    ]
+   },
+   "primary": "lpips",
+   "better": -1
+  },
+  {
+   "block": "OmniSVG-8B, image-to-SVG",
+   "arm": "sd16",
+   "family": "Ours",
+   "n": 16,
+   "loop_stop": true,
+   "seconds": 7.75,
+   "seconds_decode": 7.34,
+   "seconds_score": 0.4,
+   "target_forward": 183,
+   "valid": 0.99,
+   "quality": {
+    "dino": [
+     0.063,
+     0.0537,
+     0.0728
+    ],
+    "ssim": [
+     0.0561,
+     0.0433,
+     0.0698
+    ],
+    "lpips": [
+     -0.1268,
+     -0.1453,
+     -0.1082
+    ],
+    "mse": [
+     -0.0391,
+     -0.05,
+     -0.0297
+    ]
+   },
+   "primary": "lpips",
+   "better": -1
+  },
+  {
+   "block": "InternSVG-8B, text-to-SVG",
+   "arm": "ar1",
+   "family": "AR",
+   "n": 1,
+   "loop_stop": false,
+   "seconds": 26.82,
+   "seconds_decode": 26.82,
+   "seconds_score": 0.0,
+   "target_forward": 2235,
+   "valid": 0.9,
+   "quality": {
+    "clip": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "aesthetic": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hps": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "InternSVG-8B, text-to-SVG",
+   "arm": "sd1",
+   "family": "Ours",
+   "n": 1,
+   "loop_stop": false,
+   "seconds": 5.77,
+   "seconds_decode": 5.77,
+   "seconds_score": 0.0,
+   "target_forward": 259,
+   "valid": 0.897,
+   "quality": {
+    "clip": [
+     -0.0007,
+     -0.0055,
+     0.0042
+    ],
+    "aesthetic": [
+     -0.0071,
+     -0.0514,
+     0.0356
+    ],
+    "hps": [
+     -0.0004,
+     -0.0021,
+     0.0012
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "InternSVG-8B, text-to-SVG",
+   "arm": "ar8-fv",
+   "family": "AR official",
+   "n": 8,
+   "loop_stop": false,
+   "seconds": 57.44,
+   "seconds_decode": 57.22,
+   "seconds_score": 0.22,
+   "target_forward": 2915,
+   "valid": 0.99,
+   "quality": {
+    "clip": [
+     0.0066,
+     0.002,
+     0.0114
+    ],
+    "aesthetic": [
+     0.0375,
+     -0.0022,
+     0.0773
+    ],
+    "hps": [
+     0.0019,
+     0.0003,
+     0.0033
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "InternSVG-8B, text-to-SVG",
+   "arm": "ar8",
+   "family": "AR",
+   "n": 8,
+   "loop_stop": false,
+   "seconds": 57.44,
+   "seconds_decode": 57.22,
+   "seconds_score": 0.22,
+   "target_forward": 2915,
+   "valid": 0.99,
+   "quality": {
+    "clip": [
+     0.0392,
+     0.0348,
+     0.044
+    ],
+    "aesthetic": [
+     0.0642,
+     0.0123,
+     0.1104
+    ],
+    "hps": [
+     0.0086,
+     0.0068,
+     0.0105
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "InternSVG-8B, text-to-SVG",
+   "arm": "sd8",
+   "family": "Ours",
+   "n": 8,
+   "loop_stop": true,
+   "seconds": 21.63,
+   "seconds_decode": 21.42,
+   "seconds_score": 0.21,
+   "target_forward": 626,
+   "valid": 0.993,
+   "quality": {
+    "clip": [
+     0.0373,
+     0.0326,
+     0.0419
+    ],
+    "aesthetic": [
+     0.0741,
+     0.0226,
+     0.1243
+    ],
+    "hps": [
+     0.0079,
+     0.0061,
+     0.0098
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "InternSVG-8B, text-to-SVG",
+   "arm": "sd4",
+   "family": "Ours",
+   "n": 4,
+   "loop_stop": true,
+   "seconds": 14.63,
+   "seconds_decode": 14.5,
+   "seconds_score": 0.14,
+   "target_forward": 553,
+   "valid": 0.977,
+   "quality": {
+    "clip": [
+     0.0267,
+     0.0221,
+     0.0312
+    ],
+    "aesthetic": [
+     0.0373,
+     -0.0164,
+     0.0915
+    ],
+    "hps": [
+     0.0068,
+     0.0048,
+     0.0087
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "InternSVG-8B, text-to-SVG",
+   "arm": "ar1s",
+   "family": "AR",
+   "n": 1,
+   "loop_stop": true,
+   "seconds": 21.99,
+   "seconds_decode": 21.99,
+   "seconds_score": 0.0,
+   "target_forward": 1831,
+   "valid": 0.87,
+   "quality": {
+    "clip": [
+     -0.0035,
+     -0.0058,
+     -0.0014
+    ],
+    "aesthetic": [
+     -0.0141,
+     -0.0295,
+     -0.0008
+    ],
+    "hps": [
+     -0.0009,
+     -0.0015,
+     -0.0003
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "InternSVG-8B, text-to-SVG",
+   "arm": "ar2s",
+   "family": "AR",
+   "n": 2,
+   "loop_stop": true,
+   "seconds": 33.84,
+   "seconds_decode": 33.73,
+   "seconds_score": 0.11,
+   "target_forward": 2199,
+   "valid": 0.943,
+   "quality": {
+    "clip": [
+     0.0132,
+     0.0083,
+     0.0183
+    ],
+    "aesthetic": [
+     0.0,
+     -0.0492,
+     0.0477
+    ],
+    "hps": [
+     0.0031,
+     0.0014,
+     0.0049
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "InternSVG-8B, text-to-SVG",
+   "arm": "ar4s",
+   "family": "AR",
+   "n": 4,
+   "loop_stop": true,
+   "seconds": 41.32,
+   "seconds_decode": 41.18,
+   "seconds_score": 0.14,
+   "target_forward": 2431,
+   "valid": 0.977,
+   "quality": {
+    "clip": [
+     0.027,
+     0.0221,
+     0.0316
+    ],
+    "aesthetic": [
+     0.0122,
+     -0.0369,
+     0.0595
+    ],
+    "hps": [
+     0.0057,
+     0.0039,
+     0.0074
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "InternSVG-8B, text-to-SVG",
+   "arm": "ar8s",
+   "family": "AR",
+   "n": 8,
+   "loop_stop": true,
+   "seconds": 55.68,
+   "seconds_decode": 55.46,
+   "seconds_score": 0.22,
+   "target_forward": 2714,
+   "valid": 0.99,
+   "quality": {
+    "clip": [
+     0.0382,
+     0.0335,
+     0.0429
+    ],
+    "aesthetic": [
+     0.0419,
+     -0.0024,
+     0.086
+    ],
+    "hps": [
+     0.0083,
+     0.0065,
+     0.0101
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "InternSVG-8B, text-to-SVG",
+   "arm": "sd1s",
+   "family": "Ours",
+   "n": 1,
+   "loop_stop": true,
+   "seconds": 5.37,
+   "seconds_decode": 5.37,
+   "seconds_score": 0.0,
+   "target_forward": 238,
+   "valid": 0.86,
+   "quality": {
+    "clip": [
+     -0.0037,
+     -0.0088,
+     0.0013
+    ],
+    "aesthetic": [
+     -0.0296,
+     -0.0761,
+     0.015
+    ],
+    "hps": [
+     -0.0016,
+     -0.0034,
+     0.0002
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "InternSVG-8B, text-to-SVG",
+   "arm": "sd2",
+   "family": "Ours",
+   "n": 2,
+   "loop_stop": true,
+   "seconds": 10.82,
+   "seconds_decode": 10.71,
+   "seconds_score": 0.1,
+   "target_forward": 479,
+   "valid": 0.953,
+   "quality": {
+    "clip": [
+     0.0144,
+     0.0093,
+     0.0193
+    ],
+    "aesthetic": [
+     -0.0054,
+     -0.051,
+     0.0412
+    ],
+    "hps": [
+     0.0039,
+     0.002,
+     0.0057
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  },
+  {
+   "block": "InternSVG-8B, text-to-SVG",
+   "arm": "sd16",
+   "family": "Ours",
+   "n": 16,
+   "loop_stop": true,
+   "seconds": 37.0,
+   "seconds_decode": 36.61,
+   "seconds_score": 0.39,
+   "target_forward": 675,
+   "valid": 0.997,
+   "quality": {
+    "clip": [
+     0.0458,
+     0.0413,
+     0.0505
+    ],
+    "aesthetic": [
+     0.0706,
+     0.0179,
+     0.1205
+    ],
+    "hps": [
+     0.0093,
+     0.0075,
+     0.0112
+    ]
+   },
+   "primary": "clip",
+   "better": 1
+  }
+ ]
+}

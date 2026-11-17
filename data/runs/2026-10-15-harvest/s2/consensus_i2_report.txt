@@ -1,0 +1,6 @@
+i2: 900 prompts, 8 strict-SD samples each; quality of the chosen sample (delta vs random, 95% bootstrap CI); last column = how often the rule picks the render-score choice
+  random (mean of 8)       dino 0.9124 (+0.0000 [+0.0000, +0.0000]) | ssim 0.8452 (+0.0000 [+0.0000, +0.0000]) | lpips 0.2287 (+0.0000 [+0.0000, +0.0000]) | mse 0.0686 (+0.0000 [+0.0000, +0.0000]) | same as render-score pick 1/8 expected
+  max likelihood           dino 0.8823 (-0.0301 [-0.0340, -0.0263]) | ssim 0.8434 (-0.0018 [-0.0070, +0.0034]) | lpips 0.2658 (+0.0371 [+0.0306, +0.0435]) | mse 0.0738 (+0.0052 [+0.0010, +0.0091]) | same as render-score pick 0.25
+  text consensus           dino 0.9234 (+0.0111 [+0.0081, +0.0139]) | ssim 0.8614 (+0.0161 [+0.0113, +0.0210]) | lpips 0.2004 (-0.0284 [-0.0342, -0.0227]) | mse 0.0569 (-0.0116 [-0.0154, -0.0077]) | same as render-score pick 0.30
+  render consensus         dino 0.9101 (-0.0022 [-0.0057, +0.0011]) | ssim 0.8462 (+0.0010 [-0.0043, +0.0062]) | lpips 0.2318 (+0.0031 [-0.0034, +0.0097]) | mse 0.0687 (+0.0002 [-0.0038, +0.0045]) | same as render-score pick 0.28
+  render score (dino)      dino 0.9604 (+0.0481 [+0.0448, +0.0515]) | ssim 0.8812 (+0.0360 [+0.0309, +0.0410]) | lpips 0.1425 (-0.0862 [-0.0930, -0.0796]) | mse 0.0415 (-0.0270 [-0.0313, -0.0229]) | same as render-score pick 1.00

@@ -1,0 +1,6981 @@
+{
+ "gidx": 150,
+ "subtype": "illustration",
+ "design": "D1-top16-N127",
+ "block_size": 32,
+ "rounds": [
+  {
+   "start": 94,
+   "n_accepted": 21,
+   "emitted": [
+    152067,
+    152072,
+    152072,
+    152067,
+    152072,
+    152072,
+    152069,
+    152138,
+    152204,
+    152271,
+    152069,
+    165471,
+    178671,
+    192071,
+    152069,
+    192006,
+    191940,
+    191872,
+    152069,
+    178872,
+    165672,
+    152072
+   ],
+   "bonus": 152072,
+   "nodes": [
+    {
+     "i": 0,
+     "parent": -1,
+     "depth": 1,
+     "rank": 0,
+     "token": 152067,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 1,
+     "parent": 0,
+     "depth": 2,
+     "rank": 0,
+     "token": 152072,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 2,
+     "parent": 1,
+     "depth": 3,
+     "rank": 0,
+     "token": 152072,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 3,
+     "parent": 2,
+     "depth": 4,
+     "rank": 0,
+     "token": 152067,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 4,
+     "parent": 3,
+     "depth": 5,
+     "rank": 0,
+     "token": 152072,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 5,
+     "parent": 4,
+     "depth": 6,
+     "rank": 0,
+     "token": 152072,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 6,
+     "parent": 5,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 7,
+     "parent": 6,
+     "depth": 8,
+     "rank": 0,
+     "token": 152138,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 8,
+     "parent": 7,
+     "depth": 9,
+     "rank": 0,
+     "token": 152204,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 9,
+     "parent": 8,
+     "depth": 10,
+     "rank": 0,
+     "token": 152271,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 10,
+     "parent": 5,
+     "depth": 7,
+     "rank": 1,
+     "token": 152068,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 11,
+     "parent": 10,
+     "depth": 8,
+     "rank": 0,
+     "token": 152138,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 12,
+     "parent": 11,
+     "depth": 9,
+     "rank": 0,
+     "token": 152204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 13,
+     "parent": 9,
+     "depth": 11,
+     "rank": 0,
+     "token": 152068,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 14,
+     "parent": 12,
+     "depth": 10,
+     "rank": 0,
+     "token": 152271,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 15,
+     "parent": 13,
+     "depth": 12,
+     "rank": 0,
+     "token": 165471,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 16,
+     "parent": 15,
+     "depth": 13,
+     "rank": 0,
+     "token": 178671,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 17,
+     "parent": 16,
+     "depth": 14,
+     "rank": 0,
+     "token": 192071,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 18,
+     "parent": 14,
+     "depth": 11,
+     "rank": 0,
+     "token": 152068,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 19,
+     "parent": 9,
+     "depth": 11,
+     "rank": 1,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 20,
+     "parent": 18,
+     "depth": 12,
+     "rank": 0,
+     "token": 165471,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 21,
+     "parent": 19,
+     "depth": 12,
+     "rank": 0,
+     "token": 165471,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 22,
+     "parent": 20,
+     "depth": 13,
+     "rank": 0,
+     "token": 178671,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 23,
+     "parent": 21,
+     "depth": 13,
+     "rank": 0,
+     "token": 178671,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 24,
+     "parent": 22,
+     "depth": 14,
+     "rank": 0,
+     "token": 192071,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 25,
+     "parent": 23,
+     "depth": 14,
+     "rank": 0,
+     "token": 192071,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 26,
+     "parent": 17,
+     "depth": 15,
+     "rank": 0,
+     "token": 152071,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 27,
+     "parent": 17,
+     "depth": 15,
+     "rank": 1,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 28,
+     "parent": 14,
+     "depth": 11,
+     "rank": 1,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 29,
+     "parent": 28,
+     "depth": 12,
+     "rank": 0,
+     "token": 165471,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 30,
+     "parent": 29,
+     "depth": 13,
+     "rank": 0,
+     "token": 178671,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 31,
+     "parent": 30,
+     "depth": 14,
+     "rank": 0,
+     "token": 192071,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 32,
+     "parent": 26,
+     "depth": 16,
+     "rank": 0,
+     "token": 192006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 33,
+     "parent": 27,
+     "depth": 16,
+     "rank": 0,
+     "token": 192006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 34,
+     "parent": 32,
+     "depth": 17,
+     "rank": 0,
+     "token": 191940,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 35,
+     "parent": 33,
+     "depth": 17,
+     "rank": 0,
+     "token": 191940,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 36,
+     "parent": 34,
+     "depth": 18,
+     "rank": 0,
+     "token": 191872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 37,
+     "parent": 35,
+     "depth": 18,
+     "rank": 0,
+     "token": 191872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 38,
+     "parent": 24,
+     "depth": 15,
+     "rank": 0,
+     "token": 152071,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 39,
+     "parent": 25,
+     "depth": 15,
+     "rank": 0,
+     "token": 152071,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 40,
+     "parent": 24,
+     "depth": 15,
+     "rank": 1,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 41,
+     "parent": 25,
+     "depth": 15,
+     "rank": 1,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 42,
+     "parent": 38,
+     "depth": 16,
+     "rank": 0,
+     "token": 192006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 43,
+     "parent": 39,
+     "depth": 16,
+     "rank": 0,
+     "token": 192006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 44,
+     "parent": 40,
+     "depth": 16,
+     "rank": 0,
+     "token": 192006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 45,
+     "parent": 41,
+     "depth": 16,
+     "rank": 0,
+     "token": 192006,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 46,
+     "parent": 42,
+     "depth": 17,
+     "rank": 0,
+     "token": 191940,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 47,
+     "parent": 43,
+     "depth": 17,
+     "rank": 0,
+     "token": 191940,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 48,
+     "parent": 44,
+     "depth": 17,
+     "rank": 0,
+     "token": 191940,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 49,
+     "parent": 45,
+     "depth": 17,
+     "rank": 0,
+     "token": 191940,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 50,
+     "parent": 46,
+     "depth": 18,
+     "rank": 0,
+     "token": 191872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 51,
+     "parent": 47,
+     "depth": 18,
+     "rank": 0,
+     "token": 191872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 52,
+     "parent": 48,
+     "depth": 18,
+     "rank": 0,
+     "token": 191872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 53,
+     "parent": 49,
+     "depth": 18,
+     "rank": 0,
+     "token": 191872,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 54,
+     "parent": 36,
+     "depth": 19,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 55,
+     "parent": 37,
+     "depth": 19,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 56,
+     "parent": 31,
+     "depth": 15,
+     "rank": 0,
+     "token": 152071,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 57,
+     "parent": 31,
+     "depth": 15,
+     "rank": 1,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 58,
+     "parent": 56,
+     "depth": 16,
+     "rank": 0,
+     "token": 192006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 59,
+     "parent": 57,
+     "depth": 16,
+     "rank": 0,
+     "token": 192006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 60,
+     "parent": 58,
+     "depth": 17,
+     "rank": 0,
+     "token": 191940,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 61,
+     "parent": 59,
+     "depth": 17,
+     "rank": 0,
+     "token": 191940,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 62,
+     "parent": 54,
+     "depth": 20,
+     "rank": 0,
+     "token": 178872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 63,
+     "parent": 55,
+     "depth": 20,
+     "rank": 0,
+     "token": 178872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 64,
+     "parent": 60,
+     "depth": 18,
+     "rank": 0,
+     "token": 191872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 65,
+     "parent": 61,
+     "depth": 18,
+     "rank": 0,
+     "token": 191872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 66,
+     "parent": 50,
+     "depth": 19,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 67,
+     "parent": 51,
+     "depth": 19,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 68,
+     "parent": 52,
+     "depth": 19,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 69,
+     "parent": 53,
+     "depth": 19,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 70,
+     "parent": 36,
+     "depth": 19,
+     "rank": 1,
+     "token": 152071,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 71,
+     "parent": 37,
+     "depth": 19,
+     "rank": 1,
+     "token": 152071,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 72,
+     "parent": 17,
+     "depth": 15,
+     "rank": 2,
+     "token": 152068,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 73,
+     "parent": 72,
+     "depth": 16,
+     "rank": 0,
+     "token": 192006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 74,
+     "parent": 73,
+     "depth": 17,
+     "rank": 0,
+     "token": 191940,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 75,
+     "parent": 66,
+     "depth": 20,
+     "rank": 0,
+     "token": 178872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 76,
+     "parent": 67,
+     "depth": 20,
+     "rank": 0,
+     "token": 178872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 77,
+     "parent": 68,
+     "depth": 20,
+     "rank": 0,
+     "token": 178872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 78,
+     "parent": 69,
+     "depth": 20,
+     "rank": 0,
+     "token": 178872,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 79,
+     "parent": 70,
+     "depth": 20,
+     "rank": 0,
+     "token": 178872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 80,
+     "parent": 71,
+     "depth": 20,
+     "rank": 0,
+     "token": 178872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 81,
+     "parent": 62,
+     "depth": 21,
+     "rank": 0,
+     "token": 165672,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 82,
+     "parent": 63,
+     "depth": 21,
+     "rank": 0,
+     "token": 165672,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 83,
+     "parent": 74,
+     "depth": 18,
+     "rank": 0,
+     "token": 191872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 84,
+     "parent": 64,
+     "depth": 19,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 85,
+     "parent": 65,
+     "depth": 19,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 86,
+     "parent": 50,
+     "depth": 19,
+     "rank": 1,
+     "token": 152071,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 87,
+     "parent": 51,
+     "depth": 19,
+     "rank": 1,
+     "token": 152071,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 88,
+     "parent": 52,
+     "depth": 19,
+     "rank": 1,
+     "token": 152071,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 89,
+     "parent": 53,
+     "depth": 19,
+     "rank": 1,
+     "token": 152071,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 90,
+     "parent": 6,
+     "depth": 8,
+     "rank": 1,
+     "token": 152271,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 91,
+     "parent": 24,
+     "depth": 15,
+     "rank": 2,
+     "token": 152068,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 92,
+     "parent": 25,
+     "depth": 15,
+     "rank": 2,
+     "token": 152068,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 93,
+     "parent": 34,
+     "depth": 18,
+     "rank": 1,
+     "token": 152072,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 94,
+     "parent": 35,
+     "depth": 18,
+     "rank": 1,
+     "token": 152072,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 95,
+     "parent": 90,
+     "depth": 9,
+     "rank": 0,
+     "token": 152204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 96,
+     "parent": 95,
+     "depth": 10,
+     "rank": 0,
+     "token": 152271,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 97,
+     "parent": 91,
+     "depth": 16,
+     "rank": 0,
+     "token": 192006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 98,
+     "parent": 92,
+     "depth": 16,
+     "rank": 0,
+     "token": 192006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 99,
+     "parent": 26,
+     "depth": 16,
+     "rank": 1,
+     "token": 152072,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 100,
+     "parent": 27,
+     "depth": 16,
+     "rank": 1,
+     "token": 152072,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 101,
+     "parent": 7,
+     "depth": 9,
+     "rank": 1,
+     "token": 152068,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 102,
+     "parent": 101,
+     "depth": 10,
+     "rank": 0,
+     "token": 152271,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 103,
+     "parent": 97,
+     "depth": 17,
+     "rank": 0,
+     "token": 191940,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 104,
+     "parent": 98,
+     "depth": 17,
+     "rank": 0,
+     "token": 191940,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 105,
+     "parent": 99,
+     "depth": 17,
+     "rank": 0,
+     "token": 191940,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 106,
+     "parent": 100,
+     "depth": 17,
+     "rank": 0,
+     "token": 191940,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 107,
+     "parent": 84,
+     "depth": 20,
+     "rank": 0,
+     "token": 178872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 108,
+     "parent": 85,
+     "depth": 20,
+     "rank": 0,
+     "token": 178872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 109,
+     "parent": 86,
+     "depth": 20,
+     "rank": 0,
+     "token": 178872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 110,
+     "parent": 87,
+     "depth": 20,
+     "rank": 0,
+     "token": 178872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 111,
+     "parent": 88,
+     "depth": 20,
+     "rank": 0,
+     "token": 178872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 112,
+     "parent": 89,
+     "depth": 20,
+     "rank": 0,
+     "token": 178872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 113,
+     "parent": 75,
+     "depth": 21,
+     "rank": 0,
+     "token": 165672,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 114,
+     "parent": 76,
+     "depth": 21,
+     "rank": 0,
+     "token": 165672,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 115,
+     "parent": 77,
+     "depth": 21,
+     "rank": 0,
+     "token": 165672,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 116,
+     "parent": 78,
+     "depth": 21,
+     "rank": 0,
+     "token": 165672,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 117,
+     "parent": 79,
+     "depth": 21,
+     "rank": 0,
+     "token": 165672,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 118,
+     "parent": 80,
+     "depth": 21,
+     "rank": 0,
+     "token": 165672,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 119,
+     "parent": 81,
+     "depth": 22,
+     "rank": 0,
+     "token": 152067,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 120,
+     "parent": 82,
+     "depth": 22,
+     "rank": 0,
+     "token": 152067,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 121,
+     "parent": 103,
+     "depth": 18,
+     "rank": 0,
+     "token": 191872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 122,
+     "parent": 104,
+     "depth": 18,
+     "rank": 0,
+     "token": 191872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 123,
+     "parent": 105,
+     "depth": 18,
+     "rank": 0,
+     "token": 191872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 124,
+     "parent": 106,
+     "depth": 18,
+     "rank": 0,
+     "token": 191872,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 125,
+     "parent": 83,
+     "depth": 19,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 126,
+     "parent": 64,
+     "depth": 19,
+     "rank": 1,
+     "token": 152071,
+     "cls": "cmd",
+     "accepted": false
+    }
+   ]
+  },
+  {
+   "start": 116,
+   "n_accepted": 16,
+   "emitted": [
+    152071,
+    152072,
+    152068,
+    152072,
+    152071,
+    152072,
+    196172,
+    152067,
+    152072,
+    152072,
+    152067,
+    152072,
+    169799,
+    152069,
+    169800,
+    169800,
+    169801
+   ],
+   "bonus": 169801,
+   "nodes": [
+    {
+     "i": 0,
+     "parent": -1,
+     "depth": 1,
+     "rank": 0,
+     "token": 152071,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 1,
+     "parent": 0,
+     "depth": 2,
+     "rank": 0,
+     "token": 152072,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 2,
+     "parent": 1,
+     "depth": 3,
+     "rank": 0,
+     "token": 152068,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 3,
+     "parent": 2,
+     "depth": 4,
+     "rank": 0,
+     "token": 152072,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 4,
+     "parent": 3,
+     "depth": 5,
+     "rank": 0,
+     "token": 152071,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 5,
+     "parent": 4,
+     "depth": 6,
+     "rank": 0,
+     "token": 152072,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 6,
+     "parent": 5,
+     "depth": 7,
+     "rank": 0,
+     "token": 196172,
+     "cls": "color",
+     "accepted": true
+    },
+    {
+     "i": 7,
+     "parent": 6,
+     "depth": 8,
+     "rank": 0,
+     "token": 152067,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 8,
+     "parent": 7,
+     "depth": 9,
+     "rank": 0,
+     "token": 152072,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 9,
+     "parent": 8,
+     "depth": 10,
+     "rank": 0,
+     "token": 152072,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 10,
+     "parent": 9,
+     "depth": 11,
+     "rank": 0,
+     "token": 152067,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 11,
+     "parent": 10,
+     "depth": 12,
+     "rank": 0,
+     "token": 152072,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 12,
+     "parent": 11,
+     "depth": 13,
+     "rank": 0,
+     "token": 169799,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 13,
+     "parent": 12,
+     "depth": 14,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 14,
+     "parent": 11,
+     "depth": 13,
+     "rank": 1,
+     "token": 158996,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 15,
+     "parent": 14,
+     "depth": 14,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 16,
+     "parent": 11,
+     "depth": 13,
+     "rank": 2,
+     "token": 172588,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 17,
+     "parent": 16,
+     "depth": 14,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 18,
+     "parent": 11,
+     "depth": 13,
+     "rank": 3,
+     "token": 172974,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 19,
+     "parent": 18,
+     "depth": 14,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 20,
+     "parent": 11,
+     "depth": 13,
+     "rank": 4,
+     "token": 161605,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 21,
+     "parent": 20,
+     "depth": 14,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 22,
+     "parent": 13,
+     "depth": 15,
+     "rank": 0,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 23,
+     "parent": 11,
+     "depth": 13,
+     "rank": 5,
+     "token": 171625,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 24,
+     "parent": 23,
+     "depth": 14,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 25,
+     "parent": 13,
+     "depth": 15,
+     "rank": 1,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 26,
+     "parent": 15,
+     "depth": 15,
+     "rank": 0,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 27,
+     "parent": 17,
+     "depth": 15,
+     "rank": 0,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 28,
+     "parent": 15,
+     "depth": 15,
+     "rank": 1,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 29,
+     "parent": 19,
+     "depth": 15,
+     "rank": 0,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 30,
+     "parent": 17,
+     "depth": 15,
+     "rank": 1,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 31,
+     "parent": 11,
+     "depth": 13,
+     "rank": 6,
+     "token": 173180,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 32,
+     "parent": 31,
+     "depth": 14,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 33,
+     "parent": 19,
+     "depth": 15,
+     "rank": 1,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 34,
+     "parent": 11,
+     "depth": 13,
+     "rank": 7,
+     "token": 165976,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 35,
+     "parent": 34,
+     "depth": 14,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 36,
+     "parent": 21,
+     "depth": 15,
+     "rank": 0,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 37,
+     "parent": 11,
+     "depth": 13,
+     "rank": 8,
+     "token": 162164,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 38,
+     "parent": 11,
+     "depth": 13,
+     "rank": 9,
+     "token": 172980,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 39,
+     "parent": 37,
+     "depth": 14,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 40,
+     "parent": 38,
+     "depth": 14,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 41,
+     "parent": 21,
+     "depth": 15,
+     "rank": 1,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 42,
+     "parent": 13,
+     "depth": 15,
+     "rank": 2,
+     "token": 173175,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 43,
+     "parent": 24,
+     "depth": 15,
+     "rank": 0,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 44,
+     "parent": 11,
+     "depth": 13,
+     "rank": 10,
+     "token": 161758,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 45,
+     "parent": 44,
+     "depth": 14,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 46,
+     "parent": 22,
+     "depth": 16,
+     "rank": 0,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 47,
+     "parent": 24,
+     "depth": 15,
+     "rank": 1,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 48,
+     "parent": 11,
+     "depth": 13,
+     "rank": 11,
+     "token": 167006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 49,
+     "parent": 48,
+     "depth": 14,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 50,
+     "parent": 25,
+     "depth": 16,
+     "rank": 0,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 51,
+     "parent": 11,
+     "depth": 13,
+     "rank": 12,
+     "token": 162806,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 52,
+     "parent": 51,
+     "depth": 14,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 53,
+     "parent": 22,
+     "depth": 16,
+     "rank": 1,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 54,
+     "parent": 11,
+     "depth": 13,
+     "rank": 13,
+     "token": 167799,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 55,
+     "parent": 54,
+     "depth": 14,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 56,
+     "parent": 25,
+     "depth": 16,
+     "rank": 1,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 57,
+     "parent": 13,
+     "depth": 15,
+     "rank": 3,
+     "token": 171626,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 58,
+     "parent": 15,
+     "depth": 15,
+     "rank": 2,
+     "token": 173175,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 59,
+     "parent": 11,
+     "depth": 13,
+     "rank": 14,
+     "token": 168577,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 60,
+     "parent": 59,
+     "depth": 14,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 61,
+     "parent": 17,
+     "depth": 15,
+     "rank": 2,
+     "token": 173175,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 62,
+     "parent": 26,
+     "depth": 16,
+     "rank": 0,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 63,
+     "parent": 19,
+     "depth": 15,
+     "rank": 2,
+     "token": 173175,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 64,
+     "parent": 27,
+     "depth": 16,
+     "rank": 0,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 65,
+     "parent": 28,
+     "depth": 16,
+     "rank": 0,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 66,
+     "parent": 32,
+     "depth": 15,
+     "rank": 0,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 67,
+     "parent": 13,
+     "depth": 15,
+     "rank": 4,
+     "token": 168577,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 68,
+     "parent": 29,
+     "depth": 16,
+     "rank": 0,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 69,
+     "parent": 30,
+     "depth": 16,
+     "rank": 0,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 70,
+     "parent": 26,
+     "depth": 16,
+     "rank": 1,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 71,
+     "parent": 11,
+     "depth": 13,
+     "rank": 15,
+     "token": 173360,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 72,
+     "parent": 71,
+     "depth": 14,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 73,
+     "parent": 35,
+     "depth": 15,
+     "rank": 0,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 74,
+     "parent": 32,
+     "depth": 15,
+     "rank": 1,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 75,
+     "parent": 21,
+     "depth": 15,
+     "rank": 2,
+     "token": 173175,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 76,
+     "parent": 33,
+     "depth": 16,
+     "rank": 0,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 77,
+     "parent": 27,
+     "depth": 16,
+     "rank": 1,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 78,
+     "parent": 28,
+     "depth": 16,
+     "rank": 1,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 79,
+     "parent": 22,
+     "depth": 16,
+     "rank": 2,
+     "token": 173175,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 80,
+     "parent": 15,
+     "depth": 15,
+     "rank": 3,
+     "token": 171626,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 81,
+     "parent": 13,
+     "depth": 15,
+     "rank": 5,
+     "token": 158997,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 82,
+     "parent": 39,
+     "depth": 15,
+     "rank": 0,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 83,
+     "parent": 40,
+     "depth": 15,
+     "rank": 0,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 84,
+     "parent": 35,
+     "depth": 15,
+     "rank": 1,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 85,
+     "parent": 36,
+     "depth": 16,
+     "rank": 0,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 86,
+     "parent": 29,
+     "depth": 16,
+     "rank": 1,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 87,
+     "parent": 30,
+     "depth": 16,
+     "rank": 1,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 88,
+     "parent": 25,
+     "depth": 16,
+     "rank": 2,
+     "token": 173175,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 89,
+     "parent": 17,
+     "depth": 15,
+     "rank": 3,
+     "token": 171626,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 90,
+     "parent": 39,
+     "depth": 15,
+     "rank": 1,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 91,
+     "parent": 40,
+     "depth": 15,
+     "rank": 1,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 92,
+     "parent": 45,
+     "depth": 15,
+     "rank": 0,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 93,
+     "parent": 24,
+     "depth": 15,
+     "rank": 2,
+     "token": 173175,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 94,
+     "parent": 41,
+     "depth": 16,
+     "rank": 0,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 95,
+     "parent": 33,
+     "depth": 16,
+     "rank": 1,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 96,
+     "parent": 19,
+     "depth": 15,
+     "rank": 3,
+     "token": 171626,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 97,
+     "parent": 13,
+     "depth": 15,
+     "rank": 6,
+     "token": 173180,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 98,
+     "parent": 42,
+     "depth": 16,
+     "rank": 0,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 99,
+     "parent": 49,
+     "depth": 15,
+     "rank": 0,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 100,
+     "parent": 45,
+     "depth": 15,
+     "rank": 1,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 101,
+     "parent": 43,
+     "depth": 16,
+     "rank": 0,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 102,
+     "parent": 36,
+     "depth": 16,
+     "rank": 1,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 103,
+     "parent": 46,
+     "depth": 17,
+     "rank": 0,
+     "token": 172989,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 104,
+     "parent": 103,
+     "depth": 18,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 105,
+     "parent": 52,
+     "depth": 15,
+     "rank": 0,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 106,
+     "parent": 49,
+     "depth": 15,
+     "rank": 1,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 107,
+     "parent": 15,
+     "depth": 15,
+     "rank": 4,
+     "token": 168577,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 108,
+     "parent": 47,
+     "depth": 16,
+     "rank": 0,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 109,
+     "parent": 41,
+     "depth": 16,
+     "rank": 1,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 110,
+     "parent": 50,
+     "depth": 17,
+     "rank": 0,
+     "token": 172989,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 111,
+     "parent": 110,
+     "depth": 18,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 112,
+     "parent": 21,
+     "depth": 15,
+     "rank": 3,
+     "token": 171626,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 113,
+     "parent": 42,
+     "depth": 16,
+     "rank": 1,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 114,
+     "parent": 55,
+     "depth": 15,
+     "rank": 0,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 115,
+     "parent": 52,
+     "depth": 15,
+     "rank": 1,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 116,
+     "parent": 17,
+     "depth": 15,
+     "rank": 4,
+     "token": 168577,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 117,
+     "parent": 13,
+     "depth": 15,
+     "rank": 7,
+     "token": 170174,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 118,
+     "parent": 13,
+     "depth": 15,
+     "rank": 8,
+     "token": 172026,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 119,
+     "parent": 43,
+     "depth": 16,
+     "rank": 1,
+     "token": 172788,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 120,
+     "parent": 26,
+     "depth": 16,
+     "rank": 2,
+     "token": 173175,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 121,
+     "parent": 22,
+     "depth": 16,
+     "rank": 3,
+     "token": 169801,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 122,
+     "parent": 53,
+     "depth": 17,
+     "rank": 0,
+     "token": 172989,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 123,
+     "parent": 122,
+     "depth": 18,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 124,
+     "parent": 15,
+     "depth": 15,
+     "rank": 5,
+     "token": 158997,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 125,
+     "parent": 13,
+     "depth": 15,
+     "rank": 9,
+     "token": 161759,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 126,
+     "parent": 55,
+     "depth": 15,
+     "rank": 1,
+     "token": 169800,
+     "cls": "coord",
+     "accepted": false
+    }
+   ]
+  },
+  {
+   "start": 133,
+   "n_accepted": 5,
+   "emitted": [
+    152069,
+    169801,
+    169802,
+    169802,
+    152069,
+    170003
+   ],
+   "bonus": 170003,
+   "nodes": [
+    {
+     "i": 0,
+     "parent": -1,
+     "depth": 1,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 1,
+     "parent": 0,
+     "depth": 2,
+     "rank": 0,
+     "token": 169801,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 2,
+     "parent": 1,
+     "depth": 3,
+     "rank": 0,
+     "token": 169801,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 3,
+     "parent": 2,
+     "depth": 4,
+     "rank": 0,
+     "token": 169802,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 4,
+     "parent": 3,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 5,
+     "parent": 4,
+     "depth": 6,
+     "rank": 0,
+     "token": 170002,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 6,
+     "parent": 5,
+     "depth": 7,
+     "rank": 0,
+     "token": 170003,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 7,
+     "parent": 2,
+     "depth": 4,
+     "rank": 1,
+     "token": 169801,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 8,
+     "parent": 7,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 9,
+     "parent": 8,
+     "depth": 6,
+     "rank": 0,
+     "token": 170002,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 10,
+     "parent": 6,
+     "depth": 8,
+     "rank": 0,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 11,
+     "parent": 10,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 12,
+     "parent": 4,
+     "depth": 6,
+     "rank": 1,
+     "token": 170202,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 13,
+     "parent": 1,
+     "depth": 3,
+     "rank": 1,
+     "token": 169802,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 14,
+     "parent": 4,
+     "depth": 6,
+     "rank": 2,
+     "token": 169802,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 15,
+     "parent": 9,
+     "depth": 7,
+     "rank": 0,
+     "token": 170003,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 16,
+     "parent": 11,
+     "depth": 10,
+     "rank": 0,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 17,
+     "parent": 12,
+     "depth": 7,
+     "rank": 0,
+     "token": 170003,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 18,
+     "parent": 6,
+     "depth": 8,
+     "rank": 1,
+     "token": 169803,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 19,
+     "parent": 18,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 20,
+     "parent": 13,
+     "depth": 4,
+     "rank": 0,
+     "token": 169802,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 21,
+     "parent": 20,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 22,
+     "parent": 5,
+     "depth": 7,
+     "rank": 1,
+     "token": 169802,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 23,
+     "parent": 2,
+     "depth": 4,
+     "rank": 2,
+     "token": 170202,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 24,
+     "parent": 23,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 25,
+     "parent": 14,
+     "depth": 7,
+     "rank": 0,
+     "token": 170003,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 26,
+     "parent": 15,
+     "depth": 8,
+     "rank": 0,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 27,
+     "parent": 26,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 28,
+     "parent": 19,
+     "depth": 10,
+     "rank": 0,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 29,
+     "parent": 1,
+     "depth": 3,
+     "rank": 2,
+     "token": 170002,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 30,
+     "parent": 21,
+     "depth": 6,
+     "rank": 0,
+     "token": 170002,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 31,
+     "parent": 4,
+     "depth": 6,
+     "rank": 3,
+     "token": 170003,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 32,
+     "parent": 8,
+     "depth": 6,
+     "rank": 1,
+     "token": 170202,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 33,
+     "parent": 17,
+     "depth": 8,
+     "rank": 0,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 34,
+     "parent": 33,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 35,
+     "parent": 24,
+     "depth": 6,
+     "rank": 0,
+     "token": 170002,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 36,
+     "parent": 22,
+     "depth": 8,
+     "rank": 0,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 37,
+     "parent": 36,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 38,
+     "parent": 8,
+     "depth": 6,
+     "rank": 2,
+     "token": 169802,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 39,
+     "parent": 25,
+     "depth": 8,
+     "rank": 0,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 40,
+     "parent": 39,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 41,
+     "parent": 29,
+     "depth": 4,
+     "rank": 0,
+     "token": 169802,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 42,
+     "parent": 41,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 43,
+     "parent": 5,
+     "depth": 7,
+     "rank": 2,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 44,
+     "parent": 11,
+     "depth": 10,
+     "rank": 1,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 45,
+     "parent": 27,
+     "depth": 10,
+     "rank": 0,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 46,
+     "parent": 16,
+     "depth": 11,
+     "rank": 0,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 47,
+     "parent": 30,
+     "depth": 7,
+     "rank": 0,
+     "token": 170003,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 48,
+     "parent": 31,
+     "depth": 7,
+     "rank": 0,
+     "token": 170003,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 49,
+     "parent": 32,
+     "depth": 7,
+     "rank": 0,
+     "token": 170003,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 50,
+     "parent": 15,
+     "depth": 8,
+     "rank": 1,
+     "token": 169803,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 51,
+     "parent": 50,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 52,
+     "parent": 34,
+     "depth": 10,
+     "rank": 0,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 53,
+     "parent": 0,
+     "depth": 2,
+     "rank": 1,
+     "token": 170002,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 54,
+     "parent": 13,
+     "depth": 4,
+     "rank": 1,
+     "token": 169801,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 55,
+     "parent": 54,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 56,
+     "parent": 35,
+     "depth": 7,
+     "rank": 0,
+     "token": 170003,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 57,
+     "parent": 9,
+     "depth": 7,
+     "rank": 1,
+     "token": 169802,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 58,
+     "parent": 17,
+     "depth": 8,
+     "rank": 1,
+     "token": 169803,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 59,
+     "parent": 58,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 60,
+     "parent": 37,
+     "depth": 10,
+     "rank": 0,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 61,
+     "parent": 53,
+     "depth": 3,
+     "rank": 0,
+     "token": 169801,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 62,
+     "parent": 12,
+     "depth": 7,
+     "rank": 1,
+     "token": 169802,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 63,
+     "parent": 5,
+     "depth": 7,
+     "rank": 3,
+     "token": 170202,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 64,
+     "parent": 5,
+     "depth": 7,
+     "rank": 4,
+     "token": 170002,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 65,
+     "parent": 38,
+     "depth": 7,
+     "rank": 0,
+     "token": 170003,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 66,
+     "parent": 22,
+     "depth": 8,
+     "rank": 1,
+     "token": 169803,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 67,
+     "parent": 66,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 68,
+     "parent": 40,
+     "depth": 10,
+     "rank": 0,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 69,
+     "parent": 2,
+     "depth": 4,
+     "rank": 3,
+     "token": 170402,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 70,
+     "parent": 69,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 71,
+     "parent": 42,
+     "depth": 6,
+     "rank": 0,
+     "token": 170002,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 72,
+     "parent": 25,
+     "depth": 8,
+     "rank": 1,
+     "token": 169803,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 73,
+     "parent": 72,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 74,
+     "parent": 14,
+     "depth": 7,
+     "rank": 1,
+     "token": 169802,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 75,
+     "parent": 43,
+     "depth": 8,
+     "rank": 0,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 76,
+     "parent": 75,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 77,
+     "parent": 19,
+     "depth": 10,
+     "rank": 1,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 78,
+     "parent": 51,
+     "depth": 10,
+     "rank": 0,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 79,
+     "parent": 28,
+     "depth": 11,
+     "rank": 0,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 80,
+     "parent": 16,
+     "depth": 11,
+     "rank": 1,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 81,
+     "parent": 1,
+     "depth": 3,
+     "rank": 3,
+     "token": 170202,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 82,
+     "parent": 61,
+     "depth": 4,
+     "rank": 0,
+     "token": 169802,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 83,
+     "parent": 82,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 84,
+     "parent": 55,
+     "depth": 6,
+     "rank": 0,
+     "token": 170002,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 85,
+     "parent": 8,
+     "depth": 6,
+     "rank": 3,
+     "token": 170003,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 86,
+     "parent": 5,
+     "depth": 7,
+     "rank": 5,
+     "token": 169803,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 87,
+     "parent": 47,
+     "depth": 8,
+     "rank": 0,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 88,
+     "parent": 87,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 89,
+     "parent": 48,
+     "depth": 8,
+     "rank": 0,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 90,
+     "parent": 89,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 91,
+     "parent": 49,
+     "depth": 8,
+     "rank": 0,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 92,
+     "parent": 91,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 93,
+     "parent": 59,
+     "depth": 10,
+     "rank": 0,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 94,
+     "parent": 21,
+     "depth": 6,
+     "rank": 1,
+     "token": 170202,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 95,
+     "parent": 56,
+     "depth": 8,
+     "rank": 0,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 96,
+     "parent": 95,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 97,
+     "parent": 57,
+     "depth": 8,
+     "rank": 0,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 98,
+     "parent": 97,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 99,
+     "parent": 67,
+     "depth": 10,
+     "rank": 0,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 100,
+     "parent": 70,
+     "depth": 6,
+     "rank": 0,
+     "token": 170002,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 101,
+     "parent": 24,
+     "depth": 6,
+     "rank": 1,
+     "token": 170202,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 102,
+     "parent": 4,
+     "depth": 6,
+     "rank": 4,
+     "token": 169801,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 103,
+     "parent": 71,
+     "depth": 7,
+     "rank": 0,
+     "token": 170003,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 104,
+     "parent": 5,
+     "depth": 7,
+     "rank": 6,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 105,
+     "parent": 62,
+     "depth": 8,
+     "rank": 0,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 106,
+     "parent": 63,
+     "depth": 8,
+     "rank": 0,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 107,
+     "parent": 64,
+     "depth": 8,
+     "rank": 0,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 108,
+     "parent": 105,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 109,
+     "parent": 106,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 110,
+     "parent": 107,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 111,
+     "parent": 65,
+     "depth": 8,
+     "rank": 0,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 112,
+     "parent": 111,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 113,
+     "parent": 73,
+     "depth": 10,
+     "rank": 0,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 114,
+     "parent": 81,
+     "depth": 4,
+     "rank": 0,
+     "token": 169802,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 115,
+     "parent": 114,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 116,
+     "parent": 2,
+     "depth": 4,
+     "rank": 4,
+     "token": 170002,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 117,
+     "parent": 116,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 118,
+     "parent": 29,
+     "depth": 4,
+     "rank": 1,
+     "token": 169801,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 119,
+     "parent": 118,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 120,
+     "parent": 21,
+     "depth": 6,
+     "rank": 2,
+     "token": 169802,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 121,
+     "parent": 5,
+     "depth": 7,
+     "rank": 7,
+     "token": 170203,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 122,
+     "parent": 9,
+     "depth": 7,
+     "rank": 2,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 123,
+     "parent": 6,
+     "depth": 8,
+     "rank": 2,
+     "token": 170003,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 124,
+     "parent": 123,
+     "depth": 9,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 125,
+     "parent": 46,
+     "depth": 12,
+     "rank": 0,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 126,
+     "parent": 125,
+     "depth": 13,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    }
+   ]
+  },
+  {
+   "start": 139,
+   "n_accepted": 3,
+   "emitted": [
+    170004,
+    170005,
+    152069,
+    170005
+   ],
+   "bonus": 170005,
+   "nodes": [
+    {
+     "i": 0,
+     "parent": -1,
+     "depth": 1,
+     "rank": 0,
+     "token": 170003,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 1,
+     "parent": 0,
+     "depth": 2,
+     "rank": 0,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 2,
+     "parent": 1,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 3,
+     "parent": -1,
+     "depth": 1,
+     "rank": 1,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 4,
+     "parent": 3,
+     "depth": 2,
+     "rank": 0,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 5,
+     "parent": 4,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 6,
+     "parent": 2,
+     "depth": 4,
+     "rank": 0,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 7,
+     "parent": 5,
+     "depth": 4,
+     "rank": 0,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 8,
+     "parent": 2,
+     "depth": 4,
+     "rank": 1,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 9,
+     "parent": 6,
+     "depth": 5,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 10,
+     "parent": 5,
+     "depth": 4,
+     "rank": 1,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 11,
+     "parent": 7,
+     "depth": 5,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 12,
+     "parent": 8,
+     "depth": 5,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 13,
+     "parent": 2,
+     "depth": 4,
+     "rank": 2,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 14,
+     "parent": 10,
+     "depth": 5,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 15,
+     "parent": 9,
+     "depth": 6,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 16,
+     "parent": 15,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 17,
+     "parent": 5,
+     "depth": 4,
+     "rank": 2,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 18,
+     "parent": 11,
+     "depth": 6,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 19,
+     "parent": 18,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 20,
+     "parent": 13,
+     "depth": 5,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 21,
+     "parent": 12,
+     "depth": 6,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 22,
+     "parent": 21,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 23,
+     "parent": 6,
+     "depth": 5,
+     "rank": 1,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 24,
+     "parent": 9,
+     "depth": 6,
+     "rank": 1,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 25,
+     "parent": 24,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 26,
+     "parent": 17,
+     "depth": 5,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 27,
+     "parent": 14,
+     "depth": 6,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 28,
+     "parent": 27,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 29,
+     "parent": 7,
+     "depth": 5,
+     "rank": 1,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 30,
+     "parent": 11,
+     "depth": 6,
+     "rank": 1,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 31,
+     "parent": 30,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 32,
+     "parent": 8,
+     "depth": 5,
+     "rank": 1,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 33,
+     "parent": 12,
+     "depth": 6,
+     "rank": 1,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 34,
+     "parent": 33,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 35,
+     "parent": 0,
+     "depth": 2,
+     "rank": 1,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 36,
+     "parent": 35,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 37,
+     "parent": 20,
+     "depth": 6,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 38,
+     "parent": 37,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 39,
+     "parent": 6,
+     "depth": 5,
+     "rank": 2,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 40,
+     "parent": 6,
+     "depth": 5,
+     "rank": 3,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 41,
+     "parent": 10,
+     "depth": 5,
+     "rank": 1,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 42,
+     "parent": 23,
+     "depth": 6,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 43,
+     "parent": 42,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 44,
+     "parent": 6,
+     "depth": 5,
+     "rank": 4,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 45,
+     "parent": 14,
+     "depth": 6,
+     "rank": 1,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 46,
+     "parent": 45,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 47,
+     "parent": 3,
+     "depth": 2,
+     "rank": 1,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 48,
+     "parent": 47,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 49,
+     "parent": 26,
+     "depth": 6,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 50,
+     "parent": 49,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 51,
+     "parent": 7,
+     "depth": 5,
+     "rank": 2,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 52,
+     "parent": 16,
+     "depth": 8,
+     "rank": 0,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 53,
+     "parent": 9,
+     "depth": 6,
+     "rank": 2,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 54,
+     "parent": 53,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 55,
+     "parent": 7,
+     "depth": 5,
+     "rank": 3,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 56,
+     "parent": 6,
+     "depth": 5,
+     "rank": 5,
+     "token": 170205,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 57,
+     "parent": 29,
+     "depth": 6,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 58,
+     "parent": 57,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 59,
+     "parent": 7,
+     "depth": 5,
+     "rank": 4,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 60,
+     "parent": 8,
+     "depth": 5,
+     "rank": 2,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 61,
+     "parent": 16,
+     "depth": 8,
+     "rank": 1,
+     "token": 170605,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 62,
+     "parent": 13,
+     "depth": 5,
+     "rank": 1,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 63,
+     "parent": 8,
+     "depth": 5,
+     "rank": 3,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 64,
+     "parent": 20,
+     "depth": 6,
+     "rank": 1,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 65,
+     "parent": 64,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 66,
+     "parent": 36,
+     "depth": 4,
+     "rank": 0,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 67,
+     "parent": 32,
+     "depth": 6,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 68,
+     "parent": 67,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 69,
+     "parent": 2,
+     "depth": 4,
+     "rank": 3,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 70,
+     "parent": 19,
+     "depth": 8,
+     "rank": 0,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 71,
+     "parent": 8,
+     "depth": 5,
+     "rank": 4,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 72,
+     "parent": 11,
+     "depth": 6,
+     "rank": 2,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 73,
+     "parent": 72,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 74,
+     "parent": 2,
+     "depth": 4,
+     "rank": 4,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 75,
+     "parent": 7,
+     "depth": 5,
+     "rank": 5,
+     "token": 170205,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 76,
+     "parent": 10,
+     "depth": 5,
+     "rank": 2,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 77,
+     "parent": 39,
+     "depth": 6,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 78,
+     "parent": 77,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 79,
+     "parent": 2,
+     "depth": 4,
+     "rank": 5,
+     "token": 170205,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 80,
+     "parent": 23,
+     "depth": 6,
+     "rank": 1,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 81,
+     "parent": 80,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 82,
+     "parent": 22,
+     "depth": 8,
+     "rank": 0,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 83,
+     "parent": 12,
+     "depth": 6,
+     "rank": 2,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 84,
+     "parent": 83,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 85,
+     "parent": 19,
+     "depth": 8,
+     "rank": 1,
+     "token": 170605,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 86,
+     "parent": 17,
+     "depth": 5,
+     "rank": 1,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 87,
+     "parent": 10,
+     "depth": 5,
+     "rank": 3,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 88,
+     "parent": 40,
+     "depth": 6,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 89,
+     "parent": 88,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 90,
+     "parent": 26,
+     "depth": 6,
+     "rank": 1,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 91,
+     "parent": 90,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 92,
+     "parent": 48,
+     "depth": 4,
+     "rank": 0,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 93,
+     "parent": 8,
+     "depth": 5,
+     "rank": 5,
+     "token": 170205,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 94,
+     "parent": 41,
+     "depth": 6,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 95,
+     "parent": 94,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 96,
+     "parent": 5,
+     "depth": 4,
+     "rank": 3,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 97,
+     "parent": 10,
+     "depth": 5,
+     "rank": 4,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 98,
+     "parent": 44,
+     "depth": 6,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 99,
+     "parent": 98,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 100,
+     "parent": 9,
+     "depth": 6,
+     "rank": 3,
+     "token": 170205,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 101,
+     "parent": 100,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 102,
+     "parent": 5,
+     "depth": 4,
+     "rank": 4,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 103,
+     "parent": 16,
+     "depth": 8,
+     "rank": 2,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 104,
+     "parent": 0,
+     "depth": 2,
+     "rank": 2,
+     "token": 170204,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 105,
+     "parent": 104,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 106,
+     "parent": 0,
+     "depth": 2,
+     "rank": 3,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 107,
+     "parent": 106,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 108,
+     "parent": 25,
+     "depth": 8,
+     "rank": 0,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 109,
+     "parent": 16,
+     "depth": 8,
+     "rank": 3,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 110,
+     "parent": 22,
+     "depth": 8,
+     "rank": 1,
+     "token": 170605,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 111,
+     "parent": 51,
+     "depth": 6,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 112,
+     "parent": 111,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 113,
+     "parent": 5,
+     "depth": 4,
+     "rank": 5,
+     "token": 170205,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 114,
+     "parent": 29,
+     "depth": 6,
+     "rank": 1,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 115,
+     "parent": 114,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 116,
+     "parent": 36,
+     "depth": 4,
+     "rank": 1,
+     "token": 170004,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 117,
+     "parent": 28,
+     "depth": 8,
+     "rank": 0,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 118,
+     "parent": 14,
+     "depth": 6,
+     "rank": 2,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 119,
+     "parent": 118,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 120,
+     "parent": 66,
+     "depth": 5,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 121,
+     "parent": 69,
+     "depth": 5,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 122,
+     "parent": 0,
+     "depth": 2,
+     "rank": 4,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 123,
+     "parent": 122,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 124,
+     "parent": 55,
+     "depth": 6,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 125,
+     "parent": 124,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 126,
+     "parent": 9,
+     "depth": 6,
+     "rank": 4,
+     "token": 170206,
+     "cls": "coord",
+     "accepted": false
+    }
+   ]
+  },
+  {
+   "start": 143,
+   "n_accepted": 5,
+   "emitted": [
+    170005,
+    170006,
+    152069,
+    170007,
+    170008,
+    170009
+   ],
+   "bonus": 170009,
+   "nodes": [
+    {
+     "i": 0,
+     "parent": -1,
+     "depth": 1,
+     "rank": 0,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 1,
+     "parent": -1,
+     "depth": 1,
+     "rank": 1,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 2,
+     "parent": 0,
+     "depth": 2,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 3,
+     "parent": 2,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 4,
+     "parent": 0,
+     "depth": 2,
+     "rank": 1,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 5,
+     "parent": 4,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 6,
+     "parent": 1,
+     "depth": 2,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 7,
+     "parent": 6,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 8,
+     "parent": 1,
+     "depth": 2,
+     "rank": 1,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 9,
+     "parent": 8,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 10,
+     "parent": 3,
+     "depth": 4,
+     "rank": 0,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 11,
+     "parent": 5,
+     "depth": 4,
+     "rank": 0,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 12,
+     "parent": 7,
+     "depth": 4,
+     "rank": 0,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 13,
+     "parent": 3,
+     "depth": 4,
+     "rank": 1,
+     "token": 170007,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 14,
+     "parent": 9,
+     "depth": 4,
+     "rank": 0,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 15,
+     "parent": 3,
+     "depth": 4,
+     "rank": 2,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 16,
+     "parent": 5,
+     "depth": 4,
+     "rank": 1,
+     "token": 170007,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 17,
+     "parent": 10,
+     "depth": 5,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 18,
+     "parent": 5,
+     "depth": 4,
+     "rank": 2,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 19,
+     "parent": 7,
+     "depth": 4,
+     "rank": 1,
+     "token": 170007,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 20,
+     "parent": 7,
+     "depth": 4,
+     "rank": 2,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 21,
+     "parent": 10,
+     "depth": 5,
+     "rank": 1,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 22,
+     "parent": 11,
+     "depth": 5,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 23,
+     "parent": 9,
+     "depth": 4,
+     "rank": 1,
+     "token": 170007,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 24,
+     "parent": 12,
+     "depth": 5,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 25,
+     "parent": 9,
+     "depth": 4,
+     "rank": 2,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 26,
+     "parent": 11,
+     "depth": 5,
+     "rank": 1,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 27,
+     "parent": 13,
+     "depth": 5,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 28,
+     "parent": 12,
+     "depth": 5,
+     "rank": 1,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 29,
+     "parent": 14,
+     "depth": 5,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 30,
+     "parent": 15,
+     "depth": 5,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 31,
+     "parent": 0,
+     "depth": 2,
+     "rank": 2,
+     "token": 170206,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 32,
+     "parent": 31,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 33,
+     "parent": 13,
+     "depth": 5,
+     "rank": 1,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 34,
+     "parent": 16,
+     "depth": 5,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 35,
+     "parent": 14,
+     "depth": 5,
+     "rank": 1,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 36,
+     "parent": 15,
+     "depth": 5,
+     "rank": 1,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 37,
+     "parent": 18,
+     "depth": 5,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 38,
+     "parent": 19,
+     "depth": 5,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 39,
+     "parent": 20,
+     "depth": 5,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 40,
+     "parent": 1,
+     "depth": 2,
+     "rank": 2,
+     "token": 170206,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 41,
+     "parent": 40,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 42,
+     "parent": 0,
+     "depth": 2,
+     "rank": 3,
+     "token": 170205,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 43,
+     "parent": 42,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 44,
+     "parent": 16,
+     "depth": 5,
+     "rank": 1,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 45,
+     "parent": 10,
+     "depth": 5,
+     "rank": 2,
+     "token": 170007,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 46,
+     "parent": 18,
+     "depth": 5,
+     "rank": 1,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 47,
+     "parent": 19,
+     "depth": 5,
+     "rank": 1,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 48,
+     "parent": 23,
+     "depth": 5,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 49,
+     "parent": 20,
+     "depth": 5,
+     "rank": 1,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 50,
+     "parent": 25,
+     "depth": 5,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 51,
+     "parent": 11,
+     "depth": 5,
+     "rank": 2,
+     "token": 170007,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 52,
+     "parent": 1,
+     "depth": 2,
+     "rank": 3,
+     "token": 170205,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 53,
+     "parent": 52,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 54,
+     "parent": 3,
+     "depth": 4,
+     "rank": 3,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 55,
+     "parent": 32,
+     "depth": 4,
+     "rank": 0,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 56,
+     "parent": 23,
+     "depth": 5,
+     "rank": 1,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 57,
+     "parent": 12,
+     "depth": 5,
+     "rank": 2,
+     "token": 170007,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 58,
+     "parent": -1,
+     "depth": 1,
+     "rank": 2,
+     "token": 169805,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 59,
+     "parent": 0,
+     "depth": 2,
+     "rank": 4,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 60,
+     "parent": 59,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 61,
+     "parent": 17,
+     "depth": 6,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 62,
+     "parent": 61,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 63,
+     "parent": 25,
+     "depth": 5,
+     "rank": 1,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 64,
+     "parent": 5,
+     "depth": 4,
+     "rank": 3,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 65,
+     "parent": 13,
+     "depth": 5,
+     "rank": 2,
+     "token": 170007,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 66,
+     "parent": 14,
+     "depth": 5,
+     "rank": 2,
+     "token": 170007,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 67,
+     "parent": 21,
+     "depth": 6,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 68,
+     "parent": 67,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 69,
+     "parent": 22,
+     "depth": 6,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 70,
+     "parent": 69,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 71,
+     "parent": 15,
+     "depth": 5,
+     "rank": 2,
+     "token": 170007,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 72,
+     "parent": 10,
+     "depth": 5,
+     "rank": 3,
+     "token": 170009,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 73,
+     "parent": 3,
+     "depth": 4,
+     "rank": 4,
+     "token": 170208,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 74,
+     "parent": 7,
+     "depth": 4,
+     "rank": 3,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 75,
+     "parent": 41,
+     "depth": 4,
+     "rank": 0,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 76,
+     "parent": 43,
+     "depth": 4,
+     "rank": 0,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 77,
+     "parent": 1,
+     "depth": 2,
+     "rank": 4,
+     "token": 170405,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 78,
+     "parent": 77,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 79,
+     "parent": 24,
+     "depth": 6,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 80,
+     "parent": 79,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 81,
+     "parent": 16,
+     "depth": 5,
+     "rank": 2,
+     "token": 170007,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 82,
+     "parent": 17,
+     "depth": 6,
+     "rank": 1,
+     "token": 170209,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 83,
+     "parent": 82,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 84,
+     "parent": 26,
+     "depth": 6,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 85,
+     "parent": 84,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 86,
+     "parent": 18,
+     "depth": 5,
+     "rank": 2,
+     "token": 170007,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 87,
+     "parent": 11,
+     "depth": 5,
+     "rank": 3,
+     "token": 170009,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 88,
+     "parent": 32,
+     "depth": 4,
+     "rank": 1,
+     "token": 170007,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 89,
+     "parent": 5,
+     "depth": 4,
+     "rank": 4,
+     "token": 170208,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 90,
+     "parent": 9,
+     "depth": 4,
+     "rank": 3,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 91,
+     "parent": 0,
+     "depth": 2,
+     "rank": 5,
+     "token": 169805,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 92,
+     "parent": 91,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 93,
+     "parent": 19,
+     "depth": 5,
+     "rank": 2,
+     "token": 170007,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 94,
+     "parent": 58,
+     "depth": 2,
+     "rank": 0,
+     "token": 170005,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 95,
+     "parent": 94,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 96,
+     "parent": 32,
+     "depth": 4,
+     "rank": 2,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 97,
+     "parent": 27,
+     "depth": 6,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 98,
+     "parent": 97,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 99,
+     "parent": 28,
+     "depth": 6,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 100,
+     "parent": 99,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 101,
+     "parent": 29,
+     "depth": 6,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 102,
+     "parent": 101,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 103,
+     "parent": 17,
+     "depth": 6,
+     "rank": 2,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 104,
+     "parent": 103,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 105,
+     "parent": 20,
+     "depth": 5,
+     "rank": 2,
+     "token": 170007,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 106,
+     "parent": 12,
+     "depth": 5,
+     "rank": 3,
+     "token": 170009,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 107,
+     "parent": 3,
+     "depth": 4,
+     "rank": 5,
+     "token": 170009,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 108,
+     "parent": 7,
+     "depth": 4,
+     "rank": 4,
+     "token": 170208,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 109,
+     "parent": 17,
+     "depth": 6,
+     "rank": 3,
+     "token": 170009,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 110,
+     "parent": 109,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 111,
+     "parent": 30,
+     "depth": 6,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 112,
+     "parent": 111,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 113,
+     "parent": 53,
+     "depth": 4,
+     "rank": 0,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 114,
+     "parent": 21,
+     "depth": 6,
+     "rank": 1,
+     "token": 170209,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 115,
+     "parent": 114,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 116,
+     "parent": 22,
+     "depth": 6,
+     "rank": 1,
+     "token": 170209,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 117,
+     "parent": 116,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 118,
+     "parent": 60,
+     "depth": 4,
+     "rank": 0,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 119,
+     "parent": 54,
+     "depth": 5,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 120,
+     "parent": 55,
+     "depth": 5,
+     "rank": 0,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 121,
+     "parent": 23,
+     "depth": 5,
+     "rank": 2,
+     "token": 170007,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 122,
+     "parent": 58,
+     "depth": 2,
+     "rank": 1,
+     "token": 170006,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 123,
+     "parent": 122,
+     "depth": 3,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 124,
+     "parent": 24,
+     "depth": 6,
+     "rank": 1,
+     "token": 170209,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 125,
+     "parent": 124,
+     "depth": 7,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 126,
+     "parent": 3,
+     "depth": 4,
+     "rank": 6,
+     "token": 170206,
+     "cls": "coord",
+     "accepted": false
+    }
+   ]
+  },
+  {
+   "start": 149,
+   "n_accepted": 5,
+   "emitted": [
+    152069,
+    170009,
+    170010,
+    170010,
+    152069,
+    170012
+   ],
+   "bonus": 170012,
+   "nodes": [
+    {
+     "i": 0,
+     "parent": -1,
+     "depth": 1,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 1,
+     "parent": 0,
+     "depth": 2,
+     "rank": 0,
+     "token": 170010,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 2,
+     "parent": 0,
+     "depth": 2,
+     "rank": 1,
+     "token": 170009,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 3,
+     "parent": 1,
+     "depth": 3,
+     "rank": 0,
+     "token": 170010,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 4,
+     "parent": 0,
+     "depth": 2,
+     "rank": 2,
+     "token": 170209,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 5,
+     "parent": 2,
+     "depth": 3,
+     "rank": 0,
+     "token": 170010,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 6,
+     "parent": 0,
+     "depth": 2,
+     "rank": 3,
+     "token": 170210,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 7,
+     "parent": 4,
+     "depth": 3,
+     "rank": 0,
+     "token": 170010,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 8,
+     "parent": 6,
+     "depth": 3,
+     "rank": 0,
+     "token": 170010,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 9,
+     "parent": 3,
+     "depth": 4,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 10,
+     "parent": 9,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 11,
+     "parent": 1,
+     "depth": 3,
+     "rank": 1,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 12,
+     "parent": 5,
+     "depth": 4,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 13,
+     "parent": 12,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 14,
+     "parent": 2,
+     "depth": 3,
+     "rank": 1,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 15,
+     "parent": 0,
+     "depth": 2,
+     "rank": 4,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 16,
+     "parent": 1,
+     "depth": 3,
+     "rank": 2,
+     "token": 170210,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 17,
+     "parent": 2,
+     "depth": 3,
+     "rank": 2,
+     "token": 170210,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 18,
+     "parent": 1,
+     "depth": 3,
+     "rank": 3,
+     "token": 170009,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 19,
+     "parent": 3,
+     "depth": 4,
+     "rank": 1,
+     "token": 170211,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 20,
+     "parent": 19,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 21,
+     "parent": 2,
+     "depth": 3,
+     "rank": 3,
+     "token": 170009,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 22,
+     "parent": 3,
+     "depth": 4,
+     "rank": 2,
+     "token": 170010,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 23,
+     "parent": 22,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 24,
+     "parent": 5,
+     "depth": 4,
+     "rank": 1,
+     "token": 170211,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 25,
+     "parent": 24,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 26,
+     "parent": 7,
+     "depth": 4,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 27,
+     "parent": 26,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 28,
+     "parent": 1,
+     "depth": 3,
+     "rank": 4,
+     "token": 170209,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 29,
+     "parent": 4,
+     "depth": 3,
+     "rank": 1,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 30,
+     "parent": 5,
+     "depth": 4,
+     "rank": 2,
+     "token": 170010,
+     "cls": "coord",
+     "accepted": true
+    },
+    {
+     "i": 31,
+     "parent": 30,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": true
+    },
+    {
+     "i": 32,
+     "parent": 15,
+     "depth": 3,
+     "rank": 0,
+     "token": 170010,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 33,
+     "parent": 2,
+     "depth": 3,
+     "rank": 4,
+     "token": 170209,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 34,
+     "parent": 10,
+     "depth": 6,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 35,
+     "parent": 8,
+     "depth": 4,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 36,
+     "parent": 35,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 37,
+     "parent": 4,
+     "depth": 3,
+     "rank": 2,
+     "token": 170210,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 38,
+     "parent": 13,
+     "depth": 6,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 39,
+     "parent": 6,
+     "depth": 3,
+     "rank": 1,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 40,
+     "parent": 11,
+     "depth": 4,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 41,
+     "parent": 40,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 42,
+     "parent": 1,
+     "depth": 3,
+     "rank": 5,
+     "token": 170211,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 43,
+     "parent": 0,
+     "depth": 2,
+     "rank": 5,
+     "token": 170211,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 44,
+     "parent": 4,
+     "depth": 3,
+     "rank": 3,
+     "token": 170009,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 45,
+     "parent": 7,
+     "depth": 4,
+     "rank": 1,
+     "token": 170211,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 46,
+     "parent": 45,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 47,
+     "parent": 14,
+     "depth": 4,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 48,
+     "parent": 47,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 49,
+     "parent": 2,
+     "depth": 3,
+     "rank": 5,
+     "token": 170211,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 50,
+     "parent": 3,
+     "depth": 4,
+     "rank": 3,
+     "token": 170210,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 51,
+     "parent": 50,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 52,
+     "parent": 7,
+     "depth": 4,
+     "rank": 2,
+     "token": 170010,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 53,
+     "parent": 52,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 54,
+     "parent": 3,
+     "depth": 4,
+     "rank": 4,
+     "token": 170212,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 55,
+     "parent": 54,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 56,
+     "parent": 6,
+     "depth": 3,
+     "rank": 2,
+     "token": 170210,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 57,
+     "parent": 16,
+     "depth": 4,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 58,
+     "parent": 57,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 59,
+     "parent": 4,
+     "depth": 3,
+     "rank": 4,
+     "token": 170209,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 60,
+     "parent": 5,
+     "depth": 4,
+     "rank": 3,
+     "token": 170210,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 61,
+     "parent": 60,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 62,
+     "parent": 0,
+     "depth": 2,
+     "rank": 6,
+     "token": 170008,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 63,
+     "parent": 5,
+     "depth": 4,
+     "rank": 4,
+     "token": 170212,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 64,
+     "parent": 63,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 65,
+     "parent": 17,
+     "depth": 4,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 66,
+     "parent": 65,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 67,
+     "parent": 20,
+     "depth": 6,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 68,
+     "parent": 6,
+     "depth": 3,
+     "rank": 3,
+     "token": 170009,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 69,
+     "parent": 18,
+     "depth": 4,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 70,
+     "parent": 69,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 71,
+     "parent": 3,
+     "depth": 4,
+     "rank": 5,
+     "token": 170209,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 72,
+     "parent": 71,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 73,
+     "parent": 8,
+     "depth": 4,
+     "rank": 1,
+     "token": 170211,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 74,
+     "parent": 73,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 75,
+     "parent": 10,
+     "depth": 6,
+     "rank": 1,
+     "token": 170212,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 76,
+     "parent": 23,
+     "depth": 6,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 77,
+     "parent": 25,
+     "depth": 6,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 78,
+     "parent": 27,
+     "depth": 6,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 79,
+     "parent": 21,
+     "depth": 4,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 80,
+     "parent": 79,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 81,
+     "parent": 5,
+     "depth": 4,
+     "rank": 5,
+     "token": 170209,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 82,
+     "parent": 81,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 83,
+     "parent": 8,
+     "depth": 4,
+     "rank": 2,
+     "token": 170010,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 84,
+     "parent": 83,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 85,
+     "parent": 11,
+     "depth": 4,
+     "rank": 1,
+     "token": 170211,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 86,
+     "parent": 85,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 87,
+     "parent": 13,
+     "depth": 6,
+     "rank": 1,
+     "token": 170212,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 88,
+     "parent": 31,
+     "depth": 6,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 89,
+     "parent": 6,
+     "depth": 3,
+     "rank": 4,
+     "token": 170209,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 90,
+     "parent": 28,
+     "depth": 4,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 91,
+     "parent": 90,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 92,
+     "parent": 43,
+     "depth": 3,
+     "rank": 0,
+     "token": 170010,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 93,
+     "parent": 10,
+     "depth": 6,
+     "rank": 2,
+     "token": 170012,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 94,
+     "parent": 11,
+     "depth": 4,
+     "rank": 2,
+     "token": 170010,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 95,
+     "parent": 94,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 96,
+     "parent": 14,
+     "depth": 4,
+     "rank": 1,
+     "token": 170211,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 97,
+     "parent": 96,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 98,
+     "parent": 29,
+     "depth": 4,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 99,
+     "parent": 98,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 100,
+     "parent": 4,
+     "depth": 3,
+     "rank": 5,
+     "token": 170211,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 101,
+     "parent": 32,
+     "depth": 4,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 102,
+     "parent": 101,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 103,
+     "parent": 3,
+     "depth": 4,
+     "rank": 6,
+     "token": 170009,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 104,
+     "parent": 103,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 105,
+     "parent": 33,
+     "depth": 4,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 106,
+     "parent": 105,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 107,
+     "parent": 13,
+     "depth": 6,
+     "rank": 2,
+     "token": 170012,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 108,
+     "parent": 14,
+     "depth": 4,
+     "rank": 2,
+     "token": 170010,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 109,
+     "parent": 108,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 110,
+     "parent": 15,
+     "depth": 3,
+     "rank": 1,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 111,
+     "parent": 16,
+     "depth": 4,
+     "rank": 1,
+     "token": 170211,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 112,
+     "parent": 111,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 113,
+     "parent": 5,
+     "depth": 4,
+     "rank": 6,
+     "token": 170009,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 114,
+     "parent": 113,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 115,
+     "parent": 36,
+     "depth": 6,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 116,
+     "parent": 7,
+     "depth": 4,
+     "rank": 3,
+     "token": 170210,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 117,
+     "parent": 116,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 118,
+     "parent": 7,
+     "depth": 4,
+     "rank": 4,
+     "token": 170212,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 119,
+     "parent": 118,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 120,
+     "parent": 62,
+     "depth": 3,
+     "rank": 0,
+     "token": 170010,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 121,
+     "parent": 16,
+     "depth": 4,
+     "rank": 2,
+     "token": 170010,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 122,
+     "parent": 121,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 123,
+     "parent": 17,
+     "depth": 4,
+     "rank": 1,
+     "token": 170211,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 124,
+     "parent": 123,
+     "depth": 5,
+     "rank": 0,
+     "token": 152069,
+     "cls": "cmd",
+     "accepted": false
+    },
+    {
+     "i": 125,
+     "parent": 10,
+     "depth": 6,
+     "rank": 3,
+     "token": 170211,
+     "cls": "coord",
+     "accepted": false
+    },
+    {
+     "i": 126,
+     "parent": 37,
+     "depth": 4,
+     "rank": 0,
+     "token": 170011,
+     "cls": "coord",
+     "accepted": false
+    }
+   ]
+  }
+ ]
+}

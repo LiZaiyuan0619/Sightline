@@ -1,0 +1,64 @@
+\begin{table*}[t]
+\caption{\textbf{Table~\ref{tab:main} in full, greedy decoding.} For every benchmark, the wall-clock speed-up over the model's own decoding on the same H200 (Sp.) and the mean acceptance length ($\tau$, tokens kept per verification round, all tokens). Mean is over the six benchmarks. $^\dagger$Held-out captions of the drafts' training source. SpS needs a smaller model of the same family, which only OmniSVG-8B has; ViSpec is a vision-language method and runs on the image-to-SVG models. Best in bold, second underlined, within each model.}
+\label{app:t1-greedy}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{1.5pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l*{14}{c}@{}}
+\toprule
+ & \multicolumn{4}{c}{MMSVG} & \multicolumn{4}{c}{MMSVG-2M$^\dagger$} & \multicolumn{4}{c}{SArena} & \multicolumn{2}{c}{Mean} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}\cmidrule(lr){10-13}\cmidrule(lr){14-15}
+ & \multicolumn{2}{c}{Icon} & \multicolumn{2}{c}{Illus.} & \multicolumn{2}{c}{Icon} & \multicolumn{2}{c}{Illus.} & \multicolumn{2}{c}{Icon} & \multicolumn{2}{c}{Illus.} & \multicolumn{2}{c}{} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(lr){10-11}\cmidrule(lr){12-13}
+Method & Sp. & $\tau$ & Sp. & $\tau$ & Sp. & $\tau$ & Sp. & $\tau$ & Sp. & $\tau$ & Sp. & $\tau$ & Sp. & $\tau$ \\
+\midrule
+\multicolumn{15}{l}{\textit{OmniSVG-8B, text-to-SVG}} \\
+PLD & 1.97$\times$ & 2.26 & 2.15$\times$ & 2.46 & 1.49$\times$ & 1.68 & 2.07$\times$ & 2.37 & 1.60$\times$ & 1.85 & 2.32$\times$ & 2.69 & 1.93$\times$ & 2.22 \\
+REST & 2.03$\times$ & 2.43 & 2.14$\times$ & 2.56 & 1.85$\times$ & 2.20 & 2.07$\times$ & 2.47 & 1.95$\times$ & 2.34 & 2.48$\times$ & 2.99 & 2.09$\times$ & 2.50 \\
+SpS & 0.74$\times$ & 2.73 & 0.72$\times$ & 2.69 & 0.73$\times$ & 2.70 & 0.73$\times$ & 2.71 & 0.74$\times$ & 2.72 & 0.73$\times$ & 2.71 & 0.73$\times$ & 2.71 \\
+EAGLE-3 & 3.17$\times$ & 10.12 & 3.51$\times$ & 10.89 & 3.04$\times$ & 9.34 & 3.41$\times$ & 10.58 & 3.12$\times$ & 9.62 & 3.63$\times$ & 11.21 & 3.31$\times$ & 10.29 \\
+DFlash & 5.67$\times$ & 8.88 & 6.02$\times$ & 9.46 & 5.14$\times$ & 7.96 & 6.06$\times$ & 9.55 & 5.24$\times$ & 8.17 & 6.44$\times$ & 10.18 & 5.76$\times$ & 9.03 \\
+DARTree & 5.77$\times$ & \underline{11.88} & 6.13$\times$ & \underline{12.67} & 5.06$\times$ & \underline{10.29} & 6.03$\times$ & \underline{12.44} & 5.25$\times$ & \underline{10.62} & 6.44$\times$ & \underline{13.27} & 5.78$\times$ & \underline{11.86} \\
+DDTree & \underline{6.44}$\times$ & 11.12 & \underline{6.82}$\times$ & 11.96 & \underline{5.81}$\times$ & 9.94 & \underline{6.66}$\times$ & 11.68 & \underline{5.85}$\times$ & 10.07 & \underline{7.12}$\times$ & 12.59 & \underline{6.45}$\times$ & 11.23 \\
+\textbf{Ours} & \textbf{8.37}$\times$ & \textbf{15.53} & \textbf{8.70}$\times$ & \textbf{16.19} & \textbf{6.92}$\times$ & \textbf{12.57} & \textbf{8.45}$\times$ & \textbf{15.73} & \textbf{7.14}$\times$ & \textbf{13.03} & \textbf{9.71}$\times$ & \textbf{18.46} & \textbf{8.21}$\times$ & \textbf{15.25} \\
+\midrule
+\multicolumn{15}{l}{\textit{OmniSVG-4B, text-to-SVG}} \\
+PLD & 1.50$\times$ & 1.71 & 2.10$\times$ & 2.41 & 1.44$\times$ & 1.63 & 2.14$\times$ & 2.45 & 1.59$\times$ & 1.85 & 2.54$\times$ & 3.02 & 1.88$\times$ & 2.18 \\
+REST & 2.13$\times$ & 2.55 & 2.26$\times$ & 2.72 & 1.97$\times$ & 2.34 & 2.23$\times$ & 2.67 & 1.67$\times$ & 2.25 & 2.27$\times$ & 3.00 & 2.09$\times$ & 2.59 \\
+EAGLE-3 & 3.08$\times$ & 8.26 & 3.80$\times$ & 10.04 & 3.25$\times$ & 8.62 & 3.71$\times$ & 9.79 & 3.17$\times$ & 8.72 & 3.96$\times$ & 10.75 & 3.50$\times$ & 9.36 \\
+DFlash & 4.65$\times$ & 6.76 & 5.95$\times$ & 8.63 & 4.63$\times$ & 6.67 & 6.19$\times$ & 9.03 & 4.55$\times$ & 6.66 & 6.76$\times$ & 10.10 & 5.45$\times$ & 7.98 \\
+DARTree & 5.24$\times$ & \underline{9.77} & 6.60$\times$ & \underline{12.49} & 5.22$\times$ & \underline{9.74} & 6.31$\times$ & \underline{11.96} & 5.05$\times$ & \underline{9.40} & 6.97$\times$ & \underline{13.32} & 5.90$\times$ & \underline{11.11} \\
+DDTree & \underline{6.04}$\times$ & 9.64 & \underline{7.06}$\times$ & 11.34 & \underline{5.61}$\times$ & 8.90 & \underline{6.99}$\times$ & 11.22 & \underline{5.59}$\times$ & 8.98 & \underline{7.55}$\times$ & 12.40 & \underline{6.47}$\times$ & 10.41 \\
+\textbf{Ours} & \textbf{6.59}$\times$ & \textbf{11.09} & \textbf{8.97}$\times$ & \textbf{15.50} & \textbf{6.28}$\times$ & \textbf{10.54} & \textbf{8.75}$\times$ & \textbf{15.06} & \textbf{6.36}$\times$ & \textbf{10.68} & \textbf{10.23}$\times$ & \textbf{18.04} & \textbf{7.86}$\times$ & \textbf{13.49} \\
+\midrule
+\multicolumn{15}{l}{\textit{InternSVG-8B, text-to-SVG}} \\
+PLD & 3.27$\times$ & 3.89 & 3.80$\times$ & 4.53 & 2.51$\times$ & 2.90 & 3.72$\times$ & 4.49 & 2.52$\times$ & 3.04 & 2.78$\times$ & 3.49 & 3.10$\times$ & 3.72 \\
+REST & 2.62$\times$ & 3.31 & 2.89$\times$ & 3.62 & 2.28$\times$ & 2.81 & 2.39$\times$ & 2.96 & 2.16$\times$ & 2.79 & 2.10$\times$ & 2.78 & 2.40$\times$ & 3.05 \\
+EAGLE-3 & 3.86$\times$ & 12.15 & 4.01$\times$ & 12.29 & 3.78$\times$ & 11.28 & 3.86$\times$ & 11.92 & 3.44$\times$ & 10.50 & 3.56$\times$ & 10.95 & 3.75$\times$ & 11.52 \\
+DFlash & 8.00$\times$ & 12.84 & \underline{8.48}$\times$ & 13.46 & 7.07$\times$ & 10.95 & 7.81$\times$ & 12.54 & 6.36$\times$ & 10.04 & 5.95$\times$ & 9.54 & 7.28$\times$ & 11.56 \\
+DARTree & 7.35$\times$ & \underline{15.69} & 7.59$\times$ & \underline{16.06} & 6.76$\times$ & \underline{14.11} & 7.22$\times$ & \underline{15.36} & 6.44$\times$ & \underline{13.43} & 6.30$\times$ & \underline{13.53} & 6.94$\times$ & \underline{14.70} \\
+DDTree & \underline{8.28}$\times$ & 14.39 & 8.45$\times$ & 14.84 & \underline{7.78}$\times$ & 13.18 & \underline{8.03}$\times$ & 14.19 & \underline{7.12}$\times$ & 12.08 & \underline{7.12}$\times$ & 12.54 & \underline{7.80}$\times$ & 13.54 \\
+\textbf{Ours} & \textbf{12.74}$\times$ & \textbf{23.22} & \textbf{13.83}$\times$ & \textbf{25.16} & \textbf{10.41}$\times$ & \textbf{18.11} & \textbf{12.60}$\times$ & \textbf{22.80} & \textbf{9.98}$\times$ & \textbf{17.19} & \textbf{9.50}$\times$ & \textbf{16.75} & \textbf{11.51}$\times$ & \textbf{20.54} \\
+\midrule
+\multicolumn{15}{l}{\textit{OmniSVG-8B, image-to-SVG}} \\
+PLD & 1.61$\times$ & 1.85 & 1.94$\times$ & 2.23 & 1.37$\times$ & 1.56 & 1.76$\times$ & 2.02 & 1.73$\times$ & 1.99 & 2.30$\times$ & 2.68 & 1.79$\times$ & 2.05 \\
+REST & 1.53$\times$ & 1.79 & 1.72$\times$ & 2.01 & 1.59$\times$ & 1.87 & 1.53$\times$ & 1.79 & 1.63$\times$ & 1.92 & 1.87$\times$ & 2.20 & 1.65$\times$ & 1.93 \\
+EAGLE-3 & 3.15$\times$ & 9.21 & 3.46$\times$ & 9.92 & 3.08$\times$ & 8.85 & 3.26$\times$ & 9.51 & 3.23$\times$ & 9.36 & 3.53$\times$ & 10.24 & 3.29$\times$ & 9.52 \\
+ViSpec & 1.93$\times$ & 3.22 & 2.08$\times$ & 3.52 & 1.78$\times$ & 3.03 & 2.01$\times$ & 3.36 & 1.98$\times$ & 3.31 & 2.18$\times$ & 3.68 & 1.99$\times$ & 3.36 \\
+DFlash & 4.65$\times$ & 7.10 & 5.78$\times$ & 8.51 & 4.63$\times$ & 6.79 & 5.09$\times$ & 7.76 & 4.56$\times$ & 7.41 & 5.34$\times$ & 8.74 & 5.01$\times$ & 7.72 \\
+DARTree & 4.97$\times$ & 9.80 & 5.61$\times$ & \underline{11.07} & 4.41$\times$ & 8.75 & 5.08$\times$ & 9.96 & 4.89$\times$ & 9.65 & 5.64$\times$ & 11.17 & 5.10$\times$ & 10.07 \\
+DDTree & \underline{5.89}$\times$ & \underline{9.90} & \underline{6.79}$\times$ & \underline{11.07} & \underline{5.74}$\times$ & \underline{9.39} & \underline{6.21}$\times$ & \underline{10.49} & \underline{5.59}$\times$ & \underline{10.07} & \underline{6.32}$\times$ & \underline{11.42} & \underline{6.09}$\times$ & \underline{10.39} \\
+\textbf{Ours} & \textbf{6.79}$\times$ & \textbf{12.09} & \textbf{7.94}$\times$ & \textbf{14.27} & \textbf{6.29}$\times$ & \textbf{11.34} & \textbf{7.23}$\times$ & \textbf{12.83} & \textbf{6.72}$\times$ & \textbf{11.98} & \textbf{8.44}$\times$ & \textbf{15.30} & \textbf{7.23}$\times$ & \textbf{12.97} \\
+\midrule
+\multicolumn{15}{l}{\textit{InternSVG-8B, image-to-SVG}} \\
+PLD & 2.07$\times$ & 2.43 & 2.64$\times$ & 3.15 & 1.86$\times$ & 2.16 & 2.67$\times$ & 3.18 & 1.98$\times$ & 2.30 & 2.05$\times$ & 2.44 & 2.21$\times$ & 2.61 \\
+REST & 1.65$\times$ & 2.07 & 1.68$\times$ & 2.14 & 1.75$\times$ & 2.18 & 1.74$\times$ & 2.22 & 1.59$\times$ & 1.98 & 1.59$\times$ & 2.10 & 1.67$\times$ & 2.12 \\
+EAGLE-3 & 2.97$\times$ & 9.41 & 3.38$\times$ & 10.45 & 2.98$\times$ & 9.10 & 3.38$\times$ & 10.30 & 3.00$\times$ & 8.61 & 3.09$\times$ & 8.94 & 3.13$\times$ & 9.47 \\
+ViSpec & 2.53$\times$ & 7.37 & 2.83$\times$ & 8.45 & 2.44$\times$ & 7.06 & 2.73$\times$ & 8.20 & 2.38$\times$ & 7.15 & 1.95$\times$ & 6.14 & 2.48$\times$ & 7.40 \\
+DFlash & 4.96$\times$ & 7.69 & 5.62$\times$ & 8.81 & 4.92$\times$ & 7.63 & 5.73$\times$ & 8.99 & 4.44$\times$ & 6.78 & 3.99$\times$ & 6.18 & 4.94$\times$ & 7.68 \\
+DARTree & 5.49$\times$ & \underline{11.35} & 6.11$\times$ & \underline{12.74} & 5.62$\times$ & \underline{11.51} & 6.19$\times$ & \underline{12.70} & 5.12$\times$ & \underline{9.88} & 5.01$\times$ & \underline{9.94} & 5.59$\times$ & \underline{11.35} \\
+DDTree & \underline{6.44}$\times$ & 10.93 & \underline{6.75}$\times$ & 11.66 & \underline{6.32}$\times$ & 10.64 & \underline{6.77}$\times$ & 11.67 & \underline{5.87}$\times$ & 9.65 & \underline{5.53}$\times$ & 9.34 & \underline{6.28}$\times$ & 10.65 \\
+\textbf{Ours} & \textbf{7.38}$\times$ & \textbf{12.93} & \textbf{9.12}$\times$ & \textbf{16.02} & \textbf{7.07}$\times$ & \textbf{12.19} & \textbf{9.16}$\times$ & \textbf{15.90} & \textbf{6.79}$\times$ & \textbf{11.03} & \textbf{6.39}$\times$ & \textbf{10.63} & \textbf{7.65}$\times$ & \textbf{13.12} \\
+\bottomrule
+\end{tabular*}
+\end{table*}

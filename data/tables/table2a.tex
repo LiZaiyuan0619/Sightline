@@ -1,0 +1,43 @@
+\begin{table*}[t]
+\caption{\textbf{Text-to-SVG speed and quality on the full SArena test sets, official metrics.} s is the wall-clock seconds per prompt on one H200. Within each model, the first group produces the model's own outputs, the second adds the same loop control to DDTree and to ours, and the third keeps the best of eight candidates; OmniSVG's released pipeline also samples eight and keeps the first valid one. Best in bold, second underlined within each group. \textcolor{red}{[Draft 11-03 v14: split from the one-page table 2 and regrouped; the reference rows of other SVG generators moved to a speed--quality figure (candidate). DDTree (fast) seconds are node-normalised through a same-job lossless re-run that reproduces the published DDTree tokens for 100\% of rows.]}}
+\label{tab:quality-t2s}\label{tab:quality}
+\centering
+\small
+\setlength{\tabcolsep}{2.6pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l*{10}{c}@{}}
+\toprule
+ & \multicolumn{5}{c}{SArena-Icon (text-to-SVG, 6,013 prompts)} & \multicolumn{5}{c}{SArena-Illustration (text-to-SVG, 2,001 prompts)} \\
+\cmidrule(lr){2-6}\cmidrule(lr){7-11}
+Method & FID$\downarrow$ & FID-C$\downarrow$ & CLIP-T2I$\uparrow$ & CLIP-I2I$\uparrow$ & s$\downarrow$ & FID$\downarrow$ & FID-C$\downarrow$ & CLIP-T2I$\uparrow$ & CLIP-I2I$\uparrow$ & s$\downarrow$ \\
+\midrule
+\multicolumn{11}{l}{\textbf{OmniSVG-8B}, its released sampling settings} \\
+\multicolumn{11}{l}{\hspace{0.6em}\textit{Same outputs as the model (lossless): quality differs only by bf16 numerics, compare s}} \\
+AR & 10.81 & 2.91 & 22.76 & 78.73 & 5.72 & 38.93 & 26.33 & 17.40 & 65.19 & 15.92 \\
+EAGLE-3 & 10.93 & 2.97 & 22.79 & 78.76 & 1.91 & 39.09 & 26.58 & 17.31 & 65.23 & 4.76 \\
+DDTree & 10.95 & 2.99 & 22.79 & 78.67 & \underline{1.14} & 39.19 & 26.81 & 17.33 & 65.27 & \underline{2.79} \\
+DARTree & 10.89 & 2.99 & 22.79 & 78.70 & 1.27 & 39.16 & 26.86 & 17.36 & 65.19 & 3.06 \\
+\textbf{Ours} & 10.86 & 2.95 & 22.77 & 78.71 & \textbf{1.01} & 39.24 & 26.81 & 17.32 & 65.04 & \textbf{2.28} \\
+\multicolumn{11}{l}{\hspace{0.6em}\textit{With loop control: decoding stops once a repetition loop is detected}} \\
+DDTree (fast) & 10.99 & 3.02 & 22.79 & 78.67 & \underline{0.94} & 39.27 & 27.37 & 17.33 & 65.23 & \underline{1.76} \\
+\textbf{Ours} (fast) & 10.94 & 3.00 & 22.76 & 78.71 & \textbf{0.80} & 39.18 & 27.24 & 17.33 & 65.06 & \textbf{1.56} \\
+\multicolumn{11}{l}{\hspace{0.6em}\textit{Best of 8: eight candidates rendered and scored by CLIP; s includes rendering and scoring}} \\
+Official pipeline, first valid & 9.96 & 2.55 & 22.83 & 78.86 & \underline{12.81} & 31.11 & 19.08 & 17.45 & 65.65 & \underline{24.95} \\
+AR $\times$8 & \textbf{9.73} & \textbf{2.48} & \textbf{23.98} & \textbf{80.27} & \underline{12.81} & \textbf{28.49} & \textbf{15.92} & \underline{18.66} & \underline{67.09} & \underline{24.95} \\
+\textbf{Ours} $\times$8 & \underline{9.85} & \textbf{2.48} & \underline{23.96} & \underline{80.25} & \textbf{2.76} & \underline{29.02} & \underline{16.45} & \textbf{18.75} & \textbf{67.12} & \textbf{5.37} \\
+\midrule
+\multicolumn{11}{l}{\textbf{InternSVG-8B}, greedy; best of 8 at $T{=}0.6$} \\
+\multicolumn{11}{l}{\hspace{0.6em}\textit{Same outputs as the model (lossless): quality differs only by bf16 numerics, compare s}} \\
+AR & 11.83 & 3.17 & 23.71 & 80.53 & 11.21 & 52.91 & 29.65 & 17.95 & 66.83 & 43.58 \\
+EAGLE-3 & 11.75 & 3.16 & 23.76 & 80.52 & 3.28 & 52.84 & 29.35 & 17.92 & 66.99 & 12.62 \\
+DDTree & 11.94 & 3.24 & 23.71 & 80.50 & \underline{1.60} & 53.83 & 30.60 & 17.89 & 66.66 & \underline{6.18} \\
+DARTree & 11.89 & 3.26 & 23.74 & 80.56 & 1.77 & 54.62 & 30.77 & 17.88 & 66.74 & 6.81 \\
+\textbf{Ours} & 11.84 & 3.18 & 23.73 & 80.58 & \textbf{1.14} & 54.37 & 30.56 & 17.88 & 66.80 & \textbf{4.70} \\
+\multicolumn{11}{l}{\hspace{0.6em}\textit{With loop control: decoding stops once a repetition loop is detected}} \\
+DDTree (fast) & 12.38 & 3.39 & 23.69 & 80.42 & \underline{1.23} & 54.15 & 30.88 & 17.87 & 66.59 & \underline{4.67} \\
+\textbf{Ours} (fast) & 12.10 & 3.25 & 23.72 & 80.52 & \textbf{1.05} & 54.93 & 30.96 & 17.87 & 66.75 & \textbf{3.94} \\
+\multicolumn{11}{l}{\hspace{0.6em}\textit{Best of 8: eight candidates rendered and scored by CLIP; s includes rendering and scoring}} \\
+AR $\times$8 & \textbf{8.75} & \textbf{2.12} & \underline{25.21} & \textbf{82.59} & \underline{26.28} & \textbf{23.98} & \textbf{6.68} & \textbf{21.51} & \underline{74.04} & \underline{86.43} \\
+\textbf{Ours} $\times$8 & \underline{8.80} & \underline{2.13} & \textbf{25.22} & \underline{82.53} & \textbf{5.25} & \underline{24.25} & \underline{6.81} & \underline{21.44} & \textbf{74.05} & \textbf{31.63} \\
+\bottomrule
+\end{tabular*}
+\end{table*}

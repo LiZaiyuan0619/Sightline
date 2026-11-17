@@ -1,0 +1,1160 @@
+{
+ "meta": {
+  "source": "runs/2026-11-02/dump_table2.py",
+  "seconds": "mean wall seconds per prompt (H200, HF eager, bf16); best-of-8 includes rendering and scoring; lossless rows differ from AR only by bf16 numerics",
+  "subsets": {
+   "icon": "SArena-Icon 6,013",
+   "illustration": "SArena-Illustration 2,001"
+  }
+ },
+ "blocks": {
+  "OmniSVG-8B, text-to-SVG": {
+   "AR": {
+    "icon": {
+     "metrics": {
+      "FID": 10.806001492142627,
+      "FID-C": 2.9141541253303345,
+      "CLIP-T2I": 22.756971670390563,
+      "CLIP-I2I": 78.72743790704399
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1696.0364210876435,
+     "n": 6013,
+     "seconds": 5.724850490603692,
+     "method_key": "omni-ar",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 38.92969431155191,
+      "FID-C": 26.329798708283285,
+      "CLIP-T2I": 17.401454839391867,
+      "CLIP-I2I": 65.18578343246055
+     },
+     "success_rate": 0.9995002498750625,
+     "pred_tokens": 5382.2175,
+     "n": 2001,
+     "seconds": 15.918387306346826,
+     "method_key": "omni-ar",
+     "protocol": "official"
+    }
+   },
+   "EAGLE-3": {
+    "icon": {
+     "metrics": {
+      "FID": 10.926897046057661,
+      "FID-C": 2.9664977855852115,
+      "CLIP-T2I": 22.79120354895859,
+      "CLIP-I2I": 78.75759218902056
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1702.7023116580742,
+     "n": 6013,
+     "seconds": 1.9127507068019292,
+     "method_key": "omni-e3",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 39.094469940852036,
+      "FID-C": 26.582234130893738,
+      "CLIP-T2I": 17.311900212727803,
+      "CLIP-I2I": 65.23008027284041
+     },
+     "success_rate": 0.9995002498750625,
+     "pred_tokens": 5327.4845,
+     "n": 2001,
+     "seconds": 4.755512243878061,
+     "method_key": "omni-e3",
+     "protocol": "official"
+    }
+   },
+   "DDTree": {
+    "icon": {
+     "metrics": {
+      "FID": 10.949545606122115,
+      "FID-C": 2.98938622844134,
+      "CLIP-T2I": 22.787436920018834,
+      "CLIP-I2I": 78.6712692881828
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1705.2449692333278,
+     "n": 6013,
+     "seconds": 1.141971229003825,
+     "method_key": "omni-ddtree",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 39.18812037580511,
+      "FID-C": 26.807122643083844,
+      "CLIP-T2I": 17.32788711080308,
+      "CLIP-I2I": 65.26668509711389
+     },
+     "success_rate": 0.9995002498750625,
+     "pred_tokens": 5366.6815,
+     "n": 2001,
+     "seconds": 2.786591204397801,
+     "method_key": "omni-ddtree",
+     "protocol": "official"
+    }
+   },
+   "DARTree": {
+    "icon": {
+     "metrics": {
+      "FID": 10.887141746515965,
+      "FID-C": 2.985335726087193,
+      "CLIP-T2I": 22.787424284032394,
+      "CLIP-I2I": 78.69830790173486
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1697.0941293863295,
+     "n": 6013,
+     "seconds": 1.2727833028438384,
+     "method_key": "omni-dart",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 39.15952037226921,
+      "FID-C": 26.86257843010452,
+      "CLIP-T2I": 17.360509945237,
+      "CLIP-I2I": 65.18515683173656
+     },
+     "success_rate": 0.9995002498750625,
+     "pred_tokens": 5357.27,
+     "n": 2001,
+     "seconds": 3.0552938530734632,
+     "method_key": "omni-dart",
+     "protocol": "official"
+    }
+   },
+   "Ours": {
+    "icon": {
+     "metrics": {
+      "FID": 10.859511086062355,
+      "FID-C": 2.9548443735836543,
+      "CLIP-T2I": 22.770091933338133,
+      "CLIP-I2I": 78.71303768822501
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1704.435057375686,
+     "n": 6013,
+     "seconds": 1.0053944786296358,
+     "method_key": "omni-ours-t1",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 39.23887047166545,
+      "FID-C": 26.813124953432308,
+      "CLIP-T2I": 17.320376649848942,
+      "CLIP-I2I": 65.0372879928139
+     },
+     "success_rate": 0.999000499750125,
+     "pred_tokens": 5381.1655827913955,
+     "n": 2001,
+     "seconds": 2.2786981509245376,
+     "method_key": "omni-ours-t1",
+     "protocol": "official"
+    }
+   },
+   "DDTree (fast)": {
+    "icon": {
+     "metrics": {
+      "FID": 10.994027692016632,
+      "FID-C": 3.015352792450102,
+      "CLIP-T2I": 22.787551807639563,
+      "CLIP-I2I": 78.66538661913647
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1223.9168468318644,
+     "n": 6013,
+     "seconds": 0.9352902805478585,
+     "method_key": "omni-t2fast-ets-norm",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 39.26997873827645,
+      "FID-C": 27.370126986389252,
+      "CLIP-T2I": 17.326519908099577,
+      "CLIP-I2I": 65.22808713825985
+     },
+     "success_rate": 0.9995002498750625,
+     "pred_tokens": 2620.368,
+     "n": 2001,
+     "seconds": 1.7559335330220396,
+     "method_key": "omni-t2fast-ets-norm",
+     "protocol": "official"
+    }
+   },
+   "Ours (fast)": {
+    "icon": {
+     "metrics": {
+      "FID": 10.944282604002524,
+      "FID-C": 2.995112258059045,
+      "CLIP-T2I": 22.764479290362544,
+      "CLIP-I2I": 78.71107518984199
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1229.4571761184102,
+     "n": 6013,
+     "seconds": 0.8040603692000665,
+     "method_key": "omni-ets-icon",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 39.18263779471815,
+      "FID-C": 27.243283134411143,
+      "CLIP-T2I": 17.32664624540166,
+      "CLIP-I2I": 65.06005253260402
+     },
+     "success_rate": 0.9985007496251874,
+     "pred_tokens": 2614.0455455455453,
+     "n": 2001,
+     "seconds": 1.5569100449775113,
+     "method_key": "omni-ets",
+     "protocol": "official"
+    }
+   },
+   "Official 8, first valid": {
+    "icon": {
+     "metrics": {
+      "FID": 9.95928842902265,
+      "FID-C": 2.5549650828630135,
+      "CLIP-T2I": 22.83064613258226,
+      "CLIP-I2I": 78.86167583278426
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1645.212539497755,
+     "n": 6013,
+     "seconds": 12.812927906203226,
+     "method_key": "omni-ar8fv",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 31.11383309431028,
+      "FID-C": 19.083769395948337,
+      "CLIP-T2I": 17.446980387612857,
+      "CLIP-I2I": 65.6518066521587
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 5098.064967516242,
+     "n": 2001,
+     "seconds": 24.951994752623687,
+     "method_key": "omni-ar8fv",
+     "protocol": "official"
+    }
+   },
+   "AR x8": {
+    "icon": {
+     "metrics": {
+      "FID": 9.727361454048207,
+      "FID-C": 2.479629217111089,
+      "CLIP-T2I": 23.98437100116572,
+      "CLIP-I2I": 80.26918648571177
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1542.4861134209214,
+     "n": 6013,
+     "seconds": 12.812927906203226,
+     "method_key": "omni-ar8",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 28.494090939428133,
+      "FID-C": 15.918280211956557,
+      "CLIP-T2I": 18.656211727681843,
+      "CLIP-I2I": 67.08916732515472
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 4984.367816091954,
+     "n": 2001,
+     "seconds": 24.951994752623687,
+     "method_key": "omni-ar8",
+     "protocol": "official"
+    }
+   },
+   "Ours x8": {
+    "icon": {
+     "metrics": {
+      "FID": 9.847819163544386,
+      "FID-C": 2.481627242387866,
+      "CLIP-T2I": 23.95726568750825,
+      "CLIP-I2I": 80.24681358608612
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1110.83452519541,
+     "n": 6013,
+     "seconds": 2.7622990853151506,
+     "method_key": "omni-sd8",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 29.018422491405232,
+      "FID-C": 16.453052145049128,
+      "CLIP-T2I": 18.74804747627414,
+      "CLIP-I2I": 67.12053561603827
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 3397.7926036981507,
+     "n": 2001,
+     "seconds": 5.366206546726636,
+     "method_key": "omni-sd8",
+     "protocol": "official"
+    }
+   }
+  },
+  "InternSVG-8B, text-to-SVG": {
+   "AR": {
+    "icon": {
+     "metrics": {
+      "FID": 11.828776419575888,
+      "FID-C": 3.1667290250562203,
+      "CLIP-T2I": 23.70880633187179,
+      "CLIP-I2I": 80.53222279181482
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 817.2880425744221,
+     "n": 6013,
+     "seconds": 11.20726143356062,
+     "method_key": "isvg-ar",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 52.90600329375317,
+      "FID-C": 29.652943277342033,
+      "CLIP-T2I": 17.952495990783675,
+      "CLIP-I2I": 66.82916577371104
+     },
+     "success_rate": 0.9995002498750625,
+     "pred_tokens": 2332.901,
+     "n": 2001,
+     "seconds": 43.580050974512744,
+     "method_key": "isvg-ar",
+     "protocol": "closed"
+    }
+   },
+   "EAGLE-3": {
+    "icon": {
+     "metrics": {
+      "FID": 11.74502009695675,
+      "FID-C": 3.1564291275676766,
+      "CLIP-T2I": 23.757593279727065,
+      "CLIP-I2I": 80.5150016042886
+     },
+     "success_rate": 0.9996673873274572,
+     "pred_tokens": 823.3749792047912,
+     "n": 6013,
+     "seconds": 3.27886396141693,
+     "method_key": "isvg-e3-mix",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 52.83584744242893,
+      "FID-C": 29.351735519665603,
+      "CLIP-T2I": 17.923508504222237,
+      "CLIP-I2I": 66.98973447236342
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2302.2753623188405,
+     "n": 2001,
+     "seconds": 12.617449775112444,
+     "method_key": "isvg-e3-mix",
+     "protocol": "closed"
+    }
+   },
+   "DDTree": {
+    "icon": {
+     "metrics": {
+      "FID": 11.939694819369892,
+      "FID-C": 3.241981507462775,
+      "CLIP-T2I": 23.707964162748823,
+      "CLIP-I2I": 80.49867453694878
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 821.2820555463163,
+     "n": 6013,
+     "seconds": 1.6047280891401963,
+     "method_key": "isvg-ddtree-mix",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 53.833592361125625,
+      "FID-C": 30.60001981529861,
+      "CLIP-T2I": 17.892160115630432,
+      "CLIP-I2I": 66.6641283592899
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2253.2883558220888,
+     "n": 2001,
+     "seconds": 6.182578210894553,
+     "method_key": "isvg-ddtree-mix",
+     "protocol": "closed"
+    }
+   },
+   "DARTree": {
+    "icon": {
+     "metrics": {
+      "FID": 11.894720556484856,
+      "FID-C": 3.260243244618365,
+      "CLIP-T2I": 23.741420647238765,
+      "CLIP-I2I": 80.55527355237548
+     },
+     "success_rate": 0.9998336936637285,
+     "pred_tokens": 812.4667332002662,
+     "n": 6013,
+     "seconds": 1.7733603858307,
+     "method_key": "isvg-dart-mix",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 54.61902644806838,
+      "FID-C": 30.77206430362211,
+      "CLIP-T2I": 17.88165678732518,
+      "CLIP-I2I": 66.73837975345214
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2234.844577711144,
+     "n": 2001,
+     "seconds": 6.80983708145927,
+     "method_key": "isvg-dart-mix",
+     "protocol": "closed"
+    }
+   },
+   "Ours": {
+    "icon": {
+     "metrics": {
+      "FID": 11.84058268002002,
+      "FID-C": 3.1840742944869826,
+      "CLIP-T2I": 23.728123150905912,
+      "CLIP-I2I": 80.5792360750665
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 810.9033760186263,
+     "n": 6013,
+     "seconds": 1.1355320139697322,
+     "method_key": "isvg-ours-mix",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 54.37143059056737,
+      "FID-C": 30.5634201881997,
+      "CLIP-T2I": 17.881294122283187,
+      "CLIP-I2I": 66.80073364778258
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2270.225887056472,
+     "n": 2001,
+     "seconds": 4.6976611694152925,
+     "method_key": "isvg-ours-mix",
+     "protocol": "closed"
+    }
+   },
+   "DDTree (fast)": {
+    "icon": {
+     "metrics": {
+      "FID": 12.384634239767877,
+      "FID-C": 3.3852555720502195,
+      "CLIP-T2I": 23.690647647838,
+      "CLIP-I2I": 80.41510482732892
+     },
+     "success_rate": 0.9996673873274572,
+     "pred_tokens": 603.7517883879555,
+     "n": 6013,
+     "seconds": 1.2349818208951553,
+     "method_key": "isvg-t2fast-ets-norm",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 54.14912461736034,
+      "FID-C": 30.87758770966304,
+      "CLIP-T2I": 17.8698061852977,
+      "CLIP-I2I": 66.59029451529423
+     },
+     "success_rate": 0.999000499750125,
+     "pred_tokens": 1799.7813906953477,
+     "n": 2001,
+     "seconds": 4.673945168518779,
+     "method_key": "isvg-t2fast-ets-norm",
+     "protocol": "closed"
+    }
+   },
+   "Ours (fast)": {
+    "icon": {
+     "metrics": {
+      "FID": 12.1016095528189,
+      "FID-C": 3.253291284068681,
+      "CLIP-T2I": 23.724780042338406,
+      "CLIP-I2I": 80.5177209271422
+     },
+     "success_rate": 0.9985032429735573,
+     "pred_tokens": 593.6350766155896,
+     "n": 6013,
+     "seconds": 1.0527167803093298,
+     "method_key": "isvg-ets-mix",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 54.92568723400035,
+      "FID-C": 30.955146686802166,
+      "CLIP-T2I": 17.866599385825353,
+      "CLIP-I2I": 66.74809044328468
+     },
+     "success_rate": 0.9980009995002499,
+     "pred_tokens": 1777.3720580871307,
+     "n": 2001,
+     "seconds": 3.9379035482258873,
+     "method_key": "isvg-ets-mix",
+     "protocol": "closed"
+    }
+   },
+   "AR x8": {
+    "icon": {
+     "metrics": {
+      "FID": 8.745889631829414,
+      "FID-C": 2.116186986619155,
+      "CLIP-T2I": 25.205287430184505,
+      "CLIP-I2I": 82.58797875256383
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 607.0114751372028,
+     "n": 6013,
+     "seconds": 26.275622850490603,
+     "method_key": "isvg-ar8",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 23.98405667823812,
+      "FID-C": 6.682443579983996,
+      "CLIP-T2I": 21.508500422554455,
+      "CLIP-I2I": 74.0411199448646
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 3041.785107446277,
+     "n": 2001,
+     "seconds": 86.4250299850075,
+     "method_key": "isvg-ar8",
+     "protocol": "closed"
+    }
+   },
+   "Ours x8": {
+    "icon": {
+     "metrics": {
+      "FID": 8.799472662147537,
+      "FID-C": 2.1274526691867166,
+      "CLIP-T2I": 25.2190648332206,
+      "CLIP-I2I": 82.52945520428598
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 546.9913520705139,
+     "n": 6013,
+     "seconds": 5.252869249958423,
+     "method_key": "isvg-sd8-mix",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 24.24736309265444,
+      "FID-C": 6.811688090039155,
+      "CLIP-T2I": 21.440860323164834,
+      "CLIP-I2I": 74.05073031683317
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2841.498250874563,
+     "n": 2001,
+     "seconds": 31.628802048975512,
+     "method_key": "isvg-sd8-mix",
+     "protocol": "closed"
+    }
+   }
+  },
+  "OmniSVG-8B, image-to-SVG": {
+   "AR": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.902641948296413,
+      "LPIPS": 0.17819506557313036,
+      "SSIM": 0.778565335280028,
+      "PSNR": 14.520746045920124
+     },
+     "success_rate": 0.9996673873274572,
+     "pred_tokens": 2454.1462319081684,
+     "n": 6013,
+     "seconds": 8.854818227174455,
+     "method_key": "i2-ar",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8025752254191606,
+      "LPIPS": 0.2720126862496208,
+      "SSIM": 0.7145399004045717,
+      "PSNR": 11.582524747873858
+     },
+     "success_rate": 0.9980009995002499,
+     "pred_tokens": 5987.065097646469,
+     "n": 2001,
+     "seconds": 19.81623588205897,
+     "method_key": "i2-ar",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "EAGLE-3": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9020538714520897,
+      "LPIPS": 0.17817216625722707,
+      "SSIM": 0.7777897289632403,
+      "PSNR": 14.490580011036725
+     },
+     "success_rate": 0.9996673873274572,
+     "pred_tokens": 2460.4105806022294,
+     "n": 6013,
+     "seconds": 2.955091967403958,
+     "method_key": "i2-e3",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8050745867270938,
+      "LPIPS": 0.2699639503546208,
+      "SSIM": 0.717195929233537,
+      "PSNR": 11.620840567157536
+     },
+     "success_rate": 0.9980009995002499,
+     "pred_tokens": 5967.6479719579365,
+     "n": 2001,
+     "seconds": 6.143632683658171,
+     "method_key": "i2-e3",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "DDTree": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9019638338433998,
+      "LPIPS": 0.17794517147019184,
+      "SSIM": 0.7788433472881968,
+      "PSNR": 14.48806211653065
+     },
+     "success_rate": 0.9993347746549144,
+     "pred_tokens": 2452.101847229156,
+     "n": 6013,
+     "seconds": 1.7589113587227674,
+     "method_key": "i2-ddtree",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8044843101899127,
+      "LPIPS": 0.27113066912083694,
+      "SSIM": 0.7165063959589567,
+      "PSNR": 11.603899373249854
+     },
+     "success_rate": 0.999000499750125,
+     "pred_tokens": 5968.942471235618,
+     "n": 2001,
+     "seconds": 3.680128435782109,
+     "method_key": "i2-ddtree",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "DARTree": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9023527551579303,
+      "LPIPS": 0.17745845094109067,
+      "SSIM": 0.779862603407641,
+      "PSNR": 14.540475127973925
+     },
+     "success_rate": 0.9998336936637285,
+     "pred_tokens": 2458.7689620758483,
+     "n": 6013,
+     "seconds": 1.9558836564719453,
+     "method_key": "i2-dart-v3-norm",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8032087053710791,
+      "LPIPS": 0.27161112866494275,
+      "SSIM": 0.7158958037352031,
+      "PSNR": 11.597669782266564
+     },
+     "success_rate": 0.9980009995002499,
+     "pred_tokens": 5974.080620931397,
+     "n": 2001,
+     "seconds": 4.077908673102425,
+     "method_key": "i2-dart-v3-norm",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "Ours": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9021566709785113,
+      "LPIPS": 0.1776601684707884,
+      "SSIM": 0.7790430667784745,
+      "PSNR": 14.538328396294261
+     },
+     "success_rate": 0.9996673873274572,
+     "pred_tokens": 2457.8026950590584,
+     "n": 6013,
+     "seconds": 1.4833610510560453,
+     "method_key": "i2-ours",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8046953640524475,
+      "LPIPS": 0.27185771146953025,
+      "SSIM": 0.7150219085749602,
+      "PSNR": 11.56123842327927
+     },
+     "success_rate": 0.9985007496251874,
+     "pred_tokens": 5989.852352352353,
+     "n": 2001,
+     "seconds": 2.943295352323838,
+     "method_key": "i2-ours",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "DDTree (fast)": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9027899441115822,
+      "LPIPS": 0.17702377109837028,
+      "SSIM": 0.7799849435244409,
+      "PSNR": 14.523083190324552
+     },
+     "success_rate": 0.9991684683186429,
+     "pred_tokens": 1613.5098202396805,
+     "n": 6013,
+     "seconds": 1.4194779835596518,
+     "method_key": "i2-fast-ets-norm",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8060492222783329,
+      "LPIPS": 0.27254868428879553,
+      "SSIM": 0.7093882689536337,
+      "PSNR": 11.520275169063227
+     },
+     "success_rate": 0.9985007496251874,
+     "pred_tokens": 3348.6946946946946,
+     "n": 2001,
+     "seconds": 2.6440197900533637,
+     "method_key": "i2-fast-ets-norm",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "Ours (fast)": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9029053517476495,
+      "LPIPS": 0.17680084921952693,
+      "SSIM": 0.7805062819204697,
+      "PSNR": 14.582303695164352
+     },
+     "success_rate": 0.9995010809911857,
+     "pred_tokens": 1624.0422628951746,
+     "n": 6013,
+     "seconds": 1.2985586229835357,
+     "method_key": "i2-ets",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8061845132048758,
+      "LPIPS": 0.2723091246906029,
+      "SSIM": 0.7119498892562552,
+      "PSNR": 11.572813567200704
+     },
+     "success_rate": 0.9980009995002499,
+     "pred_tokens": 3404.2608913370054,
+     "n": 2001,
+     "seconds": 2.3735347326336833,
+     "method_key": "i2-ets",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "Official 8, first valid": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9075210651739969,
+      "LPIPS": 0.17791893829123626,
+      "SSIM": 0.7741045888264999,
+      "PSNR": 14.42061721323293
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2432.3918177282553,
+     "n": 6013,
+     "seconds": 17.800857974388823,
+     "method_key": "i2-ar8fv",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8184335906726905,
+      "LPIPS": 0.2723488984836628,
+      "SSIM": 0.7002175822039111,
+      "PSNR": 11.2507023448036
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 5936.515742128936,
+     "n": 2001,
+     "seconds": 30.146223738130935,
+     "method_key": "i2-ar8fv",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "AR x8": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9517291419092816,
+      "LPIPS": 0.12495001335231669,
+      "SSIM": 0.8390207125452389,
+      "PSNR": 17.13730249331064
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1846.6025278563113,
+     "n": 6013,
+     "seconds": 17.800857974388823,
+     "method_key": "i2-ar8",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8749722059907346,
+      "LPIPS": 0.22615134316975477,
+      "SSIM": 0.7529774054885312,
+      "PSNR": 13.020660073792047
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 5635.794602698651,
+     "n": 2001,
+     "seconds": 30.146223738130935,
+     "method_key": "i2-ar8",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "Ours x8": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9501423726628728,
+      "LPIPS": 0.12595313610462028,
+      "SSIM": 0.8382061840871697,
+      "PSNR": 17.072609221565198
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1425.3924829536006,
+     "n": 6013,
+     "seconds": 4.052342175286879,
+     "method_key": "i2-sd8",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8697913729998542,
+      "LPIPS": 0.22881338190820733,
+      "SSIM": 0.7524845913436051,
+      "PSNR": 12.927312494612744
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 3670.3778110944527,
+     "n": 2001,
+     "seconds": 7.107166216891554,
+     "method_key": "i2-sd8",
+     "protocol": "single (no protocol split)"
+    }
+   }
+  },
+  "InternSVG-8B, image-to-SVG": {
+   "AR": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9645329313772442,
+      "LPIPS": 0.07660816842873049,
+      "SSIM": 0.8984355006823488,
+      "PSNR": 23.79527704832998
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 736.5150507234325,
+     "n": 6013,
+     "seconds": 10.980923665391652,
+     "method_key": "i2s-ar",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8635519034695113,
+      "LPIPS": 0.20371130646519672,
+      "SSIM": 0.7863164902160434,
+      "PSNR": 14.8923405816692
+     },
+     "success_rate": 0.9995002498750625,
+     "pred_tokens": 2287.825,
+     "n": 2001,
+     "seconds": 43.934948025987005,
+     "method_key": "i2s-ar",
+     "protocol": "closed"
+    }
+   },
+   "EAGLE-3": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9634649871778671,
+      "LPIPS": 0.07751429222554108,
+      "SSIM": 0.8976395918619833,
+      "PSNR": 23.8207394680413
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 735.6063529020456,
+     "n": 6013,
+     "seconds": 3.6635593975101894,
+     "method_key": "i2s-e3-norm",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8686270491498849,
+      "LPIPS": 0.20242946759540717,
+      "SSIM": 0.7866706406720962,
+      "PSNR": 14.949792624962281
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2347.367316341829,
+     "n": 2001,
+     "seconds": 14.654449594343403,
+     "method_key": "i2s-e3-norm",
+     "protocol": "closed"
+    }
+   },
+   "DDTree": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9633185282119118,
+      "LPIPS": 0.0779074763362174,
+      "SSIM": 0.8976593917464185,
+      "PSNR": 23.797508204411336
+     },
+     "success_rate": 0.9998336936637285,
+     "pred_tokens": 743.6483699268131,
+     "n": 6013,
+     "seconds": 1.8778230500582072,
+     "method_key": "i2s-ddtree",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8643385668297757,
+      "LPIPS": 0.20356094211373463,
+      "SSIM": 0.7856753282666651,
+      "PSNR": 14.893408898021569
+     },
+     "success_rate": 0.9995002498750625,
+     "pred_tokens": 2291.515,
+     "n": 2001,
+     "seconds": 7.857836081959021,
+     "method_key": "i2s-ddtree",
+     "protocol": "closed"
+    }
+   },
+   "DARTree": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9648046831904097,
+      "LPIPS": 0.07668980745482029,
+      "SSIM": 0.8983266340041512,
+      "PSNR": 23.81004354297138
+     },
+     "success_rate": 0.9998336936637285,
+     "pred_tokens": 727.8120425815036,
+     "n": 6013,
+     "seconds": 2.029768919233755,
+     "method_key": "i2s-dart-norm",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.867659801817399,
+      "LPIPS": 0.20155091165122332,
+      "SSIM": 0.787017833303911,
+      "PSNR": 15.007887105760004
+     },
+     "success_rate": 0.999000499750125,
+     "pred_tokens": 2333.8679339669834,
+     "n": 2001,
+     "seconds": 8.806151051166673,
+     "method_key": "i2s-dart-norm",
+     "protocol": "closed"
+    }
+   },
+   "Ours": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9627629128459307,
+      "LPIPS": 0.07814140785269891,
+      "SSIM": 0.8972923927810443,
+      "PSNR": 23.759997563024353
+     },
+     "success_rate": 0.9998336936637285,
+     "pred_tokens": 738.3739188290086,
+     "n": 6013,
+     "seconds": 1.5393701979045402,
+     "method_key": "i2s-ours",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8664335220854829,
+      "LPIPS": 0.2030831010656609,
+      "SSIM": 0.7860141303448724,
+      "PSNR": 14.925594256817245
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2351.257371314343,
+     "n": 2001,
+     "seconds": 6.956976511744128,
+     "method_key": "i2s-ours",
+     "protocol": "closed"
+    }
+   },
+   "DDTree (fast)": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9637784986669542,
+      "LPIPS": 0.07814241561414607,
+      "SSIM": 0.8964858517547625,
+      "PSNR": 23.763137156559864
+     },
+     "success_rate": 0.9990021619823716,
+     "pred_tokens": 609.2735142333944,
+     "n": 6013,
+     "seconds": 1.5567314944067605,
+     "method_key": "i2s-fast-ets-norm",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8657864944479693,
+      "LPIPS": 0.20385654873611672,
+      "SSIM": 0.7839541807593355,
+      "PSNR": 14.862187146653216
+     },
+     "success_rate": 0.9965017491254373,
+     "pred_tokens": 1985.579739217653,
+     "n": 2001,
+     "seconds": 6.860392416730727,
+     "method_key": "i2s-fast-ets-norm",
+     "protocol": "closed"
+    }
+   },
+   "Ours (fast)": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9626349163740878,
+      "LPIPS": 0.07855887256049156,
+      "SSIM": 0.8960110039614717,
+      "PSNR": 23.721447853003244
+     },
+     "success_rate": 0.9990021619823716,
+     "pred_tokens": 598.8654902613617,
+     "n": 6013,
+     "seconds": 1.455093131548312,
+     "method_key": "i2s-ets",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.866148527547799,
+      "LPIPS": 0.20419658743532032,
+      "SSIM": 0.783874115084069,
+      "PSNR": 14.856521921625731
+     },
+     "success_rate": 0.9980009995002499,
+     "pred_tokens": 1999.1697546319479,
+     "n": 2001,
+     "seconds": 6.5411404297851075,
+     "method_key": "i2s-ets",
+     "protocol": "closed"
+    }
+   },
+   "AR x8": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9921720672343667,
+      "LPIPS": 0.04083909725341057,
+      "SSIM": 0.9335235193631987,
+      "PSNR": 28.66754604577451
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 629.6707134541826,
+     "n": 6013,
+     "seconds": 24.436306752037254,
+     "method_key": "i2s-ar8",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.9658146333256583,
+      "LPIPS": 0.13178566191418795,
+      "SSIM": 0.8208411206536961,
+      "PSNR": 17.46583901109291
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 3088.5002498750623,
+     "n": 2001,
+     "seconds": 89.86837176411794,
+     "method_key": "i2s-ar8",
+     "protocol": "closed"
+    }
+   },
+   "Ours x8": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9912867177220186,
+      "LPIPS": 0.04264011369184152,
+      "SSIM": 0.9314411854848161,
+      "PSNR": 28.420872578748615
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 612.3800099783801,
+     "n": 6013,
+     "seconds": 6.642201230666888,
+     "method_key": "i2s-sd8",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.9647889365216364,
+      "LPIPS": 0.13126869208331798,
+      "SSIM": 0.8223238321663375,
+      "PSNR": 17.5192826039396
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 3014.640179910045,
+     "n": 2001,
+     "seconds": 41.20427656171914,
+     "method_key": "i2s-sd8",
+     "protocol": "closed"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,6 @@
+t2: 900 prompts, 8 strict-SD samples each; quality of the chosen sample (delta vs random, 95% bootstrap CI); last column = how often the rule picks the render-score choice
+  random (mean of 8)       clip 0.2717 (+0.0000 [+0.0000, +0.0000]) | aesthetic 4.5909 (+0.0000 [+0.0000, +0.0000]) | hps 0.2476 (+0.0000 [+0.0000, +0.0000]) | same as render-score pick 1/8 expected
+  max likelihood           clip 0.2653 (-0.0064 [-0.0080, -0.0048]) | aesthetic 4.5453 (-0.0456 [-0.0635, -0.0288]) | hps 0.2448 (-0.0028 [-0.0035, -0.0021]) | same as render-score pick 0.21
+  text consensus           clip 0.2739 (+0.0022 [+0.0009, +0.0035]) | aesthetic 4.6480 (+0.0571 [+0.0402, +0.0741]) | hps 0.2496 (+0.0020 [+0.0015, +0.0026]) | same as render-score pick 0.23
+  render consensus         clip 0.2717 (+0.0000 [-0.0015, +0.0015]) | aesthetic 4.5967 (+0.0058 [-0.0124, +0.0240]) | hps 0.2478 (+0.0002 [-0.0004, +0.0009]) | same as render-score pick 0.24
+  render score (clip)      clip 0.3004 (+0.0287 [+0.0274, +0.0300]) | aesthetic 4.6130 (+0.0221 [+0.0026, +0.0410]) | hps 0.2542 (+0.0066 [+0.0060, +0.0072]) | same as render-score pick 1.00

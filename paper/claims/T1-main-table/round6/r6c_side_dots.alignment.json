@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 4,
+    "exemptions": 1
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 495.0,
+      "height_pt": 274.65
+    },
+    "panels": [
+      {
+        "id": "a1",
+        "bbox_pt": [
+          40.0,
+          156.64999999999998,
+          368.0,
+          240.64999999999998
+        ]
+      },
+      {
+        "id": "a2",
+        "bbox_pt": [
+          40.0,
+          54.64999999999998,
+          368.0,
+          138.64999999999998
+        ]
+      },
+      {
+        "id": "b1",
+        "bbox_pt": [
+          392.0,
+          156.64999999999998,
+          492.0,
+          240.64999999999998
+        ]
+      },
+      {
+        "id": "b2",
+        "bbox_pt": [
+          392.0,
+          54.64999999999998,
+          492.0,
+          138.64999999999998
+        ]
+      }
+    ],
+    "row_groups": [
+      {
+        "id": "row-1",
+        "panels": [
+          "a1",
+          "b1"
+        ]
+      },
+      {
+        "id": "row-2",
+        "panels": [
+          "a2",
+          "b2"
+        ]
+      }
+    ],
+    "column_groups": [
+      {
+        "id": "column-1",
+        "panels": [
+          "a1",
+          "a2"
+        ]
+      },
+      {
+        "id": "column-2",
+        "panels": [
+          "b1",
+          "b2"
+        ]
+      }
+    ],
+    "boundary_groups": [],
+    "exemptions": [
+      {
+        "panels": [
+          "a1",
+          "a2",
+          "b1",
+          "b2"
+        ],
+        "checks": [
+          "panel-width"
+        ],
+        "reason": "a holds 30 columns per row and b one scatter; unequal widths by design"
+      }
+    ]
+  },
+  "findings": []
+}

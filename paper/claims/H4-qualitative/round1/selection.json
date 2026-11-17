@@ -1,0 +1,61 @@
+{
+ "first": {
+  "i2": [
+   96,
+   99,
+   8,
+   215,
+   271,
+   269
+  ],
+  "t2": [
+   115,
+   281
+  ],
+  "isvg": [
+   64,
+   188
+  ]
+ },
+ "counts": {
+  "i2": {
+   "eligible": 140,
+   "of": 300,
+   "eligible_and_ours_first": 89,
+   "ours_faster_than_1_sample": 212,
+   "ours_faster_than_best_of_8": 299
+  },
+  "t2": {
+   "eligible": 117,
+   "of": 300,
+   "eligible_and_ours_first": 67,
+   "ours_faster_than_1_sample": 172,
+   "ours_faster_than_best_of_8": 294
+  },
+  "isvg": {
+   "eligible": 144,
+   "of": 300,
+   "eligible_and_ours_first": 63,
+   "ours_faster_than_1_sample": 152,
+   "ours_faster_than_best_of_8": 298
+  }
+ },
+ "any": {
+  "i2": [
+   121,
+   129,
+   11,
+   221,
+   287,
+   281
+  ],
+  "t2": [
+   137,
+   208
+  ],
+  "isvg": [
+   83,
+   211
+  ]
+ }
+}

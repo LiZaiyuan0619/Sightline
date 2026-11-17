@@ -1,0 +1,513 @@
+{
+ "meta": {
+  "source": "runs/2026-10-29/analysis/b2_sweep.json (report_b2_sweep.md)",
+  "setup": "SGLang 0.5.22, InternSVG-8B text-to-SVG, one H200, one node; tok/s is the whole client loop, latency is the mean per-request wall clock, accept is the engine's mean accepted tokens per verification step; speed-up is against AR at the same concurrency",
+  "arms": "'Ours (window 16)' is the same block-32 head, verifying only 16 tokens per step -- no retraining"
+ },
+ "rows": [
+  {
+   "mode": "greedy",
+   "arm": "AR",
+   "conc": 1,
+   "tok_per_s": 216.1,
+   "latency_s": 9.62,
+   "speedup": 1.0,
+   "accept": null
+  },
+  {
+   "mode": "greedy",
+   "arm": "AR",
+   "conc": 2,
+   "tok_per_s": 416.1,
+   "latency_s": 10.061,
+   "speedup": 1.0,
+   "accept": null
+  },
+  {
+   "mode": "greedy",
+   "arm": "AR",
+   "conc": 4,
+   "tok_per_s": 811.3,
+   "latency_s": 10.655,
+   "speedup": 1.0,
+   "accept": null
+  },
+  {
+   "mode": "greedy",
+   "arm": "AR",
+   "conc": 8,
+   "tok_per_s": 1567.4,
+   "latency_s": 11.655,
+   "speedup": 1.0,
+   "accept": null
+  },
+  {
+   "mode": "greedy",
+   "arm": "AR",
+   "conc": 16,
+   "tok_per_s": 2886.3,
+   "latency_s": 12.772,
+   "speedup": 1.0,
+   "accept": null
+  },
+  {
+   "mode": "greedy",
+   "arm": "AR",
+   "conc": 32,
+   "tok_per_s": 5196.9,
+   "latency_s": 13.43,
+   "speedup": 1.0,
+   "accept": null
+  },
+  {
+   "mode": "greedy",
+   "arm": "AR",
+   "conc": 64,
+   "tok_per_s": 8778.1,
+   "latency_s": 15.357,
+   "speedup": 1.0,
+   "accept": null
+  },
+  {
+   "mode": "greedy",
+   "arm": "DFlash (block 16)",
+   "conc": 1,
+   "tok_per_s": 1560.5,
+   "latency_s": 1.393,
+   "speedup": 7.221193891716798,
+   "accept": 9.945
+  },
+  {
+   "mode": "greedy",
+   "arm": "DFlash (block 16)",
+   "conc": 2,
+   "tok_per_s": 3034.2,
+   "latency_s": 1.421,
+   "speedup": 7.291997116077865,
+   "accept": 10.222
+  },
+  {
+   "mode": "greedy",
+   "arm": "DFlash (block 16)",
+   "conc": 4,
+   "tok_per_s": 5307.7,
+   "latency_s": 1.611,
+   "speedup": 6.542216196228276,
+   "accept": 9.483
+  },
+  {
+   "mode": "greedy",
+   "arm": "DFlash (block 16)",
+   "conc": 8,
+   "tok_per_s": 9694.9,
+   "latency_s": 1.971,
+   "speedup": 6.185338777593467,
+   "accept": 9.562
+  },
+  {
+   "mode": "greedy",
+   "arm": "DFlash (block 16)",
+   "conc": 16,
+   "tok_per_s": 13120.4,
+   "latency_s": 2.813,
+   "speedup": 4.545750614974188,
+   "accept": 9.63
+  },
+  {
+   "mode": "greedy",
+   "arm": "DFlash (block 16)",
+   "conc": 32,
+   "tok_per_s": 15220.9,
+   "latency_s": 4.706,
+   "speedup": 2.928842194385114,
+   "accept": 9.919
+  },
+  {
+   "mode": "greedy",
+   "arm": "DFlash (block 16)",
+   "conc": 64,
+   "tok_per_s": 16565.3,
+   "latency_s": 8.302,
+   "speedup": 1.887116802041444,
+   "accept": 10.091
+  },
+  {
+   "mode": "greedy",
+   "arm": "Ours (window 32)",
+   "conc": 1,
+   "tok_per_s": 2006.9,
+   "latency_s": 1.042,
+   "speedup": 9.28690421101342,
+   "accept": 13.108
+  },
+  {
+   "mode": "greedy",
+   "arm": "Ours (window 32)",
+   "conc": 2,
+   "tok_per_s": 3616.7,
+   "latency_s": 1.186,
+   "speedup": 8.691900985340062,
+   "accept": 12.402
+  },
+  {
+   "mode": "greedy",
+   "arm": "Ours (window 32)",
+   "conc": 4,
+   "tok_per_s": 5779.0,
+   "latency_s": 1.472,
+   "speedup": 7.123135708122766,
+   "accept": 11.562
+  },
+  {
+   "mode": "greedy",
+   "arm": "Ours (window 32)",
+   "conc": 8,
+   "tok_per_s": 8008.4,
+   "latency_s": 2.29,
+   "speedup": 5.109353068776317,
+   "accept": 11.366
+  },
+  {
+   "mode": "greedy",
+   "arm": "Ours (window 32)",
+   "conc": 16,
+   "tok_per_s": 9409.5,
+   "latency_s": 3.977,
+   "speedup": 3.260056127221702,
+   "accept": 11.972
+  },
+  {
+   "mode": "greedy",
+   "arm": "Ours (window 32)",
+   "conc": 32,
+   "tok_per_s": 10739.8,
+   "latency_s": 6.593,
+   "speedup": 2.066578152360061,
+   "accept": 12.644
+  },
+  {
+   "mode": "greedy",
+   "arm": "Ours (window 32)",
+   "conc": 64,
+   "tok_per_s": 11077.8,
+   "latency_s": 12.311,
+   "speedup": 1.2619815221972863,
+   "accept": 12.848
+  },
+  {
+   "mode": "greedy",
+   "arm": "Ours (window 16)",
+   "conc": 1,
+   "tok_per_s": 1520.2,
+   "latency_s": 1.43,
+   "speedup": 7.034706154558076,
+   "accept": 9.694
+  },
+  {
+   "mode": "greedy",
+   "arm": "Ours (window 16)",
+   "conc": 2,
+   "tok_per_s": 2947.0,
+   "latency_s": 1.451,
+   "speedup": 7.082432107666426,
+   "accept": 9.733
+  },
+  {
+   "mode": "greedy",
+   "arm": "Ours (window 16)",
+   "conc": 4,
+   "tok_per_s": 5178.8,
+   "latency_s": 1.641,
+   "speedup": 6.383335387649452,
+   "accept": 9.025
+  },
+  {
+   "mode": "greedy",
+   "arm": "Ours (window 16)",
+   "conc": 8,
+   "tok_per_s": 8807.2,
+   "latency_s": 2.169,
+   "speedup": 5.618986857215772,
+   "accept": 8.733
+  },
+  {
+   "mode": "greedy",
+   "arm": "Ours (window 16)",
+   "conc": 16,
+   "tok_per_s": 12275.5,
+   "latency_s": 2.943,
+   "speedup": 4.2530229012923115,
+   "accept": 8.996
+  },
+  {
+   "mode": "greedy",
+   "arm": "Ours (window 16)",
+   "conc": 32,
+   "tok_per_s": 14391.8,
+   "latency_s": 4.932,
+   "speedup": 2.769304777848333,
+   "accept": 9.446
+  },
+  {
+   "mode": "greedy",
+   "arm": "Ours (window 16)",
+   "conc": 64,
+   "tok_per_s": 15601.9,
+   "latency_s": 8.705,
+   "speedup": 1.7773664004739065,
+   "accept": 9.535
+  },
+  {
+   "mode": "sample",
+   "arm": "AR",
+   "conc": 1,
+   "tok_per_s": 210.8,
+   "latency_s": 8.667,
+   "speedup": 1.0,
+   "accept": null
+  },
+  {
+   "mode": "sample",
+   "arm": "AR",
+   "conc": 2,
+   "tok_per_s": 404.7,
+   "latency_s": 9.445,
+   "speedup": 1.0,
+   "accept": null
+  },
+  {
+   "mode": "sample",
+   "arm": "AR",
+   "conc": 4,
+   "tok_per_s": 783.4,
+   "latency_s": 9.734,
+   "speedup": 1.0,
+   "accept": null
+  },
+  {
+   "mode": "sample",
+   "arm": "AR",
+   "conc": 8,
+   "tok_per_s": 1504.9,
+   "latency_s": 11.085,
+   "speedup": 1.0,
+   "accept": null
+  },
+  {
+   "mode": "sample",
+   "arm": "AR",
+   "conc": 16,
+   "tok_per_s": 2775.8,
+   "latency_s": 11.526,
+   "speedup": 1.0,
+   "accept": null
+  },
+  {
+   "mode": "sample",
+   "arm": "AR",
+   "conc": 32,
+   "tok_per_s": 4999.7,
+   "latency_s": 12.844,
+   "speedup": 1.0,
+   "accept": null
+  },
+  {
+   "mode": "sample",
+   "arm": "AR",
+   "conc": 64,
+   "tok_per_s": 8479.9,
+   "latency_s": 14.462,
+   "speedup": 1.0,
+   "accept": null
+  },
+  {
+   "mode": "sample",
+   "arm": "DFlash (block 16)",
+   "conc": 1,
+   "tok_per_s": 939.0,
+   "latency_s": 2.036,
+   "speedup": 4.454459203036053,
+   "accept": 6.387
+  },
+  {
+   "mode": "sample",
+   "arm": "DFlash (block 16)",
+   "conc": 2,
+   "tok_per_s": 1803.4,
+   "latency_s": 2.201,
+   "speedup": 4.4561403508771935,
+   "accept": 6.453
+  },
+  {
+   "mode": "sample",
+   "arm": "DFlash (block 16)",
+   "conc": 4,
+   "tok_per_s": 3392.5,
+   "latency_s": 2.226,
+   "speedup": 4.330482512126627,
+   "accept": 6.755
+  },
+  {
+   "mode": "sample",
+   "arm": "DFlash (block 16)",
+   "conc": 8,
+   "tok_per_s": 4850.1,
+   "latency_s": 3.457,
+   "speedup": 3.222871951624693,
+   "accept": 5.462
+  },
+  {
+   "mode": "sample",
+   "arm": "DFlash (block 16)",
+   "conc": 16,
+   "tok_per_s": 6637.0,
+   "latency_s": 5.139,
+   "speedup": 2.3910224079544635,
+   "accept": 5.518
+  },
+  {
+   "mode": "sample",
+   "arm": "DFlash (block 16)",
+   "conc": 32,
+   "tok_per_s": 8128.8,
+   "latency_s": 7.924,
+   "speedup": 1.6258575514530873,
+   "accept": 6.081
+  },
+  {
+   "mode": "sample",
+   "arm": "DFlash (block 16)",
+   "conc": 64,
+   "tok_per_s": 8840.0,
+   "latency_s": 13.614,
+   "speedup": 1.0424651234094742,
+   "accept": 6.088
+  },
+  {
+   "mode": "sample",
+   "arm": "Ours (window 32)",
+   "conc": 1,
+   "tok_per_s": 1164.7,
+   "latency_s": 1.605,
+   "speedup": 5.525142314990513,
+   "accept": 8.22
+  },
+  {
+   "mode": "sample",
+   "arm": "Ours (window 32)",
+   "conc": 2,
+   "tok_per_s": 2169.2,
+   "latency_s": 1.686,
+   "speedup": 5.360019767729182,
+   "accept": 8.313
+  },
+  {
+   "mode": "sample",
+   "arm": "Ours (window 32)",
+   "conc": 4,
+   "tok_per_s": 2995.8,
+   "latency_s": 2.447,
+   "speedup": 3.8241000765892266,
+   "accept": 6.7
+  },
+  {
+   "mode": "sample",
+   "arm": "Ours (window 32)",
+   "conc": 8,
+   "tok_per_s": 3557.2,
+   "latency_s": 4.817,
+   "speedup": 2.363745099342149,
+   "accept": 5.726
+  },
+  {
+   "mode": "sample",
+   "arm": "Ours (window 32)",
+   "conc": 16,
+   "tok_per_s": 4232.0,
+   "latency_s": 8.217,
+   "speedup": 1.5246055191296202,
+   "accept": 6.062
+  },
+  {
+   "mode": "sample",
+   "arm": "Ours (window 32)",
+   "conc": 32,
+   "tok_per_s": 5070.1,
+   "latency_s": 12.885,
+   "speedup": 1.014080844850691,
+   "accept": 6.599
+  },
+  {
+   "mode": "sample",
+   "arm": "Ours (window 32)",
+   "conc": 64,
+   "tok_per_s": 5323.4,
+   "latency_s": 23.307,
+   "speedup": 0.6277668368730763,
+   "accept": 6.797
+  },
+  {
+   "mode": "sample",
+   "arm": "Ours (window 16)",
+   "conc": 1,
+   "tok_per_s": 1000.7,
+   "latency_s": 1.994,
+   "speedup": 4.747153700189753,
+   "accept": 6.817
+  },
+  {
+   "mode": "sample",
+   "arm": "Ours (window 16)",
+   "conc": 2,
+   "tok_per_s": 1831.8,
+   "latency_s": 2.032,
+   "speedup": 4.526315789473684,
+   "accept": 6.643
+  },
+  {
+   "mode": "sample",
+   "arm": "Ours (window 16)",
+   "conc": 4,
+   "tok_per_s": 3158.7,
+   "latency_s": 2.476,
+   "speedup": 4.032039826397753,
+   "accept": 6.352
+  },
+  {
+   "mode": "sample",
+   "arm": "Ours (window 16)",
+   "conc": 8,
+   "tok_per_s": 4579.5,
+   "latency_s": 3.791,
+   "speedup": 3.0430593394909957,
+   "accept": 5.103
+  },
+  {
+   "mode": "sample",
+   "arm": "Ours (window 16)",
+   "conc": 16,
+   "tok_per_s": 6251.7,
+   "latency_s": 5.6,
+   "speedup": 2.2522155774911736,
+   "accept": 5.192
+  },
+  {
+   "mode": "sample",
+   "arm": "Ours (window 16)",
+   "conc": 32,
+   "tok_per_s": 7791.5,
+   "latency_s": 8.238,
+   "speedup": 1.5583935036102168,
+   "accept": 5.811
+  },
+  {
+   "mode": "sample",
+   "arm": "Ours (window 16)",
+   "conc": 64,
+   "tok_per_s": 8241.6,
+   "latency_s": 15.031,
+   "speedup": 0.9718982535171407,
+   "accept": 5.566
+  }
+ ]
+}

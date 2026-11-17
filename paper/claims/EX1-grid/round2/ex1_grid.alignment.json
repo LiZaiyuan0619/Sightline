@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 2,
+    "exemptions": 2
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 495.0,
+      "height_pt": 302.0
+    },
+    "panels": [
+      {
+        "id": "a1",
+        "bbox_pt": [
+          31.0,
+          134.64,
+          179.0,
+          264.0
+        ]
+      },
+      {
+        "id": "a2",
+        "bbox_pt": [
+          31.0,
+          25.000000000000004,
+          179.0,
+          126.64
+        ]
+      },
+      {
+        "id": "c",
+        "bbox_pt": [
+          396.0,
+          186.0,
+          492.00000000000006,
+          264.0
+        ]
+      },
+      {
+        "id": "d",
+        "bbox_pt": [
+          218.0,
+          25.000000000000004,
+          337.0,
+          120.00000000000001
+        ]
+      },
+      {
+        "id": "e1",
+        "bbox_pt": [
+          388.0,
+          25.000000000000004,
+          433.00000000000006,
+          120.00000000000001
+        ]
+      },
+      {
+        "id": "e2",
+        "bbox_pt": [
+          443.0,
+          25.000000000000004,
+          488.0,
+          120.00000000000001
+        ]
+      }
+    ],
+    "row_groups": [
+      {
+        "id": "row-1",
+        "panels": [
+          "d",
+          "e1",
+          "e2"
+        ]
+      }
+    ],
+    "column_groups": [
+      {
+        "id": "column-1",
+        "panels": [
+          "a1",
+          "a2"
+        ]
+      }
+    ],
+    "boundary_groups": [],
+    "exemptions": [
+      {
+        "panels": [
+          "e1",
+          "e2"
+        ],
+        "checks": [
+          "panel-width"
+        ],
+        "reason": "Figure 10 splits its cell into a greedy and an official-sampling panel; Figure 9's single panel is wider by design"
+      },
+      {
+        "panels": [
+          "d",
+          "e1",
+          "e2"
+        ],
+        "checks": [
+          "horizontal-gutter"
+        ],
+        "reason": "the gap between Figures 9 and 10 holds Figure 10's model names; the gap between Figure 10's two panels is a narrow split of one cell"
+      }
+    ]
+  },
+  "findings": []
+}

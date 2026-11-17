@@ -1,0 +1,2429 @@
+{
+ "meta": {
+  "source": "runs/2026-11-09/table-fill/dump_table2_v2.py (published rows as runs/2026-11-02/dump_table2.py)",
+  "seconds": "mean wall seconds per prompt (H200, HF eager, bf16); new rows node-normalised x published / stopwatch per shard and subset; best-of-8 includes rendering and scoring",
+  "subsets": {
+   "icon": "SArena-Icon 6,013",
+   "illustration": "SArena-Illustration 2,001"
+  },
+  "decode_root": "table-fill-1109"
+ },
+ "blocks": {
+  "OmniSVG-8B, text-to-SVG": {
+   "AR": {
+    "icon": {
+     "metrics": {
+      "FID": 10.806001492142627,
+      "FID-C": 2.9141541253303345,
+      "CLIP-T2I": 22.756971670390563,
+      "CLIP-I2I": 78.72743790704399
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1696.0364210876435,
+     "n": 6013,
+     "seconds": 5.724850490603692,
+     "method_key": "omni-ar",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 38.92969431155191,
+      "FID-C": 26.329798708283285,
+      "CLIP-T2I": 17.401454839391867,
+      "CLIP-I2I": 65.18578343246055
+     },
+     "success_rate": 0.9995002498750625,
+     "pred_tokens": 5382.2175,
+     "n": 2001,
+     "seconds": 15.918387306346826,
+     "method_key": "omni-ar",
+     "protocol": "official"
+    }
+   },
+   "EAGLE-3": {
+    "icon": {
+     "metrics": {
+      "FID": 10.926897046057661,
+      "FID-C": 2.9664977855852115,
+      "CLIP-T2I": 22.79120354895859,
+      "CLIP-I2I": 78.75759218902056
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1702.7023116580742,
+     "n": 6013,
+     "seconds": 1.9127507068019292,
+     "method_key": "omni-e3",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 39.094469940852036,
+      "FID-C": 26.582234130893738,
+      "CLIP-T2I": 17.311900212727803,
+      "CLIP-I2I": 65.23008027284041
+     },
+     "success_rate": 0.9995002498750625,
+     "pred_tokens": 5327.4845,
+     "n": 2001,
+     "seconds": 4.755512243878061,
+     "method_key": "omni-e3",
+     "protocol": "official"
+    }
+   },
+   "DDTree": {
+    "icon": {
+     "metrics": {
+      "FID": 10.949545606122115,
+      "FID-C": 2.98938622844134,
+      "CLIP-T2I": 22.787436920018834,
+      "CLIP-I2I": 78.6712692881828
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1705.2449692333278,
+     "n": 6013,
+     "seconds": 1.141971229003825,
+     "method_key": "omni-ddtree",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 39.18812037580511,
+      "FID-C": 26.807122643083844,
+      "CLIP-T2I": 17.32788711080308,
+      "CLIP-I2I": 65.26668509711389
+     },
+     "success_rate": 0.9995002498750625,
+     "pred_tokens": 5366.6815,
+     "n": 2001,
+     "seconds": 2.786591204397801,
+     "method_key": "omni-ddtree",
+     "protocol": "official"
+    }
+   },
+   "DARTree": {
+    "icon": {
+     "metrics": {
+      "FID": 10.887141746515965,
+      "FID-C": 2.985335726087193,
+      "CLIP-T2I": 22.787424284032394,
+      "CLIP-I2I": 78.69830790173486
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1697.0941293863295,
+     "n": 6013,
+     "seconds": 1.2727833028438384,
+     "method_key": "omni-dart",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 39.15952037226921,
+      "FID-C": 26.86257843010452,
+      "CLIP-T2I": 17.360509945237,
+      "CLIP-I2I": 65.18515683173656
+     },
+     "success_rate": 0.9995002498750625,
+     "pred_tokens": 5357.27,
+     "n": 2001,
+     "seconds": 3.0552938530734632,
+     "method_key": "omni-dart",
+     "protocol": "official"
+    }
+   },
+   "Ours": {
+    "icon": {
+     "metrics": {
+      "FID": 10.859511086062355,
+      "FID-C": 2.9548443735836543,
+      "CLIP-T2I": 22.770091933338133,
+      "CLIP-I2I": 78.71303768822501
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1704.435057375686,
+     "n": 6013,
+     "seconds": 1.0053944786296358,
+     "method_key": "omni-ours-t1",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 39.23887047166545,
+      "FID-C": 26.813124953432308,
+      "CLIP-T2I": 17.320376649848942,
+      "CLIP-I2I": 65.0372879928139
+     },
+     "success_rate": 0.999000499750125,
+     "pred_tokens": 5381.1655827913955,
+     "n": 2001,
+     "seconds": 2.2786981509245376,
+     "method_key": "omni-ours-t1",
+     "protocol": "official"
+    }
+   },
+   "DDTree (fast)": {
+    "icon": {
+     "metrics": {
+      "FID": 10.994027692016632,
+      "FID-C": 3.015352792450102,
+      "CLIP-T2I": 22.787551807639563,
+      "CLIP-I2I": 78.66538661913647
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1223.9168468318644,
+     "n": 6013,
+     "seconds": 0.9352902805478585,
+     "method_key": "omni-t2fast-ets-norm",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 39.26997873827645,
+      "FID-C": 27.370126986389252,
+      "CLIP-T2I": 17.326519908099577,
+      "CLIP-I2I": 65.22808713825985
+     },
+     "success_rate": 0.9995002498750625,
+     "pred_tokens": 2620.368,
+     "n": 2001,
+     "seconds": 1.7559335330220396,
+     "method_key": "omni-t2fast-ets-norm",
+     "protocol": "official"
+    }
+   },
+   "Ours (fast)": {
+    "icon": {
+     "metrics": {
+      "FID": 10.944282604002524,
+      "FID-C": 2.995112258059045,
+      "CLIP-T2I": 22.764479290362544,
+      "CLIP-I2I": 78.71107518984199
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1229.4571761184102,
+     "n": 6013,
+     "seconds": 0.8040603692000665,
+     "method_key": "omni-ets-icon",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 39.18263779471815,
+      "FID-C": 27.243283134411143,
+      "CLIP-T2I": 17.32664624540166,
+      "CLIP-I2I": 65.06005253260402
+     },
+     "success_rate": 0.9985007496251874,
+     "pred_tokens": 2614.0455455455453,
+     "n": 2001,
+     "seconds": 1.5569100449775113,
+     "method_key": "omni-ets",
+     "protocol": "official"
+    }
+   },
+   "Official 8, first valid": {
+    "icon": {
+     "metrics": {
+      "FID": 9.95928842902265,
+      "FID-C": 2.5549650828630135,
+      "CLIP-T2I": 22.83064613258226,
+      "CLIP-I2I": 78.86167583278426
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1645.212539497755,
+     "n": 6013,
+     "seconds": 12.812927906203226,
+     "method_key": "omni-ar8fv",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 31.11383309431028,
+      "FID-C": 19.083769395948337,
+      "CLIP-T2I": 17.446980387612857,
+      "CLIP-I2I": 65.6518066521587
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 5098.064967516242,
+     "n": 2001,
+     "seconds": 24.951994752623687,
+     "method_key": "omni-ar8fv",
+     "protocol": "official"
+    }
+   },
+   "AR x8": {
+    "icon": {
+     "metrics": {
+      "FID": 9.727361454048207,
+      "FID-C": 2.479629217111089,
+      "CLIP-T2I": 23.98437100116572,
+      "CLIP-I2I": 80.26918648571177
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1542.4861134209214,
+     "n": 6013,
+     "seconds": 12.812927906203226,
+     "method_key": "omni-ar8",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 28.494090939428133,
+      "FID-C": 15.918280211956557,
+      "CLIP-T2I": 18.656211727681843,
+      "CLIP-I2I": 67.08916732515472
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 4984.367816091954,
+     "n": 2001,
+     "seconds": 24.951994752623687,
+     "method_key": "omni-ar8",
+     "protocol": "official"
+    }
+   },
+   "Ours x8": {
+    "icon": {
+     "metrics": {
+      "FID": 9.847819163544386,
+      "FID-C": 2.481627242387866,
+      "CLIP-T2I": 23.95726568750825,
+      "CLIP-I2I": 80.24681358608612
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1110.83452519541,
+     "n": 6013,
+     "seconds": 2.7622990853151506,
+     "method_key": "omni-sd8",
+     "protocol": "official"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 29.018422491405232,
+      "FID-C": 16.453052145049128,
+      "CLIP-T2I": 18.74804747627414,
+      "CLIP-I2I": 67.12053561603827
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 3397.7926036981507,
+     "n": 2001,
+     "seconds": 5.366206546726636,
+     "method_key": "omni-sd8",
+     "protocol": "official"
+    }
+   },
+   "DFlash": {
+    "icon": {
+     "metrics": {
+      "FID": 10.760170504065286,
+      "FID-C": 2.9293307334401675,
+      "CLIP-T2I": 22.796110329087952,
+      "CLIP-I2I": 78.7743907476768
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1672.6303010144686,
+     "n": 6013,
+     "seconds": 1.2894197595476753,
+     "method_key": "omni-tf-dflash-norm",
+     "protocol": "official",
+     "norm_factor": {
+      "shard-0-of-1/icon": 1.0246
+     },
+     "anchor": "omni-ddtree"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 39.30206691528639,
+      "FID-C": 26.642605816697937,
+      "CLIP-T2I": 17.39343129617461,
+      "CLIP-I2I": 65.17470509263649
+     },
+     "success_rate": 0.9985007496251874,
+     "pred_tokens": 5377.338338338338,
+     "n": 2001,
+     "seconds": 3.0800154825336605,
+     "method_key": "omni-tf-dflash-norm",
+     "protocol": "official",
+     "norm_factor": {
+      "shard-0-of-1/illustration": 1.0283
+     },
+     "anchor": "omni-ddtree"
+    }
+   },
+   "AR (fast)": {
+    "icon": {
+     "metrics": {
+      "FID": 10.887562874217053,
+      "FID-C": 2.9404255589419392,
+      "CLIP-T2I": 22.764492805123467,
+      "CLIP-I2I": 78.72514519682744
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1235.0354232496259,
+     "n": 6013,
+     "seconds": 4.455308201712345,
+     "method_key": "omni-tf-ar-ets-norm",
+     "protocol": "official",
+     "norm_factor": {
+      "shard-0-of-2/icon": 1.2526,
+      "shard-1-of-2/icon": 1.1433
+     },
+     "anchor": "omni-ar"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 39.065163590772556,
+      "FID-C": 27.037943877753364,
+      "CLIP-T2I": 17.370814373587322,
+      "CLIP-I2I": 65.08157052521942
+     },
+     "success_rate": 0.999000499750125,
+     "pred_tokens": 2607.9139569784893,
+     "n": 2001,
+     "seconds": 8.463578443764696,
+     "method_key": "omni-tf-ar-ets-norm",
+     "protocol": "official",
+     "norm_factor": {
+      "shard-0-of-2/illustration": 1.2576,
+      "shard-1-of-2/illustration": 1.0824
+     },
+     "anchor": "omni-ar"
+    }
+   },
+   "EAGLE-3 (fast)": {
+    "icon": {
+     "metrics": {
+      "FID": 10.986022977204868,
+      "FID-C": 3.012017269706405,
+      "CLIP-T2I": 22.810230693265204,
+      "CLIP-I2I": 78.82616952990962
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1223.4212539497755,
+     "n": 6013,
+     "seconds": 1.5390796954793864,
+     "method_key": "omni-tf-e3-ets-norm",
+     "protocol": "official",
+     "norm_factor": {
+      "shard-0-of-1/icon": 1.0604
+     },
+     "anchor": "omni-e3"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 39.21936857523772,
+      "FID-C": 27.38665283140542,
+      "CLIP-T2I": 17.326557084478658,
+      "CLIP-I2I": 65.02636329464052
+     },
+     "success_rate": 0.999000499750125,
+     "pred_tokens": 2620.527263631816,
+     "n": 2001,
+     "seconds": 2.8122566648761014,
+     "method_key": "omni-tf-e3-ets-norm",
+     "protocol": "official",
+     "norm_factor": {
+      "shard-0-of-1/illustration": 1.0517
+     },
+     "anchor": "omni-e3"
+    }
+   },
+   "DFlash (fast)": {
+    "icon": {
+     "metrics": {
+      "FID": 10.869586123840179,
+      "FID-C": 2.979127217611506,
+      "CLIP-T2I": 22.80285924384623,
+      "CLIP-I2I": 78.79628247277384
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1218.6131714618327,
+     "n": 6013,
+     "seconds": 1.076403957071293,
+     "method_key": "omni-tf-dflash-ets-norm",
+     "protocol": "official",
+     "norm_factor": {
+      "shard-0-of-1/icon": 1.0246
+     },
+     "anchor": "omni-ddtree"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 39.342343513861266,
+      "FID-C": 27.31618945904507,
+      "CLIP-T2I": 17.376476969378164,
+      "CLIP-I2I": 65.19569207095671
+     },
+     "success_rate": 0.9980009995002499,
+     "pred_tokens": 2660.9168753129693,
+     "n": 2001,
+     "seconds": 2.051345379489941,
+     "method_key": "omni-tf-dflash-ets-norm",
+     "protocol": "official",
+     "norm_factor": {
+      "shard-0-of-1/illustration": 1.0283
+     },
+     "anchor": "omni-ddtree"
+    }
+   },
+   "DARTree (fast)": {
+    "icon": {
+     "metrics": {
+      "FID": 11.015180069177573,
+      "FID-C": 3.0234814834234385,
+      "CLIP-T2I": 22.78595791318225,
+      "CLIP-I2I": 78.70220865648994
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1235.1855978712788,
+     "n": 6013,
+     "seconds": 1.0830655710251815,
+     "method_key": "omni-tf-dart-ets-norm",
+     "protocol": "official",
+     "norm_factor": {
+      "shard-0-of-1/icon": 1.0385
+     },
+     "anchor": "omni-dart"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 38.99055378232191,
+      "FID-C": 27.352088348589056,
+      "CLIP-T2I": 17.35411990433559,
+      "CLIP-I2I": 65.08696018392476
+     },
+     "success_rate": 0.9995002498750625,
+     "pred_tokens": 2644.8635,
+     "n": 2001,
+     "seconds": 1.9630259891767516,
+     "method_key": "omni-tf-dart-ets-norm",
+     "protocol": "official",
+     "norm_factor": {
+      "shard-0-of-1/illustration": 1.03
+     },
+     "anchor": "omni-dart"
+    }
+   },
+   "AR x8s": {
+    "icon": {
+     "metrics": {
+      "FID": 9.852752399418023,
+      "FID-C": 2.5056988300430447,
+      "CLIP-T2I": 23.96202390514712,
+      "CLIP-I2I": 80.22905151685026
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1129.6367869615833,
+     "n": 6013,
+     "seconds": 10.397651669914858,
+     "method_key": "omni-tf-ar8s-norm",
+     "protocol": "official",
+     "norm_factor": {
+      "shard-0-of-5/icon": 1.0324,
+      "shard-1-of-5/icon": 1.008,
+      "shard-2-of-5/icon": 1.0585,
+      "shard-3-of-5/icon": 0.9677,
+      "shard-4-of-5/icon": 0.9636
+     },
+     "anchor": "omni-sd8"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 28.931606796811167,
+      "FID-C": 16.233381869342224,
+      "CLIP-T2I": 18.580848633974924,
+      "CLIP-I2I": 66.73594102604517
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 3356.6071964017992,
+     "n": 2001,
+     "seconds": 21.131126379796992,
+     "method_key": "omni-tf-ar8s-norm",
+     "protocol": "official",
+     "norm_factor": {
+      "shard-0-of-5/illustration": 1.0525,
+      "shard-1-of-5/illustration": 1.0022,
+      "shard-2-of-5/illustration": 1.066,
+      "shard-3-of-5/illustration": 0.9618,
+      "shard-4-of-5/illustration": 0.964
+     },
+     "anchor": "omni-sd8"
+    }
+   },
+   "DFlash x8": {
+    "icon": {
+     "metrics": {
+      "FID": 9.820075182445635,
+      "FID-C": 2.502811379664813,
+      "CLIP-T2I": 24.00816783115191,
+      "CLIP-I2I": 80.14789477287583
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1135.4802926991517,
+     "n": 6013,
+     "seconds": 2.7366739056779372,
+     "method_key": "omni-tf-dflash8-norm",
+     "protocol": "official",
+     "norm_factor": {
+      "shard-0-of-5/icon": 1.0324,
+      "shard-1-of-5/icon": 1.008,
+      "shard-2-of-5/icon": 1.0585,
+      "shard-3-of-5/icon": 0.9677,
+      "shard-4-of-5/icon": 0.9636
+     },
+     "anchor": "omni-sd8"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 29.1300408300244,
+      "FID-C": 16.321686980337887,
+      "CLIP-T2I": 18.69750268193616,
+      "CLIP-I2I": 66.98405623972148
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 3348.375312343828,
+     "n": 2001,
+     "seconds": 5.324598180258521,
+     "method_key": "omni-tf-dflash8-norm",
+     "protocol": "official",
+     "norm_factor": {
+      "shard-0-of-5/illustration": 1.0525,
+      "shard-1-of-5/illustration": 1.0022,
+      "shard-2-of-5/illustration": 1.066,
+      "shard-3-of-5/illustration": 0.9618,
+      "shard-4-of-5/illustration": 0.964
+     },
+     "anchor": "omni-sd8"
+    }
+   }
+  },
+  "InternSVG-8B, text-to-SVG": {
+   "AR": {
+    "icon": {
+     "metrics": {
+      "FID": 11.828776419575888,
+      "FID-C": 3.1667290250562203,
+      "CLIP-T2I": 23.70880633187179,
+      "CLIP-I2I": 80.53222279181482
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 817.2880425744221,
+     "n": 6013,
+     "seconds": 11.20726143356062,
+     "method_key": "isvg-ar",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 52.90600329375317,
+      "FID-C": 29.652943277342033,
+      "CLIP-T2I": 17.952495990783675,
+      "CLIP-I2I": 66.82916577371104
+     },
+     "success_rate": 0.9995002498750625,
+     "pred_tokens": 2332.901,
+     "n": 2001,
+     "seconds": 43.580050974512744,
+     "method_key": "isvg-ar",
+     "protocol": "closed"
+    }
+   },
+   "EAGLE-3": {
+    "icon": {
+     "metrics": {
+      "FID": 11.74502009695675,
+      "FID-C": 3.1564291275676766,
+      "CLIP-T2I": 23.757593279727065,
+      "CLIP-I2I": 80.5150016042886
+     },
+     "success_rate": 0.9996673873274572,
+     "pred_tokens": 823.3749792047912,
+     "n": 6013,
+     "seconds": 3.27886396141693,
+     "method_key": "isvg-e3-mix",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 52.83584744242893,
+      "FID-C": 29.351735519665603,
+      "CLIP-T2I": 17.923508504222237,
+      "CLIP-I2I": 66.98973447236342
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2302.2753623188405,
+     "n": 2001,
+     "seconds": 12.617449775112444,
+     "method_key": "isvg-e3-mix",
+     "protocol": "closed"
+    }
+   },
+   "DDTree": {
+    "icon": {
+     "metrics": {
+      "FID": 11.939694819369892,
+      "FID-C": 3.241981507462775,
+      "CLIP-T2I": 23.707964162748823,
+      "CLIP-I2I": 80.49867453694878
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 821.2820555463163,
+     "n": 6013,
+     "seconds": 1.6047280891401963,
+     "method_key": "isvg-ddtree-mix",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 53.833592361125625,
+      "FID-C": 30.60001981529861,
+      "CLIP-T2I": 17.892160115630432,
+      "CLIP-I2I": 66.6641283592899
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2253.2883558220888,
+     "n": 2001,
+     "seconds": 6.182578210894553,
+     "method_key": "isvg-ddtree-mix",
+     "protocol": "closed"
+    }
+   },
+   "DARTree": {
+    "icon": {
+     "metrics": {
+      "FID": 11.894720556484856,
+      "FID-C": 3.260243244618365,
+      "CLIP-T2I": 23.741420647238765,
+      "CLIP-I2I": 80.55527355237548
+     },
+     "success_rate": 0.9998336936637285,
+     "pred_tokens": 812.4667332002662,
+     "n": 6013,
+     "seconds": 1.7733603858307,
+     "method_key": "isvg-dart-mix",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 54.61902644806838,
+      "FID-C": 30.77206430362211,
+      "CLIP-T2I": 17.88165678732518,
+      "CLIP-I2I": 66.73837975345214
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2234.844577711144,
+     "n": 2001,
+     "seconds": 6.80983708145927,
+     "method_key": "isvg-dart-mix",
+     "protocol": "closed"
+    }
+   },
+   "Ours": {
+    "icon": {
+     "metrics": {
+      "FID": 11.84058268002002,
+      "FID-C": 3.1840742944869826,
+      "CLIP-T2I": 23.728123150905912,
+      "CLIP-I2I": 80.5792360750665
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 810.9033760186263,
+     "n": 6013,
+     "seconds": 1.1355320139697322,
+     "method_key": "isvg-ours-mix",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 54.37143059056737,
+      "FID-C": 30.5634201881997,
+      "CLIP-T2I": 17.881294122283187,
+      "CLIP-I2I": 66.80073364778258
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2270.225887056472,
+     "n": 2001,
+     "seconds": 4.6976611694152925,
+     "method_key": "isvg-ours-mix",
+     "protocol": "closed"
+    }
+   },
+   "DDTree (fast)": {
+    "icon": {
+     "metrics": {
+      "FID": 12.384634239767877,
+      "FID-C": 3.3852555720502195,
+      "CLIP-T2I": 23.690647647838,
+      "CLIP-I2I": 80.41510482732892
+     },
+     "success_rate": 0.9996673873274572,
+     "pred_tokens": 603.7517883879555,
+     "n": 6013,
+     "seconds": 1.2349818208951553,
+     "method_key": "isvg-t2fast-ets-norm",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 54.14912461736034,
+      "FID-C": 30.87758770966304,
+      "CLIP-T2I": 17.8698061852977,
+      "CLIP-I2I": 66.59029451529423
+     },
+     "success_rate": 0.999000499750125,
+     "pred_tokens": 1799.7813906953477,
+     "n": 2001,
+     "seconds": 4.673945168518779,
+     "method_key": "isvg-t2fast-ets-norm",
+     "protocol": "closed"
+    }
+   },
+   "Ours (fast)": {
+    "icon": {
+     "metrics": {
+      "FID": 12.1016095528189,
+      "FID-C": 3.253291284068681,
+      "CLIP-T2I": 23.724780042338406,
+      "CLIP-I2I": 80.5177209271422
+     },
+     "success_rate": 0.9985032429735573,
+     "pred_tokens": 593.6350766155896,
+     "n": 6013,
+     "seconds": 1.0527167803093298,
+     "method_key": "isvg-ets-mix",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 54.92568723400035,
+      "FID-C": 30.955146686802166,
+      "CLIP-T2I": 17.866599385825353,
+      "CLIP-I2I": 66.74809044328468
+     },
+     "success_rate": 0.9980009995002499,
+     "pred_tokens": 1777.3720580871307,
+     "n": 2001,
+     "seconds": 3.9379035482258873,
+     "method_key": "isvg-ets-mix",
+     "protocol": "closed"
+    }
+   },
+   "AR x8": {
+    "icon": {
+     "metrics": {
+      "FID": 8.745889631829414,
+      "FID-C": 2.116186986619155,
+      "CLIP-T2I": 25.205287430184505,
+      "CLIP-I2I": 82.58797875256383
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 607.0114751372028,
+     "n": 6013,
+     "seconds": 26.275622850490603,
+     "method_key": "isvg-ar8",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 23.98405667823812,
+      "FID-C": 6.682443579983996,
+      "CLIP-T2I": 21.508500422554455,
+      "CLIP-I2I": 74.0411199448646
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 3041.785107446277,
+     "n": 2001,
+     "seconds": 86.4250299850075,
+     "method_key": "isvg-ar8",
+     "protocol": "closed"
+    }
+   },
+   "Ours x8": {
+    "icon": {
+     "metrics": {
+      "FID": 8.799472662147537,
+      "FID-C": 2.1274526691867166,
+      "CLIP-T2I": 25.2190648332206,
+      "CLIP-I2I": 82.52945520428598
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 546.9913520705139,
+     "n": 6013,
+     "seconds": 5.252869249958423,
+     "method_key": "isvg-sd8-mix",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 24.24736309265444,
+      "FID-C": 6.811688090039155,
+      "CLIP-T2I": 21.440860323164834,
+      "CLIP-I2I": 74.05073031683317
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2841.498250874563,
+     "n": 2001,
+     "seconds": 31.628802048975512,
+     "method_key": "isvg-sd8-mix",
+     "protocol": "closed"
+    }
+   },
+   "DFlash": {
+    "icon": {
+     "metrics": {
+      "FID": 11.876909751527592,
+      "FID-C": 3.2335751649757754,
+      "CLIP-T2I": 23.740271388364278,
+      "CLIP-I2I": 80.53399616815912
+     },
+     "success_rate": 0.9996673873274572,
+     "pred_tokens": 815.5443353851273,
+     "n": 6013,
+     "seconds": 1.8113035660844468,
+     "method_key": "isvg-tf-dflash-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-2/icon": 1.0228,
+      "shard-1-of-2/icon": 0.9638
+     },
+     "anchor": "isvg-ddtree-mix"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 54.31846262524226,
+      "FID-C": 30.360206770894067,
+      "CLIP-T2I": 17.9021087451198,
+      "CLIP-I2I": 66.80068898713333
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2258.8275862068967,
+     "n": 2001,
+     "seconds": 7.306867945592814,
+     "method_key": "isvg-tf-dflash-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-2/illustration": 0.9987,
+      "shard-1-of-2/illustration": 0.9872
+     },
+     "anchor": "isvg-ddtree-mix"
+    }
+   },
+   "AR (fast)": {
+    "icon": {
+     "metrics": {
+      "FID": 12.224439175756629,
+      "FID-C": 3.3184539291020623,
+      "CLIP-T2I": 23.686632976582736,
+      "CLIP-I2I": 80.451609593272
+     },
+     "success_rate": 0.9993347746549144,
+     "pred_tokens": 602.6603428191047,
+     "n": 6013,
+     "seconds": 7.906474777987257,
+     "method_key": "isvg-tf-ar-ets-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-5/icon": 1.0384,
+      "shard-1-of-5/icon": 1.1501,
+      "shard-2-of-5/icon": 1.0253,
+      "shard-3-of-5/icon": 1.1871,
+      "shard-4-of-5/icon": 1.0764
+     },
+     "anchor": "isvg-ar"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 53.41665845969362,
+      "FID-C": 29.870585906043843,
+      "CLIP-T2I": 17.960434083161744,
+      "CLIP-I2I": 66.79328128256124
+     },
+     "success_rate": 0.9975012493753124,
+     "pred_tokens": 1852.4088176352705,
+     "n": 2001,
+     "seconds": 29.87701052164459,
+     "method_key": "isvg-tf-ar-ets-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-5/illustration": 1.0366,
+      "shard-1-of-5/illustration": 1.1223,
+      "shard-2-of-5/illustration": 1.0171,
+      "shard-3-of-5/illustration": 1.1748,
+      "shard-4-of-5/illustration": 1.0721
+     },
+     "anchor": "isvg-ar"
+    }
+   },
+   "EAGLE-3 (fast)": {
+    "icon": {
+     "metrics": {
+      "FID": 12.08673080902281,
+      "FID-C": 3.24423256727885,
+      "CLIP-T2I": 23.722511278419233,
+      "CLIP-I2I": 80.43009806781606
+     },
+     "success_rate": 0.9991684683186429,
+     "pred_tokens": 602.8916444740346,
+     "n": 6013,
+     "seconds": 2.4753236907804688,
+     "method_key": "isvg-tf-e3-ets-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-3/icon": 1.0689,
+      "shard-1-of-3/icon": 1.0845,
+      "shard-2-of-3/icon": 1.0827
+     },
+     "anchor": "isvg-e3-mix"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 54.18418043412257,
+      "FID-C": 29.987215022843785,
+      "CLIP-T2I": 17.949089953566954,
+      "CLIP-I2I": 66.8460435290625
+     },
+     "success_rate": 0.9980009995002499,
+     "pred_tokens": 1812.539809714572,
+     "n": 2001,
+     "seconds": 9.33211369247494,
+     "method_key": "isvg-tf-e3-ets-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-3/illustration": 1.0774,
+      "shard-1-of-3/illustration": 1.0858,
+      "shard-2-of-3/illustration": 1.0893
+     },
+     "anchor": "isvg-e3-mix"
+    }
+   },
+   "DFlash (fast)": {
+    "icon": {
+     "metrics": {
+      "FID": 12.069640137766044,
+      "FID-C": 3.286653188952208,
+      "CLIP-T2I": 23.738250775640942,
+      "CLIP-I2I": 80.47490545035241
+     },
+     "success_rate": 0.9988358556461001,
+     "pred_tokens": 600.972360972361,
+     "n": 6013,
+     "seconds": 1.4714518813779223,
+     "method_key": "isvg-tf-dflash-ets-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-2/icon": 1.0228,
+      "shard-1-of-2/icon": 0.9638
+     },
+     "anchor": "isvg-ddtree-mix"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 54.92781413127918,
+      "FID-C": 30.578666504657164,
+      "CLIP-T2I": 17.864156823167797,
+      "CLIP-I2I": 66.7092627992873
+     },
+     "success_rate": 0.9970014992503748,
+     "pred_tokens": 1780.3278195488722,
+     "n": 2001,
+     "seconds": 5.810791904575571,
+     "method_key": "isvg-tf-dflash-ets-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-2/illustration": 0.9987,
+      "shard-1-of-2/illustration": 0.9872
+     },
+     "anchor": "isvg-ddtree-mix"
+    }
+   },
+   "DARTree (fast)": {
+    "icon": {
+     "metrics": {
+      "FID": 12.219452857422084,
+      "FID-C": 3.386860324230718,
+      "CLIP-T2I": 23.742418530933794,
+      "CLIP-I2I": 80.51261558672284
+     },
+     "success_rate": 0.9991684683186429,
+     "pred_tokens": 603.9642143808255,
+     "n": 6013,
+     "seconds": 1.3839884563441704,
+     "method_key": "isvg-tf-dart-ets-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-2/icon": 1.025,
+      "shard-1-of-2/icon": 1.0261
+     },
+     "anchor": "isvg-dart-mix"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 54.868178793329065,
+      "FID-C": 30.81601359372172,
+      "CLIP-T2I": 17.880571601034582,
+      "CLIP-I2I": 66.70848847388744
+     },
+     "success_rate": 0.9985007496251874,
+     "pred_tokens": 1796.5870870870872,
+     "n": 2001,
+     "seconds": 5.14219306105387,
+     "method_key": "isvg-tf-dart-ets-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-2/illustration": 1.0078,
+      "shard-1-of-2/illustration": 1.0067
+     },
+     "anchor": "isvg-dart-mix"
+    }
+   },
+   "AR x8s": {
+    "icon": {
+     "metrics": {
+      "FID": 8.745748791699668,
+      "FID-C": 2.135358587963964,
+      "CLIP-T2I": 25.18844948920398,
+      "CLIP-I2I": 82.54764193241913
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 548.721769499418,
+     "n": 6013,
+     "seconds": 21.51149325970376,
+     "method_key": "isvg-tf-ar8s-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-14/icon": 1.0456,
+      "shard-1-of-14/icon": 1.0186,
+      "shard-10-of-14/icon": 1.0031,
+      "shard-11-of-14/icon": 0.9949,
+      "shard-12-of-14/icon": 1.0118,
+      "shard-13-of-14/icon": 1.011,
+      "shard-2-of-14/icon": 1.0143,
+      "shard-3-of-14/icon": 1.0007,
+      "shard-4-of-14/icon": 1.0456,
+      "shard-5-of-14/icon": 0.9943,
+      "shard-6-of-14/icon": 1.0487,
+      "shard-7-of-14/icon": 0.971,
+      "shard-8-of-14/icon": 1.0164,
+      "shard-9-of-14/icon": 0.9671
+     },
+     "anchor": "isvg-sd8-mix"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 24.146913698926852,
+      "FID-C": 6.845414871449492,
+      "CLIP-T2I": 21.473035784258595,
+      "CLIP-I2I": 73.86796093416
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2865.7881059470265,
+     "n": 2001,
+     "seconds": 85.96737185089505,
+     "method_key": "isvg-tf-ar8s-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-14/illustration": 1.0073,
+      "shard-1-of-14/illustration": 1.0044,
+      "shard-10-of-14/illustration": 1.0045,
+      "shard-11-of-14/illustration": 0.9937,
+      "shard-12-of-14/illustration": 1.0037,
+      "shard-13-of-14/illustration": 0.9973,
+      "shard-2-of-14/illustration": 1.0021,
+      "shard-3-of-14/illustration": 0.9916,
+      "shard-4-of-14/illustration": 1.0162,
+      "shard-5-of-14/illustration": 0.9885,
+      "shard-6-of-14/illustration": 1.0116,
+      "shard-7-of-14/illustration": 0.9908,
+      "shard-8-of-14/illustration": 1.0039,
+      "shard-9-of-14/illustration": 0.9449
+     },
+     "anchor": "isvg-sd8-mix"
+    }
+   },
+   "DFlash x8": {
+    "icon": {
+     "metrics": {
+      "FID": 8.799969710948574,
+      "FID-C": 2.13838948899852,
+      "CLIP-T2I": 25.215854772370765,
+      "CLIP-I2I": 82.4958526951371
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 542.1747879594212,
+     "n": 6013,
+     "seconds": 5.216057089066103,
+     "method_key": "isvg-tf-dflash8-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-14/icon": 1.0456,
+      "shard-1-of-14/icon": 1.0186,
+      "shard-10-of-14/icon": 1.0031,
+      "shard-11-of-14/icon": 0.9949,
+      "shard-12-of-14/icon": 1.0118,
+      "shard-13-of-14/icon": 1.011,
+      "shard-2-of-14/icon": 1.0143,
+      "shard-3-of-14/icon": 1.0007,
+      "shard-4-of-14/icon": 1.0456,
+      "shard-5-of-14/icon": 0.9943,
+      "shard-6-of-14/icon": 1.0487,
+      "shard-7-of-14/icon": 0.971,
+      "shard-8-of-14/icon": 1.0164,
+      "shard-9-of-14/icon": 0.9671
+     },
+     "anchor": "isvg-sd8-mix"
+    },
+    "illustration": {
+     "metrics": {
+      "FID": 23.901375499069303,
+      "FID-C": 6.621619036000794,
+      "CLIP-T2I": 21.47917979922907,
+      "CLIP-I2I": 74.02924219934062
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2865.015992003998,
+     "n": 2001,
+     "seconds": 29.527889698593796,
+     "method_key": "isvg-tf-dflash8-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-14/illustration": 1.0073,
+      "shard-1-of-14/illustration": 1.0044,
+      "shard-10-of-14/illustration": 1.0045,
+      "shard-11-of-14/illustration": 0.9937,
+      "shard-12-of-14/illustration": 1.0037,
+      "shard-13-of-14/illustration": 0.9973,
+      "shard-2-of-14/illustration": 1.0021,
+      "shard-3-of-14/illustration": 0.9916,
+      "shard-4-of-14/illustration": 1.0162,
+      "shard-5-of-14/illustration": 0.9885,
+      "shard-6-of-14/illustration": 1.0116,
+      "shard-7-of-14/illustration": 0.9908,
+      "shard-8-of-14/illustration": 1.0039,
+      "shard-9-of-14/illustration": 0.9449
+     },
+     "anchor": "isvg-sd8-mix"
+    }
+   }
+  },
+  "OmniSVG-8B, image-to-SVG": {
+   "AR": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.902641948296413,
+      "LPIPS": 0.17819506557313036,
+      "SSIM": 0.778565335280028,
+      "PSNR": 14.520746045920124
+     },
+     "success_rate": 0.9996673873274572,
+     "pred_tokens": 2454.1462319081684,
+     "n": 6013,
+     "seconds": 8.854818227174455,
+     "method_key": "i2-ar",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8025752254191606,
+      "LPIPS": 0.2720126862496208,
+      "SSIM": 0.7145399004045717,
+      "PSNR": 11.582524747873858
+     },
+     "success_rate": 0.9980009995002499,
+     "pred_tokens": 5987.065097646469,
+     "n": 2001,
+     "seconds": 19.81623588205897,
+     "method_key": "i2-ar",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "EAGLE-3": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9020538714520897,
+      "LPIPS": 0.17817216625722707,
+      "SSIM": 0.7777897289632403,
+      "PSNR": 14.490580011036725
+     },
+     "success_rate": 0.9996673873274572,
+     "pred_tokens": 2460.4105806022294,
+     "n": 6013,
+     "seconds": 2.955091967403958,
+     "method_key": "i2-e3",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8050745867270938,
+      "LPIPS": 0.2699639503546208,
+      "SSIM": 0.717195929233537,
+      "PSNR": 11.620840567157536
+     },
+     "success_rate": 0.9980009995002499,
+     "pred_tokens": 5967.6479719579365,
+     "n": 2001,
+     "seconds": 6.143632683658171,
+     "method_key": "i2-e3",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "DDTree": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9019638338433998,
+      "LPIPS": 0.17794517147019184,
+      "SSIM": 0.7788433472881968,
+      "PSNR": 14.48806211653065
+     },
+     "success_rate": 0.9993347746549144,
+     "pred_tokens": 2452.101847229156,
+     "n": 6013,
+     "seconds": 1.7589113587227674,
+     "method_key": "i2-ddtree",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8044843101899127,
+      "LPIPS": 0.27113066912083694,
+      "SSIM": 0.7165063959589567,
+      "PSNR": 11.603899373249854
+     },
+     "success_rate": 0.999000499750125,
+     "pred_tokens": 5968.942471235618,
+     "n": 2001,
+     "seconds": 3.680128435782109,
+     "method_key": "i2-ddtree",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "DARTree": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9023527551579303,
+      "LPIPS": 0.17745845094109067,
+      "SSIM": 0.779862603407641,
+      "PSNR": 14.540475127973925
+     },
+     "success_rate": 0.9998336936637285,
+     "pred_tokens": 2458.7689620758483,
+     "n": 6013,
+     "seconds": 1.9558836564719453,
+     "method_key": "i2-dart-v3-norm",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8032087053710791,
+      "LPIPS": 0.27161112866494275,
+      "SSIM": 0.7158958037352031,
+      "PSNR": 11.597669782266564
+     },
+     "success_rate": 0.9980009995002499,
+     "pred_tokens": 5974.080620931397,
+     "n": 2001,
+     "seconds": 4.077908673102425,
+     "method_key": "i2-dart-v3-norm",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "Ours": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9021566709785113,
+      "LPIPS": 0.1776601684707884,
+      "SSIM": 0.7790430667784745,
+      "PSNR": 14.538328396294261
+     },
+     "success_rate": 0.9996673873274572,
+     "pred_tokens": 2457.8026950590584,
+     "n": 6013,
+     "seconds": 1.4833610510560453,
+     "method_key": "i2-ours",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8046953640524475,
+      "LPIPS": 0.27185771146953025,
+      "SSIM": 0.7150219085749602,
+      "PSNR": 11.56123842327927
+     },
+     "success_rate": 0.9985007496251874,
+     "pred_tokens": 5989.852352352353,
+     "n": 2001,
+     "seconds": 2.943295352323838,
+     "method_key": "i2-ours",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "DDTree (fast)": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9027899441115822,
+      "LPIPS": 0.17702377109837028,
+      "SSIM": 0.7799849435244409,
+      "PSNR": 14.523083190324552
+     },
+     "success_rate": 0.9991684683186429,
+     "pred_tokens": 1613.5098202396805,
+     "n": 6013,
+     "seconds": 1.4194779835596518,
+     "method_key": "i2-fast-ets-norm",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8060492222783329,
+      "LPIPS": 0.27254868428879553,
+      "SSIM": 0.7093882689536337,
+      "PSNR": 11.520275169063227
+     },
+     "success_rate": 0.9985007496251874,
+     "pred_tokens": 3348.6946946946946,
+     "n": 2001,
+     "seconds": 2.6440197900533637,
+     "method_key": "i2-fast-ets-norm",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "Ours (fast)": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9029053517476495,
+      "LPIPS": 0.17680084921952693,
+      "SSIM": 0.7805062819204697,
+      "PSNR": 14.582303695164352
+     },
+     "success_rate": 0.9995010809911857,
+     "pred_tokens": 1624.0422628951746,
+     "n": 6013,
+     "seconds": 1.2985586229835357,
+     "method_key": "i2-ets",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8061845132048758,
+      "LPIPS": 0.2723091246906029,
+      "SSIM": 0.7119498892562552,
+      "PSNR": 11.572813567200704
+     },
+     "success_rate": 0.9980009995002499,
+     "pred_tokens": 3404.2608913370054,
+     "n": 2001,
+     "seconds": 2.3735347326336833,
+     "method_key": "i2-ets",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "Official 8, first valid": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9075210651739969,
+      "LPIPS": 0.17791893829123626,
+      "SSIM": 0.7741045888264999,
+      "PSNR": 14.42061721323293
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2432.3918177282553,
+     "n": 6013,
+     "seconds": 17.800857974388823,
+     "method_key": "i2-ar8fv",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8184335906726905,
+      "LPIPS": 0.2723488984836628,
+      "SSIM": 0.7002175822039111,
+      "PSNR": 11.2507023448036
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 5936.515742128936,
+     "n": 2001,
+     "seconds": 30.146223738130935,
+     "method_key": "i2-ar8fv",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "AR x8": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9517291419092816,
+      "LPIPS": 0.12495001335231669,
+      "SSIM": 0.8390207125452389,
+      "PSNR": 17.13730249331064
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1846.6025278563113,
+     "n": 6013,
+     "seconds": 17.800857974388823,
+     "method_key": "i2-ar8",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8749722059907346,
+      "LPIPS": 0.22615134316975477,
+      "SSIM": 0.7529774054885312,
+      "PSNR": 13.020660073792047
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 5635.794602698651,
+     "n": 2001,
+     "seconds": 30.146223738130935,
+     "method_key": "i2-ar8",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "Ours x8": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9501423726628728,
+      "LPIPS": 0.12595313610462028,
+      "SSIM": 0.8382061840871697,
+      "PSNR": 17.072609221565198
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1425.3924829536006,
+     "n": 6013,
+     "seconds": 4.052342175286879,
+     "method_key": "i2-sd8",
+     "protocol": "single (no protocol split)"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8697913729998542,
+      "LPIPS": 0.22881338190820733,
+      "SSIM": 0.7524845913436051,
+      "PSNR": 12.927312494612744
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 3670.3778110944527,
+     "n": 2001,
+     "seconds": 7.107166216891554,
+     "method_key": "i2-sd8",
+     "protocol": "single (no protocol split)"
+    }
+   },
+   "DFlash": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9011241883385177,
+      "LPIPS": 0.17885299730005094,
+      "SSIM": 0.7787750212839786,
+      "PSNR": 14.47824691369707
+     },
+     "success_rate": 0.9995010809911857,
+     "pred_tokens": 2481.12462562396,
+     "n": 6013,
+     "seconds": 2.108514180697183,
+     "method_key": "i2-tf-dflash-norm",
+     "protocol": "single (no protocol split)",
+     "norm_factor": {
+      "shard-0-of-2/icon": 0.9668,
+      "shard-1-of-2/icon": 0.9361
+     },
+     "anchor": "i2-ddtree"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8034658324734858,
+      "LPIPS": 0.2695588843716864,
+      "SSIM": 0.7196294390733777,
+      "PSNR": 11.742608762216578
+     },
+     "success_rate": 0.9985007496251874,
+     "pred_tokens": 5957.864864864865,
+     "n": 2001,
+     "seconds": 4.242216030216918,
+     "method_key": "i2-tf-dflash-norm",
+     "protocol": "single (no protocol split)",
+     "norm_factor": {
+      "shard-0-of-2/illustration": 0.9787,
+      "shard-1-of-2/illustration": 0.9546
+     },
+     "anchor": "i2-ddtree"
+    }
+   },
+   "AR (fast)": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.903186751725039,
+      "LPIPS": 0.1774381086777606,
+      "SSIM": 0.7798818396178745,
+      "PSNR": 14.554707115918122
+     },
+     "success_rate": 0.9993347746549144,
+     "pred_tokens": 1634.1344649692128,
+     "n": 6013,
+     "seconds": 6.053145440865231,
+     "method_key": "i2-tf-ar-ets-norm",
+     "protocol": "single (no protocol split)",
+     "norm_factor": {
+      "shard-0-of-3/icon": 1.1337,
+      "shard-1-of-3/icon": 0.9877,
+      "shard-2-of-3/icon": 1.0856
+     },
+     "anchor": "i2-ar"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.804695235713311,
+      "LPIPS": 0.27208306029069423,
+      "SSIM": 0.7128545260189151,
+      "PSNR": 11.633255427774461
+     },
+     "success_rate": 0.9975012493753124,
+     "pred_tokens": 3332.365230460922,
+     "n": 2001,
+     "seconds": 11.43373158059992,
+     "method_key": "i2-tf-ar-ets-norm",
+     "protocol": "single (no protocol split)",
+     "norm_factor": {
+      "shard-0-of-3/illustration": 1.1434,
+      "shard-1-of-3/illustration": 0.9955,
+      "shard-2-of-3/illustration": 1.0915
+     },
+     "anchor": "i2-ar"
+    }
+   },
+   "EAGLE-3 (fast)": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9029808125686184,
+      "LPIPS": 0.17733702938161558,
+      "SSIM": 0.7794767981962873,
+      "PSNR": 14.519849096507134
+     },
+     "success_rate": 0.9995010809911857,
+     "pred_tokens": 1640.2615640599001,
+     "n": 6013,
+     "seconds": 2.3261614349949165,
+     "method_key": "i2-tf-e3-ets-norm",
+     "protocol": "single (no protocol split)",
+     "norm_factor": {
+      "shard-0-of-2/icon": 1.0924,
+      "shard-1-of-2/icon": 1.078
+     },
+     "anchor": "i2-e3"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8070226818665691,
+      "LPIPS": 0.27007126888615834,
+      "SSIM": 0.7139306951397869,
+      "PSNR": 11.638347479978943
+     },
+     "success_rate": 0.9980009995002499,
+     "pred_tokens": 3358.5112669003506,
+     "n": 2001,
+     "seconds": 4.264732699576459,
+     "method_key": "i2-tf-e3-ets-norm",
+     "protocol": "single (no protocol split)",
+     "norm_factor": {
+      "shard-0-of-2/illustration": 1.0869,
+      "shard-1-of-2/illustration": 1.079
+     },
+     "anchor": "i2-e3"
+    }
+   },
+   "DFlash (fast)": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9017959274252471,
+      "LPIPS": 0.17821800728384243,
+      "SSIM": 0.7803586973047428,
+      "PSNR": 14.514440842475599
+     },
+     "success_rate": 0.9991684683186429,
+     "pred_tokens": 1648.1760985352862,
+     "n": 6013,
+     "seconds": 1.7733184121055323,
+     "method_key": "i2-tf-dflash-ets-norm",
+     "protocol": "single (no protocol split)",
+     "norm_factor": {
+      "shard-0-of-2/icon": 0.9668,
+      "shard-1-of-2/icon": 0.9361
+     },
+     "anchor": "i2-ddtree"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8054604505610907,
+      "LPIPS": 0.2701704501637957,
+      "SSIM": 0.7161309602777618,
+      "PSNR": 11.728203806587434
+     },
+     "success_rate": 0.9980009995002499,
+     "pred_tokens": 3307.5883825738606,
+     "n": 2001,
+     "seconds": 3.254622609772132,
+     "method_key": "i2-tf-dflash-ets-norm",
+     "protocol": "single (no protocol split)",
+     "norm_factor": {
+      "shard-0-of-2/illustration": 0.9787,
+      "shard-1-of-2/illustration": 0.9546
+     },
+     "anchor": "i2-ddtree"
+    }
+   },
+   "DARTree (fast)": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9032619680968325,
+      "LPIPS": 0.1767312803542547,
+      "SSIM": 0.7812922313211299,
+      "PSNR": 14.570764257961999
+     },
+     "success_rate": 0.9995010809911857,
+     "pred_tokens": 1634.5391014975041,
+     "n": 6013,
+     "seconds": 1.5724633814321667,
+     "method_key": "i2-tf-dart-ets-norm",
+     "protocol": "single (no protocol split)",
+     "norm_factor": {
+      "shard-0-of-1/icon": 0.9918
+     },
+     "anchor": "i2-dart-v3-norm"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8049044067459903,
+      "LPIPS": 0.2718919168937596,
+      "SSIM": 0.7117976055179853,
+      "PSNR": 11.602890112156462
+     },
+     "success_rate": 0.9975012493753124,
+     "pred_tokens": 3327.6142284569137,
+     "n": 2001,
+     "seconds": 2.913197241433796,
+     "method_key": "i2-tf-dart-ets-norm",
+     "protocol": "single (no protocol split)",
+     "norm_factor": {
+      "shard-0-of-1/illustration": 1.004
+     },
+     "anchor": "i2-dart-v3-norm"
+    }
+   },
+   "AR x8s": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9499965947032788,
+      "LPIPS": 0.12640375001171536,
+      "SSIM": 0.8378154847743521,
+      "PSNR": 17.077649966635015
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1431.7332446366206,
+     "n": 6013,
+     "seconds": 14.931904933655254,
+     "method_key": "i2-tf-ar8s-norm",
+     "protocol": "single (no protocol split)",
+     "norm_factor": {
+      "shard-0-of-7/icon": 1.0327,
+      "shard-1-of-7/icon": 1.0455,
+      "shard-2-of-7/icon": 1.1215,
+      "shard-3-of-7/icon": 1.0831,
+      "shard-4-of-7/icon": 1.0063,
+      "shard-5-of-7/icon": 1.1152,
+      "shard-6-of-7/icon": 1.0684
+     },
+     "anchor": "i2-sd8"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8704494963484308,
+      "LPIPS": 0.22575104886992672,
+      "SSIM": 0.7541093853871549,
+      "PSNR": 13.064190999391279
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 3786.6351824087956,
+     "n": 2001,
+     "seconds": 25.61077776384584,
+     "method_key": "i2-tf-ar8s-norm",
+     "protocol": "single (no protocol split)",
+     "norm_factor": {
+      "shard-0-of-7/illustration": 1.062,
+      "shard-1-of-7/illustration": 1.0603,
+      "shard-2-of-7/illustration": 1.12,
+      "shard-3-of-7/illustration": 1.0863,
+      "shard-4-of-7/illustration": 1.0129,
+      "shard-5-of-7/illustration": 1.1057,
+      "shard-6-of-7/illustration": 1.0738
+     },
+     "anchor": "i2-sd8"
+    }
+   },
+   "DFlash x8": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9499823676827107,
+      "LPIPS": 0.12636489866412254,
+      "SSIM": 0.8383536786684255,
+      "PSNR": 17.097300645711407
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 1441.7961084317312,
+     "n": 6013,
+     "seconds": 3.866910397621565,
+     "method_key": "i2-tf-dflash8-norm",
+     "protocol": "single (no protocol split)",
+     "norm_factor": {
+      "shard-0-of-7/icon": 1.0327,
+      "shard-1-of-7/icon": 1.0455,
+      "shard-2-of-7/icon": 1.1215,
+      "shard-3-of-7/icon": 1.0831,
+      "shard-4-of-7/icon": 1.0063,
+      "shard-5-of-7/icon": 1.1152,
+      "shard-6-of-7/icon": 1.0684
+     },
+     "anchor": "i2-sd8"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8687772581959772,
+      "LPIPS": 0.2288206936658892,
+      "SSIM": 0.75198356790124,
+      "PSNR": 12.959431583382548
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 3708.9010494752624,
+     "n": 2001,
+     "seconds": 6.691708882114287,
+     "method_key": "i2-tf-dflash8-norm",
+     "protocol": "single (no protocol split)",
+     "norm_factor": {
+      "shard-0-of-7/illustration": 1.062,
+      "shard-1-of-7/illustration": 1.0603,
+      "shard-2-of-7/illustration": 1.12,
+      "shard-3-of-7/illustration": 1.0863,
+      "shard-4-of-7/illustration": 1.0129,
+      "shard-5-of-7/illustration": 1.1057,
+      "shard-6-of-7/illustration": 1.0738
+     },
+     "anchor": "i2-sd8"
+    }
+   }
+  },
+  "InternSVG-8B, image-to-SVG": {
+   "AR": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9645329313772442,
+      "LPIPS": 0.07660816842873049,
+      "SSIM": 0.8984355006823488,
+      "PSNR": 23.79527704832998
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 736.5150507234325,
+     "n": 6013,
+     "seconds": 10.980923665391652,
+     "method_key": "i2s-ar",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8635519034695113,
+      "LPIPS": 0.20371130646519672,
+      "SSIM": 0.7863164902160434,
+      "PSNR": 14.8923405816692
+     },
+     "success_rate": 0.9995002498750625,
+     "pred_tokens": 2287.825,
+     "n": 2001,
+     "seconds": 43.934948025987005,
+     "method_key": "i2s-ar",
+     "protocol": "closed"
+    }
+   },
+   "EAGLE-3": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9634649871778671,
+      "LPIPS": 0.07751429222554108,
+      "SSIM": 0.8976395918619833,
+      "PSNR": 23.8207394680413
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 735.6063529020456,
+     "n": 6013,
+     "seconds": 3.6635593975101894,
+     "method_key": "i2s-e3-norm",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8686270491498849,
+      "LPIPS": 0.20242946759540717,
+      "SSIM": 0.7866706406720962,
+      "PSNR": 14.949792624962281
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2347.367316341829,
+     "n": 2001,
+     "seconds": 14.654449594343403,
+     "method_key": "i2s-e3-norm",
+     "protocol": "closed"
+    }
+   },
+   "DDTree": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9633185282119118,
+      "LPIPS": 0.0779074763362174,
+      "SSIM": 0.8976593917464185,
+      "PSNR": 23.797508204411336
+     },
+     "success_rate": 0.9998336936637285,
+     "pred_tokens": 743.6483699268131,
+     "n": 6013,
+     "seconds": 1.8778230500582072,
+     "method_key": "i2s-ddtree",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8643385668297757,
+      "LPIPS": 0.20356094211373463,
+      "SSIM": 0.7856753282666651,
+      "PSNR": 14.893408898021569
+     },
+     "success_rate": 0.9995002498750625,
+     "pred_tokens": 2291.515,
+     "n": 2001,
+     "seconds": 7.857836081959021,
+     "method_key": "i2s-ddtree",
+     "protocol": "closed"
+    }
+   },
+   "DARTree": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9648046831904097,
+      "LPIPS": 0.07668980745482029,
+      "SSIM": 0.8983266340041512,
+      "PSNR": 23.81004354297138
+     },
+     "success_rate": 0.9998336936637285,
+     "pred_tokens": 727.8120425815036,
+     "n": 6013,
+     "seconds": 2.029768919233755,
+     "method_key": "i2s-dart-norm",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.867659801817399,
+      "LPIPS": 0.20155091165122332,
+      "SSIM": 0.787017833303911,
+      "PSNR": 15.007887105760004
+     },
+     "success_rate": 0.999000499750125,
+     "pred_tokens": 2333.8679339669834,
+     "n": 2001,
+     "seconds": 8.806151051166673,
+     "method_key": "i2s-dart-norm",
+     "protocol": "closed"
+    }
+   },
+   "Ours": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9627629128459307,
+      "LPIPS": 0.07814140785269891,
+      "SSIM": 0.8972923927810443,
+      "PSNR": 23.759997563024353
+     },
+     "success_rate": 0.9998336936637285,
+     "pred_tokens": 738.3739188290086,
+     "n": 6013,
+     "seconds": 1.5393701979045402,
+     "method_key": "i2s-ours",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8664335220854829,
+      "LPIPS": 0.2030831010656609,
+      "SSIM": 0.7860141303448724,
+      "PSNR": 14.925594256817245
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2351.257371314343,
+     "n": 2001,
+     "seconds": 6.956976511744128,
+     "method_key": "i2s-ours",
+     "protocol": "closed"
+    }
+   },
+   "DDTree (fast)": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9637784986669542,
+      "LPIPS": 0.07814241561414607,
+      "SSIM": 0.8964858517547625,
+      "PSNR": 23.763137156559864
+     },
+     "success_rate": 0.9990021619823716,
+     "pred_tokens": 609.2735142333944,
+     "n": 6013,
+     "seconds": 1.5567314944067605,
+     "method_key": "i2s-fast-ets-norm",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8657864944479693,
+      "LPIPS": 0.20385654873611672,
+      "SSIM": 0.7839541807593355,
+      "PSNR": 14.862187146653216
+     },
+     "success_rate": 0.9965017491254373,
+     "pred_tokens": 1985.579739217653,
+     "n": 2001,
+     "seconds": 6.860392416730727,
+     "method_key": "i2s-fast-ets-norm",
+     "protocol": "closed"
+    }
+   },
+   "Ours (fast)": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9626349163740878,
+      "LPIPS": 0.07855887256049156,
+      "SSIM": 0.8960110039614717,
+      "PSNR": 23.721447853003244
+     },
+     "success_rate": 0.9990021619823716,
+     "pred_tokens": 598.8654902613617,
+     "n": 6013,
+     "seconds": 1.455093131548312,
+     "method_key": "i2s-ets",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.866148527547799,
+      "LPIPS": 0.20419658743532032,
+      "SSIM": 0.783874115084069,
+      "PSNR": 14.856521921625731
+     },
+     "success_rate": 0.9980009995002499,
+     "pred_tokens": 1999.1697546319479,
+     "n": 2001,
+     "seconds": 6.5411404297851075,
+     "method_key": "i2s-ets",
+     "protocol": "closed"
+    }
+   },
+   "AR x8": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9921720672343667,
+      "LPIPS": 0.04083909725341057,
+      "SSIM": 0.9335235193631987,
+      "PSNR": 28.66754604577451
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 629.6707134541826,
+     "n": 6013,
+     "seconds": 24.436306752037254,
+     "method_key": "i2s-ar8",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.9658146333256583,
+      "LPIPS": 0.13178566191418795,
+      "SSIM": 0.8208411206536961,
+      "PSNR": 17.46583901109291
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 3088.5002498750623,
+     "n": 2001,
+     "seconds": 89.86837176411794,
+     "method_key": "i2s-ar8",
+     "protocol": "closed"
+    }
+   },
+   "Ours x8": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9912867177220186,
+      "LPIPS": 0.04264011369184152,
+      "SSIM": 0.9314411854848161,
+      "PSNR": 28.420872578748615
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 612.3800099783801,
+     "n": 6013,
+     "seconds": 6.642201230666888,
+     "method_key": "i2s-sd8",
+     "protocol": "closed"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.9647889365216364,
+      "LPIPS": 0.13126869208331798,
+      "SSIM": 0.8223238321663375,
+      "PSNR": 17.5192826039396
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 3014.640179910045,
+     "n": 2001,
+     "seconds": 41.20427656171914,
+     "method_key": "i2s-sd8",
+     "protocol": "closed"
+    }
+   },
+   "DFlash": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9648179558136589,
+      "LPIPS": 0.07725700510730038,
+      "SSIM": 0.8977172896759714,
+      "PSNR": 23.761646328543854
+     },
+     "success_rate": 0.9998336936637285,
+     "pred_tokens": 733.2370259481038,
+     "n": 6013,
+     "seconds": 2.372904715080542,
+     "method_key": "i2s-tf-dflash-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-3/icon": 0.9923,
+      "shard-1-of-3/icon": 1.0228,
+      "shard-2-of-3/icon": 0.9599
+     },
+     "anchor": "i2s-ddtree"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8701926321777953,
+      "LPIPS": 0.20125259052117778,
+      "SSIM": 0.7877234767951546,
+      "PSNR": 14.989249957394241
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 2325.293853073463,
+     "n": 2001,
+     "seconds": 10.951018658903154,
+     "method_key": "i2s-tf-dflash-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-3/illustration": 1.0101,
+      "shard-1-of-3/illustration": 1.016,
+      "shard-2-of-3/illustration": 0.9729
+     },
+     "anchor": "i2s-ddtree"
+    }
+   },
+   "AR (fast)": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.964608130041363,
+      "LPIPS": 0.07711502463598922,
+      "SSIM": 0.8971280079738818,
+      "PSNR": 23.74898858783586
+     },
+     "success_rate": 0.9991684683186429,
+     "pred_tokens": 600.2852862849534,
+     "n": 6013,
+     "seconds": 8.48761518519961,
+     "method_key": "i2s-tf-ar-ets-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-5/icon": 1.111,
+      "shard-1-of-5/icon": 1.0373,
+      "shard-2-of-5/icon": 1.1407,
+      "shard-3-of-5/icon": 1.0951,
+      "shard-4-of-5/icon": 0.9718
+     },
+     "anchor": "i2s-ar"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8658593425127877,
+      "LPIPS": 0.20327467033718674,
+      "SSIM": 0.7852926907966503,
+      "PSNR": 14.889050407819532
+     },
+     "success_rate": 0.9975012493753124,
+     "pred_tokens": 1988.0180360721442,
+     "n": 2001,
+     "seconds": 34.55354210381733,
+     "method_key": "i2s-tf-ar-ets-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-5/illustration": 1.1333,
+      "shard-1-of-5/illustration": 1.1226,
+      "shard-2-of-5/illustration": 1.133,
+      "shard-3-of-5/illustration": 1.1872,
+      "shard-4-of-5/illustration": 0.9511
+     },
+     "anchor": "i2s-ar"
+    }
+   },
+   "EAGLE-3 (fast)": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9637773173676738,
+      "LPIPS": 0.07742361680332388,
+      "SSIM": 0.8968074299684732,
+      "PSNR": 23.784349526334708
+     },
+     "success_rate": 0.9991684683186429,
+     "pred_tokens": 597.4184420772303,
+     "n": 6013,
+     "seconds": 3.008530217886983,
+     "method_key": "i2s-tf-e3-ets-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-3/icon": 1.0407,
+      "shard-1-of-3/icon": 1.0312,
+      "shard-2-of-3/icon": 1.0136
+     },
+     "anchor": "i2s-e3-norm"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8676536086758693,
+      "LPIPS": 0.20393418338659897,
+      "SSIM": 0.783090540175569,
+      "PSNR": 14.856117717367523
+     },
+     "success_rate": 0.9955022488755623,
+     "pred_tokens": 2019.67218875502,
+     "n": 2001,
+     "seconds": 12.53621066646069,
+     "method_key": "i2s-tf-e3-ets-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-3/illustration": 1.0437,
+      "shard-1-of-3/illustration": 1.0404,
+      "shard-2-of-3/illustration": 1.0202
+     },
+     "anchor": "i2s-e3-norm"
+    }
+   },
+   "DFlash (fast)": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9647159845766957,
+      "LPIPS": 0.07725796365046969,
+      "SSIM": 0.8969260725781703,
+      "PSNR": 23.73011906275439
+     },
+     "success_rate": 0.9995010809911857,
+     "pred_tokens": 605.6262895174709,
+     "n": 6013,
+     "seconds": 2.1320499855981216,
+     "method_key": "i2s-tf-dflash-ets-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-3/icon": 0.9923,
+      "shard-1-of-3/icon": 1.0228,
+      "shard-2-of-3/icon": 0.9599
+     },
+     "anchor": "i2s-ddtree"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.87057784154475,
+      "LPIPS": 0.20180350145662965,
+      "SSIM": 0.7859834792947701,
+      "PSNR": 14.906533261647906
+     },
+     "success_rate": 0.9985007496251874,
+     "pred_tokens": 2029.0695695695695,
+     "n": 2001,
+     "seconds": 10.117110198805207,
+     "method_key": "i2s-tf-dflash-ets-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-3/illustration": 1.0101,
+      "shard-1-of-3/illustration": 1.016,
+      "shard-2-of-3/illustration": 0.9729
+     },
+     "anchor": "i2s-ddtree"
+    }
+   },
+   "DARTree (fast)": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9647420186901943,
+      "LPIPS": 0.0770926889822078,
+      "SSIM": 0.8975081585105996,
+      "PSNR": 23.776078755055817
+     },
+     "success_rate": 0.9996673873274572,
+     "pred_tokens": 596.1602062884712,
+     "n": 6013,
+     "seconds": 1.777207769362021,
+     "method_key": "i2s-tf-dart-ets-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-2/icon": 0.9957,
+      "shard-1-of-2/icon": 1.0264
+     },
+     "anchor": "i2s-dart-norm"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.8697111422883934,
+      "LPIPS": 0.2018880877575871,
+      "SSIM": 0.7854412679586442,
+      "PSNR": 14.942675814167977
+     },
+     "success_rate": 0.9975012493753124,
+     "pred_tokens": 2026.8366733466935,
+     "n": 2001,
+     "seconds": 7.977330013193191,
+     "method_key": "i2s-tf-dart-ets-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-2/illustration": 1.0106,
+      "shard-1-of-2/illustration": 1.0413
+     },
+     "anchor": "i2s-dart-norm"
+    }
+   },
+   "AR x8s": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.991310616045987,
+      "LPIPS": 0.04224622069089088,
+      "SSIM": 0.9322635438327461,
+      "PSNR": 28.54293795472113
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 609.3146515882255,
+     "n": 6013,
+     "seconds": 21.182131819124766,
+     "method_key": "i2s-tf-ar8s-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-16/icon": 1.0117,
+      "shard-1-of-16/icon": 0.9863,
+      "shard-10-of-16/icon": 0.9862,
+      "shard-11-of-16/icon": 0.9985,
+      "shard-12-of-16/icon": 0.938,
+      "shard-13-of-16/icon": 0.9776,
+      "shard-14-of-16/icon": 0.9821,
+      "shard-15-of-16/icon": 0.9947,
+      "shard-2-of-16/icon": 0.9774,
+      "shard-3-of-16/icon": 1.0139,
+      "shard-4-of-16/icon": 0.97,
+      "shard-5-of-16/icon": 0.9901,
+      "shard-6-of-16/icon": 0.9027,
+      "shard-7-of-16/icon": 1.0023,
+      "shard-8-of-16/icon": 0.9988,
+      "shard-9-of-16/icon": 0.9751
+     },
+     "anchor": "i2s-sd8"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.9644911397194517,
+      "LPIPS": 0.13375748448275898,
+      "SSIM": 0.8193983422792369,
+      "PSNR": 17.402277135579336
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 3027.3628185907046,
+     "n": 2001,
+     "seconds": 92.39852848031866,
+     "method_key": "i2s-tf-ar8s-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-16/illustration": 1.0081,
+      "shard-1-of-16/illustration": 0.9939,
+      "shard-10-of-16/illustration": 0.9954,
+      "shard-11-of-16/illustration": 1.0026,
+      "shard-12-of-16/illustration": 0.9877,
+      "shard-13-of-16/illustration": 1.0001,
+      "shard-14-of-16/illustration": 0.9949,
+      "shard-15-of-16/illustration": 0.9967,
+      "shard-2-of-16/illustration": 0.9826,
+      "shard-3-of-16/illustration": 0.9996,
+      "shard-4-of-16/illustration": 0.9933,
+      "shard-5-of-16/illustration": 0.994,
+      "shard-6-of-16/illustration": 0.909,
+      "shard-7-of-16/illustration": 1.0041,
+      "shard-8-of-16/illustration": 1.0132,
+      "shard-9-of-16/illustration": 0.9922
+     },
+     "anchor": "i2s-sd8"
+    }
+   },
+   "DFlash x8": {
+    "icon": {
+     "metrics": {
+      "DINO-Score": 0.9913158326716583,
+      "LPIPS": 0.042286083117307756,
+      "SSIM": 0.932000762397987,
+      "PSNR": 28.50961431259836
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 612.5135539664061,
+     "n": 6013,
+     "seconds": 6.324489236563608,
+     "method_key": "i2s-tf-dflash8-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-16/icon": 1.0117,
+      "shard-1-of-16/icon": 0.9863,
+      "shard-10-of-16/icon": 0.9862,
+      "shard-11-of-16/icon": 0.9985,
+      "shard-12-of-16/icon": 0.938,
+      "shard-13-of-16/icon": 0.9776,
+      "shard-14-of-16/icon": 0.9821,
+      "shard-15-of-16/icon": 0.9947,
+      "shard-2-of-16/icon": 0.9774,
+      "shard-3-of-16/icon": 1.0139,
+      "shard-4-of-16/icon": 0.97,
+      "shard-5-of-16/icon": 0.9901,
+      "shard-6-of-16/icon": 0.9027,
+      "shard-7-of-16/icon": 1.0023,
+      "shard-8-of-16/icon": 0.9988,
+      "shard-9-of-16/icon": 0.9751
+     },
+     "anchor": "i2s-sd8"
+    },
+    "illustration": {
+     "metrics": {
+      "DINO-Score": 0.9641765326164711,
+      "LPIPS": 0.1345342976936275,
+      "SSIM": 0.8193926073846489,
+      "PSNR": 17.381704853947536
+     },
+     "success_rate": 1.0,
+     "pred_tokens": 3042.968515742129,
+     "n": 2001,
+     "seconds": 37.74942659264263,
+     "method_key": "i2s-tf-dflash8-norm",
+     "protocol": "closed",
+     "norm_factor": {
+      "shard-0-of-16/illustration": 1.0081,
+      "shard-1-of-16/illustration": 0.9939,
+      "shard-10-of-16/illustration": 0.9954,
+      "shard-11-of-16/illustration": 1.0026,
+      "shard-12-of-16/illustration": 0.9877,
+      "shard-13-of-16/illustration": 1.0001,
+      "shard-14-of-16/illustration": 0.9949,
+      "shard-15-of-16/illustration": 0.9967,
+      "shard-2-of-16/illustration": 0.9826,
+      "shard-3-of-16/illustration": 0.9996,
+      "shard-4-of-16/illustration": 0.9933,
+      "shard-5-of-16/illustration": 0.994,
+      "shard-6-of-16/illustration": 0.909,
+      "shard-7-of-16/illustration": 1.0041,
+      "shard-8-of-16/illustration": 1.0132,
+      "shard-9-of-16/illustration": 0.9922
+     },
+     "anchor": "i2s-sd8"
+    }
+   }
+  }
+ }
+}

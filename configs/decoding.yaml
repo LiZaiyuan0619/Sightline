@@ -1,0 +1,30 @@
+# The decoding settings each target model releases (Appendix E.1, Table 8 of the paper).
+#
+# "Official sampling" means the settings shipped with the model, per task and subtype. Greedy
+# means plain argmax with no penalty. Under sampling every decoder verifies by the rule of
+# Section 3.1, so all arms follow the target's own distribution.
+
+omnisvg:                       # both OmniSVG-8B and OmniSVG-4B; from the released configuration
+  text-to-SVG:
+    icon:          {temperature: 0.5, top_p: 0.88, top_k: 50, repetition_penalty: 1.05}
+    illustration:  {temperature: 0.6, top_p: 0.90, top_k: 60, repetition_penalty: 1.03}
+  image-to-SVG:
+    all:           {temperature: 0.3, top_p: 0.90, top_k: 50, repetition_penalty: 1.05}
+  greedy:          {note: "argmax, with the repetition penalty above"}
+  max_new_tokens:  1536
+  eos_token_id:    196999
+
+internsvg:                     # InternSVG-8B releases greedy decoding only
+  released:        {mode: greedy, note: "argmax, no penalty: the official SArena generation protocol"}
+  sampled_runs:    {temperature: 0.6, top_p: 0.9}
+  max_new_tokens:  4000
+  eos_token_id:    151645      # <|im_end|>
+  note: "the paper reports this pair; the sampled setting is the one used for its text block"
+
+starvector:                    # generality experiment only (Figure 5b)
+  released:        {mode: greedy}
+  official_eval:   {temperature: 1.0, note: "the authors' own evaluation configuration"}
+  stopping:        "at the first </svg>, the official generate_im2svg criterion"
+
+omnilottie:                    # generality experiment only
+  released:        {mode: greedy}

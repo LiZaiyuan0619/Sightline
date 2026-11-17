@@ -1,0 +1,36 @@
+--- /tmp/utils.py.orig
++++ specforge/utils.py
+@@ -206,6 +206,12 @@
+                 continue
+             try:
+                 row = json.loads(line)
++                if "input_ids" in row:
++                    # B3 pre-tokenized pass-through: {input_ids, loss_mask} rows
++                    # (the prompts_path format) go through untouched.
++                    yield {"input_ids": row["input_ids"],
++                           "loss_mask": row["loss_mask"]}
++                    continue
+                 raw_convs = row.get("conversations", [])
+ 
+                 # 1. Ensure 'conversations' is a list
+--- /tmp/preprocessing.py.orig
++++ specforge/data/preprocessing.py
+@@ -242,6 +242,18 @@
+ 
+     def preprocess_function(examples):
+         # Handle different dataset formats
++        if "input_ids" in examples and "loss_mask" in examples:
++            # B3 pre-tokenized pass-through: rows already carry final ids and
++            # masks (SpecForge prompts_path format); truncate to max_length,
++            # output shaped like preprocess_conversations ((1, L) tensors).
++            return {
++                "input_ids": [torch.tensor(ids[:max_length], dtype=torch.long)[None, :]
++                              for ids in examples["input_ids"]],
++                "loss_mask": [torch.tensor(m[:max_length], dtype=torch.long)[None, :]
++                              for m in examples["loss_mask"]],
++                "attention_mask": [torch.ones(min(len(m), max_length), dtype=torch.long)[None, :]
++                                   for m in examples["loss_mask"]],
++            }
+         if is_preformatted:
+             # Handle pre-formatted text (should be in "text" column)
+             if "text" not in examples:

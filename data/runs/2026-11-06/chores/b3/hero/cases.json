@@ -1,0 +1,412 @@
+{
+ "t2": {
+  "block": "OmniSVG-8B, text-to-SVG",
+  "column": "MMSVG-Icon",
+  "rows": 150,
+  "healthy": 103,
+  "identical_trio": 58,
+  "median_ratio_vs_original": 9.000108108108108,
+  "median_ratio_vs_ddtree": 1.272906653174804,
+  "pick": 58,
+  "picks_by_reading": {
+   "log": {
+    "top10": [
+     4,
+     36,
+     37,
+     58,
+     80,
+     94,
+     117,
+     127,
+     132,
+     145
+    ],
+    "pick": 58
+   },
+   "relative": {
+    "top10": [
+     4,
+     36,
+     37,
+     58,
+     80,
+     94,
+     117,
+     127,
+     132,
+     145
+    ],
+    "pick": 58
+   },
+   "rank": {
+    "top10": [
+     36,
+     37,
+     58,
+     80,
+     94,
+     117,
+     124,
+     127,
+     128,
+     132
+    ],
+    "pick": 58
+   }
+  },
+  "readings_agree": true,
+  "case_seconds": {
+   "original model": 3.653,
+   "DDTree": 0.465,
+   "Ours": 0.358
+  },
+  "case_tokens": 292,
+  "case_subtype": "icon",
+  "decoders_present": [
+   "original model",
+   "PLD",
+   "REST",
+   "SpS",
+   "EAGLE-3",
+   "DFlash",
+   "DARTree",
+   "DDTree",
+   "Ours"
+  ],
+  "thumbnails_all": 50,
+  "thumbnails": [
+   0,
+   2,
+   7,
+   10,
+   14,
+   16,
+   21,
+   25,
+   26
+  ]
+ },
+ "4b": {
+  "block": "OmniSVG-4B, text-to-SVG",
+  "column": "MMSVG-Icon",
+  "rows": 150,
+  "healthy": 115,
+  "identical_trio": 35,
+  "median_ratio_vs_original": 6.402390438247012,
+  "median_ratio_vs_ddtree": 1.0415094339622641,
+  "pick": 13,
+  "picks_by_reading": {
+   "log": {
+    "top10": [
+     13,
+     36,
+     47,
+     52,
+     56,
+     69,
+     89,
+     97,
+     98,
+     114
+    ],
+    "pick": 13
+   },
+   "relative": {
+    "top10": [
+     13,
+     36,
+     47,
+     52,
+     56,
+     69,
+     89,
+     97,
+     98,
+     114
+    ],
+    "pick": 13
+   },
+   "rank": {
+    "top10": [
+     13,
+     17,
+     47,
+     52,
+     56,
+     58,
+     69,
+     89,
+     97,
+     114
+    ],
+    "pick": 13
+   }
+  },
+  "readings_agree": true,
+  "case_seconds": {
+   "original model": 4.841,
+   "DDTree": 0.699,
+   "Ours": 0.638
+  },
+  "case_tokens": 327,
+  "case_subtype": "icon",
+  "decoders_present": [
+   "original model",
+   "PLD",
+   "REST",
+   "EAGLE-3",
+   "DFlash",
+   "DARTree",
+   "DDTree",
+   "Ours"
+  ],
+  "thumbnails_all": 27,
+  "thumbnails": [
+   0,
+   5,
+   6,
+   8,
+   13,
+   17,
+   21,
+   44,
+   47
+  ]
+ },
+ "isvg": {
+  "block": "InternSVG-8B, text-to-SVG",
+  "column": "MMSVG-Icon",
+  "rows": 150,
+  "healthy": 100,
+  "identical_trio": 36,
+  "median_ratio_vs_original": 10.012521155895442,
+  "median_ratio_vs_ddtree": 1.2564986979761525,
+  "pick": 30149,
+  "picks_by_reading": {
+   "log": {
+    "top10": [
+     30033,
+     30035,
+     30079,
+     30093,
+     30106,
+     30107,
+     30111,
+     30122,
+     30130,
+     30149
+    ],
+    "pick": 30149
+   },
+   "relative": {
+    "top10": [
+     30033,
+     30035,
+     30079,
+     30093,
+     30106,
+     30107,
+     30111,
+     30122,
+     30130,
+     30149
+    ],
+    "pick": 30149
+   },
+   "rank": {
+    "top10": [
+     30033,
+     30079,
+     30093,
+     30106,
+     30107,
+     30111,
+     30121,
+     30122,
+     30130,
+     30146
+    ],
+    "pick": 30122
+   }
+  },
+  "readings_agree": false,
+  "case_seconds": {
+   "original model": 4.582,
+   "DDTree": 0.552,
+   "Ours": 0.43
+  },
+  "case_tokens": 418,
+  "case_subtype": "icon",
+  "decoders_present": [
+   "original model",
+   "PLD",
+   "REST",
+   "EAGLE-3",
+   "DFlash",
+   "DARTree",
+   "DDTree",
+   "Ours"
+  ],
+  "thumbnails_all": 17,
+  "thumbnails": [
+   30007,
+   30026,
+   30058,
+   30069,
+   30071,
+   30079,
+   30090,
+   30106,
+   30107
+  ]
+ },
+ "i2": {
+  "block": "OmniSVG-8B, image-to-SVG",
+  "column": "MMSVG-Icon",
+  "rows": 150,
+  "healthy": 105,
+  "identical_trio": 34,
+  "median_ratio_vs_original": 5.771757774870061,
+  "median_ratio_vs_ddtree": 1.062652705061082,
+  "pick": 35,
+  "picks_by_reading": {
+   "log": {
+    "top10": [
+     10,
+     27,
+     35,
+     45,
+     73,
+     107,
+     110,
+     134,
+     147,
+     149
+    ],
+    "pick": 35
+   },
+   "relative": {
+    "top10": [
+     10,
+     27,
+     35,
+     45,
+     73,
+     107,
+     110,
+     134,
+     147,
+     149
+    ],
+    "pick": 35
+   },
+   "rank": {
+    "top10": [
+     10,
+     27,
+     35,
+     45,
+     73,
+     107,
+     109,
+     116,
+     134,
+     147
+    ],
+    "pick": 35
+   }
+  },
+  "readings_agree": true,
+  "case_seconds": {
+   "original model": 9.832,
+   "DDTree": 1.807,
+   "Ours": 1.723
+  },
+  "case_tokens": 739,
+  "case_subtype": "icon",
+  "decoders_present": [
+   "original model",
+   "PLD",
+   "REST",
+   "EAGLE-3",
+   "DFlash",
+   "DARTree",
+   "DDTree",
+   "Ours"
+  ],
+  "thumbnails_all": 21,
+  "thumbnails": [
+   3,
+   9,
+   36,
+   37,
+   42,
+   47,
+   55,
+   73,
+   75
+  ]
+ },
+ "i2s": {
+  "block": "InternSVG-8B, image-to-SVG",
+  "column": "MMSVG-Icon",
+  "rows": 150,
+  "healthy": 111,
+  "identical_trio": 4,
+  "median_ratio_vs_original": 4.536591241360979,
+  "median_ratio_vs_ddtree": 0.9815590111642744,
+  "pick": 18,
+  "picks_by_reading": {
+   "log": {
+    "top10": [
+     3,
+     6,
+     11,
+     18
+    ],
+    "pick": 18
+   },
+   "relative": {
+    "top10": [
+     3,
+     6,
+     11,
+     18
+    ],
+    "pick": 18
+   },
+   "rank": {
+    "top10": [
+     3,
+     6,
+     11,
+     18
+    ],
+    "pick": 18
+   }
+  },
+  "readings_agree": true,
+  "case_seconds": {
+   "original model": 4.05,
+   "DDTree": 0.59,
+   "Ours": 0.514
+  },
+  "case_tokens": 343,
+  "case_subtype": "icon",
+  "decoders_present": [
+   "original model",
+   "PLD",
+   "REST",
+   "EAGLE-3",
+   "DFlash",
+   "DARTree",
+   "DDTree",
+   "Ours"
+  ],
+  "thumbnails_all": 1,
+  "thumbnails": [
+   3
+  ]
+ }
+}

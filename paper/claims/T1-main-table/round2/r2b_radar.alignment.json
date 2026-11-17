@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": false,
+  "verdict": "NOT AUDITABLE",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 0,
+    "exemptions": 0
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 495.0,
+      "height_pt": 237.6
+    },
+    "panels": [
+      {
+        "id": "a",
+        "bbox_pt": [
+          9.469565217391294,
+          27.324,
+          238.0304347826087,
+          237.6
+        ]
+      },
+      {
+        "id": "b",
+        "bbox_pt": [
+          256.9695652173913,
+          27.324,
+          485.5304347826087,
+          237.6
+        ]
+      },
+      {
+        "id": "c",
+        "bbox_pt": [
+          14.85,
+          13.068,
+          485.09999999999997,
+          23.76
+        ]
+      }
+    ],
+    "row_groups": [],
+    "column_groups": [],
+    "boundary_groups": [],
+    "exemptions": []
+  },
+  "findings": [],
+  "errors": [
+    "No comparable row, column or shared-boundary groups were declared or inferred"
+  ]
+}

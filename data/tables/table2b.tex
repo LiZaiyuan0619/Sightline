@@ -1,0 +1,43 @@
+\begin{table*}[t]
+\caption{\textbf{Image-to-SVG speed and quality on the full SArena test sets, official metrics.} Same layout as Table~\ref{tab:quality-t2s}; candidates are scored by DINO similarity to the input image. \textcolor{red}{[Draft 11-03 v14: split from the one-page table 2.]}}
+\label{tab:quality-i2s}
+\centering
+\small
+\setlength{\tabcolsep}{2.6pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l*{10}{c}@{}}
+\toprule
+ & \multicolumn{5}{c}{SArena-Icon (image-to-SVG, 6,013)} & \multicolumn{5}{c}{SArena-Illustration (image-to-SVG, 2,001)} \\
+\cmidrule(lr){2-6}\cmidrule(lr){7-11}
+Method & DINO$\uparrow$ & LPIPS$\downarrow$ & SSIM$\uparrow$ & PSNR$\uparrow$ & s$\downarrow$ & DINO$\uparrow$ & LPIPS$\downarrow$ & SSIM$\uparrow$ & PSNR$\uparrow$ & s$\downarrow$ \\
+\midrule
+\multicolumn{11}{l}{\textbf{OmniSVG-8B}, its released sampling settings} \\
+\multicolumn{11}{l}{\hspace{0.6em}\textit{Same outputs as the model (lossless): quality differs only by bf16 numerics, compare s}} \\
+AR & 0.903 & 0.178 & 0.779 & 14.52 & 8.85 & 0.803 & 0.272 & 0.715 & 11.58 & 19.82 \\
+EAGLE-3 & 0.902 & 0.178 & 0.778 & 14.49 & 2.96 & 0.805 & 0.270 & 0.717 & 11.62 & 6.14 \\
+DDTree & 0.902 & 0.178 & 0.779 & 14.49 & \underline{1.76} & 0.804 & 0.271 & 0.717 & 11.60 & \underline{3.68} \\
+DARTree & 0.902 & 0.177 & 0.780 & 14.54 & 1.96 & 0.803 & 0.272 & 0.716 & 11.60 & 4.08 \\
+\textbf{Ours} & 0.902 & 0.178 & 0.779 & 14.54 & \textbf{1.48} & 0.805 & 0.272 & 0.715 & 11.56 & \textbf{2.94} \\
+\multicolumn{11}{l}{\hspace{0.6em}\textit{With loop control: decoding stops once a repetition loop is detected}} \\
+DDTree (fast) & 0.903 & 0.177 & 0.780 & 14.52 & \underline{1.42} & 0.806 & 0.273 & 0.709 & 11.52 & \underline{2.64} \\
+\textbf{Ours} (fast) & 0.903 & 0.177 & 0.780 & 14.58 & \textbf{1.30} & 0.806 & 0.272 & 0.712 & 11.57 & \textbf{2.37} \\
+\multicolumn{11}{l}{\hspace{0.6em}\textit{Best of 8: eight candidates rendered and scored by DINO; s includes rendering and scoring}} \\
+Official pipeline, first valid & 0.907 & 0.178 & 0.774 & 14.42 & \underline{17.80} & 0.818 & 0.272 & 0.700 & 11.25 & \underline{30.15} \\
+AR $\times$8 & \textbf{0.952} & \textbf{0.125} & \textbf{0.839} & \textbf{17.14} & \underline{17.80} & \textbf{0.875} & \textbf{0.226} & \textbf{0.753} & \textbf{13.02} & \underline{30.15} \\
+\textbf{Ours} $\times$8 & \underline{0.950} & \underline{0.126} & \underline{0.838} & \underline{17.07} & \textbf{4.05} & \underline{0.870} & \underline{0.229} & \underline{0.752} & \underline{12.93} & \textbf{7.11} \\
+\midrule
+\multicolumn{11}{l}{\textbf{InternSVG-8B}, greedy} \\
+\multicolumn{11}{l}{\hspace{0.6em}\textit{Same outputs as the model (lossless): quality differs only by bf16 numerics, compare s}} \\
+AR & 0.965 & 0.077 & 0.898 & 23.80 & 10.98 & 0.864 & 0.204 & 0.786 & 14.89 & 43.93 \\
+EAGLE-3 & 0.964 & 0.077 & 0.898 & 23.82 & 3.66 & 0.869 & 0.202 & 0.787 & 14.95 & 14.65 \\
+DDTree & 0.963 & 0.078 & 0.898 & 23.80 & \underline{1.88} & 0.864 & 0.204 & 0.786 & 14.89 & \underline{7.86} \\
+DARTree & 0.965 & 0.077 & 0.898 & 23.81 & 2.03 & 0.868 & 0.202 & 0.787 & 15.01 & 8.81 \\
+\textbf{Ours} & 0.963 & 0.078 & 0.897 & 23.76 & \textbf{1.54} & 0.866 & 0.203 & 0.786 & 14.93 & \textbf{6.96} \\
+\multicolumn{11}{l}{\hspace{0.6em}\textit{With loop control: decoding stops once a repetition loop is detected}} \\
+DDTree (fast) & 0.964 & 0.078 & 0.896 & 23.76 & \underline{1.56} & 0.866 & 0.204 & 0.784 & 14.86 & \underline{6.86} \\
+\textbf{Ours} (fast) & 0.963 & 0.079 & 0.896 & 23.72 & \textbf{1.46} & 0.866 & 0.204 & 0.784 & 14.86 & \textbf{6.54} \\
+\multicolumn{11}{l}{\hspace{0.6em}\textit{Best of 8: eight candidates rendered and scored by DINO; s includes rendering and scoring}} \\
+AR $\times$8 & \textbf{0.992} & \textbf{0.041} & \textbf{0.933} & \textbf{28.67} & \underline{24.44} & \textbf{0.966} & \underline{0.132} & \underline{0.821} & \underline{17.47} & \underline{89.87} \\
+\textbf{Ours} $\times$8 & \underline{0.991} & \underline{0.043} & \underline{0.931} & \underline{28.42} & \textbf{6.64} & \underline{0.965} & \textbf{0.131} & \textbf{0.822} & \textbf{17.52} & \textbf{41.20} \\
+\bottomrule
+\end{tabular*}
+\end{table*}

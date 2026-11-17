@@ -1,0 +1,33 @@
+\begin{table}[t]
+\caption{\textbf{Serving in SGLang, every load and window (acceptance).} Mean accepted tokens per verification step reported by the engine, for the runs of Table~\ref{app:p5-speed}. Best in bold, second underlined, per row.}
+\label{app:p5-accept}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{1.2pt}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}rr*{6}{c}@{}}
+\toprule
+ & & \multicolumn{2}{c}{DFlash (block 16)} & \multicolumn{4}{c}{\textbf{Ours} (block 32)} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-8}
+ & & \multicolumn{6}{c}{verification window} \\
+Concurrency & AR tok/s & 16 & 8 & 32 & 24 & 16 & 8 \\
+\midrule
+\multicolumn{8}{l}{\textit{Greedy}} \\
+1 & 216 & 9.9 & 6.3 & \textbf{13.1} & \underline{11.5} & 9.7 & 6.3 \\
+2 & 416 & 10.2 & 6.4 & \underline{12.4} & \textbf{12.8} & 9.7 & 6.2 \\
+4 & 811 & 9.5 & 6.2 & \textbf{11.6} & \underline{11.3} & 9.0 & 6.3 \\
+8 & 1567 & 9.6 & 6.3 & \textbf{11.4} & \underline{10.5} & 8.7 & 6.1 \\
+16 & 2886 & 9.6 & 6.3 & \textbf{12.0} & \underline{10.3} & 9.0 & 6.2 \\
+32 & 5197 & 9.9 & 6.4 & \textbf{12.6} & \underline{11.3} & 9.4 & 6.3 \\
+64 & 8778 & 10.1 & 6.4 & \textbf{12.8} & \underline{11.4} & 9.5 & 6.3 \\
+\midrule
+\multicolumn{8}{l}{\textit{Official sampling}} \\
+1 & 211 & 6.4 & 4.9 & \textbf{8.2} & \underline{7.3} & 6.8 & 5.1 \\
+2 & 405 & 6.5 & 4.9 & \underline{8.3} & \textbf{8.4} & 6.6 & 5.2 \\
+4 & 783 & \textbf{6.8} & 4.9 & \underline{6.7} & \underline{6.7} & 6.4 & 4.8 \\
+8 & 1505 & \underline{5.5} & 4.3 & \textbf{5.7} & \textbf{5.7} & 5.1 & 4.3 \\
+16 & 2776 & \underline{5.5} & 4.4 & \textbf{6.1} & 5.3 & 5.2 & 4.4 \\
+32 & 5000 & 6.1 & 4.7 & \textbf{6.6} & \underline{6.3} & 5.8 & 4.7 \\
+64 & 8480 & 6.1 & 4.7 & \textbf{6.8} & \underline{6.2} & 5.6 & 4.6 \\
+\bottomrule
+\end{tabular*}
+\end{table}

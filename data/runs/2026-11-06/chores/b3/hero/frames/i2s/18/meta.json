@@ -1,0 +1,201 @@
+{
+ "block": "InternSVG-8B, image-to-SVG",
+ "gidx": 18,
+ "grid": [
+  0.05,
+  0.1,
+  0.2,
+  0.4,
+  0.8,
+  1.6,
+  3.2
+ ],
+ "decoders": {
+  "original model": {
+   "t_total": 4.05,
+   "n_tokens": 343,
+   "frames": [
+    {
+     "t": 0.05,
+     "n": 4,
+     "finished": false,
+     "png": null,
+     "valid": false
+    },
+    {
+     "t": 0.1,
+     "n": 8,
+     "finished": false,
+     "png": null,
+     "valid": false
+    },
+    {
+     "t": 0.2,
+     "n": 16,
+     "finished": false,
+     "png": null,
+     "valid": false
+    },
+    {
+     "t": 0.4,
+     "n": 33,
+     "finished": false,
+     "png": "ar-0.400.png",
+     "valid": false
+    },
+    {
+     "t": 0.8,
+     "n": 67,
+     "finished": false,
+     "png": "ar-0.800.png",
+     "valid": false
+    },
+    {
+     "t": 1.6,
+     "n": 135,
+     "finished": false,
+     "png": "ar-1.600.png",
+     "valid": true
+    },
+    {
+     "t": 3.2,
+     "n": 271,
+     "finished": false,
+     "png": "ar-3.200.png",
+     "valid": true
+    },
+    {
+     "t": 4.05,
+     "n": 343,
+     "finished": true,
+     "png": "ar-4.050.png",
+     "valid": true
+    }
+   ]
+  },
+  "DDTree": {
+   "t_total": 0.59,
+   "n_tokens": 343,
+   "frames": [
+    {
+     "t": 0.05,
+     "n": 32,
+     "finished": false,
+     "png": "ddtree-0.050.png",
+     "valid": false
+    },
+    {
+     "t": 0.1,
+     "n": 58,
+     "finished": false,
+     "png": "ddtree-0.100.png",
+     "valid": false
+    },
+    {
+     "t": 0.2,
+     "n": 112,
+     "finished": false,
+     "png": "ddtree-0.200.png",
+     "valid": true
+    },
+    {
+     "t": 0.4,
+     "n": 223,
+     "finished": false,
+     "png": "ddtree-0.400.png",
+     "valid": true
+    },
+    {
+     "t": 0.8,
+     "n": 343,
+     "finished": true,
+     "png": "ddtree-0.800.png",
+     "valid": true
+    },
+    {
+     "t": 1.6,
+     "n": 343,
+     "finished": true,
+     "png": "ddtree-1.600.png",
+     "valid": true
+    },
+    {
+     "t": 3.2,
+     "n": 343,
+     "finished": true,
+     "png": "ddtree-3.200.png",
+     "valid": true
+    },
+    {
+     "t": 0.59,
+     "n": 343,
+     "finished": true,
+     "png": "ddtree-0.590.png",
+     "valid": true
+    }
+   ]
+  },
+  "Ours": {
+   "t_total": 0.514,
+   "n_tokens": 343,
+   "frames": [
+    {
+     "t": 0.05,
+     "n": 41,
+     "finished": false,
+     "png": "ours-0.050.png",
+     "valid": false
+    },
+    {
+     "t": 0.1,
+     "n": 58,
+     "finished": false,
+     "png": "ours-0.100.png",
+     "valid": false
+    },
+    {
+     "t": 0.2,
+     "n": 131,
+     "finished": false,
+     "png": "ours-0.200.png",
+     "valid": true
+    },
+    {
+     "t": 0.4,
+     "n": 298,
+     "finished": false,
+     "png": "ours-0.400.png",
+     "valid": true
+    },
+    {
+     "t": 0.8,
+     "n": 343,
+     "finished": true,
+     "png": "ours-0.800.png",
+     "valid": true
+    },
+    {
+     "t": 1.6,
+     "n": 343,
+     "finished": true,
+     "png": "ours-1.600.png",
+     "valid": true
+    },
+    {
+     "t": 3.2,
+     "n": 343,
+     "finished": true,
+     "png": "ours-3.200.png",
+     "valid": true
+    },
+    {
+     "t": 0.514,
+     "n": 343,
+     "finished": true,
+     "png": "ours-0.514.png",
+     "valid": true
+    }
+   ]
+  }
+ }
+}

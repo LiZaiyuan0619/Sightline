@@ -1,0 +1,967 @@
+[
+ {
+  "path": "b3-eval/omnisvg-dflash-keeploops-1010/step10000-audit/audit_fp32.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "chain-b16": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "b3-eval/omnisvg-dflash-main-1010/step10000-audit/audit_fp32.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "chain-b16": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "b3-eval/omnisvg-dflash-main100k-1010/step16666-audit/audit_fp32.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "chain-b16": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "b3-eval/omnisvg-dflash-main100k-6ep-1011/step50000-audit/audit_fp32.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "chain-b16": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "b3-eval/omnisvg-dflash-main100k-b32-1011/step16666-audit/audit_fp32.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "chain-b32": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "b3-eval/omnisvg-dflash-main100k-b32-6ep-1011/step50000-audit/audit_fp32.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "chain-b32": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "b3-eval/omnisvg-dflash-main100k-b32-6ep-1011/step50000-tree-audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D0-chain": 10,
+   "D1-top16-N63": 10,
+   "D1-top16-N127": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "b3-eval/omnisvg-dflash-main300k-2ep-1011/step50000-audit/audit_fp32.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "chain-b16": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "b3-eval/omnisvg-dflash-main300k-6ep-1011/step150000-audit/audit_fp32.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "chain-b16": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "b3-eval/omnisvg-dflash-main300k-b32-3ep-1012/step75000-audit/audit_fp32.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "chain-b32": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "b3-eval/omnisvg-dflash-main300k-b32-6ep-1012/step150000-audit/audit_fp32.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "chain-b32": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "b3-eval/omnisvg-dflash-main300k-b32-6ep-1012/step150000-tree-audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D0-chain": 10,
+   "D1-top16-N63": 10,
+   "D1-top16-N127": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "b3-eval/omnisvg-dflash-main300k-b32-6ep-1012/step150000-tree255-audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D1-top32-N255": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "b3-eval/selftest/audit-early-div/audit_fp32.json",
+  "n": 5,
+  "ar_self": 5,
+  "identical": {
+   "chain-b16": 5
+  },
+  "tokens": 5143
+ },
+ {
+  "path": "b3-eval/selftest/main-e1/audit/audit_fp32.json",
+  "n": 2,
+  "ar_self": 2,
+  "identical": {
+   "chain-b16": 2
+  },
+  "tokens": 800
+ },
+ {
+  "path": "e3-eval/isvg-300k-2ep/audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "E3-k1-d7-N7": 10,
+   "E3-k8-d7-N63": 10,
+   "E3-k8-d12-N127": 10
+  },
+  "tokens": 22396
+ },
+ {
+  "path": "e3-eval/t2-300k-6ep/audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "E3-k1-d7-N7": 10,
+   "E3-k8-d7-N63": 10,
+   "E3-k8-d12-N127": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "h2-eval/main100k-audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D0-chain": 10,
+   "D1-top16-N63": 10,
+   "D1-top16-N127": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "h3a-eval/audit-main100k/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D0-chain": 10,
+   "D1-top16-N63": 10
+  },
+  "tokens": 7713
+ },
+ {
+  "path": "h3a-eval/ft-b16-m3warm-100k-3ep/step18750-audit/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D0-chain": 10,
+   "D1-top16-N63": 10
+  },
+  "tokens": 7713
+ },
+ {
+  "path": "h3a-eval/ft-b32-m3warm-100k-3ep/step18750-audit/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D0-chain": 10,
+   "D1-top16-N63": 10
+  },
+  "tokens": 7713
+ },
+ {
+  "path": "h3a-eval/ft-b32-m3warm-3ep/step7500-audit/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D0-chain": 10,
+   "D1-top16-N63": 10
+  },
+  "tokens": 7713
+ },
+ {
+  "path": "h3a-eval/ft-b32-m3warm-6ep/step15000-audit/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D0-chain": 10,
+   "D1-top16-N63": 10
+  },
+  "tokens": 7713
+ },
+ {
+  "path": "h3a-eval/ft-scratch-e6/step15000-audit/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D0-chain": 10,
+   "D1-top16-N63": 10
+  },
+  "tokens": 7713
+ },
+ {
+  "path": "h3a-eval/ft-warm6ep-e6/step15000-audit/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D0-chain": 10,
+   "D1-top16-N63": 10
+  },
+  "tokens": 7713
+ },
+ {
+  "path": "isvg-eval/b16-300k-2ep/audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D0-chain": 10,
+   "D1-top16-N127": 10
+  },
+  "tokens": 22396
+ },
+ {
+  "path": "isvg-eval/main-step37500-audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D0-chain": 10,
+   "D1-top16-N127": 10
+  },
+  "tokens": 22396
+ },
+ {
+  "path": "loop-eval/i2/audit-stop/audit_fp32_i2svg.json",
+  "n": 3,
+  "ar_self": 3,
+  "identical": {
+   "D0-chain": 3,
+   "D1-top16-N63": 3
+  },
+  "tokens": 635
+ },
+ {
+  "path": "loop-eval/i2/audit/audit_fp32_i2svg.json",
+  "n": 3,
+  "ar_self": 3,
+  "identical": {
+   "D0-chain": 3,
+   "D1-top16-N63": 3
+  },
+  "tokens": 3715
+ },
+ {
+  "path": "loop-eval/i2/rb/audit-rb2/audit_fp32_i2svg.json",
+  "n": 3,
+  "ar_self": 3,
+  "identical": {
+   "D0-chain": 3,
+   "D1-top16-N63": 3
+  },
+  "tokens": 1664
+ },
+ {
+  "path": "loop-eval/isvg-ep1-audit/audit-ets/audit_fp32_tree.json",
+  "n": 4,
+  "ar_self": 4,
+  "identical": {
+   "D0-chain": 4,
+   "D1-top16-N127": 4
+  },
+  "tokens": 4686
+ },
+ {
+  "path": "loop-eval/isvg-ep1-audit/audit-rb2/audit_fp32_tree.json",
+  "n": 4,
+  "ar_self": 4,
+  "identical": {
+   "D0-chain": 4,
+   "D1-top16-N127": 4
+  },
+  "tokens": 4988
+ },
+ {
+  "path": "loop-eval/t2-m300k/audit-ets/audit_fp32_tree.json",
+  "n": 3,
+  "ar_self": 3,
+  "identical": {
+   "D0-chain": 3,
+   "D1-top16-N127": 3
+  },
+  "tokens": 1483
+ },
+ {
+  "path": "loop-eval/t2-m300k/audit-stop/audit_fp32_tree.json",
+  "n": 3,
+  "ar_self": 3,
+  "identical": {
+   "D0-chain": 3,
+   "D1-top16-N127": 3
+  },
+  "tokens": 1458
+ },
+ {
+  "path": "loop-eval/t2-m300k/audit/audit_fp32_tree.json",
+  "n": 3,
+  "ar_self": 3,
+  "identical": {
+   "D0-chain": 3,
+   "D1-top16-N127": 3
+  },
+  "tokens": 2701
+ },
+ {
+  "path": "loop-eval/t2-m300k/rb/audit-rb2/audit_fp32_tree.json",
+  "n": 3,
+  "ar_self": 3,
+  "identical": {
+   "D0-chain": 3,
+   "D1-top16-N127": 3
+  },
+  "tokens": 1390
+ },
+ {
+  "path": "loop-eval/t2/audit-stop/audit_fp32_tree.json",
+  "n": 3,
+  "ar_self": 3,
+  "identical": {
+   "D0-chain": 3,
+   "D1-top16-N127": 3
+  },
+  "tokens": 1458
+ },
+ {
+  "path": "loop-eval/t2/audit/audit_fp32_tree.json",
+  "n": 3,
+  "ar_self": 3,
+  "identical": {
+   "D0-chain": 3,
+   "D1-top16-N127": 3
+  },
+  "tokens": 2701
+ },
+ {
+  "path": "loop-smoke/1014-i2b32/audit/audit_fp32_i2svg.json",
+  "n": 1,
+  "ar_self": 1,
+  "identical": {
+   "D0-chain": 1,
+   "D1-top16-N63": 1
+  },
+  "tokens": 1536
+ },
+ {
+  "path": "loop-smoke/1014-rollback-i2/smoke-audit-rb2/audit_fp32_i2svg.json",
+  "n": 1,
+  "ar_self": 1,
+  "identical": {
+   "D0-chain": 1,
+   "D1-top16-N63": 1
+  },
+  "tokens": 503
+ },
+ {
+  "path": "loop-smoke/i2/audit-ban64-copy256/audit_fp32_i2svg.json",
+  "n": 2,
+  "ar_self": 2,
+  "identical": {
+   "D0-chain": 2,
+   "D1-top16-N63": 2
+  },
+  "tokens": 1954
+ },
+ {
+  "path": "loop-smoke/i2/audit-copy256/audit_fp32_i2svg.json",
+  "n": 2,
+  "ar_self": 2,
+  "identical": {
+   "D0-chain": 2,
+   "D1-top16-N63": 2
+  },
+  "tokens": 3072
+ },
+ {
+  "path": "loop-smoke/t2/audit-ban64-copy256/audit_fp32_tree.json",
+  "n": 2,
+  "ar_self": 2,
+  "identical": {
+   "D0-chain": 2,
+   "D1-top16-N127": 2
+  },
+  "tokens": 1622
+ },
+ {
+  "path": "loop-smoke/t2/audit-copy256/audit_fp32_tree.json",
+  "n": 2,
+  "ar_self": 2,
+  "identical": {
+   "D0-chain": 2,
+   "D1-top16-N127": 2
+  },
+  "tokens": 1622
+ },
+ {
+  "path": "r1022/dart/dart-audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "DART-W12-E64-N127": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "r1022/night-reppen/audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D1-top16-N127": 10
+  },
+  "tokens": 18786
+ },
+ {
+  "path": "r1024/smoke-dart-eval/4b-audit/audit_fp32_tree.json",
+  "n": 2,
+  "ar_self": 2,
+  "identical": {
+   "DART-W12-E64-N127": 2
+  },
+  "tokens": 1635
+ },
+ {
+  "path": "r1024/smoke-dart-eval/isvg-audit/audit_fp32_tree.json",
+  "n": 2,
+  "ar_self": 2,
+  "identical": {
+   "DART-W12-E64-N127": 2
+  },
+  "tokens": 1477
+ },
+ {
+  "path": "r1024/smoke-dart-i2/audit/audit_fp32_i2svg.json",
+  "n": 4,
+  "ar_self": 4,
+  "identical": {
+   "DART-W12-E64-N127": 4
+  },
+  "tokens": 3090
+ },
+ {
+  "path": "r1024/smoke-e3-i2/audit/audit_fp32_i2svg.json",
+  "n": 2,
+  "ar_self": 2,
+  "identical": {
+   "E3-k8-d12-N127": 2
+  },
+  "tokens": 1375
+ },
+ {
+  "path": "r1028/smoke-eval-i2s/audit-b32/audit_fp32_i2svg.json",
+  "n": 2,
+  "ar_self": 2,
+  "identical": {
+   "D0-chain": 2,
+   "D1-top16-N127": 2
+  },
+  "tokens": 934
+ },
+ {
+  "path": "r1028/smoke-eval-i2s/audit-dart/audit_fp32_i2svg.json",
+  "n": 2,
+  "ar_self": 2,
+  "identical": {
+   "DART-W12-E64-N127": 2
+  },
+  "tokens": 934
+ },
+ {
+  "path": "r1028/smoke-eval-i2s/audit-e3/audit_fp32_i2svg.json",
+  "n": 2,
+  "ar_self": 2,
+  "identical": {
+   "E3-k8-d12-N127": 2
+  },
+  "tokens": 934
+ },
+ {
+  "path": "r1028/smoke-lottie-audit/audit_fp32_tree.json",
+  "n": 2,
+  "ar_self": 2,
+  "identical": {
+   "D0-chain": 2,
+   "D1-top16-N127": 2
+  },
+  "tokens": 800
+ },
+ {
+  "path": "r1028/smoke-sv-eval/audit/audit_fp32_i2svg.json",
+  "n": 2,
+  "ar_self": 2,
+  "identical": {
+   "D0-chain": 2,
+   "D1-top16-N127": 2
+  },
+  "tokens": 600
+ },
+ {
+  "path": "r1028/smoke-sv-stop/1b/audit/audit_fp32_i2svg.json",
+  "n": 2,
+  "ar_self": 2,
+  "identical": {
+   "D0-chain": 2,
+   "D1-top16-N127": 2
+  },
+  "tokens": 1913
+ },
+ {
+  "path": "r1028/smoke-sv-stop/8b/audit/audit_fp32_i2svg.json",
+  "n": 2,
+  "ar_self": 2,
+  "identical": {
+   "D0-chain": 2,
+   "D1-top16-N127": 2
+  },
+  "tokens": 3849
+ },
+ {
+  "path": "r1029/rest-eval/4b/audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "REST-n8-d16-N127": 10
+  },
+  "tokens": 11643
+ },
+ {
+  "path": "r1029/rest-eval/i2/audit/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "REST-n8-d16-N127": 10
+  },
+  "tokens": 7713
+ },
+ {
+  "path": "r1029/rest-eval/i2s/audit/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "REST-n8-d16-N127": 10
+  },
+  "tokens": 18270
+ },
+ {
+  "path": "r1029/rest-eval/isvg/audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "REST-n8-d16-N127": 10
+  },
+  "tokens": 22396
+ },
+ {
+  "path": "r1029/rest-eval/t2/audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "REST-n8-d16-N127": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "tableA/dart-4b/audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "DART-W12-E64-N127": 10
+  },
+  "tokens": 11643
+ },
+ {
+  "path": "tableA/dart-6ep/audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "DART-W12-E64-N127": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "tableA/dart-i2-v2/audit/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "DART-W12-E64-N127": 10
+  },
+  "tokens": 7713
+ },
+ {
+  "path": "tableA/dart-i2-v3/audit/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "DART-W12-E64-N127": 10
+  },
+  "tokens": 7713
+ },
+ {
+  "path": "tableA/dart-i2/audit/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "DART-W12-E64-N127": 10
+  },
+  "tokens": 7713
+ },
+ {
+  "path": "tableA/dart-isvg/audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "DART-W12-E64-N127": 10
+  },
+  "tokens": 22396
+ },
+ {
+  "path": "tableA/dart8-fix/audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "DART-W12-E64-N127": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "tableA/e3-i2/audit/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "E3-k8-d12-N127": 10
+  },
+  "tokens": 7713
+ },
+ {
+  "path": "tableA/fam-sv1b/audit/b16/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D0-chain": 10,
+   "D1-top16-N127": 10
+  },
+  "tokens": 23356
+ },
+ {
+  "path": "tableA/fam-sv1b/audit/ours/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D1-top16-N127": 10
+  },
+  "tokens": 23356
+ },
+ {
+  "path": "tableA/fam-sv8b/audit/b16/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D0-chain": 10,
+   "D1-top16-N127": 10
+  },
+  "tokens": 20666
+ },
+ {
+  "path": "tableA/fam-sv8b/audit/ours/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D1-top16-N127": 10
+  },
+  "tokens": 20666
+ },
+ {
+  "path": "tableA/i2-own/pld-audit/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "PLD-n3-K10": 10
+  },
+  "tokens": 7713
+ },
+ {
+  "path": "tableA/isvg-i2/audit/b16/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "PLD-n3-K10": 10,
+   "D0-chain": 10,
+   "D1-top16-N127": 10
+  },
+  "tokens": 18270
+ },
+ {
+  "path": "tableA/isvg-i2/audit/dart/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "DART-W12-E64-N127": 10
+  },
+  "tokens": 18270
+ },
+ {
+  "path": "tableA/isvg-i2/audit/e3/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "E3-k8-d12-N127": 10
+  },
+  "tokens": 18270
+ },
+ {
+  "path": "tableA/isvg-i2/audit/ours/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D1-top16-N127": 10
+  },
+  "tokens": 18270
+ },
+ {
+  "path": "tableA/isvg-own/pld-audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "PLD-n3-K10": 10
+  },
+  "tokens": 22396
+ },
+ {
+  "path": "tableA/lottie/audit/b16/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D0-chain": 10,
+   "D1-top16-N127": 10
+  },
+  "tokens": 15906
+ },
+ {
+  "path": "tableA/lottie/audit/ours/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D1-top16-N127": 10
+  },
+  "tokens": 15906
+ },
+ {
+  "path": "tableA/t2-own/pld-audit/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "PLD-n3-K10": 10
+  },
+  "tokens": 9927
+ },
+ {
+  "path": "tableA/vispec/internsvg/audit/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "VS-k8-d12-N127": 10
+  },
+  "tokens": 18270
+ },
+ {
+  "path": "tableA/vispec/omnisvg-failed-1030/audit/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "VS-k8-d4-N29": 10
+  },
+  "tokens": 7713
+ },
+ {
+  "path": "tableA/vispec/omnisvg-failed-1031/audit/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "VS-k8-d4-N29": 10
+  },
+  "tokens": 7713
+ },
+ {
+  "path": "tableA/vispec/omnisvg/audit/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "VS-k8-d4-N29": 10
+  },
+  "tokens": 7713
+ },
+ {
+  "path": "g2/r1105/audit/4b/b16/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D0-chain": 10,
+   "D1-top16-N127": 10
+  },
+  "tokens": 11643
+ },
+ {
+  "path": "g2/r1105/audit/4b/e3/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "E3-k8-d12-N127": 10
+  },
+  "tokens": 11643
+ },
+ {
+  "path": "g2/r1105/audit/4b/ours/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D1-top16-N127": 10
+  },
+  "tokens": 11643
+ },
+ {
+  "path": "g2/r1105/audit/4b/pld/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "PLD-n3-K10": 10
+  },
+  "tokens": 11643
+ },
+ {
+  "path": "g2/r1105/audit/i2s/ours-ets/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D1-top16-N127": 10
+  },
+  "tokens": 18270
+ },
+ {
+  "path": "g2/r1105/audit/lottie/dart/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "DART-W12-E64-N127": 10
+  },
+  "tokens": 15906
+ },
+ {
+  "path": "g2/r1105/audit/lottie/e3/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "E3-k8-d12-N127": 10
+  },
+  "tokens": 15906
+ },
+ {
+  "path": "g2/r1105/audit/lottie/pld/audit_fp32_tree.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "PLD-n3-K10": 10
+  },
+  "tokens": 15906
+ },
+ {
+  "path": "g2/r1105/audit/sv1b/dart/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "DART-W12-E64-N127": 10
+  },
+  "tokens": 23356
+ },
+ {
+  "path": "g2/r1105/audit/sv1b/e3/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "E3-k8-d12-N127": 10
+  },
+  "tokens": 23356
+ },
+ {
+  "path": "g2/r1105/audit/sv1b/pld/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "PLD-n3-K10": 10
+  },
+  "tokens": 23356
+ },
+ {
+  "path": "g2/r1105/audit/sv8b/dart/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "DART-W12-E64-N127": 10
+  },
+  "tokens": 20666
+ },
+ {
+  "path": "g2/r1105/audit/sv8b/e3/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "E3-k8-d12-N127": 10
+  },
+  "tokens": 20666
+ },
+ {
+  "path": "g2/r1105/audit/sv8b/ours-ets/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "D1-top16-N127": 10
+  },
+  "tokens": 17866
+ },
+ {
+  "path": "g2/r1105/audit/sv8b/pld/audit_fp32_i2svg.json",
+  "n": 10,
+  "ar_self": 10,
+  "identical": {
+   "PLD-n3-K10": 10
+  },
+  "tokens": 20666
+ }
+]

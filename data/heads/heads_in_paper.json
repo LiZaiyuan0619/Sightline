@@ -1,0 +1,1072 @@
+[
+ {
+  "head": "i2svg-domino-b16-m3warm-100k-3ep/step6250",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-8B image",
+    "DARTree"
+   ]
+  ],
+  "epochs": "3.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "omnisvg-8b-domino-draft-b16.json",
+  "num_anchors": "512",
+  "data": "gen",
+  "world_size": 4,
+  "init": "step100000",
+  "target": "None"
+ },
+ {
+  "head": "isvg-domino-b16-300k-2ep-mix1ep/step37500",
+  "used_in": [
+   [
+    "table 1",
+    "InternSVG-8B text",
+    "DARTree"
+   ]
+  ],
+  "epochs": "1.0",
+  "lr": "0.0003",
+  "global_batch": "16",
+  "draft_cfg": "internsvg-8b-domino-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "init": "step37500",
+  "target": "InternSVG-8B-qwen2-text"
+ },
+ {
+  "head": "omnisvg4b-domino-b16-300k-6ep/step112500",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "DARTree"
+   ]
+  ],
+  "epochs": "6.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "omnisvg-4b-domino-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "init": "None",
+  "target": "OmniSVG1.1_4B-qwen2-text"
+ },
+ {
+  "head": "i2svg-e3-m3warm-100k-3ep/step18750",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-8B image",
+    "EAGLE-3"
+   ]
+  ],
+  "epochs": "3.0",
+  "lr": "0.0001",
+  "global_batch": "16",
+  "data": "gen",
+  "world_size": 4,
+  "init": "step112500",
+  "target": "None"
+ },
+ {
+  "head": "isvg-i2s-b16-100k-3ep/step12500",
+  "used_in": [
+   [
+    "table 1",
+    "InternSVG-8B image",
+    "DDTree"
+   ],
+   [
+    "table 1",
+    "InternSVG-8B image",
+    "DFlash"
+   ]
+  ],
+  "epochs": "3.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "internsvg-8b-dflash-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "init": "step37500",
+  "target": "None"
+ },
+ {
+  "head": "isvg-i2s-b32-100k-3ep/step12500",
+  "used_in": [
+   [
+    "table 1",
+    "InternSVG-8B image",
+    "Ours"
+   ]
+  ],
+  "epochs": "3.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "internsvg-8b-dflash-draft-b32.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "init": "step37500",
+  "target": "None"
+ },
+ {
+  "head": "isvg-i2s-domino-b16-100k-3ep/step18750",
+  "used_in": [
+   [
+    "table 1",
+    "InternSVG-8B image",
+    "DARTree"
+   ]
+  ],
+  "epochs": "3.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "internsvg-8b-domino-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "init": "step37500",
+  "target": "None"
+ },
+ {
+  "head": "isvg-i2s-e3-100k-3ep/step12500",
+  "used_in": [
+   [
+    "table 1",
+    "InternSVG-8B image",
+    "EAGLE-3"
+   ]
+  ],
+  "epochs": "3.0",
+  "lr": "0.0001",
+  "global_batch": "16",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "init": "step37500",
+  "target": "None"
+ },
+ {
+  "head": "omnilottie-dflash-b16-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "OmniLottie-3B",
+    "DDTree"
+   ],
+   [
+    "table 3",
+    "OmniLottie-3B",
+    "DFlash"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "omnilottie-dflash-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "init": "None",
+  "target": "OmniLottie-qwen2-text"
+ },
+ {
+  "head": "omnilottie-dflash-b32-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "OmniLottie-3B",
+    "Ours"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "omnilottie-dflash-draft-b32.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "init": "None",
+  "target": "OmniLottie-qwen2-text"
+ },
+ {
+  "head": "omnilottie-domino-b16-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "OmniLottie-3B",
+    "DARTree"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "omnilottie-domino-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 1,
+  "init": "None",
+  "target": "OmniLottie-qwen2-text"
+ },
+ {
+  "head": "omnilottie-e3-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "OmniLottie-3B",
+    "EAGLE-3"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0001",
+  "global_batch": "16",
+  "data": "train.jsonl",
+  "world_size": 1,
+  "target": "OmniLottie-qwen2-text"
+ },
+ {
+  "head": "starvector-1b-dflash-b16-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "StarVector-1B",
+    "DDTree"
+   ],
+   [
+    "table 3",
+    "StarVector-1B",
+    "DFlash"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "starvector-1b-dflash-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "init": "None",
+  "target": "None"
+ },
+ {
+  "head": "starvector-1b-dflash-b32-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "StarVector-1B",
+    "Ours"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "starvector-1b-dflash-draft-b32.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "init": "None",
+  "target": "None"
+ },
+ {
+  "head": "starvector-1b-domino-b16-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "StarVector-1B",
+    "DARTree"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "starvector-1b-domino-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 1,
+  "init": "None",
+  "target": "None"
+ },
+ {
+  "head": "starvector-1b-e3-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "StarVector-1B",
+    "EAGLE-3"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0001",
+  "global_batch": "16",
+  "data": "train.jsonl",
+  "world_size": 1
+ },
+ {
+  "head": "starvector-8b-dflash-b16-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "StarVector-8B",
+    "DDTree"
+   ],
+   [
+    "table 3",
+    "StarVector-8B",
+    "DFlash"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "starvector-8b-dflash-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "init": "None",
+  "target": "None"
+ },
+ {
+  "head": "starvector-8b-dflash-b32-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "StarVector-8B",
+    "Ours"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "starvector-8b-dflash-draft-b32.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "init": "None",
+  "target": "None"
+ },
+ {
+  "head": "starvector-8b-domino-b16-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "StarVector-8B",
+    "DARTree"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "starvector-8b-domino-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 1,
+  "init": "None",
+  "target": "None"
+ },
+ {
+  "head": "starvector-8b-e3-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "StarVector-8B",
+    "EAGLE-3"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0001",
+  "global_batch": "16",
+  "data": "train.jsonl",
+  "world_size": 1
+ },
+ {
+  "head": "s2/step18750",
+  "used_in": [
+   [
+    "table 1",
+    "InternSVG-8B image",
+    "ViSpec"
+   ]
+  ],
+  "lr": "None",
+  "global_batch": "16",
+  "data": "train.jsonl:3",
+  "world_size": 4,
+  "init": "step75000"
+ },
+ {
+  "head": "s2/step18750",
+  "used_in": [
+   [
+    "table 1",
+    "InternSVG-8B image",
+    "ViSpec"
+   ],
+   [
+    "table 1",
+    "OmniSVG-8B image",
+    "ViSpec"
+   ]
+  ],
+  "lr": "None",
+  "global_batch": "16",
+  "data": "gen:3",
+  "world_size": 4,
+  "init": "step112500"
+ },
+ {
+  "head": "OmniSVG1.1_4B-qwen2-text",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-8B text",
+    "SpS"
+   ]
+  ],
+  "plan": "not recorded (trained before the trainer wrote plan.json)"
+ },
+ {
+  "head": "omnisvg-dflash-main300k-6ep-1011/step150000",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-8B text",
+    "DDTree"
+   ],
+   [
+    "table 1",
+    "OmniSVG-8B text",
+    "DFlash"
+   ]
+  ],
+  "epochs": 6,
+  "global_batch": 12,
+  "draft_cfg": "omnisvg-8b-dflash-draft.json",
+  "sls_eps": 0,
+  "n_train": 300000
+ },
+ {
+  "head": "omnisvg-dflash-main300k-b32-6ep-1012/step150000",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-8B text",
+    "Ours"
+   ]
+  ],
+  "epochs": 6,
+  "global_batch": 12,
+  "draft_cfg": "omnisvg-8b-dflash-draft-b32.json",
+  "sls_eps": 0,
+  "n_train": 300000
+ },
+ {
+  "head": "omnisvg-domino-b16-300k-2ep/step50000",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-8B text",
+    "DARTree"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "12",
+  "draft_cfg": "omnisvg-8b-domino-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "init": "None",
+  "target": "None"
+ },
+ {
+  "head": "isvg-e3-300k-2ep-mix1ep/step37500",
+  "used_in": [
+   [
+    "table 1",
+    "InternSVG-8B text",
+    "EAGLE-3"
+   ]
+  ],
+  "epochs": "1.0",
+  "lr": "5e-05",
+  "global_batch": "16",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "init": "step37500",
+  "target": "InternSVG-8B-qwen2-text"
+ },
+ {
+  "head": "omnisvg-e3-300k-6ep/step112500",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-8B text",
+    "EAGLE-3"
+   ]
+  ],
+  "epochs": "6.0",
+  "lr": "0.0001",
+  "global_batch": "16",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "target": "OmniSVG1.1_8B-qwen2-text"
+ },
+ {
+  "head": "hivg3b-dflash-b16-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "HiVG-3B",
+    "DDTree"
+   ],
+   [
+    "table 3",
+    "HiVG-3B",
+    "DFlash"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "hivg3b-dflash-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 2,
+  "init": "None",
+  "target": "HiVG-3B-Base-qwen2-text"
+ },
+ {
+  "head": "hivg3b-dflash-b32-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "HiVG-3B",
+    "Ours"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "hivg3b-dflash-draft-b32.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 2,
+  "init": "None",
+  "target": "HiVG-3B-Base-qwen2-text"
+ },
+ {
+  "head": "hivg3b-domino-b16-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "HiVG-3B",
+    "DARTree"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "hivg3b-domino-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 1,
+  "init": "None",
+  "target": "HiVG-3B-Base-qwen2-text"
+ },
+ {
+  "head": "hivg3b-e3-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "HiVG-3B",
+    "EAGLE-3"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0001",
+  "global_batch": "16",
+  "data": "train.jsonl",
+  "world_size": 1,
+  "target": "HiVG-3B-Base-qwen2-text"
+ },
+ {
+  "head": "svgen3b-dflash-b16-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "SVGen-3B",
+    "DDTree"
+   ],
+   [
+    "table 3",
+    "SVGen-3B",
+    "DFlash"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "svgen3b-dflash-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 2,
+  "init": "None",
+  "target": "SVGen-Llama-3.2-3B-Instruct"
+ },
+ {
+  "head": "svgen3b-dflash-b32-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "SVGen-3B",
+    "Ours"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "svgen3b-dflash-draft-b32.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 2,
+  "init": "None",
+  "target": "SVGen-Llama-3.2-3B-Instruct"
+ },
+ {
+  "head": "svgen3b-domino-b16-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "SVGen-3B",
+    "DARTree"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "svgen3b-domino-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 1,
+  "init": "None",
+  "target": "SVGen-Llama-3.2-3B-Instruct"
+ },
+ {
+  "head": "svgen3b-e3-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "SVGen-3B",
+    "EAGLE-3"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0001",
+  "global_batch": "16",
+  "data": "train.jsonl",
+  "world_size": 1,
+  "target": "SVGen-Llama-3.2-3B-Instruct"
+ },
+ {
+  "head": "svgen7b-dflash-b16-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "SVGen-7B",
+    "DDTree"
+   ],
+   [
+    "table 3",
+    "SVGen-7B",
+    "DFlash"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "svgen7b-dflash-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 2,
+  "init": "None",
+  "target": "SVGen-Qwen2.5-Coder-7B-Instruct"
+ },
+ {
+  "head": "svgen7b-dflash-b32-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "SVGen-7B",
+    "Ours"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "svgen7b-dflash-draft-b32.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "init": "None",
+  "target": "SVGen-Qwen2.5-Coder-7B-Instruct"
+ },
+ {
+  "head": "svgen7b-domino-b16-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "SVGen-7B",
+    "DARTree"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "svgen7b-domino-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 1,
+  "init": "None",
+  "target": "SVGen-Qwen2.5-Coder-7B-Instruct"
+ },
+ {
+  "head": "svgen7b-e3-100k-2ep/step12500",
+  "used_in": [
+   [
+    "table 3",
+    "SVGen-7B",
+    "EAGLE-3"
+   ]
+  ],
+  "epochs": "2.0",
+  "lr": "0.0001",
+  "global_batch": "16",
+  "data": "train.jsonl",
+  "world_size": 1,
+  "target": "SVGen-Qwen2.5-Coder-7B-Instruct"
+ },
+ {
+  "head": "i2svg-b16-m3warm-100k-3ep/step18750",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-8B image",
+    "DDTree"
+   ],
+   [
+    "table 1",
+    "OmniSVG-8B image",
+    "DFlash"
+   ]
+  ],
+  "epochs": "3.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "omnisvg-8b-dflash-draft.json",
+  "num_anchors": "512",
+  "data": "gen",
+  "world_size": 4,
+  "init": "step150000",
+  "target": "None"
+ },
+ {
+  "head": "i2svg-b32-m3warm-100k-3ep/step18750",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-8B image",
+    "Ours"
+   ]
+  ],
+  "epochs": "3.0",
+  "lr": "0.0006",
+  "global_batch": "16",
+  "draft_cfg": "omnisvg-8b-dflash-draft.json",
+  "num_anchors": "512",
+  "data": "gen",
+  "world_size": 4,
+  "init": "step150000",
+  "target": "None"
+ },
+ {
+  "head": "isvg-dflash-b16-300k-2ep-mix1ep/step37500",
+  "used_in": [
+   [
+    "table 1",
+    "InternSVG-8B text",
+    "DDTree"
+   ],
+   [
+    "table 1",
+    "InternSVG-8B text",
+    "DFlash"
+   ]
+  ],
+  "epochs": "1.0",
+  "lr": "0.0003",
+  "global_batch": "16",
+  "draft_cfg": "internsvg-8b-dflash-draft-b16.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "init": "step37500",
+  "target": "InternSVG-8B-qwen2-text"
+ },
+ {
+  "head": "isvg-dflash-b32-300k-2ep-mix1ep/step37500",
+  "used_in": [
+   [
+    "table 1",
+    "InternSVG-8B text",
+    "Ours"
+   ]
+  ],
+  "epochs": "1.0",
+  "lr": "0.0003",
+  "global_batch": "16",
+  "draft_cfg": "internsvg-8b-dflash-draft-b32.json",
+  "num_anchors": "512",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "init": "step37500",
+  "target": "InternSVG-8B-qwen2-text"
+ },
+ {
+  "head": "e3-300k-6ep/step112500",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "EAGLE-3"
+   ]
+  ],
+  "epochs": "6.0",
+  "lr": "0.0001",
+  "global_batch": "16",
+  "data": "train.jsonl",
+  "world_size": 4,
+  "target": "OmniSVG1.1_4B-qwen2-text"
+ },
+ {
+  "head": "heads-fixed/b16",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "DDTree"
+   ],
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "DFlash"
+   ]
+  ],
+  "plan": "not recorded (trained before the trainer wrote plan.json)"
+ },
+ {
+  "head": "heads-fixed/b32",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "Ours"
+   ]
+  ],
+  "plan": "not recorded (trained before the trainer wrote plan.json)"
+ },
+ {
+  "head": "heads-fixed/b16",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "DDTree"
+   ],
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "DFlash"
+   ]
+  ],
+  "plan": "not recorded (trained before the trainer wrote plan.json)"
+ },
+ {
+  "head": "heads-fixed/b32",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "Ours"
+   ]
+  ],
+  "plan": "not recorded (trained before the trainer wrote plan.json)"
+ },
+ {
+  "head": "heads-fixed/b16",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "DDTree"
+   ],
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "DFlash"
+   ]
+  ],
+  "plan": "not recorded (trained before the trainer wrote plan.json)"
+ },
+ {
+  "head": "heads-fixed/b32",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "Ours"
+   ]
+  ],
+  "plan": "not recorded (trained before the trainer wrote plan.json)"
+ },
+ {
+  "head": "heads-fixed/b16",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "DDTree"
+   ],
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "DFlash"
+   ]
+  ],
+  "plan": "not recorded (trained before the trainer wrote plan.json)"
+ },
+ {
+  "head": "heads-fixed/b32",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "Ours"
+   ]
+  ],
+  "plan": "not recorded (trained before the trainer wrote plan.json)"
+ },
+ {
+  "head": "heads-fixed/b16",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "DDTree"
+   ],
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "DFlash"
+   ]
+  ],
+  "plan": "not recorded (trained before the trainer wrote plan.json)"
+ },
+ {
+  "head": "heads-fixed/b32",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "Ours"
+   ]
+  ],
+  "plan": "not recorded (trained before the trainer wrote plan.json)"
+ },
+ {
+  "head": "heads-fixed/b16",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "DDTree"
+   ],
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "DFlash"
+   ]
+  ],
+  "plan": "not recorded (trained before the trainer wrote plan.json)"
+ },
+ {
+  "head": "heads-fixed/b32",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "Ours"
+   ]
+  ],
+  "plan": "not recorded (trained before the trainer wrote plan.json)"
+ },
+ {
+  "head": "heads-fixed/b16",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "DDTree"
+   ],
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "DFlash"
+   ]
+  ],
+  "plan": "not recorded (trained before the trainer wrote plan.json)"
+ },
+ {
+  "head": "heads-fixed/b32",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "Ours"
+   ]
+  ],
+  "plan": "not recorded (trained before the trainer wrote plan.json)"
+ },
+ {
+  "head": "heads-fixed/b16",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "DDTree"
+   ],
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "DFlash"
+   ]
+  ],
+  "plan": "not recorded (trained before the trainer wrote plan.json)"
+ },
+ {
+  "head": "heads-fixed/b32",
+  "used_in": [
+   [
+    "table 1",
+    "OmniSVG-4B text",
+    "Ours"
+   ]
+  ],
+  "plan": "not recorded (trained before the trainer wrote plan.json)"
+ }
+]

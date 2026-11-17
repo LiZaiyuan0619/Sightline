@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": false,
+  "verdict": "NOT AUDITABLE",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 0,
+    "exemptions": 0
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 495.0,
+      "height_pt": 219.6
+    },
+    "panels": [
+      {
+        "id": "a",
+        "bbox_pt": [
+          32.67,
+          125.2818,
+          120.38399999999999,
+          201.5928
+        ]
+      },
+      {
+        "id": "b",
+        "bbox_pt": [
+          125.829,
+          125.2818,
+          213.54299999999998,
+          201.5928
+        ]
+      },
+      {
+        "id": "c",
+        "bbox_pt": [
+          218.98799999999997,
+          125.2818,
+          306.70199999999994,
+          201.5928
+        ]
+      },
+      {
+        "id": "d",
+        "bbox_pt": [
+          312.14700000000005,
+          125.2818,
+          399.86100000000005,
+          201.5928
+        ]
+      },
+      {
+        "id": "e",
+        "bbox_pt": [
+          405.306,
+          125.2818,
+          493.02,
+          201.5928
+        ]
+      },
+      {
+        "id": "f",
+        "bbox_pt": [
+          32.67,
+          32.5008,
+          120.38399999999999,
+          108.8118
+        ]
+      },
+      {
+        "id": "g",
+        "bbox_pt": [
+          125.829,
+          32.5008,
+          213.54299999999998,
+          108.8118
+        ]
+      },
+      {
+        "id": "h",
+        "bbox_pt": [
+          218.98799999999997,
+          32.5008,
+          306.70199999999994,
+          108.8118
+        ]
+      },
+      {
+        "id": "i",
+        "bbox_pt": [
+          312.14700000000005,
+          32.5008,
+          399.86100000000005,
+          108.8118
+        ]
+      },
+      {
+        "id": "j",
+        "bbox_pt": [
+          405.306,
+          32.5008,
+          493.02,
+          108.8118
+        ]
+      },
+      {
+        "id": "k",
+        "bbox_pt": [
+          32.67,
+          12.078,
+          493.02,
+          23.058
+        ]
+      },
+      {
+        "id": "l",
+        "bbox_pt": [
+          32.67,
+          0.8784,
+          493.02,
+          11.4192
+        ]
+      }
+    ],
+    "row_groups": [],
+    "column_groups": [],
+    "boundary_groups": [],
+    "exemptions": []
+  },
+  "findings": [],
+  "errors": [
+    "No comparable row, column or shared-boundary groups were declared or inferred"
+  ]
+}
