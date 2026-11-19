@@ -175,11 +175,14 @@ them from the configurations here.
 ## Citation
 
 ```bibtex
-@article{li2026sightline,
-  title   = {Sightline: Long-Window Speculative Decoding for Fast SVG Generation},
-  author  = {Li, Yanchao and Gao, Ben and Xie, Jiaqing and Zhang, Yusu and Wang, Beilun and Wang, Yanbo and Xu, Xiaohua and Dong, Nanqing and Fu, Tianfan and Huang, Zhongyu},
-  journal = {arXiv preprint},
-  year    = {2026}
+@misc{li2026sightlinelongwindowspeculativedecoding,
+      title={Sightline: Long-Window Speculative Decoding for Fast SVG Generation}, 
+      author={Yanchao Li and Ben Gao and Jiaqing Xie and Yusu Zhang and Beilun Wang and Yanbo Wang and Xiaohua Xu and Nanqing Dong and Tianfan Fu and Zhongyu Huang},
+      year={2026},
+      eprint={2611.23807},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2611.23807}, 
 }
 ```
 
