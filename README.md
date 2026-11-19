@@ -12,7 +12,7 @@ Yanbo Wang<sup>7</sup>, Xiaohua Xu<sup>8</sup>, Nanqing Dong<sup>2,9</sup>, Tian
 
 <sup>*</sup>Corresponding authors
 
-Paper: arXiv (link to follow) &nbsp;·&nbsp; [Video](assets/sightline_decoding.mp4) &nbsp;·&nbsp; [Citation](#citation)
+Paper: [arXiv](https://arxiv.org/abs/2611.23807) &nbsp;·&nbsp; [Video](assets/sightline_decoding.mp4) &nbsp;·&nbsp; [Citation](#citation)
 
 </div>
 
